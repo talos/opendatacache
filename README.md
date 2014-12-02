@@ -19,3 +19,16 @@ do.
 ```
 (Socrata) --> (nginx gzip) --> (varnish cache) --> (you)
 ```
+
+## Manual install
+
+Add the `nginx.conf` settings to your `nginx.conf`.
+
+Add the `default.vcl` settings to `/etc/varnish/default.vcl`.
+
+Add `varnish` settings to `/etc/default/varnish`.
+
+## TODO
+
+* Packaging this as a Dockerfile
+* Licensing
