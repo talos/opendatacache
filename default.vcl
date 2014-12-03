@@ -17,6 +17,9 @@ vcl 4.0;
 backend default {
     .host = "127.0.0.1";
     .port = "8080";
+    .connect_timeout = 60s;
+    .first_byte_timeout = 240s;
+    .between_bytes_timeout = 60s;
 }
 
 sub vcl_recv {
