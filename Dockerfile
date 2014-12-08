@@ -35,13 +35,13 @@ ADD socrache.conf /etc/nginx/sites-enabled/socrache.conf
 # varnish configs
 ADD default.vcl /etc/varnish/default.vcl
 ADD varnish /etc/default/varnish
+VOLUME ["/cache"]
 
 # logs
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
 EXPOSE 8081
-EXPOSE 8080
 
 # get everything running
 ADD start.sh /start.sh
