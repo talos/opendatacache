@@ -20,6 +20,14 @@ do.
 (Socrata) --> (nginx gzip) --> (varnish cache) --> (you)
 ```
 
+## Take a look
+
+A Socrache is available already at
+[http://www.opendatacache.com](http://opendatacache.com).  Some example URLs:
+
+* [New York City data summary](http://www.opendatacache.com/data.cityofnewyork.us/data.json)
+* [DOB Permit Issuance](http://opendatacache.com/data.cityofnewyork.us/data/td5q-ry6d)
+
 ## Using docker
 
 Pull down the docker image:
@@ -37,7 +45,23 @@ Add the `default.vcl` settings to `/etc/varnish/default.vcl`.
 
 Add `varnish` settings to `/etc/default/varnish`.
 
+## Warming
+
+You can warm the server using `utils/warm.py`.  A standard installation of
+Python 2.7.3 should be sufficient.  To do so remotely against the demo
+installation:
+
+```
+mkdir -p logs
+python util/warm.py 'http://www.opendatacache.com/' | tee logs/logs.txt
+```
+
+This will save output of how long it takes to load datasets into
+`logs/logs.txt`, but will not save any data locally.
+
+Make sure to use the actual hostname, as opposed to `localhost`, even if you're
+running locally.  Otherwise, the wrong `Host` header will be cached in Varnish.
+
 ## TODO
 
-* Packaging this as a Dockerfile
 * Licensing
