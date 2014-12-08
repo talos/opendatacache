@@ -20,6 +20,15 @@ do.
 (Socrata) --> (nginx gzip) --> (varnish cache) --> (you)
 ```
 
+## Using docker
+
+Pull down the docker image:
+
+```
+docker pull thegovlab/socrache
+docker run -v $(pwd)/cache:/cache -d -i -p 80:8081 --name=socrache thegovlab/socrache
+```
+
 ## Manual install
 
 Add the `nginx.conf` settings to your `nginx.conf`.
