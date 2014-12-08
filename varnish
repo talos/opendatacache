@@ -1,3 +1,14 @@
+# Should we start varnishd at boot?  Set to "no" to disable.
+START=no
+
+# Maximum number of open files (for ulimit -n)
+#NFILES=131072
+
+# Maximum locked memory size (for ulimit -l)
+# Used for locking the shared memory log in memory.  If you increase log size,
+# you need to increase this number as well
+MEMLOCK=82000
+
 # # Cache file location
 VARNISH_STORAGE_FILE=/var/lib/varnish/$INSTANCE/varnish_storage.bin
 #
@@ -9,7 +20,7 @@ VARNISH_STORAGE_SIZE=3G
 # # Backend storage specification
 VARNISH_STORAGE="file,${VARNISH_STORAGE_FILE},${VARNISH_STORAGE_SIZE}"
 
-DAEMON_OPTS="-a :9861 \
+DAEMON_OPTS="-a :8081 \
              -T localhost:6082 \
              -f /etc/varnish/default.vcl \
              -S /etc/varnish/secret \
