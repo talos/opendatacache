@@ -34,17 +34,8 @@ Pull down the docker image:
 
 ```
 docker pull thegovlab/socrache
-docker run -v $(pwd)/cache:/cache -d -i -p 80:8081 --name=socrache thegovlab/socrache
+docker run -v $(pwd)/cache:/cache -v $(pwd)/site:/socrache/site -d -i -p 80:8081 --name=socrache thegovlab/socrache
 ```
-
-## Manual install
-
-Add the `nginx.conf` settings to your `nginx.conf`.
-
-Add the `default.vcl` settings to `/etc/varnish/default.vcl`.
-
-Add `varnish` settings to `/etc/default/varnish`.
-
 ## Warming
 
 You can warm the server using `utils/warm.py`.  A standard installation of
@@ -52,15 +43,34 @@ Python 2.7.3 should be sufficient.  To do so remotely against the demo
 installation:
 
 ```
-mkdir -p logs
-python util/warm.py 'http://www.opendatacache.com/' | tee logs/logs.txt
+./util/warm.sh site/socrache_proxies.txt 'http://www.opendatacache.com' site/warmlogs/warmlogs.txt site/warmlogs/warmerrors.txt
 ```
 
 This will save output of how long it takes to load datasets into
-`logs/logs.txt`, but will not save any data locally.
+`logs/warmlogs.txt`, which will be visible via nginx if run inside docker but
+will not save any data locally.
 
 Make sure to use the actual hostname, as opposed to `localhost`, even if you're
 running locally.  Otherwise, the wrong `Host` header will be cached in Varnish.
+
+## Manual install
+
+Docker is the recommended/tested way to use Socrache.  A manual install is
+purely at your own risk -- it assumes that your nginx settings are located in
+`/etc/nginx`, which may not be the case.
+
+Add the `conf/nginx.conf` settings to your `nginx.conf`.
+
+Add `conf/socrache.conf` to your nginx `sites-enabled` directory.
+
+Run `util/resolvers.sh`.  This will add a `resolvers.conf` to `/etc/nginx/`.
+
+Add the output from `util/socrache_proxies.sh conf/socrache.conf
+site/socrache_proxies.txt` to `/etc/nginx/sites-enabled/`.
+
+Add the `conf/default.vcl` settings to `/etc/varnish/default.vcl`.
+
+Add `conf/varnish` settings to `/etc/default/varnish`.
 
 ## TODO
 

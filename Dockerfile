@@ -22,20 +22,27 @@ RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 # installs
 RUN apt-get -yqq install nginx varnish
 
-# Resolver for nginx
-ADD ./resolvers.sh /resolvers.sh
-RUN /resolvers.sh
+VOLUME ["/cache"]
+VOLUME ["/socrache/site"]
+
+WORKDIR /socrache
 
 # nginx configs
-ADD nginx.conf /etc/nginx/nginx.conf
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /etc/nginx/sites-enabled/*
 RUN rm -rf /etc/nginx/conf.d/*
-ADD socrache.conf /etc/nginx/sites-enabled/socrache.conf
+
+# Resolver and regex for nginx
+COPY util socrache/util
+COPY site socrache/site
+COPY conf socrache/conf
+
+RUN util/resolvers.sh
+RUN util/socrache_proxies.sh conf/socrache.conf site/socrache_proxies.txt > /etc/nginx/sites-enabled/socrache.conf
 
 # varnish configs
-ADD default.vcl /etc/varnish/default.vcl
-ADD varnish /etc/default/varnish
-VOLUME ["/cache"]
+ADD conf/default.vcl /etc/varnish/default.vcl
+ADD conf/varnish /etc/default/varnish
 
 # logs
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
