@@ -1,2 +1,0 @@
-data.cityofnewyork.us
-data.ny.gov

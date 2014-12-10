@@ -22,9 +22,6 @@ RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 # installs
 RUN apt-get -yqq install nginx varnish
 
-VOLUME ["/cache"]
-VOLUME ["/socrache/site"]
-
 WORKDIR /socrache
 
 # nginx configs
@@ -38,7 +35,7 @@ COPY site socrache/site
 COPY conf socrache/conf
 
 RUN util/resolvers.sh
-RUN util/socrache_proxies.sh conf/socrache.conf site/socrache_proxies.txt > /etc/nginx/sites-enabled/socrache.conf
+RUN util/portals.sh conf/socrache.conf site/portals.txt > /etc/nginx/sites-enabled/socrache.conf
 
 # varnish configs
 ADD conf/default.vcl /etc/varnish/default.vcl

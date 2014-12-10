@@ -43,7 +43,7 @@ Python 2.7.3 should be sufficient.  To do so remotely against the demo
 installation:
 
 ```
-./util/warm.sh site/socrache_proxies.txt 'http://www.opendatacache.com' site/warmlogs/warmlogs.txt site/warmlogs/warmerrors.txt
+./util/warm.sh site/portals.txt 'http://www.opendatacache.com' >site/warmlogs/warmlogs.txt 2>site/warmlogs/warmerrors.txt
 ```
 
 This will save output of how long it takes to load datasets into
@@ -65,12 +65,18 @@ Add `conf/socrache.conf` to your nginx `sites-enabled` directory.
 
 Run `util/resolvers.sh`.  This will add a `resolvers.conf` to `/etc/nginx/`.
 
-Add the output from `util/socrache_proxies.sh conf/socrache.conf
-site/socrache_proxies.txt` to `/etc/nginx/sites-enabled/`.
+Add the output from `util/portals.sh conf/socrache.conf site/portals.txt` to
+`/etc/nginx/sites-enabled/`.
 
 Add the `conf/default.vcl` settings to `/etc/varnish/default.vcl`.
 
 Add `conf/varnish` settings to `/etc/default/varnish`.
+
+## Thanks
+
+Thank you to [OpenPrism](https://github.com/tlevine/openprism) for its list of
+Socrata portals, which is
+[here](https://github.com/tlevine/openprism/blob/gh-pages/src/index.js#L24).
 
 ## TODO
 
