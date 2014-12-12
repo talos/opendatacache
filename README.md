@@ -34,7 +34,10 @@ Pull down the docker image:
 
 ```
 docker pull thegovlab/socrache
-docker run -v $(pwd)/cache:/cache -v $(pwd)/site:/socrache/site -d -i -p 80:8081 --name=socrache thegovlab/socrache
+docker run -v $(pwd)/cache:/cache \
+           -v $(pwd)/site:/socrache/site \
+           -v $(pwd)/logs:/socrache/logs \
+    -d -i -p 80:8081 --name=socrache thegovlab/socrache
 ```
 ## Warming
 
