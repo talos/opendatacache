@@ -30,8 +30,8 @@ proxy=$2
 # Arguments for analytics for each request by curl.  We print the header so
 # that stdout can be read as a tab-delimited file.
 row="%{http_code}\t%{remote_ip}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_total}\t%{url_effective}\n"
-header="http_code	remote_ip	size_download	speed_download	time_connect	time_total	url_effective"
-echo $header
+header=http_code\\tremote_ip\\tsize_download\\tspeed_download\\ttime_connect\\ttime_total\\turl_effective\\n
+printf $header
 
 # Warm one single portal.  All curl requests for data are run in series, as not
 # to spam the portal.
