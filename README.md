@@ -46,11 +46,11 @@ Python 2.7.3 should be sufficient.  To do so remotely against the demo
 installation:
 
 ```
-./util/warm.sh site/portals.txt 'http://www.opendatacache.com' >site/warmlogs/warmlogs.txt 2>site/warmlogs/warmerrors.txt
+./util/warm.sh site/portals.txt 'http://www.opendatacache.com' >logs/out.log 2>logs/error.log
 ```
 
 This will save output of how long it takes to load datasets into
-`logs/warmlogs.txt`, which will be visible via nginx if run inside docker but
+`logs/out.log`, which will be visible via nginx if run inside docker but
 will not save any data locally.
 
 Make sure to use the actual hostname, as opposed to `localhost`, even if you're
