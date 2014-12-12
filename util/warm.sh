@@ -42,6 +42,7 @@ function warm_portal {
   # actually parsing the json.
   now=$(date +"%Y-%m-%dT%H:%M:%S%z")
   ids=$(curl -s -S -w "$ow" $url | grep -Po '"identifier":(.*?[^\\])",' | cut -b 15-23)
+  mkdir -p logs/$portal
   printf "$ids\n" > logs/$portal/ids-$now.log
   for id in $ids
   do
