@@ -14,7 +14,7 @@ VARNISH_STORAGE_FILE=/cache/varnish_storage.bin
 #
 # # Cache file size: in bytes, optionally using k / M / G / T suffix,
 # # or in percentage of available disk space using the % suffix.
-VARNISH_STORAGE_SIZE=12G
+VARNISH_STORAGE_SIZE=18G
 
 #
 # # Backend storage specification
