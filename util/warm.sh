@@ -29,8 +29,7 @@ proxy=$2
 
 # Arguments for analytics for each request by curl.  We print the header so
 # that stdout can be read as a tab-delimited file.
-row="%{http_code}\t%{remote_ip}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_total}\t%{url_effective}\n"
-header=http_code\\tremote_ip\\tsize_download\\tspeed_download\\ttime_connect\\ttime_total\\turl_effective\\n
+header="time\thttp_code\tremote_ip\tsize_download\tspeed_download\ttime_connect\ttime_total\turl_effective\n"
 printf $header
 
 # Warm one single portal.  All curl requests for data are run in series, as not
@@ -41,10 +40,19 @@ function warm_portal {
 
   # Load the data.json file from the portal, and skim off the identifiers w/o
   # actually parsing the json.
-  for id in $(curl $url | grep -Po '"identifier":(.*?[^\\])",' | cut -b 15-23)
+  now=$(date +"%Y-%m-%dT%H:%M:%S%z")
+  ids=$(curl -s -S -w "$ow" $url | grep -Po '"identifier":(.*?[^\\])",' | cut -b 15-23)
+  echo $ids > logs/$portal/ids-$now.txt
+  for id in $ids
   do
-    url="$proxy/$portal/api/views/$id/rows.csv"
-    curl -# -w "$row" -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url"
+    printf "$id\t$now\n" > logs/$portal/current-id.txt
+    now=$(date +"%Y-%m-%dT%H:%M:%S%z")
+    row="$now\t%{http_code}\t%{remote_ip}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_total}\t%{url_effective}\n"
+    path=$portal/api/views/$id
+    url=$proxy/$path/rows.csv
+    output=$(curl -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
+    mkdir -p logs/$path
+    printf "$output\n" | tee -a logs/$path/logs.txt
   done
 }
 
