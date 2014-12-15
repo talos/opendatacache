@@ -53,7 +53,7 @@ function warm_portal {
     url=$proxy/$path/rows.csv
     output=$(curl -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
     mkdir -p logs/$path
-    printf "$output\n" | tee -a logs/$path/logs.log
+    printf "$output\n" | tee -a logs/$path/index.log
   done
 }
 

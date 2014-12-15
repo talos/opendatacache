@@ -26,7 +26,7 @@ A Socrache is available already at
 [http://www.opendatacache.com](http://opendatacache.com).  Some example URLs:
 
 * [New York City data summary](http://www.opendatacache.com/data.cityofnewyork.us/data.json)
-* [DOB Permit Issuance](http://opendatacache.com/data.cityofnewyork.us/data/td5q-ry6d)
+* [DOB Permit Issuance](http://www.opendatacache.com/data.cityofnewyork.us/api/views/td5q-ry6d/rows.csv)
 
 ## Using docker
 
@@ -41,12 +41,14 @@ docker run -v $(pwd)/cache:/cache \
 ```
 ## Warming
 
-You can warm the server using `utils/warm.py`.  A standard installation of
-Python 2.7.3 should be sufficient.  To do so remotely against the demo
-installation:
+You can warm the server using `utils/warm.py`. You will need bash 4.x and curl.
+To do so remotely against the demo installation (from the `socrache` directory):
 
 ```
-./util/warm.sh site/portals.txt 'http://www.opendatacache.com' >logs/out.log 2>logs/error.log
+mkdir -p logs/warming && \
+./util/warm.sh site/portals.txt 'http://www.opendatacache.com' \
+              >logs/warming/$(date +"%Y-%m-%dT%H:%M:%S%z").out.log \
+             2>logs/warming/$(date +"%Y-%m-%dT%H:%M:%S%z").error.log &
 ```
 
 This will save output of how long it takes to load datasets into
