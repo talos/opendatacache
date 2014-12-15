@@ -13,7 +13,7 @@
 #vcl 4.0;
 
 # Default backend definition. Set this to point to your content server.
-# SOCRACHE: point the port to the port you're serving it on
+# OPENDATACACHE: point the port to the port you're serving it on
 backend default {
     .host = "127.0.0.1";
     .port = "8080";

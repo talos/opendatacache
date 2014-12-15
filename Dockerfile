@@ -1,7 +1,7 @@
 #
-# Socrache Dockerfile
+# Opendatacache Dockerfile
 #
-# https://github.com/talos/socrache
+# https://github.com/talos/opendatacache
 #
 
 FROM debian:wheezy
@@ -22,7 +22,7 @@ RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 # installs
 RUN apt-get -yqq install nginx varnish
 
-WORKDIR /socrache
+WORKDIR /opendatacache
 
 # nginx configs
 COPY conf/nginx.conf /etc/nginx/nginx.conf
@@ -30,12 +30,12 @@ RUN rm -rf /etc/nginx/sites-enabled/*
 RUN rm -rf /etc/nginx/conf.d/*
 
 # Resolver and regex for nginx
-COPY util socrache/util
-COPY site socrache/site
-COPY conf socrache/conf
+COPY util opendatacache/util
+COPY site opendatacache/site
+COPY conf opendatacache/conf
 
 RUN util/resolvers.sh
-RUN util/portals.sh conf/socrache.conf site/portals.txt > /etc/nginx/sites-enabled/socrache.conf
+RUN util/portals.sh conf/opendatacache.conf site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
 
 # varnish configs
 ADD conf/default.vcl /etc/varnish/default.vcl
