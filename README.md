@@ -35,24 +35,19 @@ Pull down the docker image:
 docker pull thegovlab/opendatacache
 docker run -v $(pwd)/cache:/cache \
            -v $(pwd)/site:/opendatacache/site \
-           -v $(pwd)/logs:/opendatacache/logs \
     -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
 ```
 ## Warming
 
-You can warm the server using `utils/warm.py`. You will need bash 4.x and curl.
-To do so remotely against the demo installation (from the `opendatacache` directory):
+If you want the container to warm, you must feed it the name of the server it
+is publicly accessible as as the `WARM_URL`. For example:
 
 ```
-mkdir -p logs/warming && \
-./util/warm.sh site/portals.txt 'http://www.opendatacache.com' \
-              >logs/warming/$(date +"%Y-%m-%dT%H:%M:%S%z").out.log \
-             2>logs/warming/$(date +"%Y-%m-%dT%H:%M:%S%z").error.log &
+docker run -v $(pwd)/cache:/cache \
+           -v $(pwd)/site:/opendatacache/site \
+           -e 'WARM_URL=http://your.url.here/'
+    -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
 ```
-
-This will save output of how long it takes to load datasets into
-`logs/out.log`, which will be visible via nginx if run inside docker but
-will not save any data locally.
 
 Make sure to use the actual hostname, as opposed to `localhost`, even if you're
 running locally.  Otherwise, the wrong `Host` header will be cached in Varnish.
