@@ -43,7 +43,7 @@ If you want the container to warm, you must feed it the name of the server it
 is publicly accessible as as the `WARM_URL`. For example:
 
 ```
-WARM_URL="http://your.url.here" \
+export WARM_URL="http://your.url.here" && \
 docker run -v $(pwd)/cache:/cache \
            -v $(pwd)/site:/opendatacache/site \
            -e "WARM_URL=$WARM_URL" \
