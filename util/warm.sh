@@ -49,11 +49,10 @@ function warm_portal {
       now=$(date +"%Y-%m-%dT%H:%M:%S%z")
       printf "$now\twarming\t$id\n" > $logs/status.log
       row="$now\t%{http_code}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_total}\t%{url_effective}\n"
-      path=$portal/api/views/$id
-      url=$proxy/$path/rows.csv
+      url=$proxy/$portal/api/views/$id/rows.csv
       output=$(curl -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
-      mkdir -p $logs/$path
-      printf "$output\n" | tee -a $logs/$path/index.log
+      mkdir -p $logs/api/views/$id
+      printf "$output\n" | tee -a $logs/api/views/$id/index.log
     done
 
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
