@@ -49,4 +49,5 @@ EXPOSE 8081
 
 # get everything running
 ADD start.sh /start.sh
+RUN mkdir /cache
 CMD ["/start.sh"]
