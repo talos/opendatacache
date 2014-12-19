@@ -22,23 +22,60 @@ backend default {
     .between_bytes_timeout = 60s;
 }
 
-#sub vcl_recv {
-    # Happens before we check if we have this in cache already.
-    # 
-    # Typically you clean up the request here, removing cookies you don't need,
-    # rewriting the request, etc.
-#}
+sub vcl_recv {
 
-#sub vcl_backend_response {
-    # Happens after we have read the response headers from the backend.
-    # 
-    # Here you clean the response headers, removing silly Set-Cookie headers
-    # and other mistakes your backend does.
-#}
+    unset req.http.Cookie;
 
-#sub vcl_deliver {
-    # Happens when we have all the pieces we need, and are about to send the
-    # response to the client.
-    # 
-    # You can do accounting or modifying the final object here.
-#}
+    # Always lookup hash.
+    return (hash);
+}
+
+sub vcl_hit {
+    # Always make the request to the backend to see if Last-Modified has
+    # changed.
+
+    set req.http.X-Cached-Last-Modified = obj.http.Last-Modified;
+
+    return (pass);
+}
+
+sub vcl_backend_fetch {
+    # Rewrite any requests for "rows.csv" to the metadata route:
+    #
+    # /data.cityofnewyork.us/api/views/bnx9-e6tj/rows.csv ->
+    # /data.cityofnewyork.us/api/views/bnx9-e6tj
+    #
+    # This should give us quick access to the relevant Last-Modified header,
+    # allowing us to see whether our cache is out of date.
+    if (bereq.retries == 0) {
+        set bereq.http.X-Original-URL = bereq.url;
+        set bereq.url = regsub(bereq.url, "^(.*)/rows.csv$", "\1.json");
+        return (fetch);
+    } else if (bereq.retries == 1) {
+        set bereq.url = bereq.http.X-Original-URL;
+        return (fetch);
+    } else {
+        return (abandon);
+    }
+}
+
+sub vcl_backend_response {
+    # Never automatically evict this from cache.
+    set beresp.ttl = 31536000s;
+
+    if (bereq.retries == 0) {
+        # Check the Last-Modified header in the new response.  If it matches
+        # the one in cache, use the cache; otherwise, change the URL back to
+        # rows.csv and restart.
+
+        if (beresp.http.Last-Modified == bereq.http.X-Cached-Last-Modified) {
+            return (deliver);
+        } else {
+            return (retry);
+        }
+    }
+}
+
+sub vcl_deliver {
+    set resp.http.X-Cached-Last-Modified = req.http.X-Cached-Last-Modified;
+}
