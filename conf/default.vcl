@@ -42,6 +42,8 @@ sub vcl_recv {
 }
 
 sub vcl_hash {
+    # Generate the hash based off the data URL and the last modified from the
+    # metadata request.
     hash_data(req.http.X-Data-URL);
     if (req.restarts == 1) {
         hash_data(req.http.X-Meta-Last-Modified);
@@ -51,7 +53,7 @@ sub vcl_hash {
 
 sub vcl_hit {
     # Keep track of the age of the last modified
-    set req.http.X-Cached-Last-Modified = obj.http.Last-Modified;
+    set req.http.X-Opendatacache-Last-Modified = obj.http.Last-Modified;
 }
 
 sub vcl_backend_response {
@@ -61,11 +63,24 @@ sub vcl_backend_response {
 
 sub vcl_deliver {
     # Never return the meta response.
+    # Store the Last-Modified header from the meta response in the request
+    # HTTP headers as "X-Meta-Last-Modified" (this is used in hashing in
+    # `vcl_hash`)
+    #
+    # If we've restarted, then this is from the cache hit or backend request
+    # for the data itself.  Prevent the client from caching this (we're fine if
+    # they keep hitting us) and append some debug headers.
     if (req.restarts == 0) {
         set req.http.X-Meta-Last-Modified = resp.http.Last-Modified;
         return (restart);
     } else if (req.restarts == 1) {
         set resp.http.X-Meta-Last-Modified = req.http.X-Meta-Last-Modified;
-        set resp.http.X-Cached-Last-Modified = req.http.X-Cached-Last-Modified;
+        set resp.http.X-Opendatacache-Last-Modified = req.http.X-Opendatacache-Last-Modified;
+        if (req.http.X-Opendatacache-Last-Modified) {
+          set resp.http.X-From-Opendatacache = 1;
+        } else {
+          set resp.http.X-From-Opendatacache = 0;
+        }
+        set resp.http.cache-control = "private, max-age=0, no-cache";
     }
 }
