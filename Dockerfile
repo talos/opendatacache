@@ -20,6 +20,7 @@ RUN echo "deb https://repo.varnish-cache.org/debian/ wheezy varnish-4.0" >> /etc
 RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 
 # installs
+RUN apt-get update
 RUN apt-get -yqq install nginx varnish
 
 WORKDIR /opendatacache
