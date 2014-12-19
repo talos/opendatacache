@@ -1,8 +1,11 @@
 #!/bin/bash
 
 source /etc/default/varnish && varnishd ${DAEMON_OPTS}
-varnishlog -D
 nginx
+
+sleep 1
+varnishlog -D
+
 if [ ${WARM_URL} ]
 then
   echo "warming ${WARM_URL}"

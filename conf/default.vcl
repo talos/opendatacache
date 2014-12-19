@@ -10,7 +10,7 @@
 
 # Marker to tell the VCL compiler that this VCL has been adapted to the
 # new 4.0 format.
-#vcl 4.0;
+vcl 4.0;
 
 # Default backend definition. Set this to point to your content server.
 # OPENDATACACHE: point the port to the port you're serving it on

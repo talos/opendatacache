@@ -36,6 +36,7 @@ COPY site opendatacache/site
 COPY conf opendatacache/conf
 
 RUN util/resolvers.sh
+RUN mkdir -p /etc/nginx/sites-enabled
 RUN util/portals.sh conf/opendatacache.conf site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
 
 # varnish configs
