@@ -46,7 +46,6 @@ data.oaklandnet.com
 data.raleighnc.gov
 finances.worldbank.org
 data.honolulu.gov
-opendata.socrata.com
 data.cityofboston.gov
 data.ok.gov
 data.cms.gov
