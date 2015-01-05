@@ -76,9 +76,11 @@ sub vcl_deliver {
     } else if (req.restarts == 1) {
         set resp.http.X-Meta-Last-Modified = req.http.X-Meta-Last-Modified;
         set resp.http.X-Opendatacache-Last-Modified = req.http.X-Opendatacache-Last-Modified;
+        set resp.http.X-Opendatacache-Hits = obj.hits;
         if (req.http.X-Opendatacache-Last-Modified) {
           set resp.http.X-From-Opendatacache = 1;
         } else {
+          set resp.status = 201;
           set resp.http.X-From-Opendatacache = 0;
         }
         set resp.http.cache-control = "private, max-age=0, no-cache";
