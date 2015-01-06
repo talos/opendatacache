@@ -1,3 +1,8 @@
+#!/bin/bash
+
+docker stop opendatacache
+docker rm opendatacache
+
 docker pull thegovlab/opendatacache:latest
 export WARM_URL="http://www.opendatacache.com"
 docker run -v $(pwd)/cache:/cache \
