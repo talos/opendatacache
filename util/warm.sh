@@ -42,6 +42,9 @@ function warm_portal {
     # Load the data.json file from the portal, and skim off the identifiers w/o
     # actually parsing the json.
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
+
+    # We could select only the `rows.csv` links, but actually these are still
+    # provided for non-tabular datasets (they just 400).
     ids=$(curl -s -S -w "$ow" $url | grep -Po '"identifier":(.*?[^\\])",' | cut -b 15-23)
     printf "$ids\n" > $logs/ids.log
     for id in $ids
