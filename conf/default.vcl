@@ -29,8 +29,11 @@ sub vcl_recv {
     # Upon second request, use the data URL, and hash it.
     unset req.http.Cookie;
     if (req.restarts == 0) {
-        set req.http.X-Data-URL = req.url;
-        set req.http.X-Meta-URL = regsub(req.url, "^(.*)/rows.csv$", "\1.json");
+        if (req.url ~ "(?i)test=true") {
+          set req.http.X-Opendatacache-Test = "true";
+        }
+        set req.http.X-Data-URL = regsub(req.url, "^([^?]+)\?.*$", "\1");
+        set req.http.X-Meta-URL = regsub(req.url, "^(.*)/rows.csv\??.*$", "\1.json");
         set req.url = req.http.X-Meta-URL;
         return (pass);
     } else if (req.restarts == 1) {
@@ -54,6 +57,19 @@ sub vcl_hash {
 sub vcl_hit {
     # Keep track of the age of the last modified
     set req.http.X-Opendatacache-Last-Modified = obj.http.Last-Modified;
+    if (req.restarts == 1) {
+        if (req.http.X-Opendatacache-Test) {
+            return(synth(204, obj.http.Last-Modified + " :: object in cache"));
+        }
+    }
+}
+
+sub vcl_miss {
+    if (req.restarts == 1) {
+        if (req.http.X-Opendatacache-Test) {
+            return(synth(404, "Object missing from cache"));
+        }
+    }
 }
 
 sub vcl_backend_response {
@@ -75,6 +91,8 @@ sub vcl_deliver {
         return (restart);
     } else if (req.restarts == 1) {
         set resp.http.X-Meta-Last-Modified = req.http.X-Meta-Last-Modified;
+        set resp.http.X-Meta-URL = req.http.X-Meta-URL;
+        set resp.http.X-Data-URL = req.http.X-Data-URL;
         set resp.http.X-Opendatacache-Last-Modified = req.http.X-Opendatacache-Last-Modified;
         set resp.http.X-Opendatacache-Hits = obj.hits;
         if (req.http.X-Opendatacache-Last-Modified) {
