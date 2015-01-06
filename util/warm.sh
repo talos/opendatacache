@@ -55,7 +55,9 @@ function warm_portal {
       url=$proxy/$portal/api/views/$id/rows.csv
       output=$(curl -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
       mkdir -p $logs/api/views/$id
-      printf "$output\n" | tee -a $logs/api/views/$id/index.log
+      printf "$output\n" \
+        | tee -a $logs/api/views/$id/index.log \
+        | tee -a $logs/out.log
     done
 
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
