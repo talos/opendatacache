@@ -1,8 +1,41 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>OpenDataCache</title>
+
+    <link type="text/css" rel="stylesheet" href="/static/css/lib/common.css" />
+    <link type="text/css" rel="stylesheet" href="/static/css/opendatacache.css" />
+
+    <script src="/static/js/lib/common.js"></script>
+    <script src="/static/js/opendatacache.js"></script>
+
   </head>
   <body>
     Welcome to OpenDataCache!
+
+    <div id="content">
+    </div>
+
+    <table id="indexTemplate" class="template">
+      <thead>
+        <tr>
+          <th data-field="name" data-sortable="true">Name</th>
+          <th data-field="date" data-sortable="true">Date</th>
+          <th data-field="status" data-sortable="true">Status</th>
+          <th data-field="detail">Detail</th>
+        </tr>
+      </thead>
+    </table>
+
+    <table id="portalTemplate" class="template">
+      <thead>
+        <tr>
+          <th data-field="id" data-sortable="true">ID</th>
+          <th data-field="date" data-sortable="true">Date</th>
+          <th data-field="status" data-sortable="true">Status</th>
+          <th data-field="size" data-sortable="true">Size</th>
+        </tr>
+      </thead>
+    </table>
   </body>
 </html>

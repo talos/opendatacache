@@ -1,0 +1,22 @@
+{
+  "name": "opendatacache",
+  "version": "0.0.1",
+  "homepage": "https://github.com/talos/opendatacache",
+  "authors": [
+    "John Krauss <irving.krauss@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "moment": "~2.8.4"
+  }
+}
