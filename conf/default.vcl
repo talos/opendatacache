@@ -29,12 +29,14 @@ sub vcl_recv {
     # Upon second request, use the data URL, and hash it.
     unset req.http.Cookie;
     if (req.restarts == 0) {
-        if (req.url ~ "(?i)test=true") {
-          set req.http.X-Opendatacache-Test = "true";
+        if (req.url ~ "\.csv") {
+            if (req.url ~ "(?i)test=true") {
+                set req.http.X-Opendatacache-Test = "true";
+            }
+            set req.http.X-Data-URL = regsub(req.url, "^([^?]+)\?.*$", "\1");
+            set req.http.X-Meta-URL = regsub(req.url, "^(.*)/rows.csv\??.*$", "\1.json");
+            set req.url = req.http.X-Meta-URL;
         }
-        set req.http.X-Data-URL = regsub(req.url, "^([^?]+)\?.*$", "\1");
-        set req.http.X-Meta-URL = regsub(req.url, "^(.*)/rows.csv\??.*$", "\1.json");
-        set req.url = req.http.X-Meta-URL;
         return (pass);
     } else if (req.restarts == 1) {
         set req.url = req.http.X-Data-URL;
@@ -86,6 +88,9 @@ sub vcl_deliver {
     # If we've restarted, then this is from the cache hit or backend request
     # for the data itself.  Prevent the client from caching this (we're fine if
     # they keep hitting us) and append some debug headers.
+    if (!req.http.X-Data-URL) {
+        return (deliver);
+    }
     if (req.restarts == 0) {
         set req.http.X-Meta-Last-Modified = resp.http.Last-Modified;
         return (restart);
