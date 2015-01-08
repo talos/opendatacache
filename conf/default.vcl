@@ -49,9 +49,13 @@ sub vcl_recv {
 sub vcl_hash {
     # Generate the hash based off the data URL and the last modified from the
     # metadata request.
-    hash_data(req.http.X-Data-URL);
-    if (req.restarts == 1) {
-        hash_data(req.http.X-Meta-Last-Modified);
+    if (req.http.X-Data-URL) {
+        hash_data(req.http.X-Data-URL);
+        if (req.restarts == 1) {
+            hash_data(req.http.X-Meta-Last-Modified);
+        }
+    } else {
+        hash_data(req.url);
     }
     return (lookup);
 }
@@ -88,6 +92,7 @@ sub vcl_deliver {
     # If we've restarted, then this is from the cache hit or backend request
     # for the data itself.  Prevent the client from caching this (we're fine if
     # they keep hitting us) and append some debug headers.
+    set resp.http.X-Opendatacache-Hits = obj.hits;
     if (!req.http.X-Data-URL) {
         return (deliver);
     }
@@ -99,7 +104,6 @@ sub vcl_deliver {
         set resp.http.X-Meta-URL = req.http.X-Meta-URL;
         set resp.http.X-Data-URL = req.http.X-Data-URL;
         set resp.http.X-Opendatacache-Last-Modified = req.http.X-Opendatacache-Last-Modified;
-        set resp.http.X-Opendatacache-Hits = obj.hits;
         if (req.http.X-Opendatacache-Last-Modified) {
           set resp.http.X-From-Opendatacache = 1;
         } else {

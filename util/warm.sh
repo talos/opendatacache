@@ -62,6 +62,8 @@ function warm_portal {
       printf "$output\n" | tee -a $logs/api/views/$id/index.log
       tail -n 1 -q $logs/api/views/**/index.log > $logs/summary.log
       cat $logroot/**/status.log > $logroot/status.log
+
+      sleep $(($RANDOM / 5000))
     done
 
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
