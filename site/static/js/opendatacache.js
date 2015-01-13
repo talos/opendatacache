@@ -1,4 +1,4 @@
-/*jshint browser: true, bitwise: false*/
+/*jshint browser: true, bitwise: false, maxstatements: 20*/
 /*globals $, moment*/
 
 /*var linkFormatter = function (value) {
@@ -51,6 +51,23 @@ var indexTable = function (lastHash) {
   });
 };
 
+var testIfCached = function (evt) {
+  var $el = $(evt.target),
+      href = $el.attr('href'),
+      id = $el.attr('name');
+
+  evt.preventDefault();
+
+  $el.text('Testing...' + id);
+  $.ajax(href).done(function () {
+    $el.text('Cached');
+  }).fail(function () {
+    $el.text('Not cached');
+  }).always(function () {
+
+  });
+};
+
 var portalTable = function (portal, lastHash) {
   var data = [];
   $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
@@ -60,21 +77,35 @@ var portalTable = function (portal, lastHash) {
     var lines = resp.split('\n');
     for (var i = 0; i < lines.length; i += 1) {
       var cells = lines[i].split('\t');
-      var $link = $('<a />').attr('href', cells[7]).text(cells[0]);
+      if (!cells[0]) {
+        continue;
+      }
+      var href = $('<a />').attr('href', cells[7])[0].pathname,
+          id = cells[0],
+          $link = $('<a />').attr('href', href).text(id),
+          $test = $('<a>Test</a>').addClass('test-if-cached')
+                                  .attr({
+                                    name: id,
+                                    href: href + '?test=true'
+                                  });
       data.push({
         id: $('<span />').append($link).html(),
         date: moment(new Date(cells[1])).from(moment()),
         status: cells[2],
-        size: (cells[3] / 1000000).toFixed(2) + 'MB'
+        size: (cells[3] / 1000000).toFixed(2) + 'MB',
+        test: $('<span />').append($test).html()
       });
     }
     $('#content').empty().append($('#portalTemplate')
                                  .clone()
                                  .removeClass('template')
                                  .attr('id', 'table'));
+
+    $('.test-if-cached').off('click', testIfCached);
     $('#table').bootstrapTable({
       data: data
     });
+    $('.test-if-cached').on('click', testIfCached);
   }).always(function (resp) {
     var hashed;
     if (typeof resp === 'string') {
