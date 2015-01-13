@@ -1,13 +1,29 @@
-/*jshint browser: true*/
+/*jshint browser: true, bitwise: false*/
 /*globals $, moment*/
 
 /*var linkFormatter = function (value) {
   return $(
 };*/
 
-var indexTable = function () {
+var hash = function(str) {
+  var hash = 0, i, chr, len;
+  if (str.length === 0) {
+    return hash;
+  }
+  for (i = 0, len = str.length; i < len; i += 1) {
+    chr   = str.charCodeAt(i);
+    hash  = ((hash << 5) - hash) + chr;
+    hash |= 0; // Convert to 32bit integer
+  }
+  return hash;
+};
+
+var indexTable = function (lastHash) {
   var data = [];
   $.ajax('/logs/status.log').done(function (resp) {
+    if (hash(resp) === lastHash) {
+      return;
+    }
     var lines = resp.split('\n');
     for (var i = 0; i < lines.length; i += 1) {
       var cells = lines[i].split('\t');
@@ -26,14 +42,21 @@ var indexTable = function () {
     $('#table').bootstrapTable({
       data: data
     });
+  }).always(function (resp) {
+    var hashed;
+    if (typeof resp === 'string') {
+      hashed = hash(resp);
+    }
+    setTimeout(function () { indexTable(hashed); }, 3000);
   });
-
-  setTimeout(indexTable, 2000);
 };
 
-var portalTable = function (portal) {
+var portalTable = function (portal, lastHash) {
   var data = [];
   $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
+    if (hash(resp) === lastHash) {
+      return;
+    }
     var lines = resp.split('\n');
     for (var i = 0; i < lines.length; i += 1) {
       var cells = lines[i].split('\t');
@@ -52,9 +75,13 @@ var portalTable = function (portal) {
     $('#table').bootstrapTable({
       data: data
     });
+  }).always(function (resp) {
+    var hashed;
+    if (typeof resp === 'string') {
+      hashed = hash(resp);
+    }
+    setTimeout(function () { portalTable(portal, hashed); }, 3000);
   });
-
-  setTimeout(function () { portalTable(portal); }, 2000);
 };
 
 $(document).ready(function () {
