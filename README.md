@@ -33,8 +33,7 @@ Pull down the docker image:
 
 ```
 docker pull thegovlab/opendatacache
-docker run -v $(pwd)/cache:/cache \
-           -v $(pwd)/site:/opendatacache/site \
+docker run -v $(pwd)/site:/opendatacache/site \
     -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
 ```
 ## Warming
@@ -44,9 +43,7 @@ is publicly accessible as as the `WARM_URL`. For example:
 
 ```
 export WARM_URL="http://your.url.here" && \
-docker run -v $(pwd)/cache:/cache \
-           -v $(pwd)/site:/opendatacache/site \
-           -v $(pwd)/logs:/var/log/opendatacache \
+docker run -v $(pwd)/site:/opendatacache/site \
            -e "WARM_URL=$WARM_URL" \
     -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
 ```
