@@ -43,11 +43,14 @@ function warm_portal {
     # actually parsing the json.
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
 
+    # Pre-populate the ids file in cases where there are IDs to prepopulate
+    cat ids/$portal/ids.txt > $logs/ids.log 2>/dev/null || :
+
     # We could select only the `rows.csv` links, but actually these are still
     # provided for non-tabular datasets (they just 400).
-    ids=$(curl -s -S $url | grep -Po '"identifier":(.*?[^\\])",' | cut -b 15-23)
-    printf "$ids\n" > $logs/ids.log
-    for id in $ids
+    ids=$(curl -s -S $url | grep -Po '"identifier":(.*?[^\\])",' | grep -Po '[\d\w]{4}-[\d\w]{4}')
+    printf "$ids\n" >> $logs/ids.log
+    for id in $(cat $logs/ids.log)
     do
       if [ $id == "data.json" ]
       then

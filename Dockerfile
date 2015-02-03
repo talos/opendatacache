@@ -34,6 +34,7 @@ RUN rm -rf /etc/nginx/conf.d/*
 COPY util opendatacache/util
 COPY site opendatacache/site
 COPY conf opendatacache/conf
+COPY ids  opendatacache/ids
 
 RUN util/resolvers.sh
 RUN mkdir -p /etc/nginx/sites-enabled
