@@ -34,7 +34,7 @@ function warm_portal {
   while :
   do
     portal=$1
-    url=$proxy/$portal/data.json
+    url=https://$portal/data.json
     logs=$logroot/$portal
     sleeptime=21600
     mkdir -p $logs
