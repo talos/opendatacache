@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./util/resolvers.sh
+
 source /etc/default/varnish && varnishd ${DAEMON_OPTS}
 nginx
 
