@@ -40,6 +40,12 @@ sub vcl_recv {
         return (pass);
     } else if (req.restarts == 1) {
         set req.url = req.http.X-Data-URL;
+
+        if (req.method == "MISS") {
+            set req.hash_always_miss = true;
+            set req.http.X-Opendatacache-Force-Miss = "true";
+        }
+
         return (hash);
     } else {
         return (synth(503, "Too many restarts"));
@@ -104,6 +110,7 @@ sub vcl_deliver {
         set resp.http.X-Meta-URL = req.http.X-Meta-URL;
         set resp.http.X-Data-URL = req.http.X-Data-URL;
         set resp.http.X-Opendatacache-Last-Modified = req.http.X-Opendatacache-Last-Modified;
+        set resp.http.X-Opendatacache-Force-Miss = req.http.X-Opendatacache-Force-Miss;
         if (req.http.X-Opendatacache-Last-Modified) {
           set resp.http.X-From-Opendatacache = 1;
         } else {
