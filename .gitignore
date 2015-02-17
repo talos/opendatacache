@@ -4,5 +4,3 @@ cache
 tmp
 node_modules
 bower_components
-site/static/js/lib
-site/static/css/lib
