@@ -23,8 +23,6 @@ RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 RUN apt-get update
 RUN apt-get -yqq install nginx varnish
 
-WORKDIR /opendatacache
-
 # nginx configs
 COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /etc/nginx/sites-enabled/*
@@ -36,7 +34,9 @@ COPY site opendatacache/site
 COPY conf opendatacache/conf
 COPY ids  opendatacache/ids
 
-#RUN util/resolvers.sh
+WORKDIR /opendatacache
+
+RUN util/resolvers.sh
 RUN mkdir -p /etc/nginx/sites-enabled
 RUN util/portals.sh conf/opendatacache.conf site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
 
