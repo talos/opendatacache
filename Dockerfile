@@ -27,18 +27,15 @@ RUN apt-get -yqq install nginx varnish
 COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /etc/nginx/sites-enabled/*
 RUN rm -rf /etc/nginx/conf.d/*
+RUN mkdir -p /etc/nginx/sites-enabled
 
 # Resolver and regex for nginx
-COPY util opendatacache/util
-COPY site opendatacache/site
-COPY conf opendatacache/conf
-COPY ids  opendatacache/ids
+COPY util /opendatacache/util
+COPY site /opendatacache/site
+COPY conf /opendatacache/conf
+COPY ids  /opendatacache/ids
 
-WORKDIR /opendatacache
-
-RUN util/resolvers.sh
-RUN mkdir -p /etc/nginx/sites-enabled
-RUN util/portals.sh conf/opendatacache.conf site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
+RUN /opendatacache/util/portals.sh /opendatacache/conf/opendatacache.conf /opendatacache/site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
 
 # varnish configs
 ADD conf/default.vcl /etc/varnish/default.vcl
@@ -51,6 +48,8 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 EXPOSE 8081
 
 # get everything running
-ADD start.sh /start.sh
+ADD start.sh /opendatacache/start.sh
 RUN mkdir /cache
-CMD ["/start.sh"]
+
+WORKDIR opendatacache
+CMD ["/opendatacache/start.sh"]

@@ -48,7 +48,7 @@ function warm_portal {
 
     # We could select only the `rows.csv` links, but actually these are still
     # provided for non-tabular datasets (they just 400).
-    ids=$(curl -s -S $url | grep -Po '"identifier":(.*?[^\\])",' | grep -Po '[\d\w]{4}-[\d\w]{4}')
+    ids=$(curl -k -s -S $url | grep -Po '"identifier":(.*?[^\\])",' | grep -Po '[\d\w]{4}-[\d\w]{4}')
     printf "$ids\n" >> $logs/ids.log
     for id in $(cat $logs/ids.log)
     do
@@ -60,7 +60,7 @@ function warm_portal {
       printf "$portal\t$now\twarming\t$id\n" > $logs/status.log
       row="$id\t$now\t%{http_code}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_total}\t%{url_effective}\n"
       url=$proxy/$portal/api/views/$id/rows.csv
-      output=$(curl -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
+      output=$(curl -k -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
       mkdir -p $logs/api/views/$id
       printf "$output\n" | tee -a $logs/api/views/$id/index.log
       tail -n 1 -q $logs/api/views/**/index.log > $logs/summary.log
