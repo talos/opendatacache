@@ -11527,7 +11527,7 @@ if (typeof jQuery === 'undefined') {
 
 /**
  * @author zhixin wen <wenzhixin2010@gmail.com>
- * version: 1.5.0
+ * version: 1.6.0
  * https://github.com/wenzhixin/bootstrap-table/
  */
 
@@ -11553,10 +11553,7 @@ if (typeof jQuery === 'undefined') {
             }
             return arg;
         });
-        if (flag) {
-            return str;
-        }
-        return '';
+        return flag ? str : '';
     };
 
     var getPropertyFromOther = function (list, from, to, value) {
@@ -11596,7 +11593,7 @@ if (typeof jQuery === 'undefined') {
         outer.css('overflow', 'scroll');
         w2 = inner[0].offsetWidth;
 
-        if (w1 == w2) {
+        if (w1 === w2) {
             w2 = outer[0].clientWidth;
         }
 
@@ -11628,7 +11625,7 @@ if (typeof jQuery === 'undefined') {
     };
 
     var escapeHTML = function (text) {
-        if (typeof text == 'string') {
+        if (typeof text === 'string') {
             return text
                 .replace(/&/g, "&amp;")
                 .replace(/</g, "&lt;")
@@ -11665,6 +11662,7 @@ if (typeof jQuery === 'undefined') {
         cache: true,
         contentType: 'application/json',
         dataType: 'json',
+        ajaxOptions: {},
         queryParams: function (params) {return params;},
         queryParamsType: 'limit', // undefined
         responseHandler: function (res) {return res;},
@@ -11679,19 +11677,32 @@ if (typeof jQuery === 'undefined') {
         selectItemName: 'btSelectItem',
         showHeader: true,
         showColumns: false,
+        showPaginationSwitch: false,
         showRefresh: false,
         showToggle: false,
+        buttonsAlign: 'right',
         smartDisplay: true,
         minimumCountColumns: 1,
         idField: undefined,
         cardView: false,
+        trimOnSearch: true,
         clickToSelect: false,
         singleSelect: false,
         toolbar: undefined,
-        toolbarAlign: 'right',
+        toolbarAlign: 'left',
         checkboxHeader: true,
         sortable: true,
         maintainSelected: false,
+        searchTimeOut: 500,
+        iconSize: undefined,
+        iconsPrefix: 'glyphicon', // glyphicon of fa (font awesome)
+        icons: {
+            paginationSwitchDown: 'glyphicon-collapse-down icon-chevron-down',
+            paginationSwitchUp: 'glyphicon-collapse-up icon-chevron-up',
+            refresh: 'glyphicon-refresh icon-refresh',
+            toggle: 'glyphicon-list-alt icon-list-alt',
+            columns: 'glyphicon-th icon-th'
+        },
 
         rowStyle: function (row, index) {return {};},
 
@@ -11718,7 +11729,7 @@ if (typeof jQuery === 'undefined') {
 
     BootstrapTable.LOCALES['en-US'] = {
         formatLoadingMessage: function () {
-            return 'Loading, please wait…';
+            return 'Loading, please wait...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return sprintf('%s records per page', pageNumber);
@@ -11731,6 +11742,9 @@ if (typeof jQuery === 'undefined') {
         },
         formatNoMatches: function () {
             return 'No matching records found';
+        },
+        formatPaginationSwitch: function () {
+            return 'Hide/Show pagination';
         },
         formatRefresh: function () {
             return 'Refresh';
@@ -11903,7 +11917,7 @@ if (typeof jQuery === 'undefined') {
                 return;
             }
 
-            halign = sprintf('text-align: %s; ', column.halign ? column.halign : column.align)
+            halign = sprintf('text-align: %s; ', column.halign ? column.halign : column.align);
             align = sprintf('text-align: %s; ', column.align);
             style = sprintf('vertical-align: %s; ', column.valign);
             style += sprintf('width: %spx; ', column.checkbox || column.radio ? 36 : column.width);
@@ -11979,9 +11993,15 @@ if (typeof jQuery === 'undefined') {
             });
     };
 
-    BootstrapTable.prototype.initData = function (data, append) {
-        if (append) {
+    /**
+     * @param data
+     * @param type: append / prepend
+     */
+    BootstrapTable.prototype.initData = function (data, type) {
+        if (type === 'append') {
             this.data = this.data.concat(data);
+        } else if (type === 'prepend') {
+            this.data = data.concat(this.data);
         } else {
             this.data = data || this.options.data;
         }
@@ -12021,16 +12041,24 @@ if (typeof jQuery === 'undefined') {
                 if (aa === undefined || aa === null) {
                     aa = '';
                 }
-                if (aa === undefined || bb === null) {
+                if (bb === undefined || bb === null) {
                     bb = '';
                 }
-
+                
+                if ($.isNumeric(aa) && $.isNumeric(bb)) {
+                    if (aa < bb) {
+                        return order * -1;
+                    }
+                    return order;
+                }
+                
                 if (aa === bb) {
                     return 0;
                 }
-                if (aa < bb) {
+                if (aa.localeCompare(bb) === -1) {
                     return order * -1;
                 }
+                    
                 return order;
             });
         }
@@ -12072,33 +12100,45 @@ if (typeof jQuery === 'undefined') {
         this.$toolbar = this.$container.find('.fixed-table-toolbar').html('');
 
         if (typeof this.options.toolbar === 'string') {
-            $('<div class="bars pull-left"></div>')
+            $(sprintf('<div class="bars pull-%s"></div>', this.options.toolbarAlign))
                 .appendTo(this.$toolbar)
                 .append($(this.options.toolbar));
         }
 
         // showColumns, showToggle, showRefresh
-        html = ['<div class="columns columns-' + this.options.toolbarAlign + ' btn-group pull-' + this.options.toolbarAlign + '">'];
+        html = [sprintf('<div class="columns columns-%s btn-group pull-%s">',
+            this.options.buttonsAlign, this.options.buttonsAlign)];
+
+        if (typeof this.options.icons === 'string') {
+            this.options.icons = calculateObjectValue(null, this.options.icons);
+        }
+
+        if (this.options.showPaginationSwitch) {
+            html.push(sprintf('<button class="btn btn-default" type="button" name="paginationSwitch" title="%s">',
+                this.options.formatPaginationSwitch()),
+                sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.paginationSwitchDown),
+                '</button>');
+        }
 
         if (this.options.showRefresh) {
-            html.push(sprintf('<button class="btn btn-default" type="button" name="refresh" title="%s">',
+            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + '" type="button" name="refresh" title="%s">',
                 this.options.formatRefresh()),
-                '<i class="glyphicon glyphicon-refresh icon-refresh"></i>',
+                sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.refresh),
                 '</button>');
         }
 
         if (this.options.showToggle) {
-            html.push(sprintf('<button class="btn btn-default" type="button" name="toggle" title="%s">',
+            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + '" type="button" name="toggle" title="%s">',
                 this.options.formatToggle()),
-                '<i class="glyphicon glyphicon glyphicon-list-alt icon-list-alt"></i>',
+                sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.toggle),
                 '</button>');
         }
 
         if (this.options.showColumns) {
             html.push(sprintf('<div class="keep-open btn-group" title="%s">',
                 this.options.formatColumns()),
-                '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">',
-                '<i class="glyphicon glyphicon-th icon-th"></i>',
+                '<button type="button" class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + ' dropdown-toggle" data-toggle="dropdown">',
+                sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.columns),
                 ' <span class="caret"></span>',
                 '</button>',
                 '<ul class="dropdown-menu" role="menu">');
@@ -12122,8 +12162,14 @@ if (typeof jQuery === 'undefined') {
 
         html.push('</div>');
 
-        if (html.length > 2) {
+        // Fix #188: this.showToolbar is for extentions
+        if (this.showToolbar || html.length > 2) {
             this.$toolbar.append(html.join(''));
+        }
+
+        if (this.options.showPaginationSwitch) {
+            this.$toolbar.find('button[name="paginationSwitch"]')
+                .off('click').on('click', $.proxy(this.togglePagination, this));
         }
 
         if (this.options.showRefresh) {
@@ -12162,7 +12208,7 @@ if (typeof jQuery === 'undefined') {
             html = [];
             html.push(
                 '<div class="pull-' + this.options.searchAlign + ' search">',
-                    sprintf('<input class="form-control" type="text" placeholder="%s">',
+                    sprintf('<input class="form-control' + (this.options.iconSize == undefined ? '' :  ' input-' + this.options.iconSize)  + '" type="text" placeholder="%s">',
                         this.options.formatSearch()),
                 '</div>');
 
@@ -12172,7 +12218,7 @@ if (typeof jQuery === 'undefined') {
                 clearTimeout(timeoutId); // doesn't matter if it's 0
                 timeoutId = setTimeout(function () {
                     that.onSearch(event);
-                }, 500); // 500ms
+                }, that.options.searchTimeOut);
             });
         }
     };
@@ -12181,7 +12227,9 @@ if (typeof jQuery === 'undefined') {
         var text = $.trim($(event.currentTarget).val());
 
         // trim search input
-        $(event.currentTarget).val(text);
+        if(this.options.trimOnSearch) {
+            $(event.currentTarget).val(text);
+        }
 
         if (text === this.searchText) {
             return;
@@ -12238,8 +12286,12 @@ if (typeof jQuery === 'undefined') {
         this.$pagination = this.$container.find('.fixed-table-pagination');
 
         if (!this.options.pagination) {
+            this.$pagination.hide();
             return;
+        } else {
+            this.$pagination.show();
         }
+
         var that = this,
             html = [],
             i, from, to,
@@ -12256,6 +12308,7 @@ if (typeof jQuery === 'undefined') {
         this.totalPages = 0;
         if (this.options.totalRows) {
             this.totalPages = ~~((this.options.totalRows - 1) / this.options.pageSize) + 1;
+            this.options.totalPages = this.totalPages;
         }
         if (this.totalPages > 0 && this.options.pageNumber > this.totalPages) {
             this.options.pageNumber = this.totalPages;
@@ -12277,7 +12330,7 @@ if (typeof jQuery === 'undefined') {
 
         var pageNumber = [
             '<span class="btn-group dropup">',
-            '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">',
+            '<button type="button" class="btn btn-default '+ (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize)+ ' dropdown-toggle" data-toggle="dropdown">',
             '<span class="page-size">',
             this.options.pageSize,
             '</span>',
@@ -12287,7 +12340,7 @@ if (typeof jQuery === 'undefined') {
             pageList = this.options.pageList;
 
         if (typeof this.options.pageList === 'string') {
-            var list = this.options.pageList.slice(1, -1).replace(/ /g, '').split(',');
+            var list = this.options.pageList.replace('[', '').replace(']', '').replace(/ /g, '').split(',');
 
             pageList = [];
             $.each(list, function (i, value) {
@@ -12296,7 +12349,7 @@ if (typeof jQuery === 'undefined') {
         }
 
         $.each(pageList, function (i, page) {
-            if (!that.options.smartDisplay || that.options.totalRows >= page || i === 0) {
+            if (!that.options.smartDisplay || i === 0 || pageList[i-1] <= that.options.totalRows) {
                 var active = page === that.options.pageSize ? ' class="active"' : '';
                 pageNumber.push(sprintf('<li%s><a href="javascript:void(0)">%s</a></li>', active, page));
             }
@@ -12308,7 +12361,7 @@ if (typeof jQuery === 'undefined') {
 
         html.push('</div>',
             '<div class="pull-right pagination">',
-                '<ul class="pagination">',
+                '<ul class="pagination' + (this.options.iconSize == undefined ? '' :  ' pagination-' + this.options.iconSize)  + '">',
                     '<li class="page-first"><a href="javascript:void(0)">&lt;&lt;</a></li>',
                     '<li class="page-pre"><a href="javascript:void(0)">&lt;</a></li>');
 
@@ -12360,7 +12413,7 @@ if (typeof jQuery === 'undefined') {
             if (this.totalPages <= 1) {
                 this.$pagination.find('div.pagination').hide();
             }
-            if (this.options.pageList.length < 2 || this.options.totalRows <= this.options.pageList[1]) {
+            if (this.options.pageList.length < 2 || this.options.totalRows <= this.options.pageList[0]) {
                 this.$pagination.find('span.page-list').hide();
             }
 
@@ -12392,7 +12445,7 @@ if (typeof jQuery === 'undefined') {
             this.initBody();
         }
 
-        this.trigger('page-change', this.options.pageSize, this.options.pageNumber);
+        this.trigger('page-change', this.options.pageNumber, this.options.pageSize);
     };
 
     BootstrapTable.prototype.onPageListChange = function (event) {
@@ -12444,9 +12497,7 @@ if (typeof jQuery === 'undefined') {
             this.$body = $('<tbody></tbody>').appendTo(this.$el);
         }
 
-        if (this.options.sidePagination === 'server') {
-            data = this.data;
-        }
+        //Fix #389 Bootstrap-table-flatJSON is not working
 
         if (!this.options.pagination || this.options.sidePagination === 'server') {
             this.pageFrom = 1;
@@ -12495,7 +12546,8 @@ if (typeof jQuery === 'undefined') {
                     type = '',
                     cellStyle = {},
                     id_ = '',
-                    class_ = that.header.classes[j];
+                    class_ = that.header.classes[j],
+                    column = that.options.columns[getFieldIndex(that.options.columns, field)];
 
                 style = sprintf('style="%s"', csses.concat(that.header.styles[j]).join('; '));
 
@@ -12516,21 +12568,21 @@ if (typeof jQuery === 'undefined') {
                     class_ = sprintf(' class="%s"', cellStyle.classes);
                 }
                 if (cellStyle.css) {
-                    csses = [];
+                    var csses_ = [];
                     for (var key in cellStyle.css) {
-                        csses.push(key + ': ' + cellStyle.css[key]);
+                        csses_.push(key + ': ' + cellStyle.css[key]);
                     }
-                    style = sprintf('style="%s"', csses.concat(that.header.styles[j]).join('; '));
+                    style = sprintf('style="%s"', csses_.concat(that.header.styles[j]).join('; '));
                 }
 
-                if (that.options.columns[j].checkbox || that.options.columns[j].radio) {
+                if (column.checkbox || column.radio) {
                     //if card view mode bypass
                     if (that.options.cardView) {
                         return true;
                     }
 
-                    type = that.options.columns[j].checkbox ? 'checkbox' : type;
-                    type = that.options.columns[j].radio ? 'radio' : type;
+                    type = column.checkbox ? 'checkbox' : type;
+                    type = column.radio ? 'radio' : type;
 
                     text = ['<td class="bs-checkbox">',
                         '<input' +
@@ -12540,7 +12592,7 @@ if (typeof jQuery === 'undefined') {
                             sprintf(' value="%s"', item[that.options.idField]) +
                             sprintf(' checked="%s"', value === true ||
                                 (value && value.checked) ? 'checked' : undefined) +
-                            sprintf(' disabled="%s"', !that.options.columns[j].checkboxEnabled ||
+                            sprintf(' disabled="%s"', !column.checkboxEnabled ||
                                 (value && value.disabled) ? 'disabled' : undefined) +
                             ' />',
                         '</td>'].join('');
@@ -12657,7 +12709,7 @@ if (typeof jQuery === 'undefined') {
         this.trigger('post-body');
     };
 
-    BootstrapTable.prototype.initServer = function (silent) {
+    BootstrapTable.prototype.initServer = function (silent, query) {
         var that = this,
             data = {},
             params = {
@@ -12674,14 +12726,18 @@ if (typeof jQuery === 'undefined') {
 
         if (this.options.queryParamsType === 'limit') {
             params = {
-                limit: params.pageSize,
-                offset: params.pageSize * (params.pageNumber - 1),
                 search: params.searchText,
                 sort: params.sortName,
                 order: params.sortOrder
             };
+            if (this.options.pagination) {
+                params.limit = this.options.pageSize;
+                params.offset = this.options.pageSize * (this.options.pageNumber - 1);
+            }
         }
         data = calculateObjectValue(this.options, this.options.queryParams, [params], data);
+
+        $.extend(data, query || {});
 
         // false to stop request
         if (data === false) {
@@ -12692,24 +12748,19 @@ if (typeof jQuery === 'undefined') {
             this.$loading.show();
         }
 
-        $.ajax({
+        $.ajax($.extend({}, calculateObjectValue(null, this.options.ajaxOptions), {
             type: this.options.method,
             url: this.options.url,
-            data: data,
+            data: this.options.contentType === 'application/json' && this.options.method === 'post' ?
+                JSON.stringify(data): data,
             cache: this.options.cache,
             contentType: this.options.contentType,
             dataType: this.options.dataType,
             success: function (res) {
                 res = calculateObjectValue(that.options, that.options.responseHandler, [res], res);
 
-                var data = res;
-
-                if (that.options.sidePagination === 'server') {
-                    that.options.totalRows = res.total;
-                    data = res.rows;
-                }
-                that.load(data);
-                that.trigger('load-success', data);
+                that.load(res);
+                that.trigger('load-success', res);
             },
             error: function (res) {
                 that.trigger('load-error', res.status);
@@ -12719,7 +12770,7 @@ if (typeof jQuery === 'undefined') {
                     that.$loading.hide();
                 }
             }
-        });
+        }));
     };
 
     BootstrapTable.prototype.getCaretHtml = function () {
@@ -12878,6 +12929,12 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.load = function (data) {
+        // #431: support pagination
+        if (this.options.sidePagination === 'server') {
+            this.options.totalRows = data.total;
+            data = data.rows;
+        }
+
         this.initData(data);
         this.initSearch();
         this.initPagination();
@@ -12885,7 +12942,14 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.append = function (data) {
-        this.initData(data, true);
+        this.initData(data, 'append');
+        this.initSearch();
+        this.initPagination();
+        this.initBody(true);
+    };
+
+    BootstrapTable.prototype.prepend = function (data) {
+        this.initData(data, 'prepend');
         this.initSearch();
         this.initPagination();
         this.initBody(true);
@@ -12919,6 +12983,14 @@ if (typeof jQuery === 'undefined') {
         this.initBody(true);
     };
 
+    BootstrapTable.prototype.insertRow = function (params) {
+        if (!params.hasOwnProperty('index') || !params.hasOwnProperty('row')) {
+            return;
+        }
+        this.data.splice(params.index, 0, params.row);
+        this.initBody(true);
+    };
+
     BootstrapTable.prototype.updateRow = function (params) {
         if (!params.hasOwnProperty('index') || !params.hasOwnProperty('row')) {
             return;
@@ -12949,6 +13021,10 @@ if (typeof jQuery === 'undefined') {
         $td.attr('rowspan', rowspan).attr('colspan', colspan).show();
     };
 
+    BootstrapTable.prototype.getOptions = function () {
+        return this.options;
+    };
+
     BootstrapTable.prototype.getSelections = function () {
         var that = this;
 
@@ -12970,7 +13046,7 @@ if (typeof jQuery === 'undefined') {
         this.updateRows(checked);
         this.updateSelected();
         this.trigger(checked ? 'check-all' : 'uncheck-all');
-    }
+    };
 
     BootstrapTable.prototype.check = function (index) {
         this.check_(true, index);
@@ -12984,7 +13060,7 @@ if (typeof jQuery === 'undefined') {
         this.$selectItem.filter(sprintf('[data-index="%s"]', index)).prop('checked', checked);
         this.data[index][this.header.stateField] = checked;
         this.updateSelected();
-    }
+    };
 
     BootstrapTable.prototype.destroy = function () {
         this.$el.insertBefore(this.$container);
@@ -12992,6 +13068,7 @@ if (typeof jQuery === 'undefined') {
         this.$container.next().remove();
         this.$container.remove();
         this.$el.html(this.$el_.html())
+            .css('margin-top', '0')
             .attr('class', this.$el_.attr('class') || ''); // reset the class
     };
 
@@ -13003,12 +13080,23 @@ if (typeof jQuery === 'undefined') {
         this.$loading.hide();
     };
 
+    BootstrapTable.prototype.togglePagination = function () {
+        this.options.pagination = !this.options.pagination;
+        var button = this.$toolbar.find('button[name="paginationSwitch"] i');
+        if (this.options.pagination) {
+            button.attr("class", this.options.iconsPrefix + " " + this.options.icons.paginationSwitchDown);
+        } else {
+            button.attr("class", this.options.iconsPrefix + " " + this.options.icons.paginationSwitchUp);
+        }
+        this.updatePagination();
+    };
+
     BootstrapTable.prototype.refresh = function (params) {
         if (params && params.url) {
             this.options.url = params.url;
             this.options.pageNumber = 1;
         }
-        this.initServer(params && params.silent);
+        this.initServer(params && params.silent, params && params.query);
     };
 
     BootstrapTable.prototype.showColumn = function (field) {
@@ -13036,23 +13124,41 @@ if (typeof jQuery === 'undefined') {
         }
     };
 
+    BootstrapTable.prototype.selectPage = function (page) {
+        if (page > 0 && page <= this.options.totalPages) {
+            this.options.pageNumber = page;
+            this.updatePagination();
+        }
+    };
+
     BootstrapTable.prototype.prevPage = function () {
-        this.options.pageNumber > 1 ? this.options.pageNumber-- : null;
-        this.updatePagination();
+        if (this.options.pageNumber > 1) {
+            this.options.pageNumber--;
+            this.updatePagination();
+        }
     };
 
     BootstrapTable.prototype.nextPage = function () {
-        this.options.pageNumber < this.options.pageSize ? this.options.pageNumber++ : null;
-        this.updatePagination();
+        if (this.options.pageNumber < this.options.totalPages) {
+            this.options.pageNumber++;
+            this.updatePagination();
+        }
+    };
+
+    BootstrapTable.prototype.toggleView = function () {
+        this.options.cardView = !this.options.cardView;
+        this.initHeader();
+        this.initBody();
     };
 
     // BOOTSTRAP TABLE PLUGIN DEFINITION
     // =======================
 
     var allowedMethods = [
+        'getOptions',
         'getSelections', 'getData',
-        'load', 'append', 'remove',
-        'updateRow',
+        'load', 'append', 'prepend', 'remove',
+        'insertRow', 'updateRow',
         'mergeCells',
         'checkAll', 'uncheckAll',
         'check', 'uncheck',
@@ -13063,7 +13169,9 @@ if (typeof jQuery === 'undefined') {
         'showColumn', 'hideColumn',
         'filterBy',
         'scrollTo',
-        'prevPage', 'nextPage'
+        'selectPage', 'prevPage', 'nextPage',
+        'togglePagination',
+        'toggleView'
     ];
 
     $.fn.bootstrapTable = function (option, _relatedTarget) {
@@ -13115,31 +13223,367 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 /**
- * Bootstrap Table Czech translation
- * Author: Lukas Kral (monarcha@seznam.cz)
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * extensions: https://github.com/lukaskral/bootstrap-table-filter
+ */
+
+!function($) {
+
+    'use strict';
+
+    $.extend($.fn.bootstrapTable.defaults, {
+        showFilter: false
+    });
+
+    var BootstrapTable = $.fn.bootstrapTable.Constructor,
+        _init = BootstrapTable.prototype.init,
+        _initSearch = BootstrapTable.prototype.initSearch;
+
+    BootstrapTable.prototype.init = function () {
+        _init.apply(this, Array.prototype.slice.apply(arguments));
+
+        var that = this;
+        this.$el.on('load-success.bs.table', function () {
+            if (that.options.showFilter) {
+                $(that.options.toolbar).bootstrapTableFilter({
+                    connectTo: that.$el
+                });
+            }
+        });
+    };
+
+    BootstrapTable.prototype.initSearch = function () {
+        _initSearch.apply(this, Array.prototype.slice.apply(arguments));
+
+        if (this.options.sidePagination !== 'server') {
+            if (typeof this.searchCallback === 'function') {
+                this.data = $.grep(this.options.data, this.searchCallback);
+            }
+        }
+    };
+
+    BootstrapTable.prototype.getData = function () {
+        return (this.searchText || this.searchCallback) ? this.data : this.options.data;
+    };
+
+    BootstrapTable.prototype.getColumns = function () {
+        return this.options.columns;
+    };
+
+    BootstrapTable.prototype.registerSearchCallback = function (callback) {
+        this.searchCallback = callback;
+    };
+
+    BootstrapTable.prototype.updateSearch = function () {
+        this.options.pageNumber = 1;
+        this.initSearch();
+        this.updatePagination();
+    };
+
+    BootstrapTable.prototype.getServerUrl = function () {
+        return (this.options.sidePagination === 'server') ? this.options.url : false;
+    };
+
+    $.fn.bootstrapTable.methods.push('getColumns',
+        'registerSearchCallback', 'updateSearch',
+        'getServerUrl');
+
+}(jQuery);
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * extensions: https://github.com/vitalets/x-editable
+ */
+
+!function($) {
+
+    'use strict';
+
+    $.extend($.fn.bootstrapTable.defaults, {
+        editable: true,
+        onEditableInit: function () {return false;},
+        onEditableSave: function (field, row, oldValue, $el) {return false;}
+    });
+
+    $.extend($.fn.bootstrapTable.Constructor.EVENTS, {
+        'editable-init.bs.table': 'onEditableInit',
+        'editable-save.bs.table': 'onEditableSave'
+    });
+
+    var BootstrapTable = $.fn.bootstrapTable.Constructor,
+        _initTable = BootstrapTable.prototype.initTable,
+        _initBody = BootstrapTable.prototype.initBody;
+
+    BootstrapTable.prototype.initTable = function () {
+        var that = this;
+        _initTable.apply(this, Array.prototype.slice.apply(arguments));
+
+        if (!this.options.editable) {
+            return;
+        }
+
+        $.each(this.options.columns, function (i, column) {
+            if (!column.editable) {
+                return;
+            }
+
+            var _formatter = column.formatter;
+            column.formatter = function (value, row, index) {
+                var result = _formatter ? _formatter(value, row, index) : value;
+
+                return ['<a href="javascript:void(0)"',
+                    ' data-name="' + column.field + '"',
+                    ' data-pk="' + row[that.options.idField] + '"',
+                    '>' + result + '</a>'
+                ].join('');
+            };
+        });
+    };
+
+    BootstrapTable.prototype.initBody = function () {
+        var that = this;
+        _initBody.apply(this, Array.prototype.slice.apply(arguments));
+
+        if (!this.options.editable) {
+            return;
+        }
+
+        $.each(this.options.columns, function (i, column) {
+            if (!column.editable) {
+                return;
+            }
+
+            that.$body.find('a[data-name="' + column.field + '"]').editable(column.editable)
+                .off('save').on('save', function (e, params) {
+                    var data = that.getData(),
+                        index = $(this).parents('tr[data-index]').data('index'),
+                        row = data[index],
+                        oldValue = row[column.field];
+
+                    row[column.field] = params.submitValue;
+                    that.trigger('editable-save', column.field, row, oldValue, $(this));
+                });
+        });
+        this.trigger('editable-init');
+    };
+
+}(jQuery);
+
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * extensions: https://github.com/kayalshri/tableExport.jquery.plugin
+ */
+
+(function ($) {
+    'use strict';
+
+    var TYPE_NAME = {
+        json: 'JSON',
+        xml: 'XML',
+        png: 'PNG',
+        csv: 'CSV',
+        txt: 'TXT',
+        sql: 'SQL',
+        doc: 'MS-Word',
+        excel: 'Ms-Excel',
+        powerpoint: 'Ms-Powerpoint',
+        pdf: 'PDF'
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, {
+        showExport: false,
+        // 'json', 'xml', 'png', 'csv', 'txt', 'sql', 'doc', 'excel', 'powerpoint', 'pdf'
+        exportTypes: ['json', 'xml', 'csv', 'txt', 'sql', 'excel']
+    });
+
+    var BootstrapTable = $.fn.bootstrapTable.Constructor,
+        _initToolbar = BootstrapTable.prototype.initToolbar;
+
+    BootstrapTable.prototype.initToolbar = function () {
+        this.showToolbar = true;
+
+        _initToolbar.apply(this, Array.prototype.slice.apply(arguments));
+
+        if (this.options.showExport) {
+            var that = this,
+                $btnGroup = this.$toolbar.find('>.btn-group'),
+                $export = $btnGroup.find('div.export');
+
+            if (!$export.length) {
+                $export = $([
+                    '<div class="export btn-group">',
+                        '<button class="btn btn-default dropdown-toggle" ' +
+                            'data-toggle="dropdown" type="button">',
+                            '<i class="glyphicon glyphicon-export icon-share"></i> ',
+                            '<span class="caret"></span>',
+                        '</button>',
+                        '<ul class="dropdown-menu" role="menu">',
+                        '</ul>',
+                    '</div>'].join('')).appendTo($btnGroup);
+
+                var $menu = $export.find('.dropdown-menu'),
+                    exportTypes = this.options.exportTypes;
+
+                if (typeof this.options.exportTypes === 'string') {
+                    var types = this.options.exportTypes.slice(1, -1).replace(/ /g, '').split(',');
+
+                    exportTypes = [];
+                    $.each(types, function (i, value) {
+                        exportTypes.push(value.slice(1, -1));
+                    });
+                }
+                $.each(exportTypes, function (i, type) {
+                    if (TYPE_NAME.hasOwnProperty(type)) {
+                        $menu.append(['<li data-type="' + type + '">',
+                                '<a href="javascript:void(0)">',
+                                    TYPE_NAME[type],
+                                '</a>',
+                            '</li>'].join(''));
+                    }
+                });
+
+                $menu.find('li').click(function () {
+                    that.$el.tableExport({
+                        type: $(this).data('type'),
+                        escape: false
+                    });
+                });
+            }
+        }
+    };
+})(jQuery);
+/**
+ * bootstrap-table-flatJSON.js
+ * @version: v1.0.0
+ * @author: Dennis Hernández
+ * @webSite: http://djhvscf.github.io/Blog
+ *
+ * Created by Dennis Hernández on 01/Nov/2014.
+ *
+ * Copyright (c) 2014 Dennis Hernández http://djhvscf.github.io/Blog
+ *
+ * The MIT License (http://www.opensource.org/licenses/mit-license.php)
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+(function ($) {
+    'use strict';
+
+    $.extend($.fn.bootstrapTable.defaults, {
+        flat: false
+    });
+
+    var BootstrapTable = $.fn.bootstrapTable.Constructor,
+        _initData = BootstrapTable.prototype.initData;
+
+    BootstrapTable.prototype.initData = function () {
+
+        _initData.apply(this, Array.prototype.slice.apply(arguments));
+        var that = this;
+
+        //If the flat is true
+        if (that.options.flat) {
+            that.options.data = sd.flatHelper(that.options.data);
+        }
+    };
+
+    //Main functions
+    var sd = {
+        flat: function (element) {
+            var result = {};
+
+            function recurse(cur, prop) {
+                if (Object(cur) !== cur) {
+                    result[prop] = cur;
+                } else if (Array.isArray(cur)) {
+                    for (var i = 0, l = cur.length; i < l; i++) {
+                        recurse(cur[i], prop ? prop + "." + i : "" + i);
+                        if (l == 0) {
+                            result[prop] = [];
+                        }
+                    }
+                } else {
+                    var isEmpty = true;
+                    for (var p in cur) {
+                        isEmpty = false;
+                        recurse(cur[p], prop ? prop + "." + p : p);
+                    }
+                    if (isEmpty) {
+                        result[prop] = {};
+                    }
+                }
+            }
+
+            recurse(element, "");
+            return result;
+        },
+
+        flatHelper: function (data) {
+            var flatArray = [];
+            $.each(data, function (i, element) {
+                flatArray.push(sd.flat(element));
+            });
+            return flatArray;
+        }
+    };
+})(jQuery);
+/**
+ * Bootstrap Table Chinese translation
+ * Author: Zhixin Wen<wenzhixin2010@gmail.com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['cs-CZ'] = {
+    $.fn.bootstrapTable.locales['zh-CN'] = {
         formatLoadingMessage: function () {
-            return 'Čekejte, prosím…';
+            return '正在努力地加载数据中，请稍候……';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' položek na stránku';
+            return '每页显示 ' + pageNumber + ' 条记录';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Zobrazena ' + pageFrom + '. - ' + pageTo + '. položka z celkových ' + totalRows;
+            return '显示第 ' + pageFrom + ' 到第 ' + pageTo + ' 条记录，总共 ' + totalRows + ' 条记录';
         },
         formatSearch: function () {
-            return 'Vyhledávání';
+            return '搜索';
         },
         formatNoMatches: function () {
-            return 'Nenalezena žádná vyhovující položka';
+            return '没有找到匹配的记录';
+        },
+        formatPaginationSwitch: function () {
+            return '隐藏/显示分页';
+        },
+        formatRefresh: function () {
+            return '刷新';
+        },
+        formatToggle: function () {
+            return '切换';
+        },
+        formatColumns: function () {
+            return '列';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['cs-CZ']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['zh-CN']);
 
 })(jQuery);
 /**
@@ -13151,7 +13595,7 @@ if (typeof jQuery === 'undefined') {
 
     $.fn.bootstrapTable.locales['da-DK'] = {
         formatLoadingMessage: function () {
-            return 'Indlæser, vent venligst…';
+            return 'Indlæser, vent venligst...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return pageNumber + ' poster pr side';
@@ -13188,7 +13632,7 @@ if (typeof jQuery === 'undefined') {
 
     $.fn.bootstrapTable.locales['el-GR'] = {
         formatLoadingMessage: function () {
-            return 'Φορτώνει, παρακαλώ περιμένετε…';
+            return 'Φορτώνει, παρακαλώ περιμένετε...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return pageNumber + ' αποτελέσματα ανά σελίδα';
@@ -13209,6 +13653,44 @@ if (typeof jQuery === 'undefined') {
 })(jQuery);
 
 /**
+ * Bootstrap Table Hungarian translation
+ * Author: Nagy Gergely <info@nagygergely.eu>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['hu-HU'] = {
+        formatLoadingMessage: function () {
+            return 'Betöltés, kérem várjon...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' rekord per oldal';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Megjelenítve ' + pageFrom + ' - ' + pageTo + ' / ' + totalRows + ' összesen';
+        },
+        formatSearch: function () {
+            return 'Keresés';
+        },
+        formatNoMatches: function () {
+            return 'Nincs találat';
+        },
+        formatRefresh: function () {
+            return 'Frissítés';
+        },
+        formatToggle: function () {
+            return 'Váltás';
+        },
+        formatColumns: function () {
+            return 'Oszlopok';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['hu-HU']);
+
+})(jQuery);
+
+/**
  * Bootstrap Table English translation
  * Author: Zhixin Wen<wenzhixin2010@gmail.com>
  */
@@ -13217,7 +13699,7 @@ if (typeof jQuery === 'undefined') {
 
     $.fn.bootstrapTable.locales['en-US'] = {
         formatLoadingMessage: function () {
-            return 'Loading, please wait…';
+            return 'Loading, please wait...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return pageNumber + ' records per page';
@@ -13230,6 +13712,9 @@ if (typeof jQuery === 'undefined') {
         },
         formatNoMatches: function () {
             return 'No matching records found';
+        },
+        formatPaginationSwitch: function () {
+            return 'Hide/Show pagination';
         },
         formatRefresh: function () {
             return 'Refresh';
@@ -13246,212 +13731,188 @@ if (typeof jQuery === 'undefined') {
 
 })(jQuery);
 /**
- * Bootstrap Table Spanish (Argentina) translation
- * Author: Felix Vera (felix.vera@gmail.com)
+ * Bootstrap Table Portuguese Portugal Translation
+ * Author: Burnspirit<burnspirit@gmail.com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['es-AR'] = {
+    $.fn.bootstrapTable.locales['pt-BR'] = {
         formatLoadingMessage: function () {
-            return 'Cargando, espere por favor...';
+            return 'A carregar, aguarde...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' registros por página';
+            return pageNumber + ' registos por página';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Mostrando ' + pageFrom + ' a ' + pageTo + ' de ' + totalRows + ' filas';
+            return 'A mostrar ' + pageFrom + ' até ' + pageTo + ' de ' + totalRows + ' linhas';
         },
         formatSearch: function () {
-            return 'Buscar';
+            return 'Pesquisa';
         },
         formatNoMatches: function () {
-            return 'No se encontraron registros';
+            return 'Nenhum registo encontrado';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-AR']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['pt-PT']);
 
 })(jQuery);
+
 /**
- * Bootstrap Table Spanish (Costa Rica) translation
- * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
+ * Bootstrap Table Chinese translation
+ * Author: Zhixin Wen<wenzhixin2010@gmail.com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['es-CR'] = {
+    $.fn.bootstrapTable.locales['zh-TW'] = {
         formatLoadingMessage: function () {
-            return 'Cargando, por favor espere...';
+            return '正在努力地載入資料，請稍候……';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' registros por página';
+            return '每頁顯示 ' + pageNumber + ' 項記錄';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Mostrando de ' + pageFrom + ' a ' + pageTo + ' registros de ' + totalRows + ' registros en total';
+            return '顯示第 ' + pageFrom + ' 到第 ' + pageTo + ' 項記錄，總共 ' + totalRows + ' 項記錄';
         },
         formatSearch: function () {
-            return 'Buscar';
+            return '搜尋';
         },
         formatNoMatches: function () {
-            return 'No se encontraron registros';
+            return '沒有找符合的結果';
+        },
+        formatPaginationSwitch: function () {
+            return '隱藏/顯示分頁';
         },
         formatRefresh: function () {
-            return 'Refrescar';
+            return '刷新';
         },
         formatToggle: function () {
-            return 'Alternar';
+            return '切換';
         },
         formatColumns: function () {
-            return 'Columnas';
+            return '列';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-CR']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['zh-TW']);
 
 })(jQuery);
 
 /**
- * Bootstrap Table Spanish (Nicaragua) translation
- * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
+ * Bootstrap Table Polish translation
+ * Author: zergu <michal.zagdan @ gmail com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['es-NI'] = {
+    $.fn.bootstrapTable.locales['pl-PL'] = {
         formatLoadingMessage: function () {
-            return 'Cargando, por favor espere...';
+            return 'Ładowanie, proszę czekać...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' registros por página';
+            return pageNumber + ' rekordów na stronę';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Mostrando de ' + pageFrom + ' a ' + pageTo + ' registros de ' + totalRows + ' registros en total';
+            return 'Wyświetlanie rekordów od ' + pageFrom + ' do ' + pageTo + ' z ' + totalRows;
         },
         formatSearch: function () {
-            return 'Buscar';
+            return 'Szukaj';
         },
         formatNoMatches: function () {
-            return 'No se encontraron registros';
+            return 'Niestety, nic nie znaleziono';
         },
         formatRefresh: function () {
-            return 'Refrescar';
+            return 'Odśwież';
         },
         formatToggle: function () {
-            return 'Alternar';
+            return 'Przełącz';
         },
         formatColumns: function () {
-            return 'Columnas';
+            return 'Kolumny';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-NI']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['pl-PL']);
 
 })(jQuery);
 
 /**
- * Bootstrap Table French (Belgium) translation
- * Author: Julien Bisconti (julien.bisconti@gmail.com)
+ * Bootstrap Table Japanese translation
+ * Author: Azamshul Azizy <azamshul@gmail.com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['fr-BE'] = {
+    $.fn.bootstrapTable.locales['ja-JP'] = {
         formatLoadingMessage: function () {
-            return 'Chargement en cours...';
+            return '読み込み中です。少々お待ちください。';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' entrées par page';
+            return 'ページ当たり最大' + pageNumber + '件';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Affiche de' + pageFrom + ' à ' + pageTo + ' sur ' + totalRows + ' lignes';
+            return '全' + totalRows + '件から、'+ pageFrom + 'から' + pageTo + '件目まで表示しています';
         },
         formatSearch: function () {
-            return 'Recherche';
+            return '検索';
         },
         formatNoMatches: function () {
-            return 'Pas de fichiers trouvés';
-        }
-    };
-
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-BE']);
-
-})(jQuery);
-
-/**
- * Bootstrap Table French (France) translation
- * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
- * Modification: Tidalf (https://github.com/TidalfFR)
- */
-(function ($) {
-    'use strict';
-
-    $.fn.bootstrapTable.locales['fr-FR'] = {
-        formatLoadingMessage: function () {
-            return 'Chargement en cours, patientez, s´il vous plaît ...';
+            return '該当するレコードが見つかりません';
         },
-        formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' lignes par page';
-        },
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Affichage des lignes ' + pageFrom + ' à ' + pageTo + ' sur ' + totalRows + ' lignes au total';
-        },
-        formatSearch: function () {
-            return 'Rechercher';
-        },
-        formatNoMatches: function () {
-            return 'Aucun résultat trouvé';
+        formatPaginationSwitch: function () {
+            return 'ページ数を表示・非表示';
         },
         formatRefresh: function () {
-            return 'Rafraîchir';
+            return '更新';
         },
         formatToggle: function () {
-            return 'Alterner';
+            return 'トグル';
         },
         formatColumns: function () {
-            return 'Colonnes';
+            return '列';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-FR']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['ja-JP']);
 
 })(jQuery);
-
 /**
- * Bootstrap Table Italian translation
- * Author: Davide Renzi<davide.renzi@gmail.com>
+ * Bootstrap Table Swedish translation
+ * Author: C Bratt <bratt@inix.se>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['it-IT'] = {
+    $.fn.bootstrapTable.locales['sv-SE'] = {
         formatLoadingMessage: function () {
-            return 'Caricamento in corso…';
+            return 'Laddar, vänligen vänta...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' records per pagina';
+            return pageNumber + ' rader per sida';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Pagina ' + pageFrom + ' di ' + pageTo + ' (' + totalRows + ' records)';
+            return 'Visa ' + pageFrom + ' till ' + pageTo + ' av ' + totalRows + ' rader';
         },
         formatSearch: function () {
-            return 'Cerca';
+            return 'Sök';
         },
         formatNoMatches: function () {
-            return 'Nessun record trovato';
+            return 'Inga matchande resultat funna.';
         },
         formatRefresh: function () {
-            return 'Rinfrescare';
+            return 'Uppdatera';
         },
         formatToggle: function () {
-            return 'Alternare';
+            return 'Skifta';
         },
         formatColumns: function () {
-            return 'Colonne';
+            return 'kolumn';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['it-IT']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['sv-SE']);
 
 })(jQuery);
 
@@ -13501,7 +13962,7 @@ if (typeof jQuery === 'undefined') {
 
     $.fn.bootstrapTable.locales['nl-NL'] = {
         formatLoadingMessage: function () {
-            return 'Laden, even geduld…';
+            return 'Laden, even geduld...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return pageNumber + ' records per pagina';
@@ -13522,72 +13983,80 @@ if (typeof jQuery === 'undefined') {
 })(jQuery);
 
 /**
- * Bootstrap Table Polish translation
- * Author: zergu <michal.zagdan @ gmail com>
+ * Bootstrap Table Spanish (Costa Rica) translation
+ * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['pl-PL'] = {
+    $.fn.bootstrapTable.locales['es-CR'] = {
         formatLoadingMessage: function () {
-            return 'Ładowanie, proszę czekać…';
-        },
-        formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' rekordów na stronę';
-        },
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Wyświetlanie rekordów od ' + pageFrom + ' do ' + pageTo + ' z ' + totalRows;
-        },
-        formatSearch: function () {
-            return 'Szukaj';
-        },
-        formatNoMatches: function () {
-            return 'Niestety, nic nie znaleziono';
-        },
-        formatRefresh: function () {
-            return 'Odśwież';
-        },
-        formatToggle: function () {
-            return 'Przełącz';
-        },
-        formatColumns: function () {
-            return 'Kolumny';
-        }
-    };
-
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['pl-PL']);
-
-})(jQuery);
-
-/**
- * Bootstrap Table Brazilian Portuguese Translation
- * Author: Eduardo Cerqueira<egcerqueira@gmail.com>
- */
-(function ($) {
-    'use strict';
-
-    $.fn.bootstrapTable.locales['pt-BR'] = {
-        formatLoadingMessage: function () {
-            return 'Carregando, aguarde…';
+            return 'Cargando, por favor espere...';
         },
         formatRecordsPerPage: function (pageNumber) {
             return pageNumber + ' registros por página';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Exibindo ' + pageFrom + ' até ' + pageTo + ' de ' + totalRows + ' linhas';
+            return 'Mostrando de ' + pageFrom + ' a ' + pageTo + ' registros de ' + totalRows + ' registros en total';
         },
         formatSearch: function () {
-            return 'Busca';
+            return 'Buscar';
         },
         formatNoMatches: function () {
-            return 'Nenhum registro encontrado';
+            return 'No se encontraron registros';
+        },
+        formatRefresh: function () {
+            return 'Refrescar';
+        },
+        formatToggle: function () {
+            return 'Alternar';
+        },
+        formatColumns: function () {
+            return 'Columnas';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['pt-BR']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-CR']);
 
 })(jQuery);
 
+/**
+ * Bootstrap Table Slovak translation
+ * Author: Jozef Dúc<jozef.d13@gmail.com>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['sk-SK'] = {
+        formatLoadingMessage: function () {
+            return 'Prosím čakajte ...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' záznamov na stranu';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Zobrazená ' + pageFrom + '. - ' + pageTo + '. položka z celkových ' + totalRows;
+        },
+        formatSearch: function () {
+            return 'Vyhľadávanie';
+        },
+        formatNoMatches: function () {
+            return 'Nenájdená žiadne vyhovujúca položka';
+        },
+        formatRefresh: function () {
+            return 'Obnoviť';
+        },
+        formatToggle: function () {
+            return 'Prepni';
+        },
+        formatColumns: function () {
+            return 'Stĺpce';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['sk-SK']);
+
+})(jQuery);
 /**
  * Bootstrap Table Russian translation
  * Author: Dunaevsky Maxim <dunmaksim@yandex.ru>
@@ -13626,82 +14095,33 @@ if (typeof jQuery === 'undefined') {
 })(jQuery);
 
 /**
- * Bootstrap Table Thai translation
- * Author: Monchai S.<monchais@gmail.com>
+ * Bootstrap Table Spanish (Argentina) translation
+ * Author: Felix Vera (felix.vera@gmail.com)
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['th-TH'] = {
+    $.fn.bootstrapTable.locales['es-AR'] = {
         formatLoadingMessage: function () {
-            return 'กำลังโหลดข้อมูล, กรุณารอสักครู่...';
+            return 'Cargando, espere por favor...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' รายการต่อหน้า';
+            return pageNumber + ' registros por página';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'รายการที่ ' + pageFrom + ' ถึง ' + pageTo + ' จากทั้งหมด ' + totalRows + ' รายการ';
+            return 'Mostrando ' + pageFrom + ' a ' + pageTo + ' de ' + totalRows + ' filas';
         },
         formatSearch: function () {
-            return 'ค้นหา';
+            return 'Buscar';
         },
         formatNoMatches: function () {
-            return 'ไม่พบรายการที่ค้นหา !';
-        },
-        formatRefresh: function () {
-            return 'รีเฟรส';
-        },
-        formatToggle: function () {
-            return 'สลับมุมมอง';
-        },
-        formatColumns: function () {
-            return 'คอลัมน์';
+            return 'No se encontraron registros';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['th-TH']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-AR']);
 
 })(jQuery);
-
-/**
- * Bootstrap Table Turkish translation
- * Author: Emin Şen
- * Author: Sercan Cakir <srcnckr@gmail.com>
- */
-(function ($) {
-    'use strict';
-
-    $.fn.bootstrapTable.locales['tr-TR'] = {
-        formatLoadingMessage: function () {
-            return 'Yükleniyor, lütfen bekleyin…';
-        },
-        formatRecordsPerPage: function (pageNumber) {
-            return 'Sayfa başına ' + pageNumber + ' kayıt.';
-        },
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return totalRows + ' kayıttan ' + pageFrom + '-' + pageTo + ' arası gösteriliyor.';
-        },
-        formatSearch: function () {
-            return 'Ara';
-        },
-        formatNoMatches: function () {
-            return 'Eşleşen kayıt bulunamadı.';
-        },
-        formatRefresh: function () {
-            return 'Yenile';
-        },
-        formatToggle: function () {
-            return 'Değiştir';
-        },
-        formatColumns: function () {
-            return 'Sütunlar';
-        }
-    };
-
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['tr-TR']);
-
-})(jQuery);
-
 /**
  * Bootstrap Table Urdu translation
  * Author: Malik <me@malikrizwan.com>
@@ -13741,6 +14161,281 @@ if (typeof jQuery === 'undefined') {
 })(jQuery);
 
 /**
+ * Bootstrap Table Italian translation
+ * Author: Davide Renzi<davide.renzi@gmail.com>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['it-IT'] = {
+        formatLoadingMessage: function () {
+            return 'Caricamento in corso...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' records per pagina';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Pagina ' + pageFrom + ' di ' + pageTo + ' (' + totalRows + ' records)';
+        },
+        formatSearch: function () {
+            return 'Cerca';
+        },
+        formatNoMatches: function () {
+            return 'Nessun record trovato';
+        },
+        formatRefresh: function () {
+            return 'Rinfrescare';
+        },
+        formatToggle: function () {
+            return 'Alternare';
+        },
+        formatColumns: function () {
+            return 'Colonne';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['it-IT']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Brazilian Portuguese Translation
+ * Author: Eduardo Cerqueira<egcerqueira@gmail.com>
+ * Update: João Mello<jmello@hotmail.com.br>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['pt-BR'] = {
+        formatLoadingMessage: function () {
+            return 'Carregando, aguarde...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' registros por página';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Exibindo ' + pageFrom + ' até ' + pageTo + ' de ' + totalRows + ' linhas';
+        },
+        formatSearch: function () { 
+            return 'Pesquisar';
+        },
+        formatRefresh: function () { 
+            return 'Recarregar';
+        },
+        formatToggle: function () { 
+            return 'Alternar';
+        },
+        formatColumns: function () { 
+            return 'Colunas';
+        },
+        formatPaginationSwitch: function () { 
+            return 'Ocultar/Exibir paginação';
+        },
+        formatNoMatches: function () {
+            return 'Nenhum registro encontrado';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['pt-BR']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Spanish (Nicaragua) translation
+ * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['es-NI'] = {
+        formatLoadingMessage: function () {
+            return 'Cargando, por favor espere...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' registros por página';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Mostrando de ' + pageFrom + ' a ' + pageTo + ' registros de ' + totalRows + ' registros en total';
+        },
+        formatSearch: function () {
+            return 'Buscar';
+        },
+        formatNoMatches: function () {
+            return 'No se encontraron registros';
+        },
+        formatRefresh: function () {
+            return 'Refrescar';
+        },
+        formatToggle: function () {
+            return 'Alternar';
+        },
+        formatColumns: function () {
+            return 'Columnas';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['es-NI']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Turkish translation
+ * Author: Emin Şen
+ * Author: Sercan Cakir <srcnckr@gmail.com>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['tr-TR'] = {
+        formatLoadingMessage: function () {
+            return 'Yükleniyor, lütfen bekleyin...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return 'Sayfa başına ' + pageNumber + ' kayıt.';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return totalRows + ' kayıttan ' + pageFrom + '-' + pageTo + ' arası gösteriliyor.';
+        },
+        formatSearch: function () {
+            return 'Ara';
+        },
+        formatNoMatches: function () {
+            return 'Eşleşen kayıt bulunamadı.';
+        },
+        formatRefresh: function () {
+            return 'Yenile';
+        },
+        formatToggle: function () {
+            return 'Değiştir';
+        },
+        formatColumns: function () {
+            return 'Sütunlar';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['tr-TR']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Ukrainian translation
+ * Author: Vitaliy Timchenko <vitaliy.timchenko@gmail.com>
+ */
+ (function ($) {
+    'use strict';
+    
+    $.fn.bootstrapTable.locales['uk-UA'] = {
+        formatLoadingMessage: function () {
+            return 'Завантаження, будь ласка, зачекайте...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' записів на сторінку';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Показано з ' + pageFrom + ' по ' + pageTo + '. Всього: ' + totalRows;
+        },
+        formatSearch: function () {
+            return 'Пошук';
+        },
+        formatNoMatches: function () {
+            return 'Не знайдено жодного запису';
+        },
+        formatRefresh: function () {
+            return 'Оновити';
+        },
+        formatToggle: function () {
+            return 'Змінити';
+        },
+        formatColumns: function () {
+            return 'Стовпці';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['uk-UA']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Malay translation
+ * Author: Azamshul Azizy <azamshul@gmail.com>
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['ms-MY'] = {
+        formatLoadingMessage: function () {
+            return 'Permintaan sedang dimuatkan. Sila tunggu sebentar...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' rekod setiap muka surat';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Sedang memaparkan rekod ' + pageFrom + ' hingga ' + pageTo + ' daripada jumlah ' + totalRows + ' rekod';
+        },
+        formatSearch: function () {
+            return 'Cari';
+        },
+        formatNoMatches: function () {
+            return 'Tiada rekod yang menyamai permintaan';
+        },
+        formatPaginationSwitch: function () {
+            return 'Tunjuk/sembunyi muka surat';
+        },
+        formatRefresh: function () {
+            return 'Muatsemula';
+        },
+        formatToggle: function () {
+            return 'Tukar';
+        },
+        formatColumns: function () {
+            return 'Lajur';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['ms-MY']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table French (France) translation
+ * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
+ * Modification: Tidalf (https://github.com/TidalfFR)
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['fr-FR'] = {
+        formatLoadingMessage: function () {
+            return 'Chargement en cours, patientez, s´il vous plaît ...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' lignes par page';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Affichage des lignes ' + pageFrom + ' à ' + pageTo + ' sur ' + totalRows + ' lignes au total';
+        },
+        formatSearch: function () {
+            return 'Rechercher';
+        },
+        formatNoMatches: function () {
+            return 'Aucun résultat trouvé';
+        },
+        formatRefresh: function () {
+            return 'Rafraîchir';
+        },
+        formatToggle: function () {
+            return 'Alterner';
+        },
+        formatColumns: function () {
+            return 'Colonnes';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-FR']);
+
+})(jQuery);
+
+/**
  * Bootstrap Table Vietnamese translation
  * Author: Duc N. PHAM <pngduc@gmail.com>
  */
@@ -13769,77 +14464,135 @@ if (typeof jQuery === 'undefined') {
 
 })(jQuery);
 /**
- * Bootstrap Table Chinese translation
- * Author: Zhixin Wen<wenzhixin2010@gmail.com>
+ * Bootstrap Table Thai translation
+ * Author: Monchai S.<monchais@gmail.com>
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['zh-CN'] = {
+    $.fn.bootstrapTable.locales['th-TH'] = {
         formatLoadingMessage: function () {
-            return '正在努力地加载数据中，请稍候……';
+            return 'กำลังโหลดข้อมูล, กรุณารอสักครู่...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return '每页显示 ' + pageNumber + ' 条记录';
+            return pageNumber + ' รายการต่อหน้า';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return '显示第 ' + pageFrom + ' 到第 ' + pageTo + ' 条记录，总共 ' + totalRows + ' 条记录';
+            return 'รายการที่ ' + pageFrom + ' ถึง ' + pageTo + ' จากทั้งหมด ' + totalRows + ' รายการ';
         },
         formatSearch: function () {
-            return '搜索';
+            return 'ค้นหา';
         },
         formatNoMatches: function () {
-            return '没有找到匹配的记录';
+            return 'ไม่พบรายการที่ค้นหา !';
         },
         formatRefresh: function () {
-            return '刷新';
+            return 'รีเฟรส';
         },
         formatToggle: function () {
-            return '切换';
+            return 'สลับมุมมอง';
         },
         formatColumns: function () {
-            return '列';
+            return 'คอลัมน์';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['zh-CN']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['th-TH']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table Czech translation
+ * Author: Lukas Kral (monarcha@seznam.cz)
+ */
+(function ($) {
+    'use strict';
+
+    $.fn.bootstrapTable.locales['cs-CZ'] = {
+        formatLoadingMessage: function () {
+            return 'Čekejte, prosím...';
+        },
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' položek na stránku';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return 'Zobrazena ' + pageFrom + '. - ' + pageTo + '. položka z celkových ' + totalRows;
+        },
+        formatSearch: function () {
+            return 'Vyhledávání';
+        },
+        formatNoMatches: function () {
+            return 'Nenalezena žádná vyhovující položka';
+        }
+    };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['cs-CZ']);
 
 })(jQuery);
 /**
- * Bootstrap Table Chinese translation
- * Author: Zhixin Wen<wenzhixin2010@gmail.com>
+* Bootstrap Table German translation
+* Author: Paul Mohr - Sopamo<p.mohr@sopamo.de>
+*/
+(function ($) {
+  'use strict';
+
+  $.fn.bootstrapTable.locales['de-DE'] = {
+    formatLoadingMessage: function () {
+      return 'Lade, bitte warten...';
+    },
+    formatRecordsPerPage: function (pageNumber) {
+      return pageNumber + ' Einträge pro Seite';
+    },
+    formatShowingRows: function (pageFrom, pageTo, totalRows) {
+      return 'Zeige ' + pageFrom + ' bis ' + pageTo + ' von ' + totalRows + ' Zeile' + ((totalRows > 1) ? "n" : "");
+    },
+    formatSearch: function () {
+      return 'Suchen';
+    },
+    formatNoMatches: function () {
+      return 'Keine passenden Ergebnisse gefunden';
+    },
+    formatRefresh: function () {
+      return 'Neu laden';
+    },
+    formatToggle: function () {
+      return 'Umschalten';
+    },
+    formatColumns: function () {
+      return 'Spalten';
+    }
+  };
+
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['de-DE']);
+
+})(jQuery);
+
+/**
+ * Bootstrap Table French (Belgium) translation
+ * Author: Julien Bisconti (julien.bisconti@gmail.com)
  */
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['zh-TW'] = {
+    $.fn.bootstrapTable.locales['fr-BE'] = {
         formatLoadingMessage: function () {
-            return '正在努力地載入資料，請稍候……';
+            return 'Chargement en cours...';
         },
         formatRecordsPerPage: function (pageNumber) {
-            return '每頁顯示 ' + pageNumber + ' 項記錄';
+            return pageNumber + ' entrées par page';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return '顯示第 ' + pageFrom + ' 到第 ' + pageTo + ' 項記錄，總共 ' + totalRows + ' 項記錄';
+            return 'Affiche de' + pageFrom + ' à ' + pageTo + ' sur ' + totalRows + ' lignes';
         },
         formatSearch: function () {
-            return '搜尋';
+            return 'Recherche';
         },
         formatNoMatches: function () {
-            return '沒有找符合的結果';
-        },
-        formatRefresh: function () {
-            return '刷新';
-        },
-        formatToggle: function () {
-            return '切換';
-        },
-        formatColumns: function () {
-            return '列';
+            return 'Pas de fichiers trouvés';
         }
     };
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['zh-TW']);
+    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-BE']);
 
 })(jQuery);
 

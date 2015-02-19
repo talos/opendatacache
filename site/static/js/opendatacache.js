@@ -35,13 +35,17 @@ var indexTable = function (lastHash) {
         detail: cells[3]
       });
     }
-    $('#content').empty().append($('#indexTemplate')
-                                 .clone()
-                                 .removeClass('template')
-                                 .attr('id', 'table'));
-    $('#table').bootstrapTable({
-      data: data
-    });
+    if ($.isArray($('#table').bootstrapTable('getData'))) {
+      $('#table').bootstrapTable('load', data);
+    } else {
+      $('#content').empty().append($('#indexTemplate')
+                                   .clone()
+                                   .removeClass('template')
+                                   .attr('id', 'table'));
+      $('#table').bootstrapTable({
+        data: data
+      });
+    }
   }).always(function (resp) {
     var hashed;
     if (typeof resp === 'string') {
@@ -49,6 +53,13 @@ var indexTable = function (lastHash) {
     }
     setTimeout(function () { indexTable(hashed); }, 3000);
   });
+};
+
+/** Sorting function for the size column of data tables. */
+window.sortBySize = function (alpha, beta) {
+  alpha = Number(alpha.substr(0, alpha.length - 2));
+  beta = Number(beta.substr(0, beta.length - 2));
+  return alpha - beta;
 };
 
 var testIfCached = function (evt) {
@@ -80,7 +91,7 @@ var portalTable = function (portal, lastHash) {
       if (!cells[0]) {
         continue;
       }
-      var href = $('<a />').attr('href', cells[7])[0].pathname,
+      var href = $('<a />').attr('href', cells[cells.length - 1])[0].pathname,
           id = cells[0],
           $link = $('<a />').attr('href', href).text(id),
           $test = $('<a>Test</a>').addClass('test-if-cached')
@@ -96,16 +107,24 @@ var portalTable = function (portal, lastHash) {
         test: $('<span />').append($test).html()
       });
     }
-    $('#content').empty().append($('#portalTemplate')
-                                 .clone()
-                                 .removeClass('template')
-                                 .attr('id', 'table'));
+    if ($.isArray($('#table').bootstrapTable('getData'))) {
+      $('#table').bootstrapTable('load', data);
+    } else {
+      $('#content').empty().append($('#portalTemplate')
+                                   .clone()
+                                   .removeClass('template')
+                                   .attr('id', 'table'));
+      $('#table').bootstrapTable({
+        data: data
+      }).on('pre-body.bs.table', function () {
+        $('.test-if-cached').off('click', testIfCached);
+      }).on('post-body.bs.table', function () {
+        $('.test-if-cached').on('click', testIfCached);
+      });
 
-    $('.test-if-cached').off('click', testIfCached);
-    $('#table').bootstrapTable({
-      data: data
-    });
-    $('.test-if-cached').on('click', testIfCached);
+      // Weird, this should be covered by post-body hook above.
+      $('.test-if-cached').on('click', testIfCached);
+    }
   }).always(function (resp) {
     var hashed;
     if (typeof resp === 'string') {
