@@ -11518,14 +11518,14 @@ if (typeof jQuery === 'undefined') {
  */
 
 !function ($) {
-
     'use strict';
 
+    var cellHeight = 37; // update css if changed
     // TOOLS DEFINITION
     // ======================
 
     // it only does '%s', and return '' when arguments are undefined
-    var sprintf = function(str) {
+    var sprintf = function (str) {
         var args = arguments,
             flag = true,
             i = 1;
@@ -11567,24 +11567,28 @@ if (typeof jQuery === 'undefined') {
         return index;
     };
 
+    var cachedWidth = null;
     var getScrollBarWidth = function () {
-        var inner = $('<p/>').addClass('fixed-table-scroll-inner'),
-            outer = $('<div/>').addClass('fixed-table-scroll-outer'),
-            w1, w2;
+        if (cachedWidth === null) {
+            var inner = $('<p/>').addClass('fixed-table-scroll-inner'),
+                outer = $('<div/>').addClass('fixed-table-scroll-outer'),
+                w1, w2;
 
-        outer.append(inner);
-        $('body').append(outer);
+            outer.append(inner);
+            $('body').append(outer);
 
-        w1 = inner[0].offsetWidth;
-        outer.css('overflow', 'scroll');
-        w2 = inner[0].offsetWidth;
+            w1 = inner[0].offsetWidth;
+            outer.css('overflow', 'scroll');
+            w2 = inner[0].offsetWidth;
 
-        if (w1 === w2) {
-            w2 = outer[0].clientWidth;
+            if (w1 === w2) {
+                w2 = outer[0].clientWidth;
+            }
+
+            outer.remove();
+            cachedWidth = w1 - w2;
         }
-
-        outer.remove();
-        return w1 - w2;
+        return cachedWidth;
     };
 
     var calculateObjectValue = function (self, name, args, defaultValue) {
@@ -11630,6 +11634,7 @@ if (typeof jQuery === 'undefined') {
         this.$el = $(el);
         this.$el_ = this.$el.clone();
         this.timeoutId_ = 0;
+        this.timeoutFooter_ = 0;
 
         this.init();
     };
@@ -11649,9 +11654,13 @@ if (typeof jQuery === 'undefined') {
         contentType: 'application/json',
         dataType: 'json',
         ajaxOptions: {},
-        queryParams: function (params) {return params;},
+        queryParams: function (params) {
+            return params;
+        },
         queryParamsType: 'limit', // undefined
-        responseHandler: function (res) {return res;},
+        responseHandler: function (res) {
+            return res;
+        },
         pagination: false,
         sidePagination: 'client', // client or server
         totalRows: 0, // server side need to set
@@ -11662,6 +11671,7 @@ if (typeof jQuery === 'undefined') {
         searchAlign: 'right',
         selectItemName: 'btSelectItem',
         showHeader: true,
+        showFooter: false,
         showColumns: false,
         showPaginationSwitch: false,
         showRefresh: false,
@@ -11690,25 +11700,62 @@ if (typeof jQuery === 'undefined') {
             columns: 'glyphicon-th icon-th'
         },
 
-        rowStyle: function (row, index) {return {};},
+        rowStyle: function (row, index) {
+            return {};
+        },
 
-        rowAttributes: function (row, index) {return {};},
+        rowAttributes: function (row, index) {
+            return {};
+        },
 
-        onAll: function (name, args) {return false;},
-        onClickRow: function (item, $element) {return false;},
-        onDblClickRow: function (item, $element) {return false;},
-        onSort: function (name, order) {return false;},
-        onCheck: function (row) {return false;},
-        onUncheck: function (row) {return false;},
-        onCheckAll: function () {return false;},
-        onUncheckAll: function () {return false;},
-        onLoadSuccess: function (data) {return false;},
-        onLoadError: function (status) {return false;},
-        onColumnSwitch: function (field, checked) {return false;},
-        onPageChange: function (number, size) {return false;},
-        onSearch: function (text) {return false;},
-        onPreBody: function (data) {return false;},
-        onPostBody: function () {return false;}
+        onAll: function (name, args) {
+            return false;
+        },
+        onClickRow: function (item, $element) {
+            return false;
+        },
+        onDblClickRow: function (item, $element) {
+            return false;
+        },
+        onSort: function (name, order) {
+            return false;
+        },
+        onCheck: function (row) {
+            return false;
+        },
+        onUncheck: function (row) {
+            return false;
+        },
+        onCheckAll: function () {
+            return false;
+        },
+        onUncheckAll: function () {
+            return false;
+        },
+        onLoadSuccess: function (data) {
+            return false;
+        },
+        onLoadError: function (status) {
+            return false;
+        },
+        onColumnSwitch: function (field, checked) {
+            return false;
+        },
+        onPageChange: function (number, size) {
+            return false;
+        },
+        onSearch: function (text) {
+            return false;
+        },
+        onPreBody: function (data) {
+            return false;
+        },
+        onPostBody: function () {
+            return false;
+        },
+        onPostHeader: function () {
+            return false;
+        }
     };
 
     BootstrapTable.LOCALES = [];
@@ -11754,6 +11801,7 @@ if (typeof jQuery === 'undefined') {
         'class': undefined,
         align: undefined, // left, right, center
         halign: undefined, // left, right, center
+        falign: undefined, // left, right, center
         valign: undefined, // top, middle, bottom
         width: undefined,
         sortable: false,
@@ -11762,6 +11810,7 @@ if (typeof jQuery === 'undefined') {
         switchable: true,
         clickToSelect: true,
         formatter: undefined,
+        footerFormatter: undefined,
         events: undefined,
         sorter: undefined,
         cellStyle: undefined,
@@ -11783,7 +11832,8 @@ if (typeof jQuery === 'undefined') {
         'page-change.bs.table': 'onPageChange',
         'search.bs.table': 'onSearch',
         'pre-body.bs.table': 'onPreBody',
-        'post-body.bs.table': 'onPostBody'
+        'post-body.bs.table': 'onPostBody',
+        'post-header.bs.table': 'onPostHeader'
     };
 
     BootstrapTable.prototype.init = function () {
@@ -11791,6 +11841,7 @@ if (typeof jQuery === 'undefined') {
         this.initTable();
         this.initHeader();
         this.initData();
+        this.initFooter();
         this.initToolbar();
         this.initPagination();
         this.initBody();
@@ -11800,16 +11851,17 @@ if (typeof jQuery === 'undefined') {
     BootstrapTable.prototype.initContainer = function () {
         this.$container = $([
             '<div class="bootstrap-table">',
-                '<div class="fixed-table-toolbar"></div>',
-                '<div class="fixed-table-container">',
-                    '<div class="fixed-table-header"><table></table></div>',
-                    '<div class="fixed-table-body">',
-                        '<div class="fixed-table-loading">',
-                            this.options.formatLoadingMessage(),
-                        '</div>',
-                    '</div>',
-                    '<div class="fixed-table-pagination"></div>',
-                '</div>',
+            '<div class="fixed-table-toolbar"></div>',
+            '<div class="fixed-table-container">',
+            '<div class="fixed-table-header"><table></table></div>',
+            '<div class="fixed-table-body">',
+            '<div class="fixed-table-loading">',
+            this.options.formatLoadingMessage(),
+            '</div>',
+            '</div>',
+            '<div class="fixed-table-footer"><table><tr></tr></table></div>',
+            '<div class="fixed-table-pagination"></div>',
+            '</div>',
             '</div>'].join(''));
 
         this.$container.insertAfter(this.$el);
@@ -11868,6 +11920,7 @@ if (typeof jQuery === 'undefined') {
                 // save td's id and class
                 row['_' + field + '_id'] = $(this).attr('id');
                 row['_' + field + '_class'] = $(this).attr('class');
+                row['_' + field + '_data'] = $(this).data();
             });
             data.push(row);
         });
@@ -11968,7 +12021,7 @@ if (typeof jQuery === 'undefined') {
         } else {
             this.$header.show();
             this.$container.find('.fixed-table-header').show();
-            this.$loading.css('top', '37px');
+            this.$loading.css('top', cellHeight + 'px');
         }
 
         this.$selectAll = this.$header.find('[name="btSelectAll"]');
@@ -11979,6 +12032,78 @@ if (typeof jQuery === 'undefined') {
             });
     };
 
+    BootstrapTable.prototype.initFooter = function () {
+        this.$footer =  this.$container.find('.fixed-table-footer');
+        if (!this.options.showFooter || this.options.cardView) {
+            this.$footer.hide();
+        } else {
+            this.$footer.show();
+        }
+    };
+
+    BootstrapTable.prototype.resetFooter = function () {
+        var bt   = this,
+            data = bt.getData(),
+            html = [];
+
+        if (!this.options.showFooter || this.options.cardView) { //do nothing
+            return;
+        }
+
+        $.each(bt.options.columns, function (i, column) {
+            var falign = '', // footer align style
+                style  = '',
+                class_ = sprintf(' class="%s"', column['class']);
+
+            if (!column.visible) {
+                return;
+            }
+
+            falign = sprintf('text-align: %s; ', column.falign ? column.falign : column.align);
+            style = sprintf('vertical-align: %s; ', column.valign);
+
+            html.push('<td', class_, sprintf(' style="%s"', falign + style), '>');
+
+
+            html.push(calculateObjectValue(column, column.footerFormatter, [data], '&nbsp;') || '&nbsp;');
+            html.push('</td>');
+        });
+
+        bt.$footer.find('tr').html(html.join(''));
+        clearTimeout(bt.timeoutFooter_);
+        bt.timeoutFooter_ = setTimeout($.proxy(bt.fitFooter, bt), bt.$el.is(':hidden') ? 100: 0);
+        return;
+    };
+
+    BootstrapTable.prototype.fitFooter = function () {
+        var bt = this,
+            $fixedBody,
+            $footerTd,
+            elWidth,
+            scrollWidth;
+        clearTimeout(bt.timeoutFooter_);
+        if (bt.$el.is(':hidden')) {
+            bt.timeoutFooter_ = setTimeout($.proxy(bt.fitFooter, bt), 100);
+            return;
+        }
+
+        $fixedBody  = bt.$container.find('.fixed-table-body');
+        elWidth     = bt.$el.css('width');
+        scrollWidth = elWidth > $fixedBody.width() ? getScrollBarWidth() : 0;
+
+        bt.$footer.css({
+            'margin-right': scrollWidth
+        }).find('table').css('width', elWidth)
+            .attr('class', bt.$el.attr('class'));
+
+        $footerTd = bt.$footer.find('td');
+
+        $fixedBody.find('tbody tr:first-child:not(.no-records-found) > td').each(function(i) {
+            $footerTd.eq(i).outerWidth($(this).outerWidth());
+        });
+    };
+
+
     /**
      * @param data
      * @param type: append / prepend
@@ -11987,7 +12112,7 @@ if (typeof jQuery === 'undefined') {
         if (type === 'append') {
             this.data = this.data.concat(data);
         } else if (type === 'prepend') {
-            this.data = data.concat(this.data);
+            this.data = [].concat(data).concat(this.data);
         } else {
             this.data = data || this.options.data;
         }
@@ -12015,12 +12140,8 @@ if (typeof jQuery === 'undefined') {
                     return order * value;
                 }
 
-                // Convert numerical values form string to float.
-                if ($.isNumeric(aa)) {
-                    aa = parseFloat(aa);
-                }
-                if ($.isNumeric(bb)) {
-                    bb = parseFloat(bb);
+                if (value !== undefined) {
+                    return order * value;
                 }
 
                 // Fix #161: undefined or null string sort bug.
@@ -12030,21 +12151,31 @@ if (typeof jQuery === 'undefined') {
                 if (bb === undefined || bb === null) {
                     bb = '';
                 }
-                
+
+                // IF both values are numeric, do a numeric comparison
                 if ($.isNumeric(aa) && $.isNumeric(bb)) {
+                    // Convert numerical values form string to float.
+                    aa = parseFloat(aa);
+                    bb = parseFloat(bb);
                     if (aa < bb) {
                         return order * -1;
                     }
                     return order;
                 }
-                
+
                 if (aa === bb) {
                     return 0;
                 }
+
+                // If value is not a string, convert to string
+                if (typeof aa !== 'string') {
+                    aa = aa.toString();
+                }
+
                 if (aa.localeCompare(bb) === -1) {
                     return order * -1;
                 }
-                    
+
                 return order;
             });
         }
@@ -12107,14 +12238,14 @@ if (typeof jQuery === 'undefined') {
         }
 
         if (this.options.showRefresh) {
-            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + '" type="button" name="refresh" title="%s">',
+            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize === undefined ? '' : ' btn-' + this.options.iconSize) + '" type="button" name="refresh" title="%s">',
                 this.options.formatRefresh()),
                 sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.refresh),
                 '</button>');
         }
 
         if (this.options.showToggle) {
-            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + '" type="button" name="toggle" title="%s">',
+            html.push(sprintf('<button class="btn btn-default' + (this.options.iconSize === undefined ? '' : ' btn-' + this.options.iconSize) + '" type="button" name="toggle" title="%s">',
                 this.options.formatToggle()),
                 sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.toggle),
                 '</button>');
@@ -12123,7 +12254,7 @@ if (typeof jQuery === 'undefined') {
         if (this.options.showColumns) {
             html.push(sprintf('<div class="keep-open btn-group" title="%s">',
                 this.options.formatColumns()),
-                '<button type="button" class="btn btn-default' + (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize) + ' dropdown-toggle" data-toggle="dropdown">',
+                '<button type="button" class="btn btn-default' + (this.options.iconSize == undefined ? '' : ' btn-' + this.options.iconSize) + ' dropdown-toggle" data-toggle="dropdown">',
                 sprintf('<i class="%s %s"></i>', this.options.iconsPrefix, this.options.icons.columns),
                 ' <span class="caret"></span>',
                 '</button>',
@@ -12194,8 +12325,8 @@ if (typeof jQuery === 'undefined') {
             html = [];
             html.push(
                 '<div class="pull-' + this.options.searchAlign + ' search">',
-                    sprintf('<input class="form-control' + (this.options.iconSize == undefined ? '' :  ' input-' + this.options.iconSize)  + '" type="text" placeholder="%s">',
-                        this.options.formatSearch()),
+                sprintf('<input class="form-control' + (this.options.iconSize === undefined ? '' : ' input-' + this.options.iconSize) + '" type="text" placeholder="%s">',
+                    this.options.formatSearch()),
                 '</div>');
 
             this.$toolbar.append(html.join(''));
@@ -12213,7 +12344,7 @@ if (typeof jQuery === 'undefined') {
         var text = $.trim($(event.currentTarget).val());
 
         // trim search input
-        if(this.options.trimOnSearch) {
+        if (this.options.trimOnSearch) {
             $(event.currentTarget).val(text);
         }
 
@@ -12233,7 +12364,7 @@ if (typeof jQuery === 'undefined') {
 
         if (this.options.sidePagination !== 'server') {
             var s = this.searchText && this.searchText.toLowerCase();
-            var f = $.isEmptyObject(this.filterColumns) ? null: this.filterColumns;
+            var f = $.isEmptyObject(this.filterColumns) ? null : this.filterColumns;
 
             // Check filter
             this.data = f ? $.grep(this.options.data, function (item, i) {
@@ -12258,7 +12389,7 @@ if (typeof jQuery === 'undefined') {
                     var index = $.inArray(key, that.header.fields);
                     if (index !== -1 && that.header.searchables[index] &&
                         (typeof value === 'string' ||
-                        typeof value === 'number') &&
+                            typeof value === 'number') &&
                         (value + '').toLowerCase().indexOf(s) !== -1) {
                         return true;
                     }
@@ -12308,21 +12439,21 @@ if (typeof jQuery === 'undefined') {
 
         html.push(
             '<div class="pull-left pagination-detail">',
-                '<span class="pagination-info">',
-                    this.options.formatShowingRows(this.pageFrom, this.pageTo, this.options.totalRows),
-                '</span>');
+            '<span class="pagination-info">',
+            this.options.formatShowingRows(this.pageFrom, this.pageTo, this.options.totalRows),
+            '</span>');
 
         html.push('<span class="page-list">');
 
         var pageNumber = [
-            '<span class="btn-group dropup">',
-            '<button type="button" class="btn btn-default '+ (this.options.iconSize == undefined ? '' :  ' btn-' + this.options.iconSize)+ ' dropdown-toggle" data-toggle="dropdown">',
-            '<span class="page-size">',
-            this.options.pageSize,
-            '</span>',
-            ' <span class="caret"></span>',
-            '</button>',
-            '<ul class="dropdown-menu" role="menu">'],
+                '<span class="btn-group dropup">',
+                '<button type="button" class="btn btn-default ' + (this.options.iconSize === undefined ? '' : ' btn-' + this.options.iconSize) + ' dropdown-toggle" data-toggle="dropdown">',
+                '<span class="page-size">',
+                this.options.pageSize,
+                '</span>',
+                ' <span class="caret"></span>',
+                '</button>',
+                '<ul class="dropdown-menu" role="menu">'],
             pageList = this.options.pageList;
 
         if (typeof this.options.pageList === 'string') {
@@ -12335,7 +12466,7 @@ if (typeof jQuery === 'undefined') {
         }
 
         $.each(pageList, function (i, page) {
-            if (!that.options.smartDisplay || i === 0 || pageList[i-1] <= that.options.totalRows) {
+            if (!that.options.smartDisplay || i === 0 || pageList[i - 1] <= that.options.totalRows) {
                 var active = page === that.options.pageSize ? ' class="active"' : '';
                 pageNumber.push(sprintf('<li%s><a href="javascript:void(0)">%s</a></li>', active, page));
             }
@@ -12347,9 +12478,9 @@ if (typeof jQuery === 'undefined') {
 
         html.push('</div>',
             '<div class="pull-right pagination">',
-                '<ul class="pagination' + (this.options.iconSize == undefined ? '' :  ' pagination-' + this.options.iconSize)  + '">',
-                    '<li class="page-first"><a href="javascript:void(0)">&lt;&lt;</a></li>',
-                    '<li class="page-pre"><a href="javascript:void(0)">&lt;</a></li>');
+            '<ul class="pagination' + (this.options.iconSize === undefined ? '' : ' pagination-' + this.options.iconSize) + '">',
+            '<li class="page-first"><a href="javascript:void(0)">&lt;&lt;</a></li>',
+            '<li class="page-pre"><a href="javascript:void(0)">&lt;</a></li>');
 
         if (this.totalPages < 5) {
             from = 1;
@@ -12367,15 +12498,15 @@ if (typeof jQuery === 'undefined') {
             }
         }
         for (i = from; i <= to; i++) {
-            html.push('<li class="page-number' + (i === this.options.pageNumber ? ' active disabled' : '') + '">',
-                '<a href="javascript:void(0)">', i ,'</a>',
+            html.push('<li class="page-number' + (i === this.options.pageNumber ? ' active' : '') + '">',
+                '<a href="javascript:void(0)">', i, '</a>',
                 '</li>');
         }
 
         html.push(
-                    '<li class="page-next"><a href="javascript:void(0)">&gt;</a></li>',
-                    '<li class="page-last"><a href="javascript:void(0)">&gt;&gt;</a></li>',
-                '</ul>',
+            '<li class="page-next"><a href="javascript:void(0)">&gt;</a></li>',
+            '<li class="page-last"><a href="javascript:void(0)">&gt;&gt;</a></li>',
+            '</ul>',
             '</div>');
 
         this.$pagination.html(html.join(''));
@@ -12491,7 +12622,8 @@ if (typeof jQuery === 'undefined') {
         }
 
         for (var i = this.pageFrom - 1; i < this.pageTo; i++) {
-            var item = data[i],
+            var key,
+                item = data[i],
                 style = {},
                 csses = [],
                 attributes = {},
@@ -12500,7 +12632,7 @@ if (typeof jQuery === 'undefined') {
             style = calculateObjectValue(this.options, this.options.rowStyle, [item, i], style);
 
             if (style && style.css) {
-                for (var key in style.css) {
+                for (key in style.css) {
                     csses.push(key + ': ' + style.css[key]);
                 }
             }
@@ -12509,7 +12641,7 @@ if (typeof jQuery === 'undefined') {
                 this.options.rowAttributes, [item, i], attributes);
 
             if (attributes) {
-                for (var key in attributes) {
+                for (key in attributes) {
                     htmlAttributes.push(sprintf('%s="%s"', key, escapeHTML(attributes[key])));
                 }
             }
@@ -12533,6 +12665,7 @@ if (typeof jQuery === 'undefined') {
                     cellStyle = {},
                     id_ = '',
                     class_ = that.header.classes[j],
+                    data_ = '',
                     column = that.options.columns[getFieldIndex(that.options.columns, field)];
 
                 style = sprintf('style="%s"', csses.concat(that.header.styles[j]).join('; '));
@@ -12547,7 +12680,6 @@ if (typeof jQuery === 'undefined') {
                 if (item['_' + field + '_class']) {
                     class_ = sprintf(' class="%s"', item['_' + field + '_class']);
                 }
-
                 cellStyle = calculateObjectValue(that.header,
                     that.header.cellStyles[j], [value, item, i], cellStyle);
                 if (cellStyle.classes) {
@@ -12561,16 +12693,22 @@ if (typeof jQuery === 'undefined') {
                     style = sprintf('style="%s"', csses_.concat(that.header.styles[j]).join('; '));
                 }
 
-                if (column.checkbox || column.radio) {
-                    //if card view mode bypass
-                    if (that.options.cardView) {
-                        return true;
-                    }
+                if (item['_' + field + '_data'] && !$.isEmptyObject(item['_' + field + '_data'])) {
+                    $.each(item['_' + field + '_data'], function (k, v) {
+                        // ignore data-index
+                        if (k === 'index') {
+                            return;
+                        }
+                        data_ += sprintf(' data-%s="%s"', k, v);
+                    });
+                }
 
+                if (column.checkbox || column.radio) {
                     type = column.checkbox ? 'checkbox' : type;
                     type = column.radio ? 'radio' : type;
 
-                    text = ['<td class="bs-checkbox">',
+                    text = [that.options.cardView ?
+                        '<div class="card-view">' : '<td class="bs-checkbox">',
                         '<input' +
                             sprintf(' data-index="%s"', i) +
                             sprintf(' name="%s"', that.options.selectItemName) +
@@ -12581,7 +12719,7 @@ if (typeof jQuery === 'undefined') {
                             sprintf(' disabled="%s"', !column.checkboxEnabled ||
                                 (value && value.disabled) ? 'disabled' : undefined) +
                             ' />',
-                        '</td>'].join('');
+                        that.options.cardView ? '</div>' : '</td>'].join('');
                 } else {
                     value = typeof value === 'undefined' || value === null ?
                         that.options.undefinedText : value;
@@ -12592,7 +12730,7 @@ if (typeof jQuery === 'undefined') {
                                 getPropertyFromOther(that.options.columns, 'field', 'title', field)) : '',
                             sprintf('<span class="value">%s</span>', value),
                             '</div>'].join('') :
-                        [sprintf('<td%s %s %s>', id_, class_, style),
+                        [sprintf('<td%s %s %s %s>', id_, class_, style, data_),
                             value,
                             '</td>'].join('');
 
@@ -12738,7 +12876,7 @@ if (typeof jQuery === 'undefined') {
             type: this.options.method,
             url: this.options.url,
             data: this.options.contentType === 'application/json' && this.options.method === 'post' ?
-                JSON.stringify(data): data,
+                JSON.stringify(data) : data,
             cache: this.options.cache,
             contentType: this.options.contentType,
             dataType: this.options.dataType,
@@ -12761,7 +12899,7 @@ if (typeof jQuery === 'undefined') {
 
     BootstrapTable.prototype.getCaretHtml = function () {
         return ['<span class="order' + (this.options.sortOrder === 'desc' ? '' : ' dropup') + '">',
-                '<span class="caret" style="margin: 10px 5px;"></span>',
+            '<span class="caret" style="margin: 10px 5px;"></span>',
             '</span>'].join('');
     };
 
@@ -12806,47 +12944,50 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.resetHeader = function () {
-        var that = this,
-            $fixedHeader = this.$container.find('.fixed-table-header'),
-            $fixedBody = this.$container.find('.fixed-table-body'),
-            scrollWidth = this.$el.width() > $fixedBody.width() ? getScrollBarWidth() : 0;
-
+        this.$el.css('margin-top', -this.$header.height());
         // fix #61: the hidden table reset header bug.
-        if (this.$el.is(':hidden')) {
-            clearTimeout(this.timeoutId_); // doesn't matter if it's 0
-            this.timeoutId_ = setTimeout($.proxy(this.resetHeader, this), 100); // 100ms
+        // fix bug: get $el.css('width') error sometime (height = 500)
+        clearTimeout(this.timeoutId_);
+        this.timeoutId_ = setTimeout($.proxy(this.fitHeader, this), this.$el.is(':hidden') ? 100 : 0);
+        return;
+    };
+
+    BootstrapTable.prototype.fitHeader = function () {
+        var bt = this,
+            $fixedHeader,
+            $fixedBody,
+            scrollWidth;
+
+        if (bt.$el.is(':hidden')) {
+            bt.timeoutFooter_ = setTimeout($.proxy(bt.fitHeader, bt), 100);
             return;
         }
+        $fixedHeader = bt.$container.find('.fixed-table-header'),
+        $fixedBody = bt.$container.find('.fixed-table-body'),
+        scrollWidth = bt.$el.width() > $fixedBody.width() ? getScrollBarWidth() : 0;
 
-        this.$header_ = this.$header.clone(true, true);
-        this.$selectAll_ = this.$header_.find('[name="btSelectAll"]');
+        bt.$header_ = bt.$header.clone(true, true);
+        bt.$selectAll_ = bt.$header_.find('[name="btSelectAll"]');
+        $fixedHeader.css({
+            'margin-right': scrollWidth
+        }).find('table').css('width', bt.$el.css('width'))
+            .html('').attr('class', bt.$el.attr('class'))
+            .append(bt.$header_);
 
-        // fix bug: get $el.css('width') error sometime (height = 500)
-        setTimeout(function () {
-            $fixedHeader.css({
-                'height': '37px',
-                'border-bottom': '1px solid #dddddd',
-                'margin-right': scrollWidth
-            }).find('table').css('width', that.$el.css('width'))
-                .html('').attr('class', that.$el.attr('class'))
-                .append(that.$header_);
-
-            // fix bug: $.data() is not working as expected after $.append()
-            that.$header.find('th').each(function (i) {
-                that.$header_.find('th').eq(i).data($(this).data());
-            });
-
-            that.$body.find('tr:first-child:not(.no-records-found) > *').each(function(i) {
-                that.$header_.find('div.fht-cell').eq(i).width($(this).innerWidth());
-            });
-
-            that.$el.css('margin-top', -that.$header.height());
-
-            // horizontal scroll event
-            $fixedBody.off('scroll').on('scroll', function () {
-                $fixedHeader.scrollLeft($(this).scrollLeft());
-            });
+        // fix bug: $.data() is not working as expected after $.append()
+        bt.$header.find('th').each(function (i) {
+            bt.$header_.find('th').eq(i).data($(this).data());
         });
+
+        bt.$body.find('tr:first-child:not(.no-records-found) > *').each(function (i) {
+            bt.$header_.find('div.fht-cell').eq(i).width($(this).innerWidth());
+        });
+        // horizontal scroll event
+        // TODO: it's probably better improving the layout than binding to scroll event
+        $fixedBody.off('scroll').on('scroll', function () {
+            $fixedHeader.scrollLeft($(this).scrollLeft());
+        });
+        bt.trigger('post-header');
     };
 
     BootstrapTable.prototype.toggleColumn = function (index, checked, needUpdate) {
@@ -12872,12 +13013,22 @@ if (typeof jQuery === 'undefined') {
         }
     };
 
+    BootstrapTable.prototype.toggleRow = function (index, visible) {
+        if (index === -1) {
+           return;
+        }
+
+        this.$selectItem.filter(sprintf('[data-index="%s"]', index))
+            .parents('tr')[visible ? 'show' : 'hide']();
+     };
+
     // PUBLIC FUNCTION DEFINITION
     // =======================
 
     BootstrapTable.prototype.resetView = function (params) {
         var that = this,
-            header = this.header;
+            padding = 0,
+            $tableContainer = that.$container.find('.fixed-table-container');
 
         if (params && params.height) {
             this.options.height = params.height;
@@ -12891,23 +13042,31 @@ if (typeof jQuery === 'undefined') {
                 paginationHeight = +this.$pagination.children().outerHeight(true),
                 height = this.options.height - toolbarHeight - paginationHeight;
 
-            this.$container.find('.fixed-table-container').css('height', height + 'px');
+            $tableContainer.css('height', height + 'px');
         }
 
         if (this.options.cardView) {
             // remove the element css
             that.$el.css('margin-top', '0');
-            that.$container.find('.fixed-table-container').css('padding-bottom', '0');
+            $tableContainer.css('padding-bottom', '0');
             return;
         }
 
         if (this.options.showHeader && this.options.height) {
             this.resetHeader();
+            padding += cellHeight;
+        } else {
+            this.trigger('post-header');
         }
 
-        if (this.options.height && this.options.showHeader) {
-            this.$container.find('.fixed-table-container').css('padding-bottom', '37px');
+        if (this.options.showFooter) {
+            this.resetFooter();
+            if (this.options.height) {
+                padding += cellHeight;
+            }
         }
+
+        $tableContainer.css('padding-bottom', padding + 'px');
     };
 
     BootstrapTable.prototype.getData = function () {
@@ -12915,16 +13074,22 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.load = function (data) {
+        var fixedScroll = false;
+
         // #431: support pagination
         if (this.options.sidePagination === 'server') {
             this.options.totalRows = data.total;
+            fixedScroll = data.fixedScroll;
             data = data.rows;
+        } else if (!$.isArray(data)) { // support fixedScroll
+            fixedScroll = data.fixedScroll;
+            data = data.data;
         }
 
         this.initData(data);
         this.initSearch();
         this.initPagination();
-        this.initBody();
+        this.initBody(fixedScroll);
     };
 
     BootstrapTable.prototype.append = function (data) {
@@ -12953,7 +13118,7 @@ if (typeof jQuery === 'undefined') {
             row = this.options.data[i];
 
             if (!row.hasOwnProperty(params.field)) {
-                return;
+                continue;
             }
             if ($.inArray(row[params.field], params.values) !== -1) {
                 this.options.data.splice(i, 1);
@@ -12983,6 +13148,14 @@ if (typeof jQuery === 'undefined') {
         }
         $.extend(this.data[params.index], params.row);
         this.initBody(true);
+    };
+
+    BootstrapTable.prototype.showRow = function (index) {
+        this.toggleRow(index, true);
+    };
+
+    BootstrapTable.prototype.hideRow = function (index) {
+        this.toggleRow(index, false);
     };
 
     BootstrapTable.prototype.mergeCells = function (options) {
@@ -13028,10 +13201,17 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.checkAll_ = function (checked) {
+        var rows;
+        if (!checked) {
+            rows = this.getSelections();
+        }
         this.$selectItem.filter(':enabled').prop('checked', checked);
         this.updateRows(checked);
         this.updateSelected();
-        this.trigger(checked ? 'check-all' : 'uncheck-all');
+        if (checked) {
+            rows = this.getSelections();
+        }
+        this.trigger(checked ? 'check-all' : 'uncheck-all', rows);
     };
 
     BootstrapTable.prototype.check = function (index) {
@@ -13045,6 +13225,34 @@ if (typeof jQuery === 'undefined') {
     BootstrapTable.prototype.check_ = function (checked, index) {
         this.$selectItem.filter(sprintf('[data-index="%s"]', index)).prop('checked', checked);
         this.data[index][this.header.stateField] = checked;
+        this.updateSelected();
+        this.trigger(checked ? 'check' : 'uncheck', this.data[index]);
+    };
+
+    BootstrapTable.prototype.checkBy = function (obj) {
+        this.checkBy_(true, obj);
+    };
+
+    BootstrapTable.prototype.uncheckBy = function (obj) {
+        this.checkBy_(false, obj);
+    };
+
+    BootstrapTable.prototype.checkBy_ = function (checked, obj) {
+        if (!obj.hasOwnProperty('field') || !obj.hasOwnProperty('values')) {
+            return;
+        }
+
+        var that = this;
+        $.each(this.options.data, function (index, row) {
+            if (!row.hasOwnProperty(obj.field)) {
+                return false;
+            }
+            if ($.inArray(row[obj.field], obj.values) !== -1) {
+                that.$selectItem.filter(sprintf('[data-index="%s"]', index)).prop('checked', checked);
+                row[that.header.stateField] = checked;
+                that.trigger(checked ? 'check' : 'uncheck', row);
+            }
+        });
         this.updateSelected();
     };
 
@@ -13094,7 +13302,7 @@ if (typeof jQuery === 'undefined') {
     };
 
     BootstrapTable.prototype.filterBy = function (columns) {
-        this.filterColumns = $.isEmptyObject(columns) ? {}: columns;
+        this.filterColumns = $.isEmptyObject(columns) ? {} : columns;
         this.options.pageNumber = 1;
         this.initSearch();
         this.updatePagination();
@@ -13145,9 +13353,11 @@ if (typeof jQuery === 'undefined') {
         'getSelections', 'getData',
         'load', 'append', 'prepend', 'remove',
         'insertRow', 'updateRow',
+        'showRow', 'hideRow',
         'mergeCells',
         'checkAll', 'uncheckAll',
         'check', 'uncheck',
+        'checkBy', 'uncheckBy',
         'refresh',
         'resetView',
         'destroy',
@@ -13280,14 +13490,18 @@ if (typeof jQuery === 'undefined') {
  * extensions: https://github.com/vitalets/x-editable
  */
 
-!function($) {
+!function ($) {
 
     'use strict';
 
     $.extend($.fn.bootstrapTable.defaults, {
         editable: true,
-        onEditableInit: function () {return false;},
-        onEditableSave: function (field, row, oldValue, $el) {return false;}
+        onEditableInit: function () {
+            return false;
+        },
+        onEditableSave: function (field, row, oldValue, $el) {
+            return false;
+        }
     });
 
     $.extend($.fn.bootstrapTable.Constructor.EVENTS, {
@@ -13319,7 +13533,8 @@ if (typeof jQuery === 'undefined') {
                 return ['<a href="javascript:void(0)"',
                     ' data-name="' + column.field + '"',
                     ' data-pk="' + row[that.options.idField] + '"',
-                    '>' + result + '</a>'
+                    ' data-value="' + result + '"',
+                    '>' + '</a>'
                 ].join('');
             };
         });
@@ -13484,11 +13699,13 @@ if (typeof jQuery === 'undefined') {
     BootstrapTable.prototype.initData = function () {
 
         _initData.apply(this, Array.prototype.slice.apply(arguments));
-        var that = this;
 
         //If the flat is true
-        if (that.options.flat) {
-            that.options.data = sd.flatHelper(that.options.data);
+        if (this.options.flat) {
+            this.options.data = sd.flatHelper(this.options.data);
+        }
+        if (this.options.sidePagination === 'server') {
+            this.data = this.options.data;
         }
     };
 
@@ -13524,7 +13741,12 @@ if (typeof jQuery === 'undefined') {
         },
 
         flatHelper: function (data) {
-            var flatArray = [];
+            var flatArray = [],
+                arrayHelper = [];
+            if (!$.isArray(data)) {
+                arrayHelper.push(data);
+                data = arrayHelper;
+            }
             $.each(data, function (i, element) {
                 flatArray.push(sd.flat(element));
             });
@@ -13532,6 +13754,7 @@ if (typeof jQuery === 'undefined') {
         }
     };
 })(jQuery);
+
 /**
  * Bootstrap Table Chinese translation
  * Author: Zhixin Wen<wenzhixin2010@gmail.com>
