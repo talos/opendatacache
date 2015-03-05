@@ -52,4 +52,7 @@ ADD start.sh /opendatacache/start.sh
 RUN mkdir /cache
 
 WORKDIR opendatacache
+
+ENV CACHE_SIZE 16G
+
 CMD ["/opendatacache/start.sh"]

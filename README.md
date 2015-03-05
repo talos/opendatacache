@@ -33,8 +33,10 @@ Pull down the docker image:
 
 ```
 docker pull thegovlab/opendatacache
+docker rm -f opendatacache || :
 docker run -v $(pwd)/site:/opendatacache/site \
-    -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
+           -v $(pwd)/util:/opendatacache/util \
+    -e CACHE_SIZE=2G -d -i -p 8080:8081 --name=opendatacache thegovlab/opendatacache
 ```
 ## Warming
 
@@ -42,10 +44,12 @@ If you want the container to warm, you must feed it the name of the server it
 is publicly accessible as as the `WARM_URL`. For example:
 
 ```
-export WARM_URL="http://your.url.here" && \
+docker rm -f opendatacache || :
+export WARM_URL="http://localhost:8080" && \
 docker run -v $(pwd)/site:/opendatacache/site \
+           -v $(pwd)/util:/opendatacache/util \
            -e "WARM_URL=$WARM_URL" \
-    -d -i -p 80:8081 --name=opendatacache thegovlab/opendatacache
+    -e CACHE_SIZE=2G -d -i -p 8080:8081 --name=opendatacache thegovlab/opendatacache
 ```
 
 Make sure to use the actual hostname, as opposed to `localhost`, even if you're
