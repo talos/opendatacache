@@ -55,15 +55,42 @@ var indexTable = function (lastHash) {
   });
 };
 
+window.rowStyle = function (row, idx) {
+  var obj = { classes: '' };
+  if (Math.floor(row.status / 100) === 4) {
+    obj.classes += ' odc-table-nontabular';
+  } else if (Math.floor(row.status / 100) === 5) {
+    obj.classes += ' odc-table-cache-error';
+  }
+  return obj;
+};
+
 window.utcTimeSinceFormatter = function(value) {
   return moment(new Date(value)).fromNow();
 };
 
-window.cacheTestFormatter = function(value) {
-  return $('<a>Test</a>').addClass('test-if-cached')
+window.statusFormatter = function(value, row, idx) {
+  var output,
+      statusCode = Number(row.status),
+      status,
+      timeSince = moment(new Date(row.lastCacheCheck)).fromNow(),
+      tester = $('<span />').append($('<a>Test</a>').addClass('test-if-cached')
   .attr({
-    href: value + '?test=true'
-  }).html();
+    href: row.href + '?test=true'
+  })).html();
+
+  if (statusCode === 200) {
+    status = "Still cached";
+  } else if (statusCode === 201) {
+    status = "Newly cached";
+  } else if (statusCode >= 400 && statusCode < 500) {
+    status = "Can't cache";
+  } else {
+    status = "Error caching";
+  }
+
+  output = status + ' since ' + timeSince + tester;
+  return output;
 };
 
 window.sizeFormatter = function(value) {
@@ -84,51 +111,51 @@ window.timestampFormatter = function(value) {
 };
 
 var testIfCached = function (evt) {
-  var $el = $(evt.target),
-      href = $el.attr('href'),
-      id = $el.attr('name');
+var $el = $(evt.target),
+    href = $el.attr('href');
 
-  evt.preventDefault();
+evt.preventDefault();
 
-  $el.text('Testing...' + id);
-  $.ajax(href).done(function () {
-    $el.text('Cached');
-  }).fail(function () {
-    $el.text('Not cached');
-  }).always(function () {
+$el.text('Testing...');
+$.ajax(href).done(function () {
+  $el.text('Cached');
+}).fail(function () {
+  $el.text('Not cached');
+}).always(function () {
 
-  });
+});
 };
 
 var portalTable = function (portal, lastHash) {
-  var data = [];
-  $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
-    if (hash(resp) === lastHash) {
-      return;
+var data = [];
+$.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
+  if (hash(resp) === lastHash) {
+    return;
+  }
+  var lines = resp.split('\n');
+  for (var i = 0; i < lines.length; i += 1) {
+    var cells = lines[i].split('\t');
+    if (!cells[0]) {
+      continue;
     }
-    var lines = resp.split('\n');
-    for (var i = 0; i < lines.length; i += 1) {
-      var cells = lines[i].split('\t');
-      if (!cells[0]) {
-        continue;
-      }
-      var href = $('<a />').attr('href', cells[9])[0].pathname,
-          id = cells[0],
-          $link = $('<a />').attr('href', href).text(id);
-          //$test = $('<a>Test</a>').addClass('test-if-cached')
+    var href = $('<a />').attr('href', cells[9])[0].pathname,
+        id = cells[0],
+        $link = $('<a />').attr('href', href).text(id);
+        //$test = $('<a>Test</a>').addClass('test-if-cached')
           //                        .attr({
           //                          name: id,
           //                          href: href + '?test=true'
           //                        });
       data.push({
         id: $('<span />').append($link).html(),
+        href: href,
         //date: moment(new Date(cells[1])).from(moment()),
-        date: cells[1],
+        lastCacheCheck: cells[1],
         status: cells[2],
         size: cells[3],
         // size: (cells[3] / 1000000).toFixed(2) + 'MB',
         //test: $('<span />').append($test).html(),
-        cacheTest: href,
+        //cacheTest: href,
         name: cells[10],
         attribution: cells[11],
         averageRating: cells[12],
