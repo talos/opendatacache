@@ -55,11 +55,32 @@ var indexTable = function (lastHash) {
   });
 };
 
-/** Sorting function for the size column of data tables. */
-window.sortBySize = function (alpha, beta) {
-  alpha = Number(alpha.substr(0, alpha.length - 2));
-  beta = Number(beta.substr(0, beta.length - 2));
-  return alpha - beta;
+window.utcTimeSinceFormatter = function(value) {
+  return moment(new Date(value)).fromNow();
+};
+
+window.cacheTestFormatter = function(value) {
+  return $('<a>Test</a>').addClass('test-if-cached')
+  .attr({
+    href: value + '?test=true'
+  }).html();
+};
+
+window.sizeFormatter = function(value) {
+  if (value > Math.pow(1000, 3)) {
+    return (value / Math.pow(1000, 3)).toFixed(2) + 'GB'
+  } else if (value > Math.pow(1000, 2)) {
+    return (value / Math.pow(1000, 2)).toFixed(2) + 'MB'
+  } else if (value > Math.pow(1000, 1)) {
+    return (value / Math.pow(1000, 1)).toFixed(2) + 'KB'
+  } else {
+    return value + 'B'
+  }
+};
+
+window.timestampFormatter = function(value) {
+  var m = moment(new Date(value * 1000))
+  return m.calendar() + ' (' + m.fromNow() + ')';
 };
 
 var testIfCached = function (evt) {
@@ -91,20 +112,43 @@ var portalTable = function (portal, lastHash) {
       if (!cells[0]) {
         continue;
       }
-      var href = $('<a />').attr('href', cells[cells.length - 1])[0].pathname,
+      var href = $('<a />').attr('href', cells[9])[0].pathname,
           id = cells[0],
-          $link = $('<a />').attr('href', href).text(id),
-          $test = $('<a>Test</a>').addClass('test-if-cached')
-                                  .attr({
-                                    name: id,
-                                    href: href + '?test=true'
-                                  });
+          $link = $('<a />').attr('href', href).text(id);
+          //$test = $('<a>Test</a>').addClass('test-if-cached')
+          //                        .attr({
+          //                          name: id,
+          //                          href: href + '?test=true'
+          //                        });
       data.push({
         id: $('<span />').append($link).html(),
-        date: moment(new Date(cells[1])).from(moment()),
+        //date: moment(new Date(cells[1])).from(moment()),
+        date: cells[1],
         status: cells[2],
-        size: (cells[3] / 1000000).toFixed(2) + 'MB',
-        test: $('<span />').append($test).html()
+        size: cells[3],
+        // size: (cells[3] / 1000000).toFixed(2) + 'MB',
+        //test: $('<span />').append($test).html(),
+        cacheTest: href,
+        name: cells[10],
+        attribution: cells[11],
+        averageRating: cells[12],
+        category: cells[13],
+        createdAt: cells[14],
+        description: cells[15],
+        displayTime: cells[16],
+        downloadType: cells[17],
+        downloadCount: cells[18],
+        newBackend: cells[19],
+        numberOfComments: cells[20],
+        oid: cells[21],
+        rowsUpdatedAt: cells[22],
+        rowsUpdatedBy: cells[23],
+        tableId: cells[24],
+        totalTimesRated: cells[25],
+        viewCount: cells[26],
+        viewLastModified: cells[27],
+        viewType: cells[28],
+        tags: cells[29]
       });
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {

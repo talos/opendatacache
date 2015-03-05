@@ -66,7 +66,7 @@ function warm_portal {
       metadata=$(curl -k -s -S --compressed "${metadata_url}" | tee $logs/api/views/$id/meta.json)
       columns="name attribution averageRating category createdAt description displayType downloadType downloadCount newBackend numberOfComments oid rowsUpdatedAt rowsUpdatedBy tableId totalTimesRated viewCount viewLastModified viewType tags"
       for key in $columns; do
-        val=$(echo "$metadata" | grep "\"$key\" :" | head -n 1 | grep -Po ': .*' | sed -r 's/^: "?//' | sed -r 's/"?,$//')
+        val=$(echo "$metadata" | grep "\"$key\" :" | head -n 1 | grep -Po ': .*' | sed -r 's/^: "?//' | sed -r 's/"?,$//' | sed -r 's/(\\r|\\n)//g')
         output="$output\t$val"
       done
       printf "$output\n" | tee -a $logs/api/views/$id/index.log
