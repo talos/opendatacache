@@ -1,0 +1,26 @@
+{
+  "name": "opendatacache",
+  "version": "0.0.1",
+  "description": "Socrata's open data portal doesn't support gzip compression of bulk file downloads.  It also tends to be very slow in serving these large downloads, as if a large, slow, `SELECT * FROM ...` was sitting between you and your download...",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-concat": "^0.4.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talos/opendatacache"
+  },
+  "author": "",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/talos/opendatacache/issues"
+  },
+  "homepage": "https://github.com/talos/opendatacache"
+}
