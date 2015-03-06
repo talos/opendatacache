@@ -15428,7 +15428,7 @@ if (typeof jQuery === 'undefined') {
     }).call(this);
 })(window.jQuery);
 //! moment.js
-//! version : 2.8.4
+//! version : 2.9.0
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
 //! momentjs.com
@@ -15439,9 +15439,9 @@ if (typeof jQuery === 'undefined') {
     ************************************/
 
     var moment,
-        VERSION = '2.8.4',
+        VERSION = '2.9.0',
         // the global-scope this is NOT the global object in Node.js
-        globalScope = typeof global !== 'undefined' ? global : this,
+        globalScope = (typeof global !== 'undefined' && (typeof window === 'undefined' || window === global.window)) ? global : this,
         oldGlobalMoment,
         round = Math.round,
         hasOwnProperty = Object.prototype.hasOwnProperty,
@@ -15518,7 +15518,7 @@ if (typeof jQuery === 'undefined') {
             ['HH', /(T| )\d\d/]
         ],
 
-        // timezone chunker '+10:00' > ['10', '00'] or '-1530' > ['-15', '30']
+        // timezone chunker '+10:00' > ['10', '00'] or '-1530' > ['-', '15', '30']
         parseTimezoneChunker = /([\+\-]|\d\d)/gi,
 
         // getter and setter names
@@ -15678,7 +15678,7 @@ if (typeof jQuery === 'undefined') {
                 return leftZeroFill(this.milliseconds(), 3);
             },
             Z    : function () {
-                var a = -this.zone(),
+                var a = this.utcOffset(),
                     b = '+';
                 if (a < 0) {
                     a = -a;
@@ -15687,7 +15687,7 @@ if (typeof jQuery === 'undefined') {
                 return b + leftZeroFill(toInt(a / 60), 2) + ':' + leftZeroFill(toInt(a) % 60, 2);
             },
             ZZ   : function () {
-                var a = -this.zone(),
+                var a = this.utcOffset(),
                     b = '+';
                 if (a < 0) {
                     a = -a;
@@ -15714,7 +15714,9 @@ if (typeof jQuery === 'undefined') {
 
         deprecations = {},
 
-        lists = ['months', 'monthsShort', 'weekdays', 'weekdaysShort', 'weekdaysMin'];
+        lists = ['months', 'monthsShort', 'weekdays', 'weekdaysShort', 'weekdaysMin'],
+
+        updateInProgress = false;
 
     // Pick the first defined of two or three arguments. dfl comes from
     // default.
@@ -15783,6 +15785,26 @@ if (typeof jQuery === 'undefined') {
         };
     }
 
+    function monthDiff(a, b) {
+        // difference in months
+        var wholeMonthDiff = ((b.year() - a.year()) * 12) + (b.month() - a.month()),
+            // b is in (anchor - 1 month, anchor + 1 month)
+            anchor = a.clone().add(wholeMonthDiff, 'months'),
+            anchor2, adjust;
+
+        if (b - anchor < 0) {
+            anchor2 = a.clone().add(wholeMonthDiff - 1, 'months');
+            // linear across the month
+            adjust = (b - anchor) / (anchor - anchor2);
+        } else {
+            anchor2 = a.clone().add(wholeMonthDiff + 1, 'months');
+            // linear across the month
+            adjust = (b - anchor) / (anchor2 - anchor);
+        }
+
+        return -(wholeMonthDiff + adjust);
+    }
+
     while (ordinalizeTokens.length) {
         i = ordinalizeTokens.pop();
         formatTokenFunctions[i + 'o'] = ordinalizeToken(formatTokenFunctions[i], i);
@@ -15793,6 +15815,31 @@ if (typeof jQuery === 'undefined') {
     }
     formatTokenFunctions.DDDD = padToken(formatTokenFunctions.DDD, 3);
 
+
+    function meridiemFixWrap(locale, hour, meridiem) {
+        var isPm;
+
+        if (meridiem == null) {
+            // nothing to do
+            return hour;
+        }
+        if (locale.meridiemHour != null) {
+            return locale.meridiemHour(hour, meridiem);
+        } else if (locale.isPM != null) {
+            // Fallback
+            isPm = locale.isPM(meridiem);
+            if (isPm && hour < 12) {
+                hour += 12;
+            }
+            if (!isPm && hour === 12) {
+                hour = 0;
+            }
+            return hour;
+        } else {
+            // thie is not supposed to happen
+            return hour;
+        }
+    }
 
     /************************************
         Constructors
@@ -15808,6 +15855,13 @@ if (typeof jQuery === 'undefined') {
         }
         copyConfig(this, config);
         this._d = new Date(+config._d);
+        // Prevent infinite loop in case updateOffset creates new moment
+        // objects.
+        if (updateInProgress === false) {
+            updateInProgress = true;
+            moment.updateOffset(this);
+            updateInProgress = false;
+        }
     }
 
     // Duration Constructor
@@ -16211,7 +16265,8 @@ if (typeof jQuery === 'undefined') {
         return locales[name];
     }
 
-    // Return a moment from input, that is local/utc/zone equivalent to model.
+    // Return a moment from input, that is local/utc/utcOffset equivalent to
+    // model.
     function makeAs(input, model) {
         var res, diff;
         if (model._isUTC) {
@@ -16360,6 +16415,7 @@ if (typeof jQuery === 'undefined') {
             }
         },
 
+
         _calendar : {
             sameDay : '[Today at] LT',
             nextDay : '[Tomorrow at] LT',
@@ -16422,6 +16478,14 @@ if (typeof jQuery === 'undefined') {
         _week : {
             dow : 0, // Sunday is the first day of the week.
             doy : 6  // The week that contains Jan 1st is the first week of the year.
+        },
+
+        firstDayOfWeek : function () {
+            return this._week.dow;
+        },
+
+        firstDayOfYear : function () {
+            return this._week.doy;
         },
 
         _invalidDate: 'Invalid date',
@@ -16590,14 +16654,14 @@ if (typeof jQuery === 'undefined') {
         }
     }
 
-    function timezoneMinutesFromString(string) {
+    function utcOffsetFromString(string) {
         string = string || '';
         var possibleTzMatches = (string.match(parseTokenTimezone) || []),
             tzChunk = possibleTzMatches[possibleTzMatches.length - 1] || [],
             parts = (tzChunk + '').match(parseTimezoneChunker) || ['-', 0, 0],
             minutes = +(parts[1] * 60) + toInt(parts[2]);
 
-        return parts[0] === '+' ? -minutes : minutes;
+        return parts[0] === '+' ? minutes : -minutes;
     }
 
     // function to convert string input to date
@@ -16661,7 +16725,8 @@ if (typeof jQuery === 'undefined') {
         // AM / PM
         case 'a' : // fall through to A
         case 'A' :
-            config._isPm = config._locale.isPM(input);
+            config._meridiem = input;
+            // config._isPm = config._locale.isPM(input);
             break;
         // HOUR
         case 'h' : // fall through to hh
@@ -16701,7 +16766,7 @@ if (typeof jQuery === 'undefined') {
         case 'Z' : // fall through to ZZ
         case 'ZZ' :
             config._useUTC = true;
-            config._tzm = timezoneMinutesFromString(input);
+            config._tzm = utcOffsetFromString(input);
             break;
         // WEEKDAY - human
         case 'dd':
@@ -16839,10 +16904,10 @@ if (typeof jQuery === 'undefined') {
         }
 
         config._d = (config._useUTC ? makeUTCDate : makeDate).apply(null, input);
-        // Apply timezone offset from input. The actual zone can be changed
+        // Apply timezone offset from input. The actual utcOffset can be changed
         // with parseZone.
         if (config._tzm != null) {
-            config._d.setUTCMinutes(config._d.getUTCMinutes() + config._tzm);
+            config._d.setUTCMinutes(config._d.getUTCMinutes() - config._tzm);
         }
 
         if (config._nextDay) {
@@ -16938,14 +17003,9 @@ if (typeof jQuery === 'undefined') {
         if (config._pf.bigHour === true && config._a[HOUR] <= 12) {
             config._pf.bigHour = undefined;
         }
-        // handle am pm
-        if (config._isPm && config._a[HOUR] < 12) {
-            config._a[HOUR] += 12;
-        }
-        // if is 12 am, change hours to 0
-        if (config._isPm === false && config._a[HOUR] === 12) {
-            config._a[HOUR] = 0;
-        }
+        // handle meridiem
+        config._a[HOUR] = meridiemFixWrap(config._locale, config._a[HOUR],
+                config._meridiem);
         dateFromConfig(config);
         checkOverflow(config);
     }
@@ -17387,6 +17447,8 @@ if (typeof jQuery === 'undefined') {
                 s: parseIso(match[7]),
                 w: parseIso(match[8])
             };
+        } else if (duration == null) {// checks for null or undefined
+            duration = {};
         } else if (typeof duration === 'object' &&
                 ('from' in duration || 'to' in duration)) {
             diffRes = momentsDifference(moment(duration.from), moment(duration.to));
@@ -17551,6 +17613,8 @@ if (typeof jQuery === 'undefined') {
         return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
     };
 
+    moment.isDate = isDate;
+
     /************************************
         Moment Prototype
     ************************************/
@@ -17563,7 +17627,7 @@ if (typeof jQuery === 'undefined') {
         },
 
         valueOf : function () {
-            return +this._d + ((this._offset || 0) * 60000);
+            return +this._d - ((this._offset || 0) * 60000);
         },
 
         unix : function () {
@@ -17626,16 +17690,16 @@ if (typeof jQuery === 'undefined') {
         },
 
         utc : function (keepLocalTime) {
-            return this.zone(0, keepLocalTime);
+            return this.utcOffset(0, keepLocalTime);
         },
 
         local : function (keepLocalTime) {
             if (this._isUTC) {
-                this.zone(0, keepLocalTime);
+                this.utcOffset(0, keepLocalTime);
                 this._isUTC = false;
 
                 if (keepLocalTime) {
-                    this.add(this._dateTzOffset(), 'm');
+                    this.subtract(this._dateUtcOffset(), 'm');
                 }
             }
             return this;
@@ -17652,29 +17716,20 @@ if (typeof jQuery === 'undefined') {
 
         diff : function (input, units, asFloat) {
             var that = makeAs(input, this),
-                zoneDiff = (this.zone() - that.zone()) * 6e4,
-                diff, output, daysAdjust;
+                zoneDiff = (that.utcOffset() - this.utcOffset()) * 6e4,
+                anchor, diff, output, daysAdjust;
 
             units = normalizeUnits(units);
 
-            if (units === 'year' || units === 'month') {
-                // average number of days in the months in the given dates
-                diff = (this.daysInMonth() + that.daysInMonth()) * 432e5; // 24 * 60 * 60 * 1000 / 2
-                // difference in months
-                output = ((this.year() - that.year()) * 12) + (this.month() - that.month());
-                // adjust by taking difference in days, average number of days
-                // and dst in the given months.
-                daysAdjust = (this - moment(this).startOf('month')) -
-                    (that - moment(that).startOf('month'));
-                // same as above but with zones, to negate all dst
-                daysAdjust -= ((this.zone() - moment(this).startOf('month').zone()) -
-                        (that.zone() - moment(that).startOf('month').zone())) * 6e4;
-                output += daysAdjust / diff;
-                if (units === 'year') {
+            if (units === 'year' || units === 'month' || units === 'quarter') {
+                output = monthDiff(this, that);
+                if (units === 'quarter') {
+                    output = output / 3;
+                } else if (units === 'year') {
                     output = output / 12;
                 }
             } else {
-                diff = (this - that);
+                diff = this - that;
                 output = units === 'second' ? diff / 1e3 : // 1000
                     units === 'minute' ? diff / 6e4 : // 1000 * 60
                     units === 'hour' ? diff / 36e5 : // 1000 * 60 * 60
@@ -17695,7 +17750,8 @@ if (typeof jQuery === 'undefined') {
 
         calendar : function (time) {
             // We want to compare the start of today, vs this.
-            // Getting start-of-today depends on whether we're zone'd or not.
+            // Getting start-of-today depends on whether we're locat/utc/offset
+            // or not.
             var now = time || moment(),
                 sod = makeAs(now, this).startOf('day'),
                 diff = this.diff(sod, 'days', true),
@@ -17713,8 +17769,8 @@ if (typeof jQuery === 'undefined') {
         },
 
         isDST : function () {
-            return (this.zone() < this.clone().month(0).zone() ||
-                this.zone() < this.clone().month(5).zone());
+            return (this.utcOffset() > this.clone().month(0).utcOffset() ||
+                this.utcOffset() > this.clone().month(5).utcOffset());
         },
 
         day : function (input) {
@@ -17804,6 +17860,10 @@ if (typeof jQuery === 'undefined') {
             }
         },
 
+        isBetween: function (from, to, units) {
+            return this.isAfter(from, units) && this.isBefore(to, units);
+        },
+
         isSame: function (input, units) {
             var inputMs;
             units = normalizeUnits(units || 'millisecond');
@@ -17832,9 +17892,27 @@ if (typeof jQuery === 'undefined') {
                 }
         ),
 
+        zone : deprecate(
+                'moment().zone is deprecated, use moment().utcOffset instead. ' +
+                'https://github.com/moment/moment/issues/1779',
+                function (input, keepLocalTime) {
+                    if (input != null) {
+                        if (typeof input !== 'string') {
+                            input = -input;
+                        }
+
+                        this.utcOffset(input, keepLocalTime);
+
+                        return this;
+                    } else {
+                        return -this.utcOffset();
+                    }
+                }
+        ),
+
         // keepLocalTime = true means only change the timezone, without
-        // affecting the local hour. So 5:31:26 +0300 --[zone(2, true)]-->
-        // 5:31:26 +0200 It is possible that 5:31:26 doesn't exist int zone
+        // affecting the local hour. So 5:31:26 +0300 --[utcOffset(2, true)]-->
+        // 5:31:26 +0200 It is possible that 5:31:26 doesn't exist with offset
         // +0200, so we adjust the time as needed, to be valid.
         //
         // Keeping the time actually adds/subtracts (one hour)
@@ -17842,38 +17920,51 @@ if (typeof jQuery === 'undefined') {
         // a second time. In case it wants us to change the offset again
         // _changeInProgress == true case, then we have to adjust, because
         // there is no such time in the given timezone.
-        zone : function (input, keepLocalTime) {
+        utcOffset : function (input, keepLocalTime) {
             var offset = this._offset || 0,
                 localAdjust;
             if (input != null) {
                 if (typeof input === 'string') {
-                    input = timezoneMinutesFromString(input);
+                    input = utcOffsetFromString(input);
                 }
                 if (Math.abs(input) < 16) {
                     input = input * 60;
                 }
                 if (!this._isUTC && keepLocalTime) {
-                    localAdjust = this._dateTzOffset();
+                    localAdjust = this._dateUtcOffset();
                 }
                 this._offset = input;
                 this._isUTC = true;
                 if (localAdjust != null) {
-                    this.subtract(localAdjust, 'm');
+                    this.add(localAdjust, 'm');
                 }
                 if (offset !== input) {
                     if (!keepLocalTime || this._changeInProgress) {
                         addOrSubtractDurationFromMoment(this,
-                                moment.duration(offset - input, 'm'), 1, false);
+                                moment.duration(input - offset, 'm'), 1, false);
                     } else if (!this._changeInProgress) {
                         this._changeInProgress = true;
                         moment.updateOffset(this, true);
                         this._changeInProgress = null;
                     }
                 }
+
+                return this;
             } else {
-                return this._isUTC ? offset : this._dateTzOffset();
+                return this._isUTC ? offset : this._dateUtcOffset();
             }
-            return this;
+        },
+
+        isLocal : function () {
+            return !this._isUTC;
+        },
+
+        isUtcOffset : function () {
+            return this._isUTC;
+        },
+
+        isUtc : function () {
+            return this._isUTC && this._offset === 0;
         },
 
         zoneAbbr : function () {
@@ -17886,9 +17977,9 @@ if (typeof jQuery === 'undefined') {
 
         parseZone : function () {
             if (this._tzm) {
-                this.zone(this._tzm);
+                this.utcOffset(this._tzm);
             } else if (typeof this._i === 'string') {
-                this.zone(this._i);
+                this.utcOffset(utcOffsetFromString(this._i));
             }
             return this;
         },
@@ -17898,10 +17989,10 @@ if (typeof jQuery === 'undefined') {
                 input = 0;
             }
             else {
-                input = moment(input).zone();
+                input = moment(input).utcOffset();
             }
 
-            return (this.zone() - input) % 60 === 0;
+            return (this.utcOffset() - input) % 60 === 0;
         },
 
         daysInMonth : function () {
@@ -17964,9 +18055,17 @@ if (typeof jQuery === 'undefined') {
         },
 
         set : function (units, value) {
-            units = normalizeUnits(units);
-            if (typeof this[units] === 'function') {
-                this[units](value);
+            var unit;
+            if (typeof units === 'object') {
+                for (unit in units) {
+                    this.set(unit, units[unit]);
+                }
+            }
+            else {
+                units = normalizeUnits(units);
+                if (typeof this[units] === 'function') {
+                    this[units](value);
+                }
             }
             return this;
         },
@@ -18003,11 +18102,12 @@ if (typeof jQuery === 'undefined') {
             return this._locale;
         },
 
-        _dateTzOffset : function () {
+        _dateUtcOffset : function () {
             // On Firefox.24 Date#getTimezoneOffset returns a floating point.
             // https://github.com/moment/moment/pull/1871
-            return Math.round(this._d.getTimezoneOffset() / 15) * 15;
+            return -Math.round(this._d.getTimezoneOffset() / 15) * 15;
         }
+
     });
 
     function rawMonthSetter(mom, value) {
@@ -18075,6 +18175,9 @@ if (typeof jQuery === 'undefined') {
 
     // add aliased format methods
     moment.fn.toJSON = moment.fn.toISOString;
+
+    // alias isUtc for dev-friendliness
+    moment.fn.isUTC = moment.fn.isUtc;
 
     /************************************
         Duration Prototype
@@ -18263,6 +18366,10 @@ if (typeof jQuery === 'undefined') {
 
         localeData : function () {
             return this._locale;
+        },
+
+        toJSON : function () {
+            return this.toISOString();
         }
     });
 
@@ -18350,7 +18457,7 @@ if (typeof jQuery === 'undefined') {
     if (hasModule) {
         module.exports = moment;
     } else if (typeof define === 'function' && define.amd) {
-        define('moment', function (require, exports, module) {
+        define(function (require, exports, module) {
             if (module.config && module.config() && module.config().noGlobal === true) {
                 // release the global variable
                 globalScope.moment = oldGlobalMoment;
