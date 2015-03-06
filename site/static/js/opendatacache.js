@@ -65,22 +65,30 @@ window.rowStyle = function (row, idx) {
   return obj;
 };
 
+window.bigCellFormatter = function(value) {
+  return '<div class="odc-table-big-cell">' + value + '</div>';
+};
+
+window.nameFormatter = function(value, row, idx) {
+  return '<a href="' + row.href + '">' + row.name +
+    '</a> <span class="superscript">(' + row.id +')</span>';
+};
+
 window.utcTimeSinceFormatter = function(value) {
-  return moment(new Date(value)).fromNow();
+  return moment(value).fromNow();
 };
 
 window.statusFormatter = function(value, row, idx) {
   var output,
       statusCode = Number(row.status),
       status,
-      timeSince = moment(new Date(row.lastCacheCheck)).fromNow(),
       tester = $('<span />').append($('<a>Test</a>').addClass('test-if-cached')
   .attr({
     href: row.href + '?test=true'
   })).html();
 
   if (statusCode === 200) {
-    status = "Still cached";
+    status = "Probably cached";
   } else if (statusCode === 201) {
     status = "Newly cached";
   } else if (statusCode >= 400 && statusCode < 500) {
@@ -89,7 +97,7 @@ window.statusFormatter = function(value, row, idx) {
     status = "Error caching";
   }
 
-  output = status + ' since ' + timeSince + tester;
+  output = status + ' <span class="superscript">(' + tester + ')</a>';
   return output;
 };
 
@@ -105,9 +113,23 @@ window.sizeFormatter = function(value) {
   }
 };
 
+window.tagsFormatter = function(value) {
+  try {
+    var tags = JSON.parse(value);
+  } catch (e) {
+    return '';
+  }
+  var output = '<div class="odc-table-tags">';
+  for (var i = 0; i < tags.length; i += 1) {
+    output += '<div class="odc-table-tag">' + tags[i] + '</div>';
+  }
+  output += '</div>';
+  return output;
+};
+
 window.timestampFormatter = function(value) {
   var m = moment(new Date(value * 1000))
-  return m.calendar() + ' (' + m.fromNow() + ')';
+  return m.fromNow() + ' <span class="superscript">(' + m.calendar() + ')</span>';
 };
 
 var testIfCached = function (evt) {
@@ -118,9 +140,9 @@ evt.preventDefault();
 
 $el.text('Testing...');
 $.ajax(href).done(function () {
-  $el.text('Cached');
+  $el.text('Fully');
 }).fail(function () {
-  $el.text('Not cached');
+  $el.text('Gzip only');
 }).always(function () {
 
 });
@@ -150,7 +172,7 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         id: $('<span />').append($link).html(),
         href: href,
         //date: moment(new Date(cells[1])).from(moment()),
-        lastCacheCheck: cells[1],
+        lastCached: cells[1],
         status: cells[2],
         size: cells[3],
         // size: (cells[3] / 1000000).toFixed(2) + 'MB',

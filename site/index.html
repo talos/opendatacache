@@ -56,31 +56,31 @@
     <table id="portalTemplate" class="template" data-search="true" data-row-style="rowStyle">
       <thead>
         <tr>
-          <th data-field="name" data-sortable="true">Name</th>
-          <th data-field="id" data-sortable="true">ID</th>
+          <th data-field="name" data-sortable="true" data-formatter="nameFormatter">Name <span class="superscript">(ID)</span></th>
           <!--<th data-field="date" data-sortable="true" data-formatter="utcTimeSinceFormatter">Last Cache Check</th>-->
-          <th data-field="status" data-sortable="true" data-formatter="statusFormatter">Status</th>
           <th data-field="size" data-sortable="true" data-formatter="sizeFormatter" >Size</th>
+          <th data-field="status" data-sortable="true" data-formatter="statusFormatter">Status</th>
           <!--<th data-field="cacheTest" data-formatter="cacheTestFormatter">Test if cached</th>-->
-          <th data-field="attribution" data-sortable="true">Attribution</th>
+          <th data-field="attribution" data-sortable="true" data-visible="false">Attribution</th>
           <th data-field="averageRating" data-sortable="true" data-visible="false">Average Rating</th>
-          <th data-field="category" data-sortable="true">Category</th>
-          <th data-field="createdAt" data-sortable="true" data-formatter="timestampFormatter">Created At</th>
-          <th data-field="description" data-sortable="true">Description</th>
-          <th data-field="displayTime" data-sortable="true">Display Type</th>
+          <th data-field="category" data-sortable="true" data-visible="false">Category</th>
+          <th data-field="lastCached" data-sortable="true" data-formatter="utcTimeSinceFormatter">Last Cache</th>
+          <th data-field="createdAt" data-sortable="true" data-formatter="timestampFormatter">Created</th>
+          <th data-field="rowsUpdatedAt" data-sortable="true" data-formatter="timestampFormatter">Rows Last Updated</th>
+          <th data-field="viewLastModified" data-sortable="true" data-formatter="timestampFormatter">View Last Modified</th>
+          <th data-field="description" data-sortable="true" data-formatter="bigCellFormatter">Description</th>
+          <th data-field="displayTime" data-sortable="true" data-visible="false">Display Type</th>
           <th data-field="downloadType" data-sortable="true" data-visible="false">Download Type</th>
-          <th data-field="downloadCount" data-sortable="true">Download Count</th>
           <th data-field="newBackend" data-sortable="true" data-visible="false">New Backend</th>
           <th data-field="numberOfComments" data-sortable="true" data-visible="false">Number of Comments</th>
           <th data-field="oid" data-sortable="true" data-visible="false">OID</th>
-          <th data-field="rowsUpdatedAt" data-sortable="true" data-formatter="timestampFormatter">Rows Updated At</th>
           <th data-field="rowsUpdatedBy" data-sortable="true" data-visible="false">Rows Updated By</th>
           <th data-field="tableId" data-sortable="true" data-visible="false">Table ID</th>
           <th data-field="totalTimesRated" data-sortable="true" data-visible="false">Total Times Rated</th>
           <th data-field="viewCount" data-sortable="true">View Count</th>
-          <th data-field="viewLastModified" data-sortable="true" data-formatter="timestampFormatter">View Last Modified</th>
-          <th data-field="viewType" data-sortable="true">View Type</th>
-          <th data-field="tags" data-sortable="true">Tags</th>
+          <th data-field="downloadCount" data-sortable="true">Download Count</th>
+          <th data-field="viewType" data-sortable="true" data-visible="false">View Type</th>
+          <th data-field="tags" data-sortable="true" data-formatter="tagsFormatter">Tags</th>
         </tr>
       </thead>
     </table>

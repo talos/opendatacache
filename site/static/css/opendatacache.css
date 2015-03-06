@@ -9,3 +9,27 @@
 .odc-table-cache-error {
   background: #fcc;
 }
+
+.odc-table-big-cell {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.superscript {
+  position: relative;
+  top: -0.4em;
+  font-size: 65%;
+}
+
+.odc-table-tags {
+
+}
+
+.odc-table-tag {
+  background: #5bc0de;
+  color: white;
+  border-radius: 0.25em;
+  display: inline-block;
+  margin: 0.1em;
+  padding: 0.1em;
+}
