@@ -23,6 +23,8 @@ RUN curl https://repo.varnish-cache.org/debian/GPG-key.txt | apt-key add -
 RUN apt-get update
 RUN apt-get -yqq install nginx varnish
 
+RUN apt-get install -yqq wget
+
 # nginx configs
 COPY conf/nginx.conf /etc/nginx/nginx.conf
 RUN rm -rf /etc/nginx/sites-enabled/*
