@@ -30,15 +30,22 @@ sub vcl_recv {
     unset req.http.Cookie;
     if (req.restarts == 0) {
         if (req.url ~ "\.csv") {
-            if (req.url ~ "(?i)test=true") {
-                set req.http.X-Opendatacache-Test = "true";
-            }
             set req.http.X-Data-URL = regsub(req.url, "^([^?]+)\?.*$", "\1");
             set req.http.X-Meta-URL = regsub(req.url, "^(.*)/rows.csv\??.*$", "\1.json");
+            if (req.url ~ "(?i)test=true") {
+                set req.http.X-Opendatacache-Test = "true";
+            } else if (req.url ~ "(?i)ignore=true") {
+                set req.http.X-Opendatacache-Ignore = "true";
+            } else if (req.url ~ "(?i)lazy=true") {
+                set req.http.X-Opendatacache-Lazy = "true";
+                return (hash);
+            } else {
+                set req.http.X-Opendatacache-Strict = "true";
+            }
             set req.url = req.http.X-Meta-URL;
         }
         return (pass);
-    } else if (req.restarts == 1) {
+    } else if (req.restarts > 1 && req.restarts < 3) {
         set req.url = req.http.X-Data-URL;
 
         if (req.method == "MISS") {
@@ -57,9 +64,9 @@ sub vcl_hash {
     # metadata request.
     if (req.http.X-Data-URL) {
         hash_data(req.http.X-Data-URL);
-        if (req.restarts == 1) {
-            hash_data(req.http.X-Meta-Last-Modified);
-        }
+        #if (req.restarts == 1) {
+        #    hash_data(req.http.X-Meta-Last-Modified);
+        #}
     } else {
         hash_data(req.url);
     }
@@ -71,7 +78,17 @@ sub vcl_hit {
     set req.http.X-Opendatacache-Last-Modified = obj.http.Last-Modified;
     if (req.restarts == 1) {
         if (req.http.X-Opendatacache-Test) {
-            return(synth(204, obj.http.Last-Modified + " :: object in cache"));
+            if (obj.http.Last-Modified == req.http.X-Meta-Last-Modified) {
+                return(synth(204, obj.http.Last-Modified + " :: object in cache"));
+            } else {
+                return(synth(404, "Cache last modified: " + obj.http.Last-Modified + "; Meta last modified" + req.http.X-Meta-Last-Modified));
+            }
+        }
+        if (req.http.X-Opendatacache-Strict) {
+            if (obj.http.Last-Modified != req.http.X-Meta-Last-Modified) {
+                purge;
+                return(restart);
+            }
         }
     }
 }
@@ -102,10 +119,14 @@ sub vcl_deliver {
     if (!req.http.X-Data-URL) {
         return (deliver);
     }
+    if (req.http.X-Opendatacache-Lazy) {
+        return (deliver);
+    }
+
     if (req.restarts == 0) {
         set req.http.X-Meta-Last-Modified = resp.http.Last-Modified;
         return (restart);
-    } else if (req.restarts == 1) {
+    } else if (req.restarts > 1 && req.restarts < 3) {
         set resp.http.X-Meta-Last-Modified = req.http.X-Meta-Last-Modified;
         set resp.http.X-Meta-URL = req.http.X-Meta-URL;
         set resp.http.X-Data-URL = req.http.X-Data-URL;
