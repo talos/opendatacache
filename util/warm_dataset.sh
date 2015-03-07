@@ -5,28 +5,10 @@ logroot=$2
 portal=$3
 id=$4
 logs=$5
-locks=$logroot/locks
-
+lockdir=$6
 
 url=$proxy/$portal/api/views/$id/rows.csv
-
-mkdir -p $locks
-lockno=1
-maxjobs=10
-while : ; do
-  if [ $lockno -lt $maxjobs ]; then
-    lockfile=$locks/${lockno}.lock
-    if [ -e $lockfile ] ; then
-      lockno=$((lockno+1))
-    else
-      echo $url > $lockfile
-      break
-    fi
-  else
-    lockno=1
-    sleep 5
-  fi
-done
+echo $url > $lockdir/url
 
 if [ $id == "data.json" ]
 then
@@ -68,4 +50,4 @@ echo "$output" | tee -a $logs/api/views/$id/index.log
 tail -n 1 -q $logs/api/views/**/index.log > $logs/summary.log
 cat $logroot/**/status.log > $logroot/status.log
 
-rm $lockfile
+rm -rf $lockdir

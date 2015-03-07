@@ -4,6 +4,10 @@ proxy=$1
 logroot=$2
 portal=$3
 
+locks=$logroot/locks
+
+mkdir -p $locks
+
 while :
 do
   url=https://$portal/data.json
@@ -24,8 +28,21 @@ do
   printf "$ids\n" >> $logs/ids.log
   for id in $(cat $logs/ids.log)
   do
-    /opendatacache/util/warm_dataset.sh "$proxy" "$logroot" "$portal" "$id" "$logs" &
-    sleep 1
+    lockno=1
+    maxjobs=10
+    while : ; do
+      if [ $lockno -lt $maxjobs ]; then
+        lockdir=$locks/${lockno}.lock
+        mkdir $lockdir && break 2>/dev/null
+        sleep 0.1
+        lockno=$((lockno+1))
+      else
+        lockno=1
+        sleep 5
+      fi
+    done
+
+    /opendatacache/util/warm_dataset.sh "$proxy" "$logroot" "$portal" "$id" "$logs" "$lockdir" &
   done
 
   now=$(date +"%Y-%m-%dT%H:%M:%S%z")

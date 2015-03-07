@@ -32,5 +32,4 @@ logroot=/var/log/opendatacache
 # in parallel.
 for portal in $(cat $portals); do
   /opendatacache/util/warm_portal.sh "$proxy" "$logroot" "$portal" &
-  sleep 1
 done
