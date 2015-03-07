@@ -105,4 +105,5 @@ function warm_portal {
 # in parallel.
 for portal in $(cat $1); do
   warm_portal $portal &
+  sleep 3
 done

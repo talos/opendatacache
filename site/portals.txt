@@ -1,13 +1,13 @@
+data.cityofnewyork.us
+data.cityofchicago.org
 data.act.gov.au
 data.melbourne.vic.gov.au
 data.colorado.gov
 data.nola.gov
 healthmeasures.aspe.hhs.gov
-data.cityofchicago.org
 data.wa.gov
 opendata.go.ke
 data.austintexas.gov
-data.cityofnewyork.us
 info.samhsa.gov
 data.taxpayer.net
 data.cityofmadison.com
