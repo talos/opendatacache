@@ -74,6 +74,10 @@ window.nameFormatter = function(value, row, idx) {
     '</a> <span class="superscript">(' + row.id +')</span>';
 };
 
+window.ratioFormatter = function(value) {
+  return Number(value).toFixed(2) + 'x';
+};
+
 window.utcTimeSinceFormatter = function(value) {
   return moment(value).fromNow();
 };
@@ -102,6 +106,7 @@ window.statusFormatter = function(value, row, idx) {
 };
 
 window.sizeFormatter = function(value) {
+  value = Number(value);
   if (value > Math.pow(1000, 3)) {
     return (value / Math.pow(1000, 3)).toFixed(2) + 'GB'
   } else if (value > Math.pow(1000, 2)) {
@@ -111,6 +116,23 @@ window.sizeFormatter = function(value) {
   } else {
     return value + 'B'
   }
+};
+
+window.speedFormatter = function(value) {
+  return sizeFormatter(value) + '/s';
+};
+
+window.durationFormatter = function(value) {
+  value = Number(value);
+  var precision = 0;
+  if (value < 0.01) {
+    precision = 3;
+  } else if (value < 0.1) {
+    precision = 2;
+  } else if (value < 1) {
+    precision = 1;
+  }
+  return moment.duration(value, "seconds").format('h[h]m[m]s[s]', precision)
 };
 
 window.tagsFormatter = function(value) {
@@ -161,7 +183,7 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
       continue;
     }
     var href = $('<a />').attr('href', cells[9])[0].pathname,
-        id = cells[0],
+        id = cells[1],
         $link = $('<a />').attr('href', href).text(id);
         //$test = $('<a>Test</a>').addClass('test-if-cached')
           //                        .attr({
@@ -172,9 +194,15 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         id: $('<span />').append($link).html(),
         href: href,
         //date: moment(new Date(cells[1])).from(moment()),
-        lastCached: cells[1],
-        status: cells[2],
+        lastCached: cells[2],
+        status: cells[0],
         size: cells[3],
+        downloadSpeed: cells[4],
+        // timing not as useful because the cache masks socrata's performance
+        //connectTime: cells[5],
+        //pretransferTime: cell[6],
+        //starttransferTime: cells[7],
+        totalTime: cells[8],
         // size: (cells[3] / 1000000).toFixed(2) + 'MB',
         //test: $('<span />').append($test).html(),
         //cacheTest: href,
@@ -197,7 +225,11 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         viewCount: cells[26],
         viewLastModified: cells[27],
         viewType: cells[28],
-        tags: cells[29]
+        tags: cells[29],
+        lineCount: cells[30],
+        wordCount: cells[31],
+        charCount: cells[32],
+        ratio: Number(cells[32]) / Number(cells[3])
       });
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {
