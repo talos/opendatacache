@@ -60,15 +60,18 @@ function warm_portal {
       printf "$portal\t$now\twarming\t$id\n" > $logs/status.log
       row="$id\t$now\t%{http_code}\t%{size_download}\t%{speed_download}\t%{time_connect}\t%{time_pretransfer}\t%{time_starttransfer}\t%{time_total}\t%{url_effective}\n"
       url=$proxy/$portal/api/views/$id/rows.csv
+      last_timing=$logs/api/views/$id/last_timing.txt
       metadata_url=$proxy/$portal/api/views/${id}.json
-      output=$(curl -k -s -S -w "$row" --raw -o /dev/null -H 'Accept-Encoding: gzip, deflate' "$url")
+      #output=$(curl -k -s -S -w "$row" --compressed "$url")
       mkdir -p $logs/api/views/$id
+      output=$(curl -k -s -S -w "$row" --compressed --retry 4 --connect-timeout 720 "$url" | tee >/dev/null >(tail -n 1) >(sed \$d | wc | sed -r 's/ +/	/g' | tr -d '\n' > $last_timing))
       metadata=$(curl -k -s -S --compressed "${metadata_url}" | tee $logs/api/views/$id/meta.json)
       columns="name attribution averageRating category createdAt description displayType downloadType downloadCount newBackend numberOfComments oid rowsUpdatedAt rowsUpdatedBy tableId totalTimesRated viewCount viewLastModified viewType tags"
       for key in $columns; do
         val=$(echo "$metadata" | grep "\"$key\" :" | head -n 1 | grep -Po ': .*' | sed -r 's/^: "?//' | sed -r 's/"?,$//' | sed -r 's/(\\r|\\n)//g')
         output="$output\t$val"
       done
+      output="$output\t$(cat $last_timing)"
       printf "$output\n" | tee -a $logs/api/views/$id/index.log
       tail -n 1 -q $logs/api/views/**/index.log > $logs/summary.log
       cat $logroot/**/status.log > $logroot/status.log
