@@ -159,7 +159,6 @@ var $el = $(evt.target),
     href = $el.attr('href');
 
 evt.preventDefault();
-
 $el.text('Testing...');
 $.ajax(href).done(function () {
   $el.text('Fully');
@@ -169,6 +168,25 @@ $.ajax(href).done(function () {
 
 });
 };
+
+/* Convert wget speed (like 104 KB/s, 10 MB/s, etc.) to pure number bytes per
+ * sec */
+var wgetSpeed2Number = function (wgetSpeed) {
+  var split = wgetSpeed.split(' '),
+      num = Number(split[0]),
+      mag = split[1].toLowerCase(),
+      pow = 0;
+
+  if (mag === 'kb/s') {
+    pow = 1;
+  } else if (mag === 'mb/s') {
+    pow = 2;
+  } else if (mag === 'gb/s') {
+    pow = 3;
+  }
+  return num *= Math.pow(1000, pow);
+};
+
 
 var portalTable = function (portal, lastHash) {
 var data = [];
@@ -182,8 +200,9 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
     if (!cells[0]) {
       continue;
     }
-    var href = $('<a />').attr('href', cells[9])[0].pathname,
+    var href = $('<a />').attr('href', cells[5])[0].pathname,
         id = cells[1],
+        speed = wgetSpeed2Number(cells[4]),
         $link = $('<a />').attr('href', href).text(id);
         //$test = $('<a>Test</a>').addClass('test-if-cached')
           //                        .attr({
@@ -197,39 +216,40 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         lastCached: cells[2],
         status: cells[0],
         size: cells[3],
-        downloadSpeed: cells[4],
+        downloadSpeed: speed,
         // timing not as useful because the cache masks socrata's performance
         //connectTime: cells[5],
         //pretransferTime: cell[6],
         //starttransferTime: cells[7],
-        totalTime: cells[8],
+        //totalTime: cells[8],
+        totalTime: cells[3] / speed,
         // size: (cells[3] / 1000000).toFixed(2) + 'MB',
         //test: $('<span />').append($test).html(),
         //cacheTest: href,
-        name: cells[10],
-        attribution: cells[11],
-        averageRating: cells[12],
-        category: cells[13],
-        createdAt: cells[14],
-        description: cells[15],
-        displayTime: cells[16],
-        downloadType: cells[17],
-        downloadCount: cells[18],
-        newBackend: cells[19],
-        numberOfComments: cells[20],
-        oid: cells[21],
-        rowsUpdatedAt: cells[22],
-        rowsUpdatedBy: cells[23],
-        tableId: cells[24],
-        totalTimesRated: cells[25],
-        viewCount: cells[26],
-        viewLastModified: cells[27],
-        viewType: cells[28],
-        tags: cells[29],
-        lineCount: cells[30],
-        wordCount: cells[31],
-        charCount: cells[32],
-        ratio: Number(cells[32]) / Number(cells[3])
+        name: cells[6],
+        attribution: cells[7],
+        averageRating: cells[8],
+        category: cells[9],
+        createdAt: cells[10],
+        description: cells[11],
+        displayTime: cells[12],
+        downloadType: cells[13],
+        downloadCount: cells[14],
+        newBackend: cells[15],
+        numberOfComments: cells[16],
+        oid: cells[17],
+        rowsUpdatedAt: cells[18],
+        rowsUpdatedBy: cells[19],
+        tableId: cells[20],
+        totalTimesRated: cells[21],
+        viewCount: cells[22],
+        viewLastModified: cells[23],
+        viewType: cells[24],
+        tags: cells[25],
+        lineCount: cells[26],
+        wordCount: cells[27],
+        charCount: cells[28],
+        ratio: Number(cells[28]) / Number(cells[3])
       });
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {
