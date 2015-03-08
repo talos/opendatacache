@@ -114,7 +114,9 @@ sub vcl_deliver {
         if (req.http.X-Opendatacache-Last-Modified) {
           set resp.http.X-From-Opendatacache = 1;
         } else {
-          set resp.status = 201;
+          if (resp.status == 200) {
+            set resp.status = 201;
+          }
           set resp.http.X-From-Opendatacache = 0;
         }
         set resp.http.cache-control = "private, max-age=0, no-cache";
