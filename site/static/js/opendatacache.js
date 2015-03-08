@@ -25,14 +25,15 @@ var indexTable = function (lastHash) {
       return;
     }
     var lines = resp.split('\n');
-    for (var i = 0; i < lines.length; i += 1) {
+    for (var i = 0; i < lines.length - 1; i += 1) {
       var cells = lines[i].split('\t');
       var $link = $('<a />').attr('href', cells[0] + '/').text(cells[0]);
       data.push({
         name: $('<span />').append($link).html(),
         date: moment(new Date(cells[1])).from(moment()),
-        status: cells[2],
-        detail: cells[3]
+        caching: Number(cells[2]),
+        checked: Number(cells[3]),
+        total: Number(cells[4])
       });
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {
@@ -195,7 +196,7 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
     return;
   }
   var lines = resp.split('\n');
-  for (var i = 0; i < lines.length; i += 1) {
+  for (var i = 0; i < lines.length - 1; i += 1) {
     var cells = lines[i].split('\t');
     if (!cells[0]) {
       continue;
@@ -204,11 +205,7 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         id = cells[1],
         speed = wgetSpeed2Number(cells[4]),
         $link = $('<a />').attr('href', href).text(id);
-        //$test = $('<a>Test</a>').addClass('test-if-cached')
-          //                        .attr({
-          //                          name: id,
-          //                          href: href + '?test=true'
-          //                        });
+
       data.push({
         id: $('<span />').append($link).html(),
         href: href,

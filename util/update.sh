@@ -20,22 +20,17 @@ fi
 while true
 do
   if read portal <$pipe; then
-    logs=$logroot/$portal
-    tail -n 1 -q $logs/api/views/**/index.log > $logs/summary.log
-    cat $logroot/**/status.log > $logroot/status.log
+    now=$(date +"%Y-%m-%dT%H:%M:%S%z")
+    portallogs=$logroot/$portal
+    tail -n 1 -q $portallogs/api/views/**/index.log > $portallogs/summary.log
     cat $logroot/locks/**/activity > $logroot/activity.log
-    sleep 0.1
+    grep "$portal" $logroot/activity.log > $portallogs/activity.log
+    active=$(cat $portallogs/activity.log | wc -l)
+    checked=$(cat $portallogs/summary.log | wc -l)
+    total=$(cat $portallogs/ids.log | wc -l)
+    printf "$portal\t$now\t$active\t$checked\t$total\n" > $portallogs/status.log
+    cat $logroot/**/status.log > $logroot/status.log
 
-    #locks=$logroot/locks
+    sleep 0.1
   fi
 done
-
-#echo "Reader exiting"
-#
-#
-#while : ; do
-#  for portal in $(cat portals); do
-#    sleep 0.3
-#  done
-#  sleep 5
-#done
