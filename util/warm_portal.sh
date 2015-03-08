@@ -20,6 +20,8 @@ do
   now=$(date +"%Y-%m-%dT%H:%M:%S%z")
 
   # Pre-populate the ids file in cases where there are IDs to prepopulate
+  # This is done in cases (like ACRIS in NYC) where data.json does not contain
+  # a complete list of dataset IDs, due to filtered views of private data.
   cat ids/$portal/ids.txt > $logs/ids.log 2>/dev/null || :
 
   # We could select only the `rows.csv` links, but actually these are still
@@ -28,12 +30,16 @@ do
   printf "$ids\n" >> $logs/ids.log
   for id in $(cat $logs/ids.log)
   do
+    if [ $id == "data.json" ]; then
+      continue
+    fi
+
     lockno=1
     maxjobs=10
     while : ; do
       if [ $lockno -lt $maxjobs ]; then
         lockdir=$locks/${lockno}.lock
-        mkdir $lockdir && break 2>/dev/null
+        mkdir $lockdir 2>/dev/null && break
         sleep 0.1
         lockno=$((lockno+1))
       else

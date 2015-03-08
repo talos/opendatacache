@@ -28,6 +28,9 @@ portals=$1
 proxy=$2
 logroot=/var/log/opendatacache
 
+# Start update script to update user-facing web interface
+/opendatacache/util/update.sh "$portals" "$logroot" &
+
 # Warm all our portals, by running a subprocess to warm each individual portal
 # in parallel.
 for portal in $(cat $portals); do
