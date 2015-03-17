@@ -35,7 +35,7 @@ do
     fi
 
     lockno=1
-    maxjobs=10
+    maxjobs=20
     while : ; do
       if [ $lockno -lt $maxjobs ]; then
         lockdir=$locks/${lockno}.lock
