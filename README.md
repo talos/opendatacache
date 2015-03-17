@@ -6,10 +6,12 @@ download...
 ## The solution
 
 ```
-  _____  _____  ______  ____   _  _____   ____     __    ____    ______  ____    ______  __   _  ______
- /     \|     ||   ___||    \ | ||     \ |    \  _|  |_ |    \  |   ___||    \  |   ___||  |_| ||   ___|
- |     ||    _||   ___||     \| ||      \|     \|_    _||     \ |   |__ |     \ |   |__ |   _  ||   ___|
- \_____/|___|  |______||__/\____||______/|__|\__\ |__|  |__|\__\|______||__|\__\|______||__| |_||______|
+   ___                   ____        _         ____           _
+  / _ \ _ __   ___ _ __ |  _ \  __ _| |_ __ _ / ___|__ _  ___| |__   ___
+ | | | | '_ \ / _ \ '_ \| | | |/ _` | __/ _` | |   / _` |/ __| '_ \ / _ \
+ | |_| | |_) |  __/ | | | |_| | (_| | || (_| | |__| (_| | (__| | | |  __/
+  \___/| .__/ \___|_| |_|____/ \__,_|\__\__,_|\____\__,_|\___|_| |_|\___|
+       |_|
 ```
 
 Basically, we do the compression and caching Socrata's open data portals don't
@@ -27,33 +29,42 @@ An Opendatacache is available already at
 * [New York City data summary](http://www.opendatacache.com/data.cityofnewyork.us/data.json)
 * [DOB Permit Issuance](http://www.opendatacache.com/data.cityofnewyork.us/api/views/td5q-ry6d/rows.csv)
 
-## Using docker
+## Deploying
 
-Pull down the docker image:
+### Using docker
 
-```
-docker pull thegovlab/opendatacache
-docker rm -f opendatacache || :
-docker run -v $(pwd)/site:/opendatacache/site \
-           -v $(pwd)/util:/opendatacache/util \
-    -e CACHE_SIZE=2G -d -i -p 8080:8081 --name=opendatacache thegovlab/opendatacache
-```
-## Warming
+To run locally, you can just use the `util/test.sh` script.
 
-If you want the container to warm, you must feed it the name of the server it
-is publicly accessible as as the `WARM_URL`. For example:
+    $ util/test.sh
 
-```
-docker rm -f opendatacache || :
-export WARM_URL="http://localhost:8080" && \
-docker run -v $(pwd)/site:/opendatacache/site \
-           -v $(pwd)/util:/opendatacache/util \
-           -e "WARM_URL=$WARM_URL" \
-    -e CACHE_SIZE=2G -d -i -p 8080:8081 --name=opendatacache thegovlab/opendatacache
-```
+This is equivalent to:
 
-Make sure to use the actual hostname, as opposed to `localhost`, even if you're
-running locally.  Otherwise, the wrong `Host` header will be cached in Varnish.
+    $ CACHE_SIZE=2G WARM_URL=http://localhost:8081 PORT=8080 util/run.sh
+
+In other words, this will run a docker container with OpenDataCache running
+inside.  The server will have a 2GB (small) cache, will automatically warm
+itself, and will expose port 8080.
+
+If you wanted to do this manually using docker commands, take a look at
+`util/run.sh`.
+
+#### A note on cache warming
+
+If a `WARM_URL` is specified as above, as soon as the container starts a shell
+script will begin crawling open data portals and caching their contents.
+
+### In production
+
+In a production environment, you can use:
+
+    util/deploy.sh
+
+This is equivalent to
+
+    CACHE_SIZE=24G WARM_URL=http://localhost:8081 PORT=80 ./run.sh
+
+In other words, it will use a 24GB cache and expose port 80.  You can adjust
+the size of the cache
 
 ## Manual install
 
