@@ -277,6 +277,8 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
 };
 
 $(document).ready(function () {
+  $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['en-US']);
+
   if (window.location.pathname === '/') {
     indexTable();
   } else {
