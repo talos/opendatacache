@@ -226,43 +226,48 @@ var portalTable = function (portal, lastHash) {
       if (!cells[0]) {
         continue;
       }
-      var href = $('<a />').attr('href', cells[5])[0].pathname,
-          speed = wgetSpeed2Number(cells[4]);
+      try {
+        var href = $('<a />').attr('href', cells[5])[0].pathname,
+            speed = wgetSpeed2Number(cells[4]);
 
-      data.push({
-        id: cells[1],
-        href: href,
-        lastCached: cells[2],
-        status: cells[0],
-        size: cells[3],
-        downloadSpeed: speed,
-        totalTime: cells[3] / speed,
-        name: cells[6],
-        attribution: cells[7],
-        averageRating: cells[8],
-        category: cells[9],
-        createdAt: cells[10],
-        description: cells[11],
-        displayTime: cells[12],
-        downloadType: cells[13],
-        downloadCount: cells[14],
-        newBackend: cells[15],
-        numberOfComments: cells[16],
-        oid: cells[17],
-        rowsUpdatedAt: cells[18],
-        rowsUpdatedBy: cells[19],
-        tableId: cells[20],
-        totalTimesRated: cells[21],
-        viewCount: cells[22],
-        viewLastModified: cells[23],
-        viewType: cells[24],
-        tags: cells[25],
-        lineCount: cells[26],
-        wordCount: cells[27],
-        charCount: cells[28],
-        ratio: Number(cells[28]) / Number(cells[3]),
-        logs: href
-      });
+        data.push({
+          id: cells[1],
+          href: href,
+          lastCached: cells[2],
+          status: cells[0],
+          size: cells[3],
+          downloadSpeed: speed,
+          totalTime: cells[3] / speed,
+          name: cells[6],
+          attribution: cells[7],
+          averageRating: cells[8],
+          category: cells[9],
+          createdAt: cells[10],
+          description: cells[11],
+          displayTime: cells[12],
+          downloadType: cells[13],
+          downloadCount: cells[14],
+          newBackend: cells[15],
+          numberOfComments: cells[16],
+          oid: cells[17],
+          rowsUpdatedAt: cells[18],
+          rowsUpdatedBy: cells[19],
+          tableId: cells[20],
+          totalTimesRated: cells[21],
+          viewCount: cells[22],
+          viewLastModified: cells[23],
+          viewType: cells[24],
+          tags: cells[25],
+          lineCount: cells[26],
+          wordCount: cells[27],
+          charCount: cells[28],
+          ratio: Number(cells[28]) / Number(cells[3]),
+          logs: href
+        });
+      } catch (err) {
+        window.console.log("Problem with table: " + err + " on " +
+                          JSON.stringify(cells));
+      }
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {
       $('#table').bootstrapTable('load', data);
