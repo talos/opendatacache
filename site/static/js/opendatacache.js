@@ -173,6 +173,12 @@ window.timestampFormatter = function(value) {
     m.calendar() + ')</span>');
 };
 
+window.logsFormatter = function (href) {
+  href = href.replace('rows.csv', '');
+  return window.baseFormatter('<a target="_blank" href="/logs' + href +
+                              '">Logs</a>');
+};
+
 var testIfCached = function (evt) {
   var $el = $(evt.target),
       href = $el.attr('href');
@@ -256,7 +262,8 @@ var portalTable = function (portal, lastHash) {
         lineCount: cells[26],
         wordCount: cells[27],
         charCount: cells[28],
-        ratio: Number(cells[28]) / Number(cells[3])
+        ratio: Number(cells[28]) / Number(cells[3]),
+        logs: href
       });
     }
     if ($.isArray($('#table').bootstrapTable('getData'))) {
