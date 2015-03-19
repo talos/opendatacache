@@ -22,7 +22,15 @@ do
   if read portal <$pipe; then
     now=$(date +"%Y-%m-%dT%H:%M:%S%z")
     portallogs=$logroot/$portal
+
+    # Keep track of last misses for speed information
+    for log in api/views/*/index.log; do
+      lastmiss=$(dirname $log)/lastmiss.log
+      tac $log | grep -m 1 '^201' > $lastmiss
+    done
+
     tail -n 1 -q $portallogs/api/views/**/index.log > $portallogs/summary.log
+
     cat $logroot/locks/**/activity > $logroot/activity.log
     grep "$portal" $logroot/activity.log > $portallogs/activity.log
     active=$(cat $portallogs/activity.log | wc -l)
