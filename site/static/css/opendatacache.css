@@ -2,17 +2,18 @@
   display: none;
 }
 
-.odc-table-nontabular {
-  display: none;
+.fixed-table-header {
+  /* For bug in bootstrap-table... https://github.com/wenzhixin/bootstrap-table/issues/607 */
+  display: none !important;
 }
 
-.odc-table-cache-error {
+.odc-table-nontabular,.odc-table-cache-error {
   background: #fcc;
+  opacity: 0.6;
 }
 
-.odc-table-big-cell {
-  max-height: 100px;
-  overflow-y: scroll;
+.odc-table-nontabular:nth-of-type(2n+1),.odc-table-cache-error:nth-of-type(2n+1)  {
+  background: #ebb !important;
 }
 
 .superscript {
@@ -32,4 +33,16 @@
   display: inline-block;
   margin: 0.1em;
   padding: 0.1em;
+}
+
+.odc-table-cell-content {
+  max-height: 80px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.odc-title {
+  position: absolute;
+  display: inline-block;
+  margin-top: 10px;
 }

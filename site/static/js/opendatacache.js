@@ -1,10 +1,6 @@
 /*jshint browser: true, bitwise: false, maxstatements: 20*/
 /*globals $, moment*/
 
-/*var linkFormatter = function (value) {
-  return $(
-};*/
-
 var hash = function(str) {
   var hash = 0, i, chr, len;
   if (str.length === 0) {
@@ -47,6 +43,14 @@ var indexTable = function (lastHash) {
         data: data
       });
     }
+    // Add a title
+    var $title =$('<h2 />')
+      .append($('<a />').text('Available portals').attr({
+        //'href': 'https://' + portal,
+        //'target': '_blank'
+      }))
+      .addClass('odc-title');
+    $('.fixed-table-toolbar').prepend($title);
   }).always(function (resp) {
     var hashed;
     if (typeof resp === 'string') {
@@ -66,61 +70,72 @@ window.rowStyle = function (row) {
   return obj;
 };
 
-window.bigCellFormatter = function(value) {
-  return '<div class="odc-table-big-cell">' + value + '</div>';
+window.baseFormatter = function (value) {
+  return '<div class="odc-table-cell-content">' + value + "</div>";
 };
 
 window.nameFormatter = function(value, row) {
-  return '<a href="' + row.href + '">' + row.name +
-    '</a> <span class="superscript">(' + row.id +')</span>';
+  return window.baseFormatter('<a href="' + row.href + '">' + row.name +
+    '</a> <span class="superscript">(' + row.id +')</span>');
 };
 
 window.ratioFormatter = function(value) {
-  return Number(value).toFixed(2) + 'x';
+  return window.baseFormatter(Number(value).toFixed(2) + 'x');
+};
+
+window.bigNumberFormatter = function(value) {
+  return window.baseFormatter(
+    value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
 };
 
 window.utcTimeSinceFormatter = function(value) {
-  return moment(value).fromNow();
+  return window.baseFormatter(moment(value).fromNow());
 };
 
 window.statusFormatter = function(value, row) {
   var output,
       statusCode = Number(row.status),
-      status,
+      canTest = false,
       tester = $('<span />').append($('<a>Test</a>').addClass('test-if-cached')
   .attr({
     href: row.href + '?test=true'
   })).html();
 
   if (statusCode === 200) {
-    status = "Probably cached";
+    output = "Probably cached";
+    canTest = true;
   } else if (statusCode === 201) {
-    status = "Newly cached";
+    output = "Newly cached";
+    canTest = true;
   } else if (statusCode >= 400 && statusCode < 500) {
-    status = "Can't cache";
+    output = "Geographic (no cache)";
   } else {
-    status = "Error caching";
+    output = "Error caching";
   }
 
-  output = status + ' <span class="superscript">(' + tester + ')</a>';
-  return output;
+  if (canTest) {
+    output = output + ' <span class="superscript">(' + tester + ')</a>';
+  }
+
+  return window.baseFormatter(output);
 };
 
 window.sizeFormatter = function(value) {
   value = Number(value);
   if (value > Math.pow(1000, 3)) {
-    return (value / Math.pow(1000, 3)).toFixed(2) + 'GB';
+    value = (value / Math.pow(1000, 3)).toFixed(2) + 'GB';
   } else if (value > Math.pow(1000, 2)) {
-    return (value / Math.pow(1000, 2)).toFixed(2) + 'MB';
+    value = (value / Math.pow(1000, 2)).toFixed(2) + 'MB';
   } else if (value > Math.pow(1000, 1)) {
-    return (value / Math.pow(1000, 1)).toFixed(2) + 'KB';
+    value = (value / Math.pow(1000, 1)).toFixed(2) + 'KB';
   } else {
-    return value + 'B';
+    value = value + 'B';
   }
+  return window.baseFormatter(value);
 };
 
 window.speedFormatter = function(value) {
-  return window.sizeFormatter(value) + '/s';
+  return window.baseFormatter(window.sizeFormatter(value) + '/s');
 };
 
 window.durationFormatter = function(value) {
@@ -133,27 +148,28 @@ window.durationFormatter = function(value) {
   } else if (value < 1) {
     precision = 1;
   }
-  return moment.duration(value, "seconds").format('h[h]m[m]s[s]', precision);
+  return window.baseFormatter(
+    moment.duration(value, "seconds").format('h[h]m[m]s[s]', precision));
 };
 
 window.tagsFormatter = function(value) {
+  var output = '';
   try {
-    var tags = JSON.parse(value),
-        output = '<div class="odc-table-tags">';
+    var tags = JSON.parse(value);
+    output = '<div class="odc-table-tags">';
     for (var i = 0; i < tags.length; i += 1) {
       output += '<div class="odc-table-tag">' + tags[i] + '</div>';
     }
     output += '</div>';
-    return output;
   } catch (e) {
-    return '';
   }
+  return window.baseFormatter(output);
 };
 
 window.timestampFormatter = function(value) {
   var m = moment(new Date(value * 1000));
-  return m.fromNow() + ' <span class="superscript">(' +
-    m.calendar() + ')</span>';
+  return window.baseFormatter(m.fromNow() + ' <span class="superscript">(' +
+    m.calendar() + ')</span>');
 };
 
 var testIfCached = function (evt) {
@@ -215,15 +231,7 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
         status: cells[0],
         size: cells[3],
         downloadSpeed: speed,
-        // timing not as useful because the cache masks socrata's performance
-        //connectTime: cells[5],
-        //pretransferTime: cell[6],
-        //starttransferTime: cells[7],
-        //totalTime: cells[8],
         totalTime: cells[3] / speed,
-        // size: (cells[3] / 1000000).toFixed(2) + 'MB',
-        //test: $('<span />').append($test).html(),
-        //cacheTest: href,
         name: cells[6],
         attribution: cells[7],
         averageRating: cells[8],
@@ -267,6 +275,15 @@ $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
 
       // Weird, this should be covered by post-body hook above.
       $('.test-if-cached').on('click', testIfCached);
+
+      // Add a title
+      var $title =$('<h2 />')
+        .append($('<a />').text(portal).attr({
+          'href': 'https://' + portal,
+          'target': '_blank'
+        }))
+        .addClass('odc-title');
+      $('.fixed-table-toolbar').prepend($title);
     }
   }).always(function (resp) {
     var hashed;
