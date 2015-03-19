@@ -26,7 +26,8 @@ var indexTable = function (lastHash) {
       var $link = $('<a />').attr('href', cells[0] + '/').text(cells[0]);
       data.push({
         name: $('<span />').append($link).html(),
-        date: moment(new Date(cells[1])).from(moment()),
+        //date: moment(new Date(cells[1])).from(moment()),
+        date: cells[1],
         caching: Number(cells[2]),
         checked: Number(cells[3]),
         total: Number(cells[4])
