@@ -95,12 +95,12 @@ window.utcTimeSinceFormatter = function(value) {
 window.statusFormatter = function(value, row) {
   var output,
       statusCode = Number(row.status),
-      canTest = false;
-      //tester = $('<span />').append($('<a>Test</a>')
-      //  .addClass('test-if-cached')
-      //  .attr({
-      //    href: row.href + '?test=true'
-      //  })).html();
+      canTest = false,
+      tester = $('<span />').append($('<a>Test</a>')
+        .addClass('test-if-cached')
+        .attr({
+          href: row.href + '?test=true'
+        })).html();
 
   if (statusCode === 200) {
     output = "Checked";
@@ -114,9 +114,9 @@ window.statusFormatter = function(value, row) {
     output = "Error";
   }
 
-  /*if (canTest) {
+  if (canTest) {
     output = output + ' <span class="superscript">(' + tester + ')</a>';
-  }*/
+  }
 
   return window.baseFormatter(output);
 };
@@ -226,14 +226,11 @@ var portalTable = function (portal, lastHash) {
         continue;
       }
       var href = $('<a />').attr('href', cells[5])[0].pathname,
-          id = cells[1],
-          speed = wgetSpeed2Number(cells[4]),
-          $link = $('<a />').attr('href', href).text(id);
+          speed = wgetSpeed2Number(cells[4]);
 
       data.push({
-        id: $('<span />').append($link).html(),
+        id: cells[1],
         href: href,
-        //date: moment(new Date(cells[1])).from(moment()),
         lastCached: cells[2],
         status: cells[0],
         size: cells[3],
