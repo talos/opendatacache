@@ -24,7 +24,7 @@ do
     portallogs=$logroot/$portal
 
     # Keep track of last misses for speed information
-    for log in api/views/*/index.log; do
+    for log in $portallogs/api/views/*/index.log; do
       lastmiss=$(dirname $log)/lastmiss.log
       tac $log | grep -m 1 '^201' > $lastmiss
     done
