@@ -75,7 +75,9 @@ window.baseFormatter = function (value) {
 };
 
 window.nameFormatter = function(value, row) {
-  return window.baseFormatter('<a href="' + row.href + '">' + row.name +
+  //debugger;
+  return window.baseFormatter('<a data-id="' + row.id + '" href="' +
+                              row.href + '">' + row.name +
     '</a> <span class="superscript">(' + row.id +')</span>');
 };
 
@@ -180,18 +182,36 @@ window.logsFormatter = function (href) {
 };
 
 var testIfCached = function (evt) {
-  var $el = $(evt.target),
-      href = $el.attr('href');
+  //var $el = $(evt.target),
+  //    href = $el.attr('href');
 
-  evt.preventDefault();
-  $el.text('Testing...');
-  $.ajax(href).done(function () {
-    $el.text('Fully');
-  }).fail(function () {
-    $el.text('Gzip only');
-  }).always(function () {
+  //evt.preventDefault();
+  //$el.text('Testing...');
+  var $row = $(evt.target).closest('tr');
+  if ($row.data('checked') !== true) {
+    $row.data('checked', true);
+    var $tds = $($('td', $row)),
+        $a = $('a', $tds[0]),
+        $el = $($tds[3]),
+        href = $a.attr('href'),
+        text = $el.text();
 
-  });
+    href = href + '?test=true';
+
+    if (text.startsWith('Checked')) {
+
+      $.ajax(href).done(function () {
+        $el.text(text + ' (Fully)');
+      }).fail(function () {
+        $el.text(text + ' (Gzip only)');
+      }).always(function () {
+
+      });
+    }
+
+    //console.log(id);
+  }
+  //console.log($row.data('index'));
 };
 
 /* Convert wget speed (like 104 KB/s, 10 MB/s, etc.) to pure number bytes per
@@ -226,12 +246,12 @@ var portalTable = function (portal, lastHash) {
         continue;
       }
       var href = $('<a />').attr('href', cells[5])[0].pathname,
-          id = cells[1],
-          speed = wgetSpeed2Number(cells[4]),
-          $link = $('<a />').attr('href', href).text(id);
+          speed = wgetSpeed2Number(cells[4]);
+          //$link = $('<a />').attr('href', href).text(id);
 
       data.push({
-        id: $('<span />').append($link).html(),
+        //id: $('<span />').append($link).html(),
+        id: cells[1],
         href: href,
         //date: moment(new Date(cells[1])).from(moment()),
         lastCached: cells[2],
@@ -277,12 +297,15 @@ var portalTable = function (portal, lastHash) {
         data: data
       }).on('pre-body.bs.table', function () {
         $('.test-if-cached').off('click', testIfCached);
+        $('#table * tr').off('mouseover', testIfCached);
       }).on('post-body.bs.table', function () {
         $('.test-if-cached').on('click', testIfCached);
+        $('#table * tr').on('mouseover', testIfCached);
       });
 
       // Weird, this should be covered by post-body hook above.
       $('.test-if-cached').on('click', testIfCached);
+      $('#table * tr').on('mouseover', testIfCached);
 
       // Add a title
       var $title =$('<h2 />')
