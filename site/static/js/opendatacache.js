@@ -95,27 +95,28 @@ window.utcTimeSinceFormatter = function(value) {
 window.statusFormatter = function(value, row) {
   var output,
       statusCode = Number(row.status),
-      canTest = false,
-      tester = $('<span />').append($('<a>Test</a>').addClass('test-if-cached')
-  .attr({
-    href: row.href + '?test=true'
-  })).html();
+      canTest = false;
+      //tester = $('<span />').append($('<a>Test</a>')
+      //  .addClass('test-if-cached')
+      //  .attr({
+      //    href: row.href + '?test=true'
+      //  })).html();
 
   if (statusCode === 200) {
-    output = "Probably cached";
+    output = "Checked";
     canTest = true;
   } else if (statusCode === 201) {
-    output = "Newly cached";
+    output = "Checked";
     canTest = true;
   } else if (statusCode >= 400 && statusCode < 500) {
     output = "Geographic (no cache)";
   } else {
-    output = "Error caching";
+    output = "Error";
   }
 
-  if (canTest) {
+  /*if (canTest) {
     output = output + ' <span class="superscript">(' + tester + ')</a>';
-  }
+  }*/
 
   return window.baseFormatter(output);
 };
@@ -173,18 +174,18 @@ window.timestampFormatter = function(value) {
 };
 
 var testIfCached = function (evt) {
-var $el = $(evt.target),
-    href = $el.attr('href');
+  var $el = $(evt.target),
+      href = $el.attr('href');
 
-evt.preventDefault();
-$el.text('Testing...');
-$.ajax(href).done(function () {
-  $el.text('Fully');
-}).fail(function () {
-  $el.text('Gzip only');
-}).always(function () {
+  evt.preventDefault();
+  $el.text('Testing...');
+  $.ajax(href).done(function () {
+    $el.text('Fully');
+  }).fail(function () {
+    $el.text('Gzip only');
+  }).always(function () {
 
-});
+  });
 };
 
 /* Convert wget speed (like 104 KB/s, 10 MB/s, etc.) to pure number bytes per
@@ -207,21 +208,21 @@ var wgetSpeed2Number = function (wgetSpeed) {
 
 
 var portalTable = function (portal, lastHash) {
-var data = [];
-$.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
-  if (hash(resp) === lastHash) {
-    return;
-  }
-  var lines = resp.split('\n');
-  for (var i = 0; i < lines.length - 1; i += 1) {
-    var cells = lines[i].split('\t');
-    if (!cells[0]) {
-      continue;
+  var data = [];
+  $.ajax('/logs/' + portal + '/summary.log').done(function (resp) {
+    if (hash(resp) === lastHash) {
+      return;
     }
-    var href = $('<a />').attr('href', cells[5])[0].pathname,
-        id = cells[1],
-        speed = wgetSpeed2Number(cells[4]),
-        $link = $('<a />').attr('href', href).text(id);
+    var lines = resp.split('\n');
+    for (var i = 0; i < lines.length - 1; i += 1) {
+      var cells = lines[i].split('\t');
+      if (!cells[0]) {
+        continue;
+      }
+      var href = $('<a />').attr('href', cells[5])[0].pathname,
+          id = cells[1],
+          speed = wgetSpeed2Number(cells[4]),
+          $link = $('<a />').attr('href', href).text(id);
 
       data.push({
         id: $('<span />').append($link).html(),
