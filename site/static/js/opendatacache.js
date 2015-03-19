@@ -96,12 +96,12 @@ window.utcTimeSinceFormatter = function(value) {
 window.statusFormatter = function(value, row) {
   var output,
       statusCode = Number(row.status),
-      canTest = false,
-      tester = $('<span />').append($('<a>Test</a>')
-        .addClass('test-if-cached')
-        .attr({
-          href: row.href + '?test=true'
-        })).html();
+      canTest = false;
+      //tester = $('<span />').append($('<a>Test</a>')
+      //  .addClass('test-if-cached')
+      //  .attr({
+      //    href: row.href + '?test=true'
+      //  })).html();
 
   if (statusCode === 200) {
     output = "Checked";
@@ -115,9 +115,9 @@ window.statusFormatter = function(value, row) {
     output = "Error";
   }
 
-  if (canTest) {
-    output = output + ' <span class="superscript">(' + tester + ')</a>';
-  }
+  //if (canTest) {
+  //  output = output + ' <span class="superscript">(' + tester + ')</a>';
+  //}
 
   return window.baseFormatter(output);
 };
@@ -180,19 +180,14 @@ window.logsFormatter = function (href) {
                               '">Logs</a>');
 };
 
-var testIfCached = function (evt) {
-  var $el = $(evt.target),
-      href = $el.attr('href');
-
-  evt.preventDefault();
-  $el.text('Testing...');
-  $.ajax(href).done(function () {
-    $el.text('Fully');
-  }).fail(function () {
-    $el.text('Gzip only');
-  }).always(function () {
-
-  });
+window.timeToDownloadFormatter = function (href, row) {
+  var lastMiss = '/logs' + href.replace('rows.csv', 'lastmiss.log'),
+      cacheTest = href + '?test=true';
+  return window.baseFormatter('<a class="estimate-download-time" ' +
+                              ' data-size="' + row.size + '" ' +
+                              ' data-cache-test="' + cacheTest + '" ' +
+                              ' data-last-miss="' + lastMiss + '" ' +
+                              'href="#">Estimate</a>');
 };
 
 /* Convert wget speed (like 104 KB/s, 10 MB/s, etc.) to pure number bytes per
@@ -213,6 +208,69 @@ var wgetSpeed2Number = function (wgetSpeed) {
   return num *= Math.pow(1000, pow);
 };
 
+var estimateDownloadTime = function (evt) {
+  evt.preventDefault();
+  var $el = $(evt.target),
+      cached = false,
+      uncachedDownloadTime,
+      maxSpeed = 300000,
+      estimate = '',
+      size = $el.data('size'),
+      $lastMiss = $.get($el.data('last-miss')),
+      $cacheTest = $.get($el.data('cache-test'));
+
+  // If this fails, leave cached false.
+  $cacheTest.done(function () {
+    cached = true;
+  });
+
+  // If this fails, leave uncachedDownloadTime undefined.
+  $lastMiss.done(function (resp) {
+    var cells = resp.split('\t'),
+        estSpeed = wgetSpeed2Number(cells[4]);
+    if (estSpeed > maxSpeed) {
+      estSpeed = maxSpeed;
+    }
+    uncachedDownloadTime = Number(cells[3]) / estSpeed;
+  });
+
+  $.when($lastMiss, $cacheTest).always(function () {
+    if (cached === true) {
+      estimate = size / maxSpeed;
+    } else {
+      estimate = uncachedDownloadTime;
+    }
+
+    var precision = 0;
+    if (estimate < 0.01) {
+      precision = 3;
+    } else if (estimate < 0.1) {
+      precision = 2;
+    } else if (estimate < 1) {
+      precision = 1;
+    }
+    estimate = moment.duration(estimate, "seconds").format('h[h]m[m]s[s]',
+                                                           precision);
+    if (cached) {
+      estimate += ' (Cached)';
+    } else {
+      estimate += ' (Uncached)';
+    }
+
+    $el.parent().text(estimate);
+
+  });
+
+
+  //$el.text('Testing...');
+  //$.ajax(href).done(function () {
+  //  $el.text('Fully');
+  //}).fail(function () {
+  //  $el.text('Gzip only');
+  //}).always(function () {
+
+  //});
+};
 
 var portalTable = function (portal, lastHash) {
   var data = [];
@@ -279,13 +337,13 @@ var portalTable = function (portal, lastHash) {
       $('#table').bootstrapTable({
         data: data
       }).on('pre-body.bs.table', function () {
-        $('.test-if-cached').off('click', testIfCached);
+        $('.estimate-download-time').off('click', estimateDownloadTime);
       }).on('post-body.bs.table', function () {
-        $('.test-if-cached').on('click', testIfCached);
+        $('.estimate-download-time').on('click', estimateDownloadTime);
       });
 
       // Weird, this should be covered by post-body hook above.
-      $('.test-if-cached').on('click', testIfCached);
+      $('.estimate-download-time').on('click', estimateDownloadTime);
 
       // Add a title
       var $title =$('<h2 />')
