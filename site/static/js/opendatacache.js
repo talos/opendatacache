@@ -56,7 +56,7 @@ var indexTable = function (lastHash) {
   });
 };
 
-window.rowStyle = function (row, idx) {
+window.rowStyle = function (row) {
   var obj = { classes: '' };
   if (Math.floor(row.status / 100) === 4) {
     obj.classes += ' odc-table-nontabular';
@@ -70,7 +70,7 @@ window.bigCellFormatter = function(value) {
   return '<div class="odc-table-big-cell">' + value + '</div>';
 };
 
-window.nameFormatter = function(value, row, idx) {
+window.nameFormatter = function(value, row) {
   return '<a href="' + row.href + '">' + row.name +
     '</a> <span class="superscript">(' + row.id +')</span>';
 };
@@ -83,7 +83,7 @@ window.utcTimeSinceFormatter = function(value) {
   return moment(value).fromNow();
 };
 
-window.statusFormatter = function(value, row, idx) {
+window.statusFormatter = function(value, row) {
   var output,
       statusCode = Number(row.status),
       status,
@@ -109,18 +109,18 @@ window.statusFormatter = function(value, row, idx) {
 window.sizeFormatter = function(value) {
   value = Number(value);
   if (value > Math.pow(1000, 3)) {
-    return (value / Math.pow(1000, 3)).toFixed(2) + 'GB'
+    return (value / Math.pow(1000, 3)).toFixed(2) + 'GB';
   } else if (value > Math.pow(1000, 2)) {
-    return (value / Math.pow(1000, 2)).toFixed(2) + 'MB'
+    return (value / Math.pow(1000, 2)).toFixed(2) + 'MB';
   } else if (value > Math.pow(1000, 1)) {
-    return (value / Math.pow(1000, 1)).toFixed(2) + 'KB'
+    return (value / Math.pow(1000, 1)).toFixed(2) + 'KB';
   } else {
-    return value + 'B'
+    return value + 'B';
   }
 };
 
 window.speedFormatter = function(value) {
-  return sizeFormatter(value) + '/s';
+  return window.sizeFormatter(value) + '/s';
 };
 
 window.durationFormatter = function(value) {
@@ -133,26 +133,27 @@ window.durationFormatter = function(value) {
   } else if (value < 1) {
     precision = 1;
   }
-  return moment.duration(value, "seconds").format('h[h]m[m]s[s]', precision)
+  return moment.duration(value, "seconds").format('h[h]m[m]s[s]', precision);
 };
 
 window.tagsFormatter = function(value) {
   try {
-    var tags = JSON.parse(value);
+    var tags = JSON.parse(value),
+        output = '<div class="odc-table-tags">';
+    for (var i = 0; i < tags.length; i += 1) {
+      output += '<div class="odc-table-tag">' + tags[i] + '</div>';
+    }
+    output += '</div>';
+    return output;
   } catch (e) {
     return '';
   }
-  var output = '<div class="odc-table-tags">';
-  for (var i = 0; i < tags.length; i += 1) {
-    output += '<div class="odc-table-tag">' + tags[i] + '</div>';
-  }
-  output += '</div>';
-  return output;
 };
 
 window.timestampFormatter = function(value) {
-  var m = moment(new Date(value * 1000))
-  return m.fromNow() + ' <span class="superscript">(' + m.calendar() + ')</span>';
+  var m = moment(new Date(value * 1000));
+  return m.fromNow() + ' <span class="superscript">(' +
+    m.calendar() + ')</span>';
 };
 
 var testIfCached = function (evt) {
