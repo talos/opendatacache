@@ -1,12 +1,10 @@
 #!/bin/bash
 
+/opendatacache/util/portals.sh /opendatacache/conf/opendatacache.conf /opendatacache/site/portals.txt > /etc/nginx/sites-enabled/opendatacache.conf
+
 /opendatacache/util/resolvers.sh
 
-source /etc/default/varnish && varnishd ${DAEMON_OPTS}
 nginx
-
-sleep 1
-varnishlog -D
 
 sleep 5
 
