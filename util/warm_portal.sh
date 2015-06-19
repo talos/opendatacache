@@ -1,12 +1,8 @@
 #!/bin/bash
 
-proxy=$1
-logroot=$2
-portal=$3
+source util/constants.sh
 
-locks=$logroot/locks
-
-mkdir -p $locks
+portal=$1
 
 while :
 do
@@ -48,7 +44,7 @@ do
       fi
     done
 
-    /opendatacache/util/warm_dataset.sh "$proxy" "$logroot" "$portal" "$id" "$portallogs" "$lockdir" &
+    /opendatacache/util/warm_dataset.sh "$portal" "$id" "$lockno" &
   done
 
   now=$(date +"%Y-%m-%dT%H:%M:%S%z")

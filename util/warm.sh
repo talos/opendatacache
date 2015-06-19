@@ -24,15 +24,13 @@
 #
 # While all data will be downloaded, it will be dumped to /dev/null.
 
-portals=$1
-proxy=$2
-logroot=/var/log/opendatacache
+source util/constants.sh
 
 # Start update script to update user-facing web interface
-/opendatacache/util/update.sh "$portals" "$logroot" &
+/opendatacache/util/update.sh &
 
 # Warm all our portals, by running a subprocess to warm each individual portal
 # in parallel.
 for portal in $(cat $portals); do
-  /opendatacache/util/warm_portal.sh "$proxy" "$logroot" "$portal" &
+  /opendatacache/util/warm_portal.sh $portal &
 done

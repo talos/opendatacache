@@ -1,21 +1,16 @@
 #!/bin/bash
-
-# update.sh : update user-facing summary log files for web display
-#
+# update.sh : update user-facing summary log files for web display #
 # This is called by util/warm.sh . Previously every individual portal did its
 # own updating, but this is expensive.
 #
 
-portals=$1
-logroot=$2
-
-pipe=/opendatacache/update.pipe
-
-trap "rm -f $pipe" EXIT
+source util/constants.sh
 
 if [[ ! -p $pipe ]]; then
   mkfifo $pipe
 fi
+
+trap "rm -f $pipe" EXIT
 
 while true
 do
@@ -42,3 +37,5 @@ do
     sleep 0.1
   fi
 done
+
+rm -rf $pipe

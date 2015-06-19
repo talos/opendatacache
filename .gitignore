@@ -1,5 +1,4 @@
-logs
-warmlogs
+log
 cache
 tmp
 node_modules
