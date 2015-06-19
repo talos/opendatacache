@@ -48,7 +48,10 @@ if [ -e $INDEX_LOG ]; then
   ROWS_UPDATED_AT=$(echo -e "${output}" | cut -f 14)
 
   if [ "$LAST_ROWS_UPDATED_AT" == "$ROWS_UPDATED_AT" ]; then
-    exit
+    if [ $lockno ]; then
+      rm -rf $lockdir
+    fi
+    exit 0
   fi
 fi
 
