@@ -34,7 +34,7 @@ do
     printf "$portal\t$now\t$active\t$checked\t$total\n" > $portallogs/status.log
     cat $logroot/**/status.log > $logroot/status.log
 
-    sleep 0.1
+    sleep 0.2
   fi
 done
 

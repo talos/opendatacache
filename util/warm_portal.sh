@@ -31,12 +31,12 @@ do
     fi
 
     lockno=1
-    maxjobs=20
+    maxjobs=5
     while : ; do
       if [ $lockno -lt $maxjobs ]; then
         lockdir=$locks/${lockno}.lock
         mkdir $lockdir 2>/dev/null && break
-        sleep 0.1
+        sleep 0.2
         lockno=$((lockno+1))
       else
         lockno=1
