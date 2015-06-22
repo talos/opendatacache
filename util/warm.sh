@@ -29,6 +29,9 @@ source util/constants.sh
 # Start update script to update user-facing web interface
 /opendatacache/util/update.sh &
 
+# Clear out any prior existing locks
+rm -rf $locks/*
+
 # Warm all our portals, by running a subprocess to warm each individual portal
 # in parallel.
 for portal in $(cat $portals); do
