@@ -26,7 +26,7 @@ do
 
     tail -n 1 -q $portallogs/api/views/**/index.log > $portallogs/summary.log
 
-    cat $logroot/locks/**/activity > $logroot/activity.log
+    cat $logroot/locks/**/activity || echo '' > $logroot/activity.log
     grep "$portal" $logroot/activity.log > $portallogs/activity.log
     active=$(cat $portallogs/activity.log | wc -l)
     checked=$(cat $portallogs/summary.log | wc -l)
