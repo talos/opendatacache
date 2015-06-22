@@ -34,9 +34,6 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
 EXPOSE 8080
 
-# get everything running
-ADD start.sh /opendatacache/start.sh
-
 WORKDIR opendatacache
 
 #CMD ["/opendatacache/start.sh"]

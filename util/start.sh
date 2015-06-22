@@ -8,8 +8,10 @@ nginx
 
 sleep 5
 
-util/warm.sh \
-   > >(tee /var/log/opendatacache/out.log) \
-   2> >(tee /var/log/opendatacache/error.log >&2) &
+if [ $WARM ]; then
+  util/warm.sh \
+     > >(tee /var/log/opendatacache/out.log) \
+     2> >(tee /var/log/opendatacache/error.log >&2) &
+fi
 
 bash
