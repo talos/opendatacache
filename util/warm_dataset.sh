@@ -22,7 +22,7 @@ fi
 
 now=$(date +"%Y-%m-%dT%H:%M:%S%z")
 
-url=$proxy/$portal/nocache/api/views/$id/rows.csv
+url=$proxy/nocache/$portal/api/views/$id/rows.csv
 
 if [ $lockno ]; then
   printf "$portal\t$now\twarming\t$id\t$url\n" > $lockdir/activity
