@@ -44,14 +44,17 @@ INDEX_LOG=$portallogs/api/views/$id/index.log
 
 # if metadata indicates change, update
 if [ -e $INDEX_LOG ]; then
+  LAST_ROWS_STATUS=$(tail -n 1 $INDEX_LOG | cut -f 1)
   LAST_ROWS_UPDATED_AT=$(tail -n 1 $INDEX_LOG | cut -f 19)
   ROWS_UPDATED_AT=$(echo -e "${output}" | cut -f 14)
-  echoerr Skipping $url, metadata and data updated at $ROWS_UPDATED_AT
 
-  if [ "$LAST_ROWS_UPDATED_AT" == "$ROWS_UPDATED_AT" ]; then
+  if [ "$LAST_ROWS_STATUS" != "200" ]; then
+    echoerr "Redownloading $url, last status was $LAST_ROWS_STATUS"
+  elif [ "$LAST_ROWS_UPDATED_AT" == "$ROWS_UPDATED_AT" ]; then
     if [ $lockno ]; then
       rm -rf $lockdir
     fi
+    echoerr "Skipping $url, metadata and data updated at $ROWS_UPDATED_AT"
     exit 0
   fi
 fi

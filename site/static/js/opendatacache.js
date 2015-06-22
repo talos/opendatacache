@@ -285,7 +285,7 @@ var portalTable = function (portal, lastHash) {
         continue;
       }
       try {
-        var href = $('<a />').attr('href', cells[5])[0].pathname,
+        var href = $('<a />').attr('href', cells[5])[0].pathname.replace('nocache/', ''),
             speed = wgetSpeed2Number(cells[4]);
 
         data.push({
