@@ -46,6 +46,7 @@ INDEX_LOG=$portallogs/api/views/$id/index.log
 if [ -e $INDEX_LOG ]; then
   LAST_ROWS_UPDATED_AT=$(tail -n 1 $INDEX_LOG | cut -f 19)
   ROWS_UPDATED_AT=$(echo -e "${output}" | cut -f 14)
+  echoerr Skipping $url, metadata and data updated at $ROWS_UPDATED_AT
 
   if [ "$LAST_ROWS_UPDATED_AT" == "$ROWS_UPDATED_AT" ]; then
     if [ $lockno ]; then
