@@ -36,12 +36,13 @@ An Opendatacache is available already at
 You should build the image locally, then you can run it:
 
     $ ./build.sh
-    $ ./run.sh
+    $ WARM=1 ./run.sh
 
 #### A note on cache warming
 
-If a `WARM_URL` is specified as above, as soon as the container starts a shell
-script will begin crawling open data portals and caching their contents.
+If you don't specify `WARM=1` as above, the image will start & serve, but will
+not cache any new datasets.  Its listings will be based on prior caching progress
+in the `log/` folder.
 
 ## Thanks
 
