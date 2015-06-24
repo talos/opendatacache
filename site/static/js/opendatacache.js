@@ -1,5 +1,5 @@
 /*jshint browser: true, bitwise: false, maxstatements: 20*/
-/*globals $, moment*/
+/*globals $, moment, JSON*/
 
 var hash = function(str) {
   var hash = 0, i, chr, len;
@@ -285,13 +285,15 @@ var portalTable = function (portal, lastHash) {
         continue;
       }
       try {
-        var href = $('<a />').attr('href', cells[5])[0].pathname.replace('nocache/', ''),
+        var href = $('<a />').attr('href', cells[5])[0].pathname.replace(
+          'nocache/', ''),
             speed = wgetSpeed2Number(cells[4]);
 
         data.push({
           id: cells[1],
           href: href,
           lastCached: cells[2],
+          lastUpdated: cells[18] > cells[23] ? cells[18] : cells[23],
           status: cells[0],
           size: cells[3],
           downloadSpeed: speed,
