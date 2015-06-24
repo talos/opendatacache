@@ -24,7 +24,7 @@ do
       tac $log | grep -m 1 '^201' > $lastmiss
     done
 
-    tail -n 1 -q $portallogs/api/views/**/index.log > $portallogs/summary.log
+    tail -n 1 -q $portallogs/api/views/*/index.log > $portallogs/summary.log
 
     cat $logroot/locks/**/activity || echo '' > $logroot/activity.log
     grep "$portal" $logroot/activity.log > $portallogs/activity.log
