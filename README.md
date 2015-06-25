@@ -36,7 +36,7 @@ An Opendatacache is available already at
 You should build the image locally, then you can run it:
 
     $ ./build.sh
-    $ WARM=1 APP_TOKEN=[Your Socrata App Token]./run.sh
+    $ WARM=1 APP_TOKEN=[Your Socrata App Token] ./run.sh
 
 OpenDataCache makes a lot of API requests, so you'll need to [sign up for an application token](http://dev.socrata.com/docs/app-tokens.html).
 
