@@ -23,7 +23,7 @@ var indexTable = function (lastHash) {
     var lines = resp.split('\n');
     for (var i = 0; i < lines.length - 1; i += 1) {
       var cells = lines[i].split('\t');
-      var $link = $('<a />').attr('href', cells[0] + '/').text(cells[0]);
+      var $link = $('<a />').attr('href', cells[0] + '/' + window.location.search).text(cells[0]);
       data.push({
         name: $('<span />').append($link).html(),
         //date: moment(new Date(cells[1])).from(moment()),
@@ -368,6 +368,9 @@ var portalTable = function (portal, lastHash) {
 $(document).ready(function () {
   $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['en-US']);
 
+  if (window.location.search === '?framed=true') {
+    $('header').hide();
+  }
   if (window.location.pathname === '/') {
     indexTable();
   } else {
