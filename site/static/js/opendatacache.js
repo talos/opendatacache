@@ -14,6 +14,72 @@ var hash = function(str) {
   return hash;
 };
 
+var portals2names = {
+  "data.cityofnewyork.us": "New York City, NY",
+  "data.cityofchicago.org": "Chicago, IL",
+  "data.act.gov.au": "Australian Capital Territory",
+  "data.melbourne.vic.gov.au": "Melbourne, AU",
+  "data.colorado.gov": "Colorado State, US",
+  "data.nola.gov": "New Orleans, LA",
+  "healthmeasures.aspe.hhs.gov": "Health System Measurement Project",
+  "data.wa.gov": "Washington State, US",
+  "opendata.go.ke": "Kenya",
+  "data.austintexas.gov": "Austin, TX",
+  "info.samhsa.gov": "SAMSA",
+  "data.taxpayer.net": "Taxpayers for Common Sense",
+  "data.cityofmadison.com": "Madison, WI",
+  "data.slcgov.com": "Salt Lake City, UT",
+  "data.illinois.gov": "Illinois State, US",
+  "data.somervillema.gov": "Somerville, MA",
+  "iranhumanrights.socrata.com": "Iran Human Rights",
+  "data.hawaii.gov": "Hawaii State, US",
+  "data.maryland.gov": "Maryland State, US",
+  "data.ny.gov": "New York State, US",
+  "data.mo.gov": "Missouri State, US",
+  "data.nfpa.org": "Fields in Trust",
+  "nmfs.socrata.com": "NMFS",
+  "data.govloop.com": "Govloop",
+  "data.sunlightlabs.com": "Sunlight Labs",
+  "electionsdata.kingcounty.gov": "King County Elections Data",
+  "data.undp.org": "UNDP",
+  "deleon.socrata.com": "DeLeon, TX",
+  "data.energystar.gov": "Energy Star",
+  "explore.data.gov": "data.gov",
+  "data.weatherfordtx.gov": "Weatherford, TX",
+  "bronx.lehman.cuny.edu": "Lehman College",
+  "data.sfgov.org": "San Francisco, CA",
+  "data.edmonton.ca": "Edmonton, CA",
+  "data.consumerfinance.gov": "Consumer Financial Protection Bureau",
+  "www.metrochicagodata.org": "Metro Chicago Data",
+  "data.kingcounty.gov": "King County, WA",
+  "data.baltimorecity.gov": "Baltimore, MD",
+  "health.data.ny.gov": "New York State Department of Health",
+  "dati.lombardia.it": "Regione Lombardia, Italia",
+  "datacatalog.cookcountyil.gov": "Cook County, IL",
+  "www.opendatanyc.com": "New York City Comptroller",
+  "cookcounty.socrata.com": "Cook County, IL",
+  "data.oregon.gov": "Oregon State, US",
+  "data.oaklandnet.com": "Oakland, CA",
+  "data.raleighnc.gov": "Raleigh, NC",
+  "finances.worldbank.org": "World Bank",
+  "data.honolulu.gov": "Honolulu, HI",
+  "data.cityofboston.gov": "Boston, MA",
+  "data.ok.gov": "Oklahoma State, US",
+  "data.cms.gov": "Centers for Medicare & Medicaid Services",
+  "data.snostat.org": "Snostat",
+  "www.halifaxopendata.ca": "Halifax, Nova Scotia",
+  "data.wellingtonfl.gov": "Wellington, FL",
+  "gettingpastgo.socrata.com": "Getting Past Go, Socrata",
+  "www.data.act.gov.au": "Australian Capital Territory",
+  "data.redmond.gov": "Redmond, WA",
+  "data.seattle.gov": "Seattle, WA",
+  "data.montgomerycountymd.gov": "Montgomery County, MD",
+  "data.acgov.org": "Alameda County, CA",
+  "data.medicare.gov": "Medicare",
+  "data.lacity.org": "Los Angeles, CA",
+  "data.detroitmi.gov": "Detroit, MI"
+}
+
 var indexTable = function (lastHash) {
   var data = [];
   $.ajax('/logs/status.log').done(function (resp) {
@@ -23,13 +89,15 @@ var indexTable = function (lastHash) {
     var lines = resp.split('\n');
     for (var i = 0; i < lines.length - 1; i += 1) {
       var cells = lines[i].split('\t');
-      var $link = $('<a />').attr('href', cells[0] + '/' + window.location.search).text(cells[0]);
+      var $link = $('<a />').attr('href', cells[0] + '/' + window.location.search).text(portals2names[cells[0]]);
+      var ratioChecked = Number(cells[3]) / Number(cells[4]);
+      ratioChecked = ratioChecked > 1 ? 1 : ratioChecked;
       data.push({
         name: $('<span />').append($link).html(),
         //date: moment(new Date(cells[1])).from(moment()),
         date: cells[1],
         caching: Number(cells[2]),
-        checked: Number(cells[3]),
+        checked: String((ratioChecked * 100).toFixed(1)) + '%',
         total: Number(cells[4])
       });
     }
