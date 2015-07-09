@@ -32,7 +32,7 @@ wgetlog=$portallogs/api/views/$id/wget.log
 metadata_url=$proxy/$portal/api/views/${id}.json
 
 # obtain metadata about download
-metadata=$(curl -k -s -S --compressed "${metadata_url}" | tee $portallogs/api/views/$id/meta.json)
+metadata=$(curl --header "X-App-Token: $APP_TOKEN" -k -s -S --compressed "${metadata_url}" | tee $portallogs/api/views/$id/meta.json)
 columns="name attribution averageRating category createdAt description displayType downloadType downloadCount newBackend numberOfComments oid rowsUpdatedAt rowsUpdatedBy tableId totalTimesRated viewCount viewLastModified viewType tags"
 for key in $columns; do
   val=$(echo "$metadata" | grep "\"$key\" :" | head -n 1 | grep -Po ': .*' | tr -cd '[:print:]' | tr -d '\\' | sed -r 's/^: "?//' | sed -r 's/"?,$//' | tr -s '[:space:]' ' ')
@@ -102,7 +102,7 @@ fi
 tmpdir=/tmp/$portal/$id
 data_file=$tmpdir/data
 mkdir -p $tmpdir
-wget -S --header='Accept-Encoding: gzip' --progress=dot --no-check-certificate -O $data_file \
+wget -S --header "X-App-Token: $APP_TOKEN" --header='Accept-Encoding: gzip' --progress=dot --no-check-certificate -O $data_file \
   "$url" 2>${wgetlog}
 
 # measure the data
