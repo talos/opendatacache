@@ -1,0 +1,231 @@
+[ {
+  "id" : 1559,
+  "body" : "Bummer that this is an Access database. At least posting in a format like CSV would be preferred.\n\nGeodata would be great, too.\n\n@mjs4783, you would have to draw polygons for each of the POPS. Presumably something like MapPLUTO would make doing so much easier, but I'm no expert.",
+  "createdAt" : 1335019963,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "fum3-ejky",
+    "name" : "Privately Owned Public Spaces",
+    "averageRating" : 0,
+    "blobFilename" : "DCP_POPS.zip",
+    "blobFileSize" : 34054,
+    "blobId" : "RmDbuOaF2Ix4qRBCywjyAQoeRy55Hz8L2kQHZy8R3Mc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1318034643,
+    "description" : "Database with detailed information about all public spaces in all boroughs that was created as a result of the City's incentive zoning program",
+    "displayType" : "blob",
+    "downloadCount" : 1433,
+    "indexUpdatedAt" : 1409772424,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 341946,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318034643,
+    "publicationGroup" : 243937,
+    "publicationStage" : "published",
+    "tableId" : 243937,
+    "totalTimesRated" : 0,
+    "viewCount" : 3275,
+    "viewLastModified" : 1409937983,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "attachments" : [ {
+        "blobId" : "5998F3F4-AC48-4119-9143-23400096BF74",
+        "name" : "DCP_POPS_001.zip",
+        "filename" : "DCP_POPS_001.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "zoning", "database", "public", "space", "zone", "incentive", "private", "dcp", "privately owned public spaces" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1187,
+  "body" : "Unfortunately this data only contains address which you could map with Google Fusion tables like I did here: http://www.thenewyorkworld.com/2011/10/19/publicspace/\n\nA shapefile would be very interesting though because that would give you a sense of scale. Here's the contact info for Department of City Planning who maintains the database: http://www.nyc.gov/html/dcp/html/about/location.shtml",
+  "createdAt" : 1322753335,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "view" : {
+    "id" : "fum3-ejky",
+    "name" : "Privately Owned Public Spaces",
+    "averageRating" : 0,
+    "blobFilename" : "DCP_POPS.zip",
+    "blobFileSize" : 34054,
+    "blobId" : "RmDbuOaF2Ix4qRBCywjyAQoeRy55Hz8L2kQHZy8R3Mc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1318034643,
+    "description" : "Database with detailed information about all public spaces in all boroughs that was created as a result of the City's incentive zoning program",
+    "displayType" : "blob",
+    "downloadCount" : 1433,
+    "indexUpdatedAt" : 1409772424,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 341946,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318034643,
+    "publicationGroup" : 243937,
+    "publicationStage" : "published",
+    "tableId" : 243937,
+    "totalTimesRated" : 0,
+    "viewCount" : 3275,
+    "viewLastModified" : 1409937983,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "attachments" : [ {
+        "blobId" : "5998F3F4-AC48-4119-9143-23400096BF74",
+        "name" : "DCP_POPS_001.zip",
+        "filename" : "DCP_POPS_001.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "zoning", "database", "public", "space", "zone", "incentive", "private", "dcp", "privately owned public spaces" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1182,
+  "body" : "How would I take the data in this file and make a shapefile out of it?",
+  "createdAt" : 1322255754,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "v57u-9qsk",
+    "displayName" : "mjs4783",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 399837,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mjs4783"
+  },
+  "view" : {
+    "id" : "fum3-ejky",
+    "name" : "Privately Owned Public Spaces",
+    "averageRating" : 0,
+    "blobFilename" : "DCP_POPS.zip",
+    "blobFileSize" : 34054,
+    "blobId" : "RmDbuOaF2Ix4qRBCywjyAQoeRy55Hz8L2kQHZy8R3Mc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1318034643,
+    "description" : "Database with detailed information about all public spaces in all boroughs that was created as a result of the City's incentive zoning program",
+    "displayType" : "blob",
+    "downloadCount" : 1433,
+    "indexUpdatedAt" : 1409772424,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 341946,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318034643,
+    "publicationGroup" : 243937,
+    "publicationStage" : "published",
+    "tableId" : 243937,
+    "totalTimesRated" : 0,
+    "viewCount" : 3275,
+    "viewLastModified" : 1409937983,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "attachments" : [ {
+        "blobId" : "5998F3F4-AC48-4119-9143-23400096BF74",
+        "name" : "DCP_POPS_001.zip",
+        "filename" : "DCP_POPS_001.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "zoning", "database", "public", "space", "zone", "incentive", "private", "dcp", "privately owned public spaces" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,164 @@
+[ {
+  "id" : 3088,
+  "body" : "70 poll sites on this list have blank entries for the LOCATION field. Also, I've geocoded the locations independently, and the lat/lon values for several sites are incorrect, sometimes by more than a mile. How was the lat/lon information generated?",
+  "createdAt" : 1385041254,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4487,
+    "body" : "We apologize for the delayed response. We will pass on the information to the appropriate agency and will update you once we hear from them.",
+    "createdAt" : 1413922008,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "mifw-tguq",
+      "name" : "Voting/Poll Sites AS OF 09/05/2013",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1350584130,
+      "description" : "Locations of voting/poll sites through the city. This data is correct as of 9/5/2013. Please note that this information may not be up-to-date.",
+      "displayType" : "table",
+      "downloadCount" : 358,
+      "indexUpdatedAt" : 1414260537,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 5277007,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1378420997,
+      "publicationGroup" : 454724,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1378420951,
+      "rowsUpdatedBy" : "x539-akqs",
+      "tableId" : 1118962,
+      "totalTimesRated" : 0,
+      "viewCount" : 462,
+      "viewLastModified" : 1409938926,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Historical Data"
+          },
+          "Dataset Information" : {
+            "Agency" : "Board of Elections (BOENY)"
+          }
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "x539-akqs",
+        "displayName" : "Andrew Nicklin",
+        "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+        "screenName" : "Andrew Nicklin"
+      },
+      "tags" : [ "vote", "votes", "voting", "poll", "polls", "polling", "poll site", "poll sites", "site", "sites", "election", "elections" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "mamr-ipzn",
+    "displayName" : "Steven Romalewski",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 391026,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Steven Romalewski"
+  },
+  "view" : {
+    "id" : "mifw-tguq",
+    "name" : "Voting/Poll Sites AS OF 09/05/2013",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1350584130,
+    "description" : "Locations of voting/poll sites through the city. This data is correct as of 9/5/2013. Please note that this information may not be up-to-date.",
+    "displayType" : "table",
+    "downloadCount" : 358,
+    "indexUpdatedAt" : 1414260537,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5277007,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1378420997,
+    "publicationGroup" : 454724,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1378420951,
+    "rowsUpdatedBy" : "x539-akqs",
+    "tableId" : 1118962,
+    "totalTimesRated" : 0,
+    "viewCount" : 462,
+    "viewLastModified" : 1409938926,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Board of Elections (BOENY)"
+        }
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "x539-akqs",
+      "displayName" : "Andrew Nicklin",
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "screenName" : "Andrew Nicklin"
+    },
+    "tags" : [ "vote", "votes", "voting", "poll", "polls", "polling", "poll site", "poll sites", "site", "sites", "election", "elections" ],
+    "flags" : [ "default" ]
+  }
+} ]

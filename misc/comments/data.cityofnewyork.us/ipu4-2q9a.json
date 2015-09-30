@@ -1,0 +1,265 @@
+[ {
+  "id" : 5595,
+  "body" : "Can someone provide codes for the permit descriptors? This dataset needs a codebook. Thanks very much!",
+  "createdAt" : 1443020933,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "t3jc-zsrp",
+    "displayName" : "Wendy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 931479,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Wendy"
+  },
+  "view" : {
+    "id" : "ipu4-2q9a",
+    "name" : "DOB Permit Issuance",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298336,
+    "description" : "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 16370,
+    "indexUpdatedAt" : 1443560020,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 13565137,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443557552,
+    "publicationGroup" : 804322,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557477,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4508394,
+    "totalTimesRated" : 0,
+    "viewCount" : 5583,
+    "viewLastModified" : 1443557552,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "issuance_date"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "permit", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5192,
+  "body" : "What are the permit subtypes? Is there an explanation of the abbreviations?",
+  "createdAt" : 1433347559,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "dsdy-4tx5",
+    "displayName" : "Trudy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 920610,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Trudy"
+  },
+  "view" : {
+    "id" : "ipu4-2q9a",
+    "name" : "DOB Permit Issuance",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298336,
+    "description" : "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 16370,
+    "indexUpdatedAt" : 1443560020,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 13565137,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443557552,
+    "publicationGroup" : 804322,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557477,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4508394,
+    "totalTimesRated" : 0,
+    "viewCount" : 5583,
+    "viewLastModified" : 1443557552,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "issuance_date"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "permit", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5191,
+  "body" : "Can you explain what Permit subtypes abbreviations are?  Where can I get a list",
+  "createdAt" : 1433347411,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "dsdy-4tx5",
+    "displayName" : "Trudy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 920610,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Trudy"
+  },
+  "view" : {
+    "id" : "ipu4-2q9a",
+    "name" : "DOB Permit Issuance",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298336,
+    "description" : "A list of permits issued for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 16370,
+    "indexUpdatedAt" : 1443560020,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 13565137,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443557552,
+    "publicationGroup" : 804322,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557477,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4508394,
+    "totalTimesRated" : 0,
+    "viewCount" : 5583,
+    "viewLastModified" : 1443557552,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "issuance_date"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "permit", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,351 @@
+[ {
+  "id" : 3425,
+  "body" : "The file will be replaced shortly. Only hold up is a Socrata defect. Check back next week. Our apologies. ",
+  "createdAt" : 1394824280,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "br4v-gwe4",
+    "displayName" : "Colin R",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 704077,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Colin R"
+  },
+  "view" : {
+    "id" : "4iq4-tuhq",
+    "name" : "NYC Address Points",
+    "averageRating" : 0,
+    "blobFilename" : "AddressPoint_20150626.zip",
+    "blobFileSize" : 36347523,
+    "blobId" : "UY56uIkmdsXWevko-lfsoDfiDeglKrxxmgiKb3YuPvw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1379625942,
+    "description" : "NYC Address Points",
+    "displayType" : "blob",
+    "downloadCount" : 920,
+    "indexUpdatedAt" : 1409772345,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 5504231,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625942,
+    "publicationGroup" : 1164738,
+    "publicationStage" : "published",
+    "tableId" : 1164738,
+    "totalTimesRated" : 0,
+    "viewCount" : 2031,
+    "viewLastModified" : 1436817297,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ],
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "9qFzNprdKEOfiWWfR64OdGgiTjecZNKn1GRIbVx0pGQ",
+        "name" : "AddressPoint_012414.zip",
+        "filename" : "AddressPoint_012414.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "nyc address points", "doitt", "gis", "map", "doitt gis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3422,
+  "body" : "We're sorry for the issues with the file.  The dataset will be updated shortly.  Until then, please find the complete address points file under the attachments section of the dataset metadata.",
+  "createdAt" : 1394752593,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "4iq4-tuhq",
+    "name" : "NYC Address Points",
+    "averageRating" : 0,
+    "blobFilename" : "AddressPoint_20150626.zip",
+    "blobFileSize" : 36347523,
+    "blobId" : "UY56uIkmdsXWevko-lfsoDfiDeglKrxxmgiKb3YuPvw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1379625942,
+    "description" : "NYC Address Points",
+    "displayType" : "blob",
+    "downloadCount" : 920,
+    "indexUpdatedAt" : 1409772345,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 5504231,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625942,
+    "publicationGroup" : 1164738,
+    "publicationStage" : "published",
+    "tableId" : 1164738,
+    "totalTimesRated" : 0,
+    "viewCount" : 2031,
+    "viewLastModified" : 1436817297,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ],
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "9qFzNprdKEOfiWWfR64OdGgiTjecZNKn1GRIbVx0pGQ",
+        "name" : "AddressPoint_012414.zip",
+        "filename" : "AddressPoint_012414.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "nyc address points", "doitt", "gis", "map", "doitt gis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3356,
+  "body" : "This shapefile is missing the .shp component.  Could you please add it?",
+  "createdAt" : 1393523896,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "tbi9-4tev",
+    "displayName" : "Sara",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 876908,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sara"
+  },
+  "view" : {
+    "id" : "4iq4-tuhq",
+    "name" : "NYC Address Points",
+    "averageRating" : 0,
+    "blobFilename" : "AddressPoint_20150626.zip",
+    "blobFileSize" : 36347523,
+    "blobId" : "UY56uIkmdsXWevko-lfsoDfiDeglKrxxmgiKb3YuPvw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1379625942,
+    "description" : "NYC Address Points",
+    "displayType" : "blob",
+    "downloadCount" : 920,
+    "indexUpdatedAt" : 1409772345,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 5504231,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625942,
+    "publicationGroup" : 1164738,
+    "publicationStage" : "published",
+    "tableId" : 1164738,
+    "totalTimesRated" : 0,
+    "viewCount" : 2031,
+    "viewLastModified" : 1436817297,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ],
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "9qFzNprdKEOfiWWfR64OdGgiTjecZNKn1GRIbVx0pGQ",
+        "name" : "AddressPoint_012414.zip",
+        "filename" : "AddressPoint_012414.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "nyc address points", "doitt", "gis", "map", "doitt gis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3350,
+  "body" : "I'm having trouble extracting this archive. It seems to be the .dbf file, because I'm able to get everything else out okay. Anyone else having this issue?",
+  "createdAt" : 1393339039,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "4iq4-tuhq",
+    "name" : "NYC Address Points",
+    "averageRating" : 0,
+    "blobFilename" : "AddressPoint_20150626.zip",
+    "blobFileSize" : 36347523,
+    "blobId" : "UY56uIkmdsXWevko-lfsoDfiDeglKrxxmgiKb3YuPvw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1379625942,
+    "description" : "NYC Address Points",
+    "displayType" : "blob",
+    "downloadCount" : 920,
+    "indexUpdatedAt" : 1409772345,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 5504231,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625942,
+    "publicationGroup" : 1164738,
+    "publicationStage" : "published",
+    "tableId" : 1164738,
+    "totalTimesRated" : 0,
+    "viewCount" : 2031,
+    "viewLastModified" : 1436817297,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ],
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "9qFzNprdKEOfiWWfR64OdGgiTjecZNKn1GRIbVx0pGQ",
+        "name" : "AddressPoint_012414.zip",
+        "filename" : "AddressPoint_012414.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "nyc address points", "doitt", "gis", "map", "doitt gis" ],
+    "flags" : [ "default" ]
+  }
+} ]

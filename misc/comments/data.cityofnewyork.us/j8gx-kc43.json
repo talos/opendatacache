@@ -1,0 +1,83 @@
+[ {
+  "id" : 5403,
+  "body" : "The lat/lngs in this data set, were rounded to integer. Pretty useless, and why are there so few than the 2012 farmers market list. ",
+  "createdAt" : 1440006890,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "j8gx-kc43",
+    "name" : "New York City Farmers Markets",
+    "averageRating" : 0,
+    "category" : "Health",
+    "createdAt" : 1382718082,
+    "description" : "Location and facility information for New York City farmers markets.",
+    "displayType" : "table",
+    "downloadCount" : 413,
+    "indexUpdatedAt" : 1442869805,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 13423109,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442867038,
+    "publicationGroup" : 1286457,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442867025,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4407386,
+    "totalTimesRated" : 0,
+    "viewCount" : 1535,
+    "viewLastModified" : 1442867038,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "farmers market", "location", "health" ],
+    "flags" : [ "default" ]
+  }
+} ]

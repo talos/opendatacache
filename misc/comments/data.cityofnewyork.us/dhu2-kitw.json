@@ -1,0 +1,75 @@
+[ {
+  "id" : 3632,
+  "body" : "This link returns an error. Has the service moved?",
+  "createdAt" : 1398627834,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "n9xc-38pf",
+    "displayName" : "Jonathan Roberts",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 882168,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jonathan Roberts"
+  },
+  "view" : {
+    "id" : "dhu2-kitw",
+    "name" : "Employment Opportunities",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1313525358,
+    "description" : "List of current jobs at DDC",
+    "displayType" : "href",
+    "downloadCount" : 820,
+    "indexUpdatedAt" : 1412971937,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 331579,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1313525358,
+    "publicationGroup" : 239564,
+    "publicationStage" : "published",
+    "tableId" : 239564,
+    "totalTimesRated" : 0,
+    "viewCount" : 1248,
+    "viewLastModified" : 1412971932,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Design and Construction (DDC)"
+        }
+      },
+      "accessPoints" : {
+        "aspx" : "http://ddcftp.nyc.gov/recruit_newddc/rss.aspx"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "sbrh-e4gp",
+      "displayName" : "Theresa",
+      "screenName" : "Theresa"
+    },
+    "tags" : [ "ddc", "employment", "opportunities", "jobs" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,93 @@
+[ {
+  "id" : 5304,
+  "body" : "Great dataset!\n\nI've used it on my website:\nhttp://schoolzones.us/nyc/",
+  "createdAt" : 1437049325,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5atu-zpfu",
+    "displayName" : "Igal Dvir",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 924701,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Igal Dvir"
+  },
+  "view" : {
+    "id" : "mshx-yvwq",
+    "name" : "School Zones 2014-2015",
+    "averageRating" : 0,
+    "blobFilename" : "School_Zones_2014-2015_5Mar2015.zip",
+    "blobFileSize" : 1156649,
+    "blobId" : "VCboeU0u6Zu66SAANzSipxadEiDq5HpsHnmpDI11Xks",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Education",
+    "createdAt" : 1425915953,
+    "description" : "2013-2014 School Zones (as of March 5th, 2015). Files are in a GIS Shapefile format. They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).",
+    "displayType" : "map",
+    "downloadCount" : 91,
+    "indexUpdatedAt" : 1425922575,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 10541646,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1425915966,
+    "publicationGroup" : 2447299,
+    "publicationStage" : "published",
+    "tableId" : 2447299,
+    "totalTimesRated" : 0,
+    "viewCount" : 234,
+    "viewLastModified" : 1425916072,
+    "viewType" : "geo",
+    "childViews" : [ "tx2u-ijyq", "c2an-si7i", "t7ja-636f" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Education (DOE)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/mshx-yvwq",
+        "bbox" : "-74.25748547233138,40.49583702739174,-73.69922637341953,40.91556707132244",
+        "layers" : "geo_mshx-yvwq-1,geo_mshx-yvwq-2,geo_mshx-yvwq-3",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_mshx-yvwq"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "school zones 2014-2015", "education", "elementary", "middle school", "high school", "escuela", "location" ],
+    "flags" : [ "default" ]
+  }
+} ]

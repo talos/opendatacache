@@ -1,0 +1,799 @@
+[ {
+  "id" : 4811,
+  "body" : "A year later and this data has not been corrected. Clearly having accurate open data is not a priority for NYC.",
+  "createdAt" : 1424178116,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "86yi-jydw",
+    "displayName" : "VinylFox",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 391036,
+    "profileImageUrlLarge" : "/api/users/86yi-jydw/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/86yi-jydw/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/86yi-jydw/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "VinylFox"
+  },
+  "view" : {
+    "id" : "jt7v-77mi",
+    "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+    "averageRating" : 50,
+    "category" : "City Government",
+    "createdAt" : 1378824016,
+    "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+    "displayType" : "table",
+    "downloadCount" : 1293,
+    "indexUpdatedAt" : 1424179755,
+    "newBackend" : false,
+    "numberOfComments" : 9,
+    "oid" : 5397940,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379097955,
+    "publicationGroup" : 1133812,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1405560423,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1144342,
+    "totalTimesRated" : 2,
+    "viewCount" : 9161,
+    "viewLastModified" : 1424178062,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 50
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4693,
+  "body" : "Where is the metadata stored?",
+  "createdAt" : 1418848796,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gfkb-t8t8",
+    "displayName" : "H2oboxer",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 896023,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "H2oboxer"
+  },
+  "view" : {
+    "id" : "jt7v-77mi",
+    "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+    "averageRating" : 50,
+    "category" : "City Government",
+    "createdAt" : 1378824016,
+    "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+    "displayType" : "table",
+    "downloadCount" : 1293,
+    "indexUpdatedAt" : 1424179755,
+    "newBackend" : false,
+    "numberOfComments" : 9,
+    "oid" : 5397940,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379097955,
+    "publicationGroup" : 1133812,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1405560423,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1144342,
+    "totalTimesRated" : 2,
+    "viewCount" : 9161,
+    "viewLastModified" : 1424178062,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 50
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3631,
+  "body" : "I geocoded/cleaned this up - https://github.com/tswanson/NYCParkingGeocode\n",
+  "createdAt" : 1398489725,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "pcjr-ru5m",
+    "displayName" : "Tom Swanson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 699139,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Tom Swanson"
+  },
+  "view" : {
+    "id" : "jt7v-77mi",
+    "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+    "averageRating" : 50,
+    "category" : "City Government",
+    "createdAt" : 1378824016,
+    "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+    "displayType" : "table",
+    "downloadCount" : 1293,
+    "indexUpdatedAt" : 1424179755,
+    "newBackend" : false,
+    "numberOfComments" : 9,
+    "oid" : 5397940,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379097955,
+    "publicationGroup" : 1133812,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1405560423,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1144342,
+    "totalTimesRated" : 2,
+    "viewCount" : 9161,
+    "viewLastModified" : 1424178062,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 50
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3063,
+  "body" : "Is there a range of dates that we can believe in this dataset, or is there a systemic problem in mapping dates?  \n\nAlso, some violation times are nonsensical (e.g. 8643P).  Are there any checks on the data at all?",
+  "createdAt" : 1384531989,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "children" : [ {
+    "id" : 3338,
+    "body" : "Thank you for your input. The NYC OpenData platform does not provide or own the data in the datasets. We work with the agencies in preparing their datasets, but we rely on the originating agency for quality control. We will relay your feedback to DOF.",
+    "createdAt" : 1393269358,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "jt7v-77mi",
+      "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+      "averageRating" : 50,
+      "category" : "City Government",
+      "createdAt" : 1378824016,
+      "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+      "displayType" : "table",
+      "downloadCount" : 1293,
+      "indexUpdatedAt" : 1424179755,
+      "newBackend" : false,
+      "numberOfComments" : 9,
+      "oid" : 5397940,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379097955,
+      "publicationGroup" : 1133812,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1405560423,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1144342,
+      "totalTimesRated" : 2,
+      "viewCount" : 9161,
+      "viewLastModified" : 1424178062,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Finance (DOF)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 50
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "kgx2-vcbc",
+    "displayName" : "McMurphy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 862789,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "McMurphy"
+  },
+  "view" : {
+    "id" : "jt7v-77mi",
+    "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+    "averageRating" : 50,
+    "category" : "City Government",
+    "createdAt" : 1378824016,
+    "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+    "displayType" : "table",
+    "downloadCount" : 1293,
+    "indexUpdatedAt" : 1424179755,
+    "newBackend" : false,
+    "numberOfComments" : 9,
+    "oid" : 5397940,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379097955,
+    "publicationGroup" : 1133812,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1405560423,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1144342,
+    "totalTimesRated" : 2,
+    "viewCount" : 9161,
+    "viewLastModified" : 1424178062,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 50
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3036,
+  "body" : "It would appear that your issue date is being interpreted incorrectly, years are showing in the range from 1973 to 2060. You should create a \"location\" type filed that geocodes based on house number and street name - use the power of Socrata's geocoding.",
+  "createdAt" : 1383682013,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3351,
+    "body" : "We do apologize for the delay, and an underwhelming response - but we will look into it. And we're trying to do a better job from this point on.\n\nWe appreciate your patience.",
+    "createdAt" : 1393345328,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 1,
+    "user" : {
+      "id" : "k2fz-tf56",
+      "displayName" : "Gary A",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 392753,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Gary A"
+    },
+    "view" : {
+      "id" : "jt7v-77mi",
+      "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+      "averageRating" : 50,
+      "category" : "City Government",
+      "createdAt" : 1378824016,
+      "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+      "displayType" : "table",
+      "downloadCount" : 1293,
+      "indexUpdatedAt" : 1424179755,
+      "newBackend" : false,
+      "numberOfComments" : 9,
+      "oid" : 5397940,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379097955,
+      "publicationGroup" : 1133812,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1405560423,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1144342,
+      "totalTimesRated" : 2,
+      "viewCount" : 9161,
+      "viewLastModified" : 1424178062,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Finance (DOF)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 50
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 3349,
+    "body" : "Three months for \"thank you for your feedback\" - why do I get the feeling this will never be looked into.",
+    "createdAt" : 1393338404,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "86yi-jydw",
+      "displayName" : "VinylFox",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 391036,
+      "profileImageUrlLarge" : "/api/users/86yi-jydw/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/86yi-jydw/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/86yi-jydw/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "VinylFox"
+    },
+    "view" : {
+      "id" : "jt7v-77mi",
+      "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+      "averageRating" : 50,
+      "category" : "City Government",
+      "createdAt" : 1378824016,
+      "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+      "displayType" : "table",
+      "downloadCount" : 1293,
+      "indexUpdatedAt" : 1424179755,
+      "newBackend" : false,
+      "numberOfComments" : 9,
+      "oid" : 5397940,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379097955,
+      "publicationGroup" : 1133812,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1405560423,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1144342,
+      "totalTimesRated" : 2,
+      "viewCount" : 9161,
+      "viewLastModified" : 1424178062,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Finance (DOF)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 50
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 3339,
+    "body" : "Thank you for your feedback.",
+    "createdAt" : 1393269442,
+    "domainId" : 75,
+    "downRatings" : 1,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "jt7v-77mi",
+      "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+      "averageRating" : 50,
+      "category" : "City Government",
+      "createdAt" : 1378824016,
+      "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+      "displayType" : "table",
+      "downloadCount" : 1293,
+      "indexUpdatedAt" : 1424179755,
+      "newBackend" : false,
+      "numberOfComments" : 9,
+      "oid" : 5397940,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379097955,
+      "publicationGroup" : 1133812,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1405560423,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1144342,
+      "totalTimesRated" : 2,
+      "viewCount" : 9161,
+      "viewLastModified" : 1424178062,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Finance (DOF)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 50
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "86yi-jydw",
+    "displayName" : "VinylFox",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 391036,
+    "profileImageUrlLarge" : "/api/users/86yi-jydw/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/86yi-jydw/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/86yi-jydw/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "VinylFox"
+  },
+  "view" : {
+    "id" : "jt7v-77mi",
+    "name" : "Parking Violations Issued - Fiscal Year 2014 (August 2013 – June 2014)",
+    "averageRating" : 50,
+    "category" : "City Government",
+    "createdAt" : 1378824016,
+    "description" : "Parking Violations Issued during Fiscal Year 2014 (August 2013 – June 2014)",
+    "displayType" : "table",
+    "downloadCount" : 1293,
+    "indexUpdatedAt" : 1424179755,
+    "newBackend" : false,
+    "numberOfComments" : 9,
+    "oid" : 5397940,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379097955,
+    "publicationGroup" : 1133812,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1405560423,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1144342,
+    "totalTimesRated" : 2,
+    "viewCount" : 9161,
+    "viewLastModified" : 1424178062,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 50
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "finance", "dof", "stars", "ticket", "violation", "summons", "parking ticket", "parking violations issued - fiscal year 2014 (august 2013 – june 2014)" ],
+    "flags" : [ "default" ]
+  }
+} ]

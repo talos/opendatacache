@@ -1,0 +1,223 @@
+[ {
+  "id" : 4556,
+  "body" : "@ Tim - Your site dont load. Also where are you located. Lets meet up sometime. I have an idea. bbdevelopers at gmail. Thanks\n",
+  "createdAt" : 1414776378,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "stq5-34wx",
+    "displayName" : "HarpSin",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 846833,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "HarpSin"
+  },
+  "view" : {
+    "id" : "kku6-nxdu",
+    "name" : "Demographic Statistics By Zip Code",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1311775554,
+    "description" : "Demographic statistics broken down by zip code",
+    "displayType" : "table",
+    "downloadCount" : 2222,
+    "indexUpdatedAt" : 1414260345,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4208790,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1372266760,
+    "publicationGroup" : 238846,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1372266747,
+    "rowsUpdatedBy" : "uurm-7z6x",
+    "tableId" : 942474,
+    "totalTimesRated" : 0,
+    "viewCount" : 12479,
+    "viewLastModified" : 1409940379,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "boundary", "district", "community", "demography", "demographic", "statistic", "youth", "development", "zip", "code", "zip code", "area", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3216,
+  "body" : "Agreed, this dataset is way too small, which is sad because it's super interesting.\n\nBased on this dataset, I've created a service which will allow people to download demographic data via crowdsourcing.\n\nCheck it out if you're interested:\n\nwww.statly.net",
+  "createdAt" : 1389641733,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "6tzf-ar9r",
+    "displayName" : "Tim Alexander",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 865595,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Tim Alexander"
+  },
+  "view" : {
+    "id" : "kku6-nxdu",
+    "name" : "Demographic Statistics By Zip Code",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1311775554,
+    "description" : "Demographic statistics broken down by zip code",
+    "displayType" : "table",
+    "downloadCount" : 2222,
+    "indexUpdatedAt" : 1414260345,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4208790,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1372266760,
+    "publicationGroup" : 238846,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1372266747,
+    "rowsUpdatedBy" : "uurm-7z6x",
+    "tableId" : 942474,
+    "totalTimesRated" : 0,
+    "viewCount" : 12479,
+    "viewLastModified" : 1409940379,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "boundary", "district", "community", "demography", "demographic", "statistic", "youth", "development", "zip", "code", "zip code", "area", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2160,
+  "body" : "Either there aren't enough participants or who was surveyed should be in the title.",
+  "createdAt" : 1360088265,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "62yy-5gd7",
+    "displayName" : "noraregis",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 706131,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "noraregis"
+  },
+  "view" : {
+    "id" : "kku6-nxdu",
+    "name" : "Demographic Statistics By Zip Code",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1311775554,
+    "description" : "Demographic statistics broken down by zip code",
+    "displayType" : "table",
+    "downloadCount" : 2222,
+    "indexUpdatedAt" : 1414260345,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4208790,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1372266760,
+    "publicationGroup" : 238846,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1372266747,
+    "rowsUpdatedBy" : "uurm-7z6x",
+    "tableId" : 942474,
+    "totalTimesRated" : 0,
+    "viewCount" : 12479,
+    "viewLastModified" : 1409940379,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "boundary", "district", "community", "demography", "demographic", "statistic", "youth", "development", "zip", "code", "zip code", "area", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,159 @@
+[ {
+  "id" : 5071,
+  "body" : "Also are addresses, phone numbers and \"performance tier\" descriptions available? Would love to know the criteria or rubric for tiers.",
+  "createdAt" : 1430240904,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "yijp-44qn",
+    "displayName" : "bxrtley",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 916578,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "bxrtley"
+  },
+  "view" : {
+    "id" : "jhn3-4vdj",
+    "name" : "Directory Of Adult Shelter Performance Ranking FY 2011 Q3 2011 Q4",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1359643237,
+    "description" : "List of Facilities, Providers and their Rankings for Q3 2012 and Q4 2011",
+    "displayType" : "table",
+    "downloadCount" : 213,
+    "indexUpdatedAt" : 1414260065,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 2394298,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1359643392,
+    "publicationGroup" : 648314,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1359643240,
+    "rowsUpdatedBy" : "8b43-zkvh",
+    "tableId" : 648314,
+    "totalTimesRated" : 0,
+    "viewCount" : 195,
+    "viewLastModified" : 1409938409,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Homeless Services (DHS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "8b43-zkvh",
+      "displayName" : "Ram S.",
+      "screenName" : "Ram S."
+    },
+    "tags" : [ "dhs", "homeless", "adult", "shelter", "performance", "ranking", "q3", "q4", "2011" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5070,
+  "body" : "Nice list. There seems to be new 2013 data sets out for this. Any more recent?\n\nExamples:\nhttp://on.nyc.gov/1bQ7Mah\nhttp://on.nyc.gov/1P351OX",
+  "createdAt" : 1430240864,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "yijp-44qn",
+    "displayName" : "bxrtley",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 916578,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "bxrtley"
+  },
+  "view" : {
+    "id" : "jhn3-4vdj",
+    "name" : "Directory Of Adult Shelter Performance Ranking FY 2011 Q3 2011 Q4",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1359643237,
+    "description" : "List of Facilities, Providers and their Rankings for Q3 2012 and Q4 2011",
+    "displayType" : "table",
+    "downloadCount" : 213,
+    "indexUpdatedAt" : 1414260065,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 2394298,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1359643392,
+    "publicationGroup" : 648314,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1359643240,
+    "rowsUpdatedBy" : "8b43-zkvh",
+    "tableId" : 648314,
+    "totalTimesRated" : 0,
+    "viewCount" : 195,
+    "viewLastModified" : 1409938409,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Homeless Services (DHS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "8b43-zkvh",
+      "displayName" : "Ram S.",
+      "screenName" : "Ram S."
+    },
+    "tags" : [ "dhs", "homeless", "adult", "shelter", "performance", "ranking", "q3", "q4", "2011" ],
+    "flags" : [ "default" ]
+  }
+} ]

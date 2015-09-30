@@ -1,0 +1,454 @@
+[ {
+  "id" : 4879,
+  "body" : "Also, scrolling should be better. For instance, on my mac, it's virtually impossible to do so. The setup should be better. Perhaps more like a business directory listing? And I don't know if this would be possible, but could the businesses be given the capability of going into their business listings to update themselves? I know that may seem a bit out there, but just a suggestion!",
+  "createdAt" : 1425592218,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "4pt2-63ic",
+    "displayName" : "Maria Campbell",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 910256,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Maria Campbell"
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4776,
+  "body" : "Would it be possible to add a new column for the Zip Code or the community district ? ",
+  "createdAt" : 1422984766,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "eru5-mnbd",
+    "displayName" : "Sihem",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 906292,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sihem"
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4706,
+  "body" : "Hello - This list is much larger now.  The dataset should be updated to reflect the list in digital.nyc.",
+  "createdAt" : 1419557049,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "qm8a-gan3",
+    "displayName" : "Max Galka",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891195,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Max Galka",
+    "title" : "Cofounder"
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4525,
+  "body" : "We apologize for the delayed response. We will pass on the request to the appropriate agency.\n",
+  "createdAt" : 1414170863,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4070,
+  "body" : "Hey Joel, \nThanks for posting - I agree, geocoding would be great. I wasn't able to access remappedinny - is it still available? Thanks again!",
+  "createdAt" : 1404772633,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "p52g-m298",
+    "displayName" : "sta",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 888286,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "sta"
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1720,
+  "body" : "Can the addresses be geocoded and the lat longs be shared? When we did remappedinny, we found that there were some manual massaging we had to do which I'm sure was duplicating work the city is already doing.",
+  "createdAt" : 1341951794,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "wkb2-czuf",
+    "displayName" : "Joel N",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 512992,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Joel N"
+  },
+  "view" : {
+    "id" : "f4yq-wry5",
+    "name" : "Mapped In NY Companies",
+    "averageRating" : 0,
+    "createdAt" : 1338840028,
+    "description" : "Raw data which powers the Mapped In NY site at http://www.mappedinny.com/",
+    "displayType" : "table",
+    "downloadCount" : 2831,
+    "indexUpdatedAt" : 1423151201,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 7091138,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1423151146,
+    "publicationGroup" : 354240,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1423151119,
+    "rowsUpdatedBy" : "6js3-9zs6",
+    "tableId" : 1432124,
+    "totalTimesRated" : 0,
+    "viewCount" : 10264,
+    "viewLastModified" : 1423151146,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Media And Entertainment (MOME)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs", "tech", "jobs and economic mobility" ],
+    "flags" : [ "default" ]
+  }
+} ]

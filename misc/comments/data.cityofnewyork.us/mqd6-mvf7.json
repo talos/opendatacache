@@ -1,0 +1,166 @@
+[ {
+  "id" : 4375,
+  "body" : "Where can I get the full list?  How frequently is this list updated?",
+  "createdAt" : 1411653051,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4466,
+    "body" : "We apologize for the delayed response. We will pass on the request to OEM to get the full list and will update you once we hear from them",
+    "createdAt" : 1413914884,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "mqd6-mvf7",
+      "name" : "Incident based distribution of ReadyNY guides",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1399309251,
+      "description" : "Areas targeted for ReadyNY guide distribution following a nearby incident, such as a large fire or water main break",
+      "displayType" : "table",
+      "downloadCount" : 114,
+      "indexUpdatedAt" : 1438265244,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 12551403,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1438265152,
+      "publicationGroup" : 1570324,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1438265097,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 3764922,
+      "totalTimesRated" : 0,
+      "viewCount" : 135,
+      "viewLastModified" : 1438265153,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Office of Emergency Management (OEM)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "incident based distribution of readyny guides", "emergency", "oem", "awareness", "pamphlet" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "jysw-64qe",
+    "displayName" : "Freddy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 894342,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Freddy"
+  },
+  "view" : {
+    "id" : "mqd6-mvf7",
+    "name" : "Incident based distribution of ReadyNY guides",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1399309251,
+    "description" : "Areas targeted for ReadyNY guide distribution following a nearby incident, such as a large fire or water main break",
+    "displayType" : "table",
+    "downloadCount" : 114,
+    "indexUpdatedAt" : 1438265244,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 12551403,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1438265152,
+    "publicationGroup" : 1570324,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1438265097,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 3764922,
+    "totalTimesRated" : 0,
+    "viewCount" : 135,
+    "viewLastModified" : 1438265153,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Office of Emergency Management (OEM)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "incident based distribution of readyny guides", "emergency", "oem", "awareness", "pamphlet" ],
+    "flags" : [ "default" ]
+  }
+} ]

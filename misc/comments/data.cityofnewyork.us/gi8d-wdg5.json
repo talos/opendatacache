@@ -1,0 +1,89 @@
+[ {
+  "id" : 5400,
+  "body" : "Hi, the columns are mislabeled.",
+  "createdAt" : 1439909846,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "txiz-bf5a",
+    "displayName" : "Ben Kaufman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 927419,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben Kaufman"
+  },
+  "view" : {
+    "id" : "gi8d-wdg5",
+    "name" : "2015 Green Taxi Trip Data",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1438959012,
+    "description" : "This dataset includes trip records from all trips completed in green taxis in NYC in 2014. Records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Livery Passenger Enhancement Program (LPEP). The trip data was not created by the TLC, and TLC makes no representations as to the accuracy of these data.",
+    "displayType" : "table",
+    "downloadCount" : 74,
+    "indexUpdatedAt" : 1441455128,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 12722058,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1438959085,
+    "publicationGroup" : 3902929,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1441450354,
+    "rowsUpdatedBy" : "e4sc-6x5y",
+    "state" : "normal",
+    "tableId" : 3902929,
+    "totalTimesRated" : 0,
+    "viewCount" : 281,
+    "viewLastModified" : 1439303985,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Automation" : "No",
+          "Update Frequency" : "As needed",
+          "Date Made Public" : "10/10/2015"
+        },
+        "Dataset Information" : {
+          "Agency" : "Taxi and Limousine Commission (TLC)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,73 @@
+[ {
+  "id" : 2425,
+  "body" : "Hi Albert,\n\nIs there a newer version of this dataset?",
+  "createdAt" : 1366034844,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "uth7-wih3",
+    "displayName" : "Sami",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 697663,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sami"
+  },
+  "view" : {
+    "id" : "cqds-77ys",
+    "name" : "Property Valuation and Assessment data Tax Classes 2,3,4",
+    "averageRating" : 0,
+    "blobFilename" : "TC234.zip",
+    "blobFileSize" : 47075130,
+    "blobId" : "OTp-NB223fAXeJev0WNuhu98v6f0GOBx29dGSBn1PeU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1314992702,
+    "description" : "Property valuation and assessment data (Expanded Tax Classes 2,3,4 Assessed Value)",
+    "displayType" : "blob",
+    "downloadCount" : 607,
+    "indexUpdatedAt" : 1409773013,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 332418,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1314992702,
+    "publicationGroup" : 240065,
+    "publicationStage" : "published",
+    "tableId" : 240065,
+    "totalTimesRated" : 0,
+    "viewCount" : 1343,
+    "viewLastModified" : 1409937759,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "finance", "property", "tax", "value", "valuation", "assess", "assessment", "expand", "expanded", "roll", "tax class" ],
+    "flags" : [ "default" ]
+  }
+} ]

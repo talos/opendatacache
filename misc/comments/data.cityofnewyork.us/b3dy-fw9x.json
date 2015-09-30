@@ -1,0 +1,170 @@
+[ {
+  "id" : 4661,
+  "body" : "Any chance on getting any metadata on this? Such as last update etc? Doesn't appear to be much in metadata xml. ",
+  "createdAt" : 1417691608,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5514,
+    "body" : "We apologize for the late response. This data shows as being modified in June of 2012.",
+    "createdAt" : 1441909045,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "b3dy-fw9x",
+      "name" : "DoITT Median",
+      "averageRating" : 0,
+      "blobFilename" : "DOITT_MEDIAN.shp.zip",
+      "blobFileSize" : 13386998,
+      "blobId" : "IlR_Xr7jUx3p43nJXOnz7M9SA28UOr4pigAP66_U2Zg",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "City Government",
+      "createdAt" : 1415838532,
+      "description" : "Medians",
+      "displayType" : "blob",
+      "downloadCount" : 47,
+      "indexUpdatedAt" : 1415838588,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 9366343,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1415838532,
+      "publicationGroup" : 1878371,
+      "publicationStage" : "published",
+      "tableId" : 1878371,
+      "totalTimesRated" : 0,
+      "viewCount" : 78,
+      "viewLastModified" : 1415838581,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "doitt", "median" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "b3dy-fw9x",
+    "name" : "DoITT Median",
+    "averageRating" : 0,
+    "blobFilename" : "DOITT_MEDIAN.shp.zip",
+    "blobFileSize" : 13386998,
+    "blobId" : "IlR_Xr7jUx3p43nJXOnz7M9SA28UOr4pigAP66_U2Zg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1415838532,
+    "description" : "Medians",
+    "displayType" : "blob",
+    "downloadCount" : 47,
+    "indexUpdatedAt" : 1415838588,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 9366343,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1415838532,
+    "publicationGroup" : 1878371,
+    "publicationStage" : "published",
+    "tableId" : 1878371,
+    "totalTimesRated" : 0,
+    "viewCount" : 78,
+    "viewLastModified" : 1415838581,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "doitt", "median" ],
+    "flags" : [ "default" ]
+  }
+} ]

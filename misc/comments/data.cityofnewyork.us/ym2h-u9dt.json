@@ -1,0 +1,77 @@
+[ {
+  "id" : 4690,
+  "body" : "Is there any data on checkouts?",
+  "createdAt" : 1418750733,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "962h-uzwv",
+    "displayName" : "Lanimc",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 902624,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Lanimc"
+  },
+  "view" : {
+    "id" : "ym2h-u9dt",
+    "name" : "Brooklyn Public Library Catalog",
+    "averageRating" : 0,
+    "category" : "Recreation",
+    "createdAt" : 1317764570,
+    "description" : "Brooklyn Public Library Catalog, with Call #, Author, Title, Edition, Pub Info, Standard #.  Data delimiter is “|”.",
+    "displayType" : "table",
+    "downloadCount" : 4536,
+    "indexUpdatedAt" : 1414260374,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 4141063,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371845491,
+    "publicationGroup" : 243051,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371845435,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933014,
+    "totalTimesRated" : 0,
+    "viewCount" : 1803,
+    "viewLastModified" : 1409936987,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Brooklyn Public Library (BPL)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "library", "catalog", "catalogue", "brooklyn", "book", "author", "title", "edition", "publisher" ],
+    "flags" : [ "default" ]
+  }
+} ]

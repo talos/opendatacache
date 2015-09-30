@@ -1,0 +1,1266 @@
+[ {
+  "id" : 5229,
+  "body" : "I am doing grad school research around school safety/pedestrian issues for Queens. If anyone is interested in the project, a map, similar to the Vision Zero data view map, please let me know. I need to join fields and clean data. I am not a data person. ",
+  "createdAt" : 1435006078,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "je99-vua8",
+    "displayName" : "Cristinafurlong",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 907122,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Cristinafurlong"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4945,
+  "body" : "Does this data include crashes on the interstate highways such as the BQE?   don't see any highways listed in the \"On Street Name\" field.",
+  "createdAt" : 1427467558,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "phyw-6jmn",
+    "displayName" : "michael cohen",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 912709,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "michael cohen"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4681,
+  "body" : "Lat/Lon has disappeared for the vast majority of these records.  Many people depend on that geocoding, which was one of the major values-added from posting this data set.  When will it be restored?",
+  "createdAt" : 1418397551,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "tw9x-ds6b",
+    "displayName" : "John Krauss",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 1,
+    "oid" : 850880,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "John Krauss"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4583,
+  "body" : "Community organizations using the SODA API endpoint would likely welcome the addition of a community board field.",
+  "createdAt" : 1415840495,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "tber-9tdk",
+    "displayName" : "gmculp",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 893623,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "gmculp"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4531,
+  "body" : "We apologize for the late response.\n\n@ Christine - You'll need to create a filtered view of the data you want, save that view, and do an export on that view.\n\n@ Nathan R - You can create a mapped view using the visualize tab, with the Location column being the basis of your map.",
+  "createdAt" : 1414291625,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3742,
+  "body" : "do you know how to export all of last year? when I export without filteringit gives me only the current month . not easy to do pivot tables \n",
+  "createdAt" : 1401147251,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4718,
+    "body" : "At most, the system can spit out 50,000 records at a time (which is about 3.5 months of data).  You can use this URL to download a specific timeframe by specifying the date range with YYYY-MM-DD formatting:  I suggest downloading a quarter at a time:\n\nhttps://data.cityofnewyork.us/resource/h9gi-nx95.csv?$order=date&$limit=50000&$where=date>='2014-01-01T00:00:00' AND date < '2014-04-01T00:00:00'",
+    "createdAt" : 1420223715,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "67up-euen",
+      "displayName" : "Jon Ivy",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 903546,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Jon Ivy"
+    },
+    "view" : {
+      "id" : "h9gi-nx95",
+      "name" : "NYPD Motor Vehicle Collisions",
+      "averageRating" : 60,
+      "category" : "Public Safety",
+      "createdAt" : 1398703304,
+      "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+      "displayType" : "table",
+      "downloadCount" : 6737,
+      "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+      "indexUpdatedAt" : 1443515006,
+      "newBackend" : false,
+      "numberOfComments" : 13,
+      "oid" : 8701800,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1408642527,
+      "publicationGroup" : 1561483,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 163284453,
+      "rowsUpdatedAt" : 1443563695,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1691989,
+      "totalTimesRated" : 2,
+      "viewCount" : 24372,
+      "viewLastModified" : 1441032060,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Weekdays"
+          },
+          "Dataset Information" : {
+            "Agency" : "Police Department (NYPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "163284453",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 60
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "bd3a-dfpu",
+    "displayName" : "Christine Berthet",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 858013,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Christine Berthet"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3696,
+  "body" : "I looked at data for Manhattan CB7. 1/2 (68 of 143) of the crashes causing injuries/deaths have \"unspecified\" as the contributing cause of crash. This would be much more helpful if it had better data for every crash.\n\nAlso, it would be more helpful if it identified type of vehicle (private car, taxi, bike, etc.) involved in the crash.",
+  "createdAt" : 1400031478,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "xmrc-6kxv",
+    "displayName" : "Richard Robbins",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 883175,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Richard Robbins"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3685,
+  "body" : "Does anybody know how to use the lat/long GPS coordinate columns as locations for a map view? I can't view this data on a map right now because the lat/long columns aren't recognized as a location column for map view.",
+  "createdAt" : 1399576902,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "h6mg-swzg",
+    "displayName" : "Nathan R",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 883065,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Nathan R"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3681,
+  "body" : "You can intersect the data yourself using the city's other open datasets: https://nycopendata.socrata.com/Public-Safety/Police-Precincts/78dh-3ptz",
+  "createdAt" : 1399516073,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3684,
+    "body" : "Another problem is that there are many records that are not geocoded. Our ability to draw valid statistical comparisons over time is eroded if it is reliant on the skill and effort NYPD applies to geocoding the data, which may vary over time, and by precinct. Instead of making us guess, they should just add info on the precinct handling each incident.",
+    "createdAt" : 1399553903,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "4pzc-fqri",
+      "displayName" : "Todd Goldman",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 882979,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Todd Goldman"
+    },
+    "view" : {
+      "id" : "h9gi-nx95",
+      "name" : "NYPD Motor Vehicle Collisions",
+      "averageRating" : 60,
+      "category" : "Public Safety",
+      "createdAt" : 1398703304,
+      "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+      "displayType" : "table",
+      "downloadCount" : 6737,
+      "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+      "indexUpdatedAt" : 1443515006,
+      "newBackend" : false,
+      "numberOfComments" : 13,
+      "oid" : 8701800,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1408642527,
+      "publicationGroup" : 1561483,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 163284453,
+      "rowsUpdatedAt" : 1443563695,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1691989,
+      "totalTimesRated" : 2,
+      "viewCount" : 24372,
+      "viewLastModified" : 1441032060,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Weekdays"
+          },
+          "Dataset Information" : {
+            "Agency" : "Police Department (NYPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "163284453",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 60
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 3682,
+    "body" : "There's a problem with that, though: Let's say a crash occurs on a street that forms the border between two precincts. Which precinct is it assigned to? The shapefiles likely won't help there. NYPD knows which precinct has jurisdiction, but it's not obvious to the public. - crossposted from http://goo.gl/VBhFAC",
+    "createdAt" : 1399522183,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "tuqv-s9x3",
+      "displayName" : "Stephen Miller",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 882965,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Stephen Miller"
+    },
+    "view" : {
+      "id" : "h9gi-nx95",
+      "name" : "NYPD Motor Vehicle Collisions",
+      "averageRating" : 60,
+      "category" : "Public Safety",
+      "createdAt" : 1398703304,
+      "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+      "displayType" : "table",
+      "downloadCount" : 6737,
+      "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+      "indexUpdatedAt" : 1443515006,
+      "newBackend" : false,
+      "numberOfComments" : 13,
+      "oid" : 8701800,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1408642527,
+      "publicationGroup" : 1561483,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 163284453,
+      "rowsUpdatedAt" : 1443563695,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1691989,
+      "totalTimesRated" : 2,
+      "viewCount" : 24372,
+      "viewLastModified" : 1441032060,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Weekdays"
+          },
+          "Dataset Information" : {
+            "Agency" : "Police Department (NYPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "163284453",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 60
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "wtgc-suz9",
+    "displayName" : "James W",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 883005,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "James W"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3680,
+  "body" : "It would be great if this dataset could be tagged by NYPD precinct as well",
+  "createdAt" : 1399490312,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 3,
+  "user" : {
+    "id" : "4pzc-fqri",
+    "displayName" : "Todd Goldman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 882979,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Todd Goldman"
+  },
+  "view" : {
+    "id" : "h9gi-nx95",
+    "name" : "NYPD Motor Vehicle Collisions",
+    "averageRating" : 60,
+    "category" : "Public Safety",
+    "createdAt" : 1398703304,
+    "description" : "Details of Motor Vehicle Collisions in New York City provided by the Police Department (NYPD).",
+    "displayType" : "table",
+    "downloadCount" : 6737,
+    "iconUrl" : "fileId:oW0cJILkcnktYb_UJrVr9IXc0JUNpGXLeyQzGnoKxEI",
+    "indexUpdatedAt" : 1443515006,
+    "newBackend" : false,
+    "numberOfComments" : 13,
+    "oid" : 8701800,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408642527,
+    "publicationGroup" : 1561483,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163284453,
+    "rowsUpdatedAt" : 1443563695,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691989,
+    "totalTimesRated" : 2,
+    "viewCount" : 24372,
+    "viewLastModified" : 1441032060,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekdays"
+        },
+        "Dataset Information" : {
+          "Agency" : "Police Department (NYPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "163284453",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 60
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nypd", "collisions", "bigapps", "big apps", "visionzero", "vision", "zero" ],
+    "flags" : [ "default" ]
+  }
+} ]

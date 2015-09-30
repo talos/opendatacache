@@ -1,0 +1,80 @@
+[ {
+  "id" : 1210,
+  "body" : "Will this be updated regularly?",
+  "createdAt" : 1324410922,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "exg7-ud72",
+    "displayName" : "magpie707",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 400592,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "magpie707"
+  },
+  "view" : {
+    "id" : "dftr-3bf5",
+    "name" : "Q1 2010 Real Estate Market Indicators",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1317406317,
+    "description" : "Statistical data on the lower Manhattan real estate market",
+    "displayType" : "table",
+    "downloadCount" : 224,
+    "indexUpdatedAt" : 1414260073,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 4141718,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847996,
+    "publicationGroup" : 242174,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1371847994,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 933188,
+    "totalTimesRated" : 0,
+    "viewCount" : 1211,
+    "viewLastModified" : 1409964059,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Alliance for Downtown New York"
+        }
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "manhattan", "downtown", "real estate", "land", "market", "home", "house", "apartment", "condo" ],
+    "flags" : [ "default" ]
+  }
+} ]

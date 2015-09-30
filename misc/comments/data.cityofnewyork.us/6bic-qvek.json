@@ -1,0 +1,77 @@
+[ {
+  "id" : 1143,
+  "body" : "Hard to trust any of this data. Very few respondents.",
+  "createdAt" : 1319498358,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "exc5-8kjf",
+    "displayName" : "sbauch",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 398536,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "sbauch"
+  },
+  "view" : {
+    "id" : "6bic-qvek",
+    "name" : "Zip code breakdowns",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1318290465,
+    "description" : "Demographic statistics broken down by zip code\r\nUpdate Schedule: As required",
+    "displayType" : "table",
+    "downloadCount" : 888,
+    "indexUpdatedAt" : 1414260444,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 4208796,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1372266790,
+    "publicationGroup" : 244574,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1372266776,
+    "rowsUpdatedBy" : "uurm-7z6x",
+    "tableId" : 942477,
+    "totalTimesRated" : 0,
+    "viewCount" : 3221,
+    "viewLastModified" : 1409940592,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "boundary", "district", "community", "demography", "demographic", "statistic", "youth", "development", "zip", "code", "zip code", "area", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

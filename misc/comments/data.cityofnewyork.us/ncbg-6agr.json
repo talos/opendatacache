@@ -1,0 +1,84 @@
+[ {
+  "id" : 5066,
+  "body" : "The information contained in this data set does not match what is provided on the DOF website. When will this file be updated?",
+  "createdAt" : 1430138537,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gfkb-t8t8",
+    "displayName" : "H2oboxer",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 896023,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "H2oboxer"
+  },
+  "view" : {
+    "id" : "ncbg-6agr",
+    "name" : "DOF Parking Violation Codes",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1358348218,
+    "description" : "This dataset defines the parking violation codes in New York City and lists the fines. Each fine amount includes a $15 New York State Criminal Justice surcharge.",
+    "displayType" : "table",
+    "downloadCount" : 370,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 2252771,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1358356235,
+    "publicationGroup" : 617923,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1358356116,
+    "rowsUpdatedBy" : "8b43-zkvh",
+    "tableId" : 618112,
+    "totalTimesRated" : 0,
+    "viewCount" : 5832,
+    "viewLastModified" : 1409937803,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "8b43-zkvh",
+      "displayName" : "Ram S.",
+      "screenName" : "Ram S."
+    },
+    "tags" : [ "dof", "parking", "violation", "code", "fine" ],
+    "flags" : [ "default" ]
+  }
+} ]

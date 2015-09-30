@@ -1,0 +1,166 @@
+[ {
+  "id" : 1207,
+  "body" : "If I understand correctly, this is the master list of DYCD after school programs. They have also been broken out by program type in the following URLS --\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-ISY-In-School-Youth-Emp/56u9-ryj4\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-NDA-Adult-Literacy-Prog/ia9u-k3t3\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-Young-Adult-Internship-/73bd-vkmx\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-Beacon-Programs/35sw-rdxj\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-NDA-Educational-Middle-/6rg9-pfbz\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-Teen-ACTION-Programs/fijd-wye8\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-NDA-Youth-Employment-Pr/mrxb-9w9v\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs-Beacon-Satellite-At-NYC/pyif-r8qe\n\nThis list is incomplete but I believe the theory is solid. I've spot checked a few of them and they seem to match. If someone could confirm it'd be much appreciated!",
+  "createdAt" : 1324143895,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4477,
+    "body" : "We apologize for the delayed response.  We have read you comment and will reply to your inquiry as soon as we receive an answer",
+    "createdAt" : 1413919694,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "mbd7-jfnc",
+      "name" : "DYCD after-school programs",
+      "averageRating" : 80,
+      "category" : "Education",
+      "createdAt" : 1314814825,
+      "description" : "After-school programs in New York City, organized by various categories and for various audiences.\r\nUpdate Frequency: Annually",
+      "displayType" : "table",
+      "downloadCount" : 843,
+      "indexUpdatedAt" : 1414260073,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 332300,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1314814825,
+      "publicationGroup" : 239986,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1314814914,
+      "rowsUpdatedBy" : "k2fz-tf56",
+      "tableId" : 239986,
+      "totalTimesRated" : 1,
+      "viewCount" : 1632,
+      "viewLastModified" : 1409939047,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Youth and Community Development (DYCD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 80
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "k2fz-tf56",
+        "displayName" : "Gary A",
+        "screenName" : "Gary A"
+      },
+      "tags" : [ "jobs and economic mobility", "education", "services", "youth", "community", "development", "school", "child", "children", "lifelong learning" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "view" : {
+    "id" : "mbd7-jfnc",
+    "name" : "DYCD after-school programs",
+    "averageRating" : 80,
+    "category" : "Education",
+    "createdAt" : 1314814825,
+    "description" : "After-school programs in New York City, organized by various categories and for various audiences.\r\nUpdate Frequency: Annually",
+    "displayType" : "table",
+    "downloadCount" : 843,
+    "indexUpdatedAt" : 1414260073,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 332300,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1314814825,
+    "publicationGroup" : 239986,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1314814914,
+    "rowsUpdatedBy" : "k2fz-tf56",
+    "tableId" : 239986,
+    "totalTimesRated" : 1,
+    "viewCount" : 1632,
+    "viewLastModified" : 1409939047,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "k2fz-tf56",
+      "displayName" : "Gary A",
+      "screenName" : "Gary A"
+    },
+    "tags" : [ "jobs and economic mobility", "education", "services", "youth", "community", "development", "school", "child", "children", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

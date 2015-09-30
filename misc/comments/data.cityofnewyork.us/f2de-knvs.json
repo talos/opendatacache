@@ -1,0 +1,79 @@
+[ {
+  "id" : 3958,
+  "body" : "Link isn't working",
+  "createdAt" : 1402925463,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "hxpb-nijr",
+    "description" : "Civil Engineer at RBA Group",
+    "displayName" : "Nathan Selles-Alvarez",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 1,
+    "oid" : 711007,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Nathan Selles-Alvarez",
+    "title" : "Civil Engineer"
+  },
+  "view" : {
+    "id" : "f2de-knvs",
+    "name" : "Shoreline",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1333133326,
+    "description" : "Planimetric basemap layer containing shorelines",
+    "displayType" : "href",
+    "downloadCount" : 1152,
+    "indexUpdatedAt" : 1409765490,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 563927,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1333133343,
+    "publicationGroup" : 308026,
+    "publicationStage" : "published",
+    "tableId" : 308026,
+    "totalTimesRated" : 0,
+    "viewCount" : 1366,
+    "viewLastModified" : 1410220330,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "accessPoints" : {
+        "zip" : "http://gis.nyc.gov/doitt/dl/gisdata/shp/SHORELINE.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "doitt gis", "doittgis", "shoreline" ],
+    "flags" : [ "default" ]
+  }
+} ]

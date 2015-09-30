@@ -1,0 +1,1968 @@
+[ {
+  "id" : 3962,
+  "body" : "Is there any way to add or access the 'Apt #' column?",
+  "createdAt" : 1402927249,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ayxw-wfkh",
+    "displayName" : "Anna",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 886155,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Anna"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3594,
+  "body" : "It would be great if a column could be added whether the complaint was posted by a private individual or by a city agent. In particular, I would be interested in which complaints were filed by SCOUT members.",
+  "createdAt" : 1397832231,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "izx2-zpkp",
+    "displayName" : "Merlin Schaeffer",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 881469,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Merlin Schaeffer"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3589,
+  "body" : "Could you add the \"Resolution Action\" column to this data set? It would be helpful for community boards and constituents to see what an agency found or how they \"resolved\" the complaint. ",
+  "createdAt" : 1397675492,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "vu4s-cvq4",
+    "displayName" : "J Dubovsky",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 539238,
+    "profileImageUrlLarge" : "/api/users/vu4s-cvq4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/vu4s-cvq4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/vu4s-cvq4/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "J Dubovsky"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3289,
+  "body" : "Where can I find the description of the Complain types? Thank!",
+  "createdAt" : 1392063826,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "p74n-a9zb",
+    "displayName" : "josfas",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 875176,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "josfas"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3288,
+  "body" : "When you filter by \"Created Date\" the zip and several other fields disappear. What happened?",
+  "createdAt" : 1392060466,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "xgni-s9pb",
+    "displayName" : "Ben H Sacks",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 398473,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben H Sacks"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3131,
+  "body" : "Suggested improvements  for HPD complaints:\n1. Include apartment number\n2. Include \"Complaint ID\" like webapps.hpdnyc.org/HPDonline\n\n3. Reduce update lag of an additional day vs Complaint ID",
+  "createdAt" : 1386151703,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3336,
+    "body" : "Thanks for your suggestion. ",
+    "createdAt" : 1393268731,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "erm2-nwe9",
+      "name" : "311 Service Requests from 2010 to Present",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1318225937,
+      "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+      "displayType" : "table",
+      "downloadCount" : 255998,
+      "indexUpdatedAt" : 1443513319,
+      "newBackend" : false,
+      "numberOfComments" : 19,
+      "oid" : 12805263,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1439786393,
+      "publicationGroup" : 244403,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 217215389,
+      "rowsUpdatedAt" : 1443506040,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 3963160,
+      "totalTimesRated" : 0,
+      "viewCount" : 76062,
+      "viewLastModified" : 1439786393,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "311"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "244403" : 1567787
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 217215389
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "vm82-tbcj",
+    "displayName" : "ljankovic",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 855602,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "ljankovic"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3130,
+  "body" : "Suggested improvements  for HPD complaints:\n1. Include apartment number\n2. Include \"Complaint ID\" like webapps.hpdnyc.org/HPDonline\n\n3. Reduce update lag of an additional day vs Complaint ID",
+  "createdAt" : 1386151615,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "vm82-tbcj",
+    "displayName" : "ljankovic",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 855602,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "ljankovic"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3038,
+  "body" : "Can anyone actually download all 6M rows? When I attempt to \"export to csv\" on this site, I am returned ~2.1M only going back to 6/27/12. Is anyone else having this problem>?",
+  "createdAt" : 1383761065,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "mtji-zxf7",
+    "displayName" : "Reuben Tanner",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 860457,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Reuben Tanner"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1977,
+  "body" : "It would be great if the date fields have time as well.  I'm sure the source systems have these fields down to the second at least.",
+  "createdAt" : 1352130994,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mkvj-vxjf",
+    "displayName" : "Joel Natividad",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 1,
+    "oid" : 397846,
+    "profileImageUrlLarge" : "/api/users/mkvj-vxjf/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/mkvj-vxjf/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/mkvj-vxjf/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Joel Natividad"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1844,
+  "body" : "Today is Sept 5, this data is supposed to update every day, but has not updated past Aug 25, why?",
+  "createdAt" : 1346854220,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "jgud-etjs",
+    "displayName" : "Danny",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 673109,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Danny"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1807,
+  "body" : "Does anyone know why Noise - Residential does not show in this database?",
+  "createdAt" : 1344947171,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 1913,
+    "body" : "test",
+    "createdAt" : 1349449761,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "k8p3-dpun",
+      "displayName" : "trs",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 698033,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "trs"
+    },
+    "view" : {
+      "id" : "erm2-nwe9",
+      "name" : "311 Service Requests from 2010 to Present",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1318225937,
+      "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+      "displayType" : "table",
+      "downloadCount" : 255998,
+      "indexUpdatedAt" : 1443513319,
+      "newBackend" : false,
+      "numberOfComments" : 19,
+      "oid" : 12805263,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1439786393,
+      "publicationGroup" : 244403,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 217215389,
+      "rowsUpdatedAt" : 1443506040,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 3963160,
+      "totalTimesRated" : 0,
+      "viewCount" : 76062,
+      "viewLastModified" : 1439786393,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "311"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "244403" : 1567787
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 217215389
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "jgud-etjs",
+    "displayName" : "Danny",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 673109,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Danny"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1749,
+  "body" : "Does anyone know how frequently this data is actually updated? The FAQ doesn't help: http://www.nyc.gov/html/data/faq.html",
+  "createdAt" : 1342551855,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "89n6-2m2e",
+    "displayName" : "Jameson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 614670,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jameson"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1724,
+  "body" : "for HPD complaints, the agency's unique complaint# is not included. This is different from the Unique Key field, but it can be and is designed to be used by citizens to check the status of their complaints on HPD's website. Is it possible to add a field containing each agency's unique identifier for their complaints?",
+  "createdAt" : 1342119207,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "xgni-s9pb",
+    "displayName" : "Ben H Sacks",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 398473,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben H Sacks"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1723,
+  "body" : "This dataset has gotten too large to be useful. 2010-present is far too many complaints for someone to need to download it all at once. Are there plans to begin a new one? Previous years are one year to a doc. this would help.",
+  "createdAt" : 1342117548,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "children" : [ {
+    "id" : 1978,
+    "body" : "I also vote that the file be broken down on a time-period basis.  Perhaps, a monthly snapshot so when big events like Sandy hits and there are 10,000 311 calls per hour, the size of the resulting file is still reasonable.",
+    "createdAt" : 1352131130,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "mkvj-vxjf",
+      "displayName" : "Joel Natividad",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 1,
+      "oid" : 397846,
+      "profileImageUrlLarge" : "/api/users/mkvj-vxjf/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/mkvj-vxjf/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/mkvj-vxjf/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Joel Natividad"
+    },
+    "view" : {
+      "id" : "erm2-nwe9",
+      "name" : "311 Service Requests from 2010 to Present",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1318225937,
+      "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+      "displayType" : "table",
+      "downloadCount" : 255998,
+      "indexUpdatedAt" : 1443513319,
+      "newBackend" : false,
+      "numberOfComments" : 19,
+      "oid" : 12805263,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1439786393,
+      "publicationGroup" : 244403,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 217215389,
+      "rowsUpdatedAt" : 1443506040,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 3963160,
+      "totalTimesRated" : 0,
+      "viewCount" : 76062,
+      "viewLastModified" : 1439786393,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "311"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "244403" : 1567787
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 217215389
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "xgni-s9pb",
+    "displayName" : "Ben H Sacks",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 398473,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben H Sacks"
+  },
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1497,
+  "body" : "Will this data be updated with the result of the complaints? or will that be a different file?\n",
+  "createdAt" : 1333030429,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 1498,
+    "body" : "We do update records to reflect when they have been resolved. The 'Closed Date' field will be populated and the 'Status' field will show 'Closed'.",
+    "createdAt" : 1333046759,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "x539-akqs",
+      "description" : "I help bring you data.",
+      "displayName" : "Andrew Nicklin",
+      "numberOfFollowers" : 4,
+      "numberOfFriends" : 0,
+      "oid" : 399949,
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Andrew Nicklin",
+      "title" : "Director of Open NY"
+    },
+    "view" : {
+      "id" : "erm2-nwe9",
+      "name" : "311 Service Requests from 2010 to Present",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1318225937,
+      "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+      "displayType" : "table",
+      "downloadCount" : 255998,
+      "indexUpdatedAt" : 1443513319,
+      "newBackend" : false,
+      "numberOfComments" : 19,
+      "oid" : 12805263,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1439786393,
+      "publicationGroup" : 244403,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 217215389,
+      "rowsUpdatedAt" : 1443506040,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 3963160,
+      "totalTimesRated" : 0,
+      "viewCount" : 76062,
+      "viewLastModified" : 1439786393,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "311"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "244403" : 1567787
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 217215389
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "view" : {
+    "id" : "erm2-nwe9",
+    "name" : "311 Service Requests from 2010 to Present",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1318225937,
+    "description" : "All 311 Service Requests from 2010 to present. This information is automatically updated daily.",
+    "displayType" : "table",
+    "downloadCount" : 255998,
+    "indexUpdatedAt" : 1443513319,
+    "newBackend" : false,
+    "numberOfComments" : 19,
+    "oid" : 12805263,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1439786393,
+    "publicationGroup" : 244403,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 217215389,
+    "rowsUpdatedAt" : 1443506040,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3963160,
+    "totalTimesRated" : 0,
+    "viewCount" : 76062,
+    "viewLastModified" : 1439786393,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244403" : 1567787
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 217215389
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "311", "311 service requests", "city government", "socialservices", "2010", "2011", "2012", "service request status", "all service requests" ],
+    "flags" : [ "default" ]
+  }
+} ]

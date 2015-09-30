@@ -1,0 +1,298 @@
+[ {
+  "id" : 4666,
+  "body" : "Probably outdated.  There are many more soccer fields on Wards Island now.",
+  "createdAt" : 1417792595,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "6tuv-u8eb",
+    "displayName" : "lenmoroz",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 901795,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "lenmoroz"
+  },
+  "view" : {
+    "id" : "qqsi-vm9f",
+    "name" : "Map of Soccer and Football Fields",
+    "averageRating" : 0,
+    "blobFilename" : "DPR_Soccer_Football_001.zip",
+    "blobFileSize" : 17981,
+    "blobId" : "Ya6oW2kf6sFwaIGh8bbBGPUP4B1YLIMz8nfZBpQRZnk",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Recreation",
+    "createdAt" : 1365519910,
+    "description" : "GIS Map of Soccer and Football Fields in New York City Department of Parks & Recreation properties.",
+    "displayType" : "map",
+    "downloadCount" : 579,
+    "indexUpdatedAt" : 1409773098,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 3130810,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365519911,
+    "publicationGroup" : 785218,
+    "publicationStage" : "published",
+    "tableId" : 785218,
+    "totalTimesRated" : 0,
+    "viewCount" : 1863,
+    "viewLastModified" : 1409938623,
+    "viewType" : "geo",
+    "childViews" : [ "6gqn-9g99" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/qqsi-vm9f",
+        "bbox" : "-74.12011197946364,40.57261764451883,-73.73844842597832,40.901419486966795",
+        "layers" : "geo_qqsi-vm9f-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_qqsi-vm9f"
+      },
+      "attachments" : [ {
+        "blobId" : "8183B724-C8E9-44F3-8D1A-E3294C019161",
+        "name" : "DPR_Soccer_Football_001.zip",
+        "filename" : "DPR_Soccer_Football_001.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "park", "parks", "nature", "recreation", "location", "map", "cartography", "soccer", "football", "field", "sports", "game", "geographic", "healthy living", "dpr", "nyc parks" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4397,
+  "body" : "How can I see just the total number of fields?",
+  "createdAt" : 1412277404,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4494,
+    "body" : "Please export the dataset as a csv file and obtain the count",
+    "createdAt" : 1413923328,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "qqsi-vm9f",
+      "name" : "Map of Soccer and Football Fields",
+      "averageRating" : 0,
+      "blobFilename" : "DPR_Soccer_Football_001.zip",
+      "blobFileSize" : 17981,
+      "blobId" : "Ya6oW2kf6sFwaIGh8bbBGPUP4B1YLIMz8nfZBpQRZnk",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Recreation",
+      "createdAt" : 1365519910,
+      "description" : "GIS Map of Soccer and Football Fields in New York City Department of Parks & Recreation properties.",
+      "displayType" : "map",
+      "downloadCount" : 579,
+      "indexUpdatedAt" : 1409773098,
+      "newBackend" : false,
+      "numberOfComments" : 3,
+      "oid" : 3130810,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1365519911,
+      "publicationGroup" : 785218,
+      "publicationStage" : "published",
+      "tableId" : 785218,
+      "totalTimesRated" : 0,
+      "viewCount" : 1863,
+      "viewLastModified" : 1409938623,
+      "viewType" : "geo",
+      "childViews" : [ "6gqn-9g99" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Parks and Recreation (DPR)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "geo" : {
+          "owsUrl" : "/api/geospatial/qqsi-vm9f",
+          "bbox" : "-74.12011197946364,40.57261764451883,-73.73844842597832,40.901419486966795",
+          "layers" : "geo_qqsi-vm9f-1",
+          "featureIdAttribute" : "_SocrataID",
+          "bboxCrs" : "EPSG:4326",
+          "namespace" : "geo_qqsi-vm9f"
+        },
+        "attachments" : [ {
+          "blobId" : "8183B724-C8E9-44F3-8D1A-E3294C019161",
+          "name" : "DPR_Soccer_Football_001.zip",
+          "filename" : "DPR_Soccer_Football_001.zip"
+        } ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qy85-itiy",
+        "displayName" : "gneuhaus",
+        "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+        "screenName" : "gneuhaus"
+      },
+      "tags" : [ "park", "parks", "nature", "recreation", "location", "map", "cartography", "soccer", "football", "field", "sports", "game", "geographic", "healthy living", "dpr", "nyc parks" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "5xyt-jskx",
+    "displayName" : "Matthew Cosgrove",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 895617,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Matthew Cosgrove"
+  },
+  "view" : {
+    "id" : "qqsi-vm9f",
+    "name" : "Map of Soccer and Football Fields",
+    "averageRating" : 0,
+    "blobFilename" : "DPR_Soccer_Football_001.zip",
+    "blobFileSize" : 17981,
+    "blobId" : "Ya6oW2kf6sFwaIGh8bbBGPUP4B1YLIMz8nfZBpQRZnk",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Recreation",
+    "createdAt" : 1365519910,
+    "description" : "GIS Map of Soccer and Football Fields in New York City Department of Parks & Recreation properties.",
+    "displayType" : "map",
+    "downloadCount" : 579,
+    "indexUpdatedAt" : 1409773098,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 3130810,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365519911,
+    "publicationGroup" : 785218,
+    "publicationStage" : "published",
+    "tableId" : 785218,
+    "totalTimesRated" : 0,
+    "viewCount" : 1863,
+    "viewLastModified" : 1409938623,
+    "viewType" : "geo",
+    "childViews" : [ "6gqn-9g99" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/qqsi-vm9f",
+        "bbox" : "-74.12011197946364,40.57261764451883,-73.73844842597832,40.901419486966795",
+        "layers" : "geo_qqsi-vm9f-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_qqsi-vm9f"
+      },
+      "attachments" : [ {
+        "blobId" : "8183B724-C8E9-44F3-8D1A-E3294C019161",
+        "name" : "DPR_Soccer_Football_001.zip",
+        "filename" : "DPR_Soccer_Football_001.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "park", "parks", "nature", "recreation", "location", "map", "cartography", "soccer", "football", "field", "sports", "game", "geographic", "healthy living", "dpr", "nyc parks" ],
+    "flags" : [ "default" ]
+  }
+} ]

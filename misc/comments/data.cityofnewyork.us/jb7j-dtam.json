@@ -1,0 +1,84 @@
+[ {
+  "id" : 4622,
+  "body" : "This dataset has many duplicate values — for example, all values for 2011 Asian & Pacific Islander Females are entered twice.",
+  "createdAt" : 1416436526,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "u7q8-uuh8",
+    "displayName" : "jamila",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 900533,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "jamila"
+  },
+  "view" : {
+    "id" : "jb7j-dtam",
+    "name" : "New York City Leading Causes of Death",
+    "averageRating" : 0,
+    "category" : "Health",
+    "createdAt" : 1384963296,
+    "description" : "The leading causes of death by sex and ethnicity in New York City in since 2007.",
+    "displayType" : "table",
+    "downloadCount" : 561,
+    "indexUpdatedAt" : 1433816246,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 6785065,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1386882245,
+    "publicationGroup" : 1363610,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1433803297,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1397055,
+    "totalTimesRated" : 0,
+    "viewCount" : 2745,
+    "viewLastModified" : 1409940199,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "death", "cause", "vital statistic", "race", "ethnicity", "male", "female" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,75 @@
+[ {
+  "id" : 5138,
+  "body" : "Had a lot of problems geocoding addresses and give up now - interested can follow the discussions in this group https://groups.google.com/d/msg/fusion-table-map-template/7IMM_EBwNjI/-QBDJODNtUsJ",
+  "createdAt" : 1431495677,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gk6r-7xh8",
+    "displayName" : "Tine Müller",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 917421,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Tine Müller"
+  },
+  "view" : {
+    "id" : "hjae-yuav",
+    "name" : "Directory Of Toilets In Public Parks",
+    "averageRating" : 0,
+    "category" : "Recreation",
+    "createdAt" : 1359063597,
+    "description" : "Directory of Toilets in Public Parks",
+    "displayType" : "table",
+    "downloadCount" : 469,
+    "indexUpdatedAt" : 1414260504,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 4141225,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371846496,
+    "publicationGroup" : 634175,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371846494,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 933058,
+    "totalTimesRated" : 0,
+    "viewCount" : 1285,
+    "viewLastModified" : 1409937086,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "8b43-zkvh",
+      "displayName" : "Ram S.",
+      "screenName" : "Ram S."
+    },
+    "tags" : [ "dpr", "recreation", "park", "public", "toilet", "healthy living" ],
+    "flags" : [ "default" ]
+  }
+} ]

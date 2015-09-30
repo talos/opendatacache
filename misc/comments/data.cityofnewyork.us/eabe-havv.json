@@ -1,0 +1,153 @@
+[ {
+  "id" : 5253,
+  "body" : "Would it be possible to change the update frequency from monthly to daily?  This would allow live notifications of complaints to landlords and management companies which i would be very interested in using.",
+  "createdAt" : 1435781826,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "8993-j64b",
+    "displayName" : "brian",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 923304,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "brian"
+  },
+  "view" : {
+    "id" : "eabe-havv",
+    "name" : "DOB Complaints Received",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298350,
+    "description" : "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 7247,
+    "indexUpdatedAt" : 1443559768,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 13565136,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443557263,
+    "publicationGroup" : 804330,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557236,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4508393,
+    "totalTimesRated" : 0,
+    "viewCount" : 5020,
+    "viewLastModified" : 1443557263,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "complaints", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4587,
+  "body" : "There seems to be a problem with whitespace on the house_street and house_number fields. I created a StackOverflow question illustrating the issue here: http://stackoverflow.com/questions/26938347/cant-target-fields-in-soda-api-because-of-whitespace",
+  "createdAt" : 1416000319,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "36kq-jdhw",
+    "displayName" : "romeboards",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 899947,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "romeboards"
+  },
+  "view" : {
+    "id" : "eabe-havv",
+    "name" : "DOB Complaints Received",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298350,
+    "description" : "A list of complaints received and associated data. Prior monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 7247,
+    "indexUpdatedAt" : 1443559768,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 13565136,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443557263,
+    "publicationGroup" : 804330,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557236,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4508393,
+    "totalTimesRated" : 0,
+    "viewCount" : 5020,
+    "viewLastModified" : 1443557263,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "complaints", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+} ]

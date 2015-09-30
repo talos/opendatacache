@@ -1,0 +1,90 @@
+[ {
+  "id" : 4744,
+  "body" : "This data is current as of 2010.",
+  "createdAt" : 1421254293,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "bbnv-z322",
+    "displayName" : "Peter Tiso",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 904596,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Peter Tiso"
+  },
+  "view" : {
+    "id" : "x9uq-u3qs",
+    "name" : "New York City Pavement Edges",
+    "averageRating" : 100,
+    "blobFilename" : "PAVEMENT_EDGE.zip",
+    "blobFileSize" : 194304378,
+    "blobId" : "fJ9l3ONiyC_8xPnCQ4lQWTIptWNSspyooyE2Tkb2VeA",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1403717606,
+    "description" : "Planimetric basemap layer containing pavement edge features.",
+    "displayType" : "map",
+    "downloadCount" : 479,
+    "indexUpdatedAt" : 1409765564,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 8289967,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1403718462,
+    "publicationGroup" : 1628651,
+    "publicationStage" : "published",
+    "tableId" : 1628651,
+    "totalTimesRated" : 1,
+    "viewCount" : 879,
+    "viewLastModified" : 1410220401,
+    "viewType" : "geo",
+    "childViews" : [ "vs44-rznx" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "geo" : {
+        "owsUrl" : "/api/geospatial/x9uq-u3qs",
+        "bbox" : "-74.25659948689362,40.497747279630296,-73.69883840564744,40.91516048398108",
+        "layers" : "geo_x9uq-u3qs-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_x9uq-u3qs"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "nyc", "doitt", "gis", "pavement", "edge" ],
+    "flags" : [ "default" ]
+  }
+} ]

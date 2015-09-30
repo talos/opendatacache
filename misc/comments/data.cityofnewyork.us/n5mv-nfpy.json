@@ -1,0 +1,612 @@
+[ {
+  "id" : 5358,
+  "body" : "such as vacant lots and abandon lots and buildings",
+  "createdAt" : 1438805619,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "s5sx-ukpp",
+    "displayName" : "Raffi",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 926391,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Raffi"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5357,
+  "body" : "i need to know how can i buy nyc properties",
+  "createdAt" : 1438805573,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "s5sx-ukpp",
+    "displayName" : "Raffi",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 926391,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Raffi"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5323,
+  "body" : "Hi, the datasets are huge & I did spent some time looking at it but was wondering how I can zero on a particular building dataset in NYC? would appreciate guidance \n",
+  "createdAt" : 1437744195,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "h2c5-xw6h",
+    "displayName" : "Riax",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 925415,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Riax"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4529,
+  "body" : "We apologize for the late responses.\n\n@FDNY - Searching for the address using the in dataset search bar, or by using the SODA API in the export tab should work for you.\n@Eric - We'll work on adding metadata for this dataset.",
+  "createdAt" : 1414290665,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3894,
+  "body" : "What is the best way to search for an address, ie. 98 Catherine Street Manhattan",
+  "createdAt" : 1402091256,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "59wq-39kq",
+    "displayName" : "FDNY",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 885558,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "FDNY"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1407,
+  "body" : "It's a start! Thanks.",
+  "createdAt" : 1330703410,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1339,
+  "body" : "Anyone know if there is a dictionary for the columns? In particular, I'm trying to understand \"RPAD\" and \"RPAD_DESCRIPTION\". Thanks.",
+  "createdAt" : 1328665913,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 1406,
+    "body" : "Does this help?\nhttp://www.nyc.gov/html/dof/downloads/tar/tarfieldcodes.pdf\n",
+    "createdAt" : 1330701629,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "xapa-sshh",
+      "displayName" : "CraigM",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 403247,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "CraigM"
+    },
+    "view" : {
+      "id" : "n5mv-nfpy",
+      "name" : "IPIS (Integrated Property Information System)",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1311697588,
+      "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+      "displayType" : "table",
+      "downloadCount" : 999,
+      "indexUpdatedAt" : 1414260081,
+      "newBackend" : false,
+      "numberOfComments" : 8,
+      "oid" : 4141643,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371847758,
+      "publicationGroup" : 238783,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371847738,
+      "rowsUpdatedBy" : "txun-eb7e",
+      "tableId" : 933157,
+      "totalTimesRated" : 0,
+      "viewCount" : 7877,
+      "viewLastModified" : 1409937321,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Citywide Administrative Services (DCAS)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "n5mv-nfpy",
+    "name" : "IPIS (Integrated Property Information System)",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1311697588,
+    "description" : "Database of City-owned properties and private properties that the City leases for City agency use.",
+    "displayType" : "table",
+    "downloadCount" : 999,
+    "indexUpdatedAt" : 1414260081,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 4141643,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847758,
+    "publicationGroup" : 238783,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847738,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 933157,
+    "totalTimesRated" : 0,
+    "viewCount" : 7877,
+    "viewLastModified" : 1409937321,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Citywide Administrative Services (DCAS)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "finance", "lease", "agency", "city-owned", "private", "consumer affairs", "dcas", "administrative services", "ipis (integrated property information system)", "ipis" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,197 @@
+[ {
+  "id" : 5343,
+  "body" : "All the precincts aren't carrying over to Google maps for some reason. I tried both the KMZ and KML format. But, for instance, in Precinct 1, the borders didn't keep. ",
+  "createdAt" : 1438358155,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "akkw-wucu",
+    "displayName" : "Elaine",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 926027,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Elaine"
+  },
+  "view" : {
+    "id" : "78dh-3ptz",
+    "name" : "Police Precincts",
+    "averageRating" : 0,
+    "blobFilename" : "nypp_12c.zip",
+    "blobFileSize" : 788168,
+    "blobId" : "sO4iDjFvK12fhNc-Ae8v9sZ5lbEZKZN2U_3KzO2useY",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Public Safety",
+    "createdAt" : 1359491551,
+    "description" : "GIS data: Boundaries of Police Precincts",
+    "displayType" : "map",
+    "downloadCount" : 21997,
+    "indexUpdatedAt" : 1409752903,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 2376034,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442351111,
+    "publicationGroup" : 644361,
+    "publicationStage" : "published",
+    "tableId" : 644361,
+    "totalTimesRated" : 0,
+    "viewCount" : 4929,
+    "viewLastModified" : 1442351112,
+    "viewType" : "geo",
+    "childViews" : [ "j8mb-qisi" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "layers" : "geo_78dh-3ptz-1",
+        "isNbe" : false,
+        "bbox" : "-74.25715897479941,40.495992204977696,-73.6992151836567,40.91556552873112",
+        "bboxCrs" : "EPSG:4326",
+        "featureIdAttribute" : "_SocrataID",
+        "owsUrl" : "/api/geospatial/78dh-3ptz",
+        "namespace" : "geo_78dh-3ptz"
+      },
+      "attachments" : [ {
+        "blobId" : "A8BB7FF2-BDCD-417B-B183-01F8AB10FF89",
+        "name" : "nypp_13c_av.zip",
+        "filename" : "nypp_13c_av.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "police precincts", "dcp", "geographic", "location", "map", "cartography", "safety", "crime", "boundary", "police", "policeman", "cop", "division", "precinct", "precincts", "gis", "jurisdiction", "school", "health", "fire & police gis: police precincts" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5261,
+  "body" : "noise from trucks 2 am 3 am 4 am ",
+  "createdAt" : 1436291686,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "x7j4-gdwz",
+    "displayName" : "dan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 923815,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "dan"
+  },
+  "view" : {
+    "id" : "78dh-3ptz",
+    "name" : "Police Precincts",
+    "averageRating" : 0,
+    "blobFilename" : "nypp_12c.zip",
+    "blobFileSize" : 788168,
+    "blobId" : "sO4iDjFvK12fhNc-Ae8v9sZ5lbEZKZN2U_3KzO2useY",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Public Safety",
+    "createdAt" : 1359491551,
+    "description" : "GIS data: Boundaries of Police Precincts",
+    "displayType" : "map",
+    "downloadCount" : 21997,
+    "indexUpdatedAt" : 1409752903,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 2376034,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442351111,
+    "publicationGroup" : 644361,
+    "publicationStage" : "published",
+    "tableId" : 644361,
+    "totalTimesRated" : 0,
+    "viewCount" : 4929,
+    "viewLastModified" : 1442351112,
+    "viewType" : "geo",
+    "childViews" : [ "j8mb-qisi" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "layers" : "geo_78dh-3ptz-1",
+        "isNbe" : false,
+        "bbox" : "-74.25715897479941,40.495992204977696,-73.6992151836567,40.91556552873112",
+        "bboxCrs" : "EPSG:4326",
+        "featureIdAttribute" : "_SocrataID",
+        "owsUrl" : "/api/geospatial/78dh-3ptz",
+        "namespace" : "geo_78dh-3ptz"
+      },
+      "attachments" : [ {
+        "blobId" : "A8BB7FF2-BDCD-417B-B183-01F8AB10FF89",
+        "name" : "nypp_13c_av.zip",
+        "filename" : "nypp_13c_av.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "police precincts", "dcp", "geographic", "location", "map", "cartography", "safety", "crime", "boundary", "police", "policeman", "cop", "division", "precinct", "precincts", "gis", "jurisdiction", "school", "health", "fire & police gis: police precincts" ],
+    "flags" : [ "default" ]
+  }
+} ]

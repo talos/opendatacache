@@ -1,0 +1,237 @@
+[ {
+  "id" : 4539,
+  "body" : "We apologize for the delayed response.\n\n@Seminole24 - We'll look into it.  If the data is owned by an NYC agency we will point you to it.",
+  "createdAt" : 1414419417,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "9auy-76zt",
+    "name" : "Landcover Raster Data (2010)",
+    "averageRating" : 0,
+    "blobFilename" : "Land Cover 2010.zip",
+    "blobFileSize" : 105624156,
+    "blobId" : "mn9_hD2f5PJkYhHA_ebIDk7wCDXbFEBEWtMc05-3B1U",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1340901904,
+    "description" : "High resolution land cover data set for New York City.  This is the 3ft version of the high-resolution land cover dataset for New York City. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces.  The minimum mapping unit for the delineation of features was set at 3 square feet. The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery.  Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.  The tree canopy class was considered current as of 2010; the remaining land-cover classes were considered current as of 2008. Object-Based Image Analysis (OBIA) techniques were employed to extract land cover information using the best available remotely sensed and vector GIS datasets.  OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets.  Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process.  A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. More than 35,000 corrections were made to the classification.  Overall accuracy was 96%. This dataset was developed as part of the Urban Tree Canopy (UTC) Assessment for New York City.  As such, it represents a 'top down' mapping perspective in which tree canopy over hanging other features is assigned to the tree canopy class.  At the time of its creation this dataset represents the most detailed and accurate land cover dataset for the area. This project was funded by National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF), although it is not specifically endorsed by either agency.  The methods used were developed by the University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station, with funding from the USDA Forest Service.",
+    "displayType" : "blob",
+    "downloadCount" : 2336,
+    "indexUpdatedAt" : 1409775153,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 809104,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1340901904,
+    "publicationGroup" : 369934,
+    "publicationStage" : "published",
+    "tableId" : 369934,
+    "totalTimesRated" : 0,
+    "viewCount" : 5516,
+    "viewLastModified" : 1409937457,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "x539-akqs",
+      "displayName" : "Andrew Nicklin",
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "screenName" : "Andrew Nicklin"
+    },
+    "tags" : [ "dpr", "landcover", "tree", "canopy", "grass", "water", "buildings", "roads", "paved", "raster", "healthy living", "#cleanweb", "#education", "#environment", "bigapps", "big apps" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3294,
+  "body" : "Where can I find the LIDAR data from this study? Is it in the zip file?",
+  "createdAt" : 1392243295,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "2gk2-jf9j",
+    "displayName" : "Seminole24",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 875371,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Seminole24"
+  },
+  "view" : {
+    "id" : "9auy-76zt",
+    "name" : "Landcover Raster Data (2010)",
+    "averageRating" : 0,
+    "blobFilename" : "Land Cover 2010.zip",
+    "blobFileSize" : 105624156,
+    "blobId" : "mn9_hD2f5PJkYhHA_ebIDk7wCDXbFEBEWtMc05-3B1U",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1340901904,
+    "description" : "High resolution land cover data set for New York City.  This is the 3ft version of the high-resolution land cover dataset for New York City. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces.  The minimum mapping unit for the delineation of features was set at 3 square feet. The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery.  Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.  The tree canopy class was considered current as of 2010; the remaining land-cover classes were considered current as of 2008. Object-Based Image Analysis (OBIA) techniques were employed to extract land cover information using the best available remotely sensed and vector GIS datasets.  OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets.  Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process.  A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. More than 35,000 corrections were made to the classification.  Overall accuracy was 96%. This dataset was developed as part of the Urban Tree Canopy (UTC) Assessment for New York City.  As such, it represents a 'top down' mapping perspective in which tree canopy over hanging other features is assigned to the tree canopy class.  At the time of its creation this dataset represents the most detailed and accurate land cover dataset for the area. This project was funded by National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF), although it is not specifically endorsed by either agency.  The methods used were developed by the University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station, with funding from the USDA Forest Service.",
+    "displayType" : "blob",
+    "downloadCount" : 2336,
+    "indexUpdatedAt" : 1409775153,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 809104,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1340901904,
+    "publicationGroup" : 369934,
+    "publicationStage" : "published",
+    "tableId" : 369934,
+    "totalTimesRated" : 0,
+    "viewCount" : 5516,
+    "viewLastModified" : 1409937457,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "x539-akqs",
+      "displayName" : "Andrew Nicklin",
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "screenName" : "Andrew Nicklin"
+    },
+    "tags" : [ "dpr", "landcover", "tree", "canopy", "grass", "water", "buildings", "roads", "paved", "raster", "healthy living", "#cleanweb", "#education", "#environment", "bigapps", "big apps" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2940,
+  "body" : "The .IMG file that is within this data set doesn't open on Mac OS X 10.8.5.",
+  "createdAt" : 1381164572,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "3jmb-f5qq",
+    "displayName" : "noel hidalgo",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 848326,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "noel hidalgo"
+  },
+  "view" : {
+    "id" : "9auy-76zt",
+    "name" : "Landcover Raster Data (2010)",
+    "averageRating" : 0,
+    "blobFilename" : "Land Cover 2010.zip",
+    "blobFileSize" : 105624156,
+    "blobId" : "mn9_hD2f5PJkYhHA_ebIDk7wCDXbFEBEWtMc05-3B1U",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1340901904,
+    "description" : "High resolution land cover data set for New York City.  This is the 3ft version of the high-resolution land cover dataset for New York City. Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads, and (7) other paved surfaces.  The minimum mapping unit for the delineation of features was set at 3 square feet. The primary sources used to derive this land cover layer were the 2010 LiDAR and the 2008 4-band orthoimagery.  Ancillary data sources included GIS data (city boundary, building footprints, water, parking lots, roads, railroads, railroad structures, ballfields) provided by New York City (all ancillary datasets except railroads); UVM Spatial Analysis Laboratory manually created railroad polygons from manual interpretation of 2008 4-band orthoimagery.  The tree canopy class was considered current as of 2010; the remaining land-cover classes were considered current as of 2008. Object-Based Image Analysis (OBIA) techniques were employed to extract land cover information using the best available remotely sensed and vector GIS datasets.  OBIA systems work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets.  Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process.  A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. More than 35,000 corrections were made to the classification.  Overall accuracy was 96%. This dataset was developed as part of the Urban Tree Canopy (UTC) Assessment for New York City.  As such, it represents a 'top down' mapping perspective in which tree canopy over hanging other features is assigned to the tree canopy class.  At the time of its creation this dataset represents the most detailed and accurate land cover dataset for the area. This project was funded by National Urban and Community Forestry Advisory Council (NUCFAC) and the National Science Fundation (NSF), although it is not specifically endorsed by either agency.  The methods used were developed by the University of Vermont Spatial Analysis Laboratory, in collaboration with the New York City Urban Field Station, with funding from the USDA Forest Service.",
+    "displayType" : "blob",
+    "downloadCount" : 2336,
+    "indexUpdatedAt" : 1409775153,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 809104,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1340901904,
+    "publicationGroup" : 369934,
+    "publicationStage" : "published",
+    "tableId" : 369934,
+    "totalTimesRated" : 0,
+    "viewCount" : 5516,
+    "viewLastModified" : 1409937457,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "x539-akqs",
+      "displayName" : "Andrew Nicklin",
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "screenName" : "Andrew Nicklin"
+    },
+    "tags" : [ "dpr", "landcover", "tree", "canopy", "grass", "water", "buildings", "roads", "paved", "raster", "healthy living", "#cleanweb", "#education", "#environment", "bigapps", "big apps" ],
+    "flags" : [ "default" ]
+  }
+} ]

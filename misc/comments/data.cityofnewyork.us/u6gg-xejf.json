@@ -1,0 +1,346 @@
+[ {
+  "id" : 4481,
+  "body" : "We apologize for the delayed response. \n@Arnaud Sahuguet: CCU means Central Corresponding Unit. \nYou can read more about it on Page 29 of the following document:\nhttp://www.nyc.gov/html/dsny/downloads/pdf/pubinfo/annual/ar2013.pdf\n@Eric and @andrew F: We will work with the appropriate agency  to maintain this data going forward. ",
+  "createdAt" : 1413921247,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "u6gg-xejf",
+    "name" : "Vacant Lots Cleaned",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1327682790,
+    "description" : "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.",
+    "displayType" : "table",
+    "downloadCount" : 227,
+    "indexUpdatedAt" : 1414260405,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 483304,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1329414446,
+    "publicationGroup" : 279041,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1329414325,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 286495,
+    "totalTimesRated" : 0,
+    "viewCount" : 687,
+    "viewLastModified" : 1409936356,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vacant lots cleaned", "lot", "clean", "dsny", "sanitation", "garbage", "lots", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4406,
+  "body" : "Is this only for the month of january 2012? Anyway to extend this temporally? ",
+  "createdAt" : 1412557048,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "sfag-iznq",
+    "displayName" : "andrew F",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 895105,
+    "profileImageUrlLarge" : "/api/users/sfag-iznq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/sfag-iznq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/sfag-iznq/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "andrew F"
+  },
+  "view" : {
+    "id" : "u6gg-xejf",
+    "name" : "Vacant Lots Cleaned",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1327682790,
+    "description" : "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.",
+    "displayType" : "table",
+    "downloadCount" : 227,
+    "indexUpdatedAt" : 1414260405,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 483304,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1329414446,
+    "publicationGroup" : 279041,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1329414325,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 286495,
+    "totalTimesRated" : 0,
+    "viewCount" : 687,
+    "viewLastModified" : 1409936356,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vacant lots cleaned", "lot", "clean", "dsny", "sanitation", "garbage", "lots", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2973,
+  "body" : "Are there plans to update this dataset at some point?",
+  "createdAt" : 1382108044,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "u6gg-xejf",
+    "name" : "Vacant Lots Cleaned",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1327682790,
+    "description" : "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.",
+    "displayType" : "table",
+    "downloadCount" : 227,
+    "indexUpdatedAt" : 1414260405,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 483304,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1329414446,
+    "publicationGroup" : 279041,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1329414325,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 286495,
+    "totalTimesRated" : 0,
+    "viewCount" : 687,
+    "viewLastModified" : 1409936356,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vacant lots cleaned", "lot", "clean", "dsny", "sanitation", "garbage", "lots", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2391,
+  "body" : "What is CCU?",
+  "createdAt" : 1365272441,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ndtm-kzsn",
+    "displayName" : "Arnaud Sahuguet",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 711049,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Arnaud Sahuguet"
+  },
+  "view" : {
+    "id" : "u6gg-xejf",
+    "name" : "Vacant Lots Cleaned",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1327682790,
+    "description" : "Gives address, Borough-Block-Lot of each vacant lot cleaned by DSNY forces during the report month.  Also gives the date cleaned.",
+    "displayType" : "table",
+    "downloadCount" : 227,
+    "indexUpdatedAt" : 1414260405,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 483304,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1329414446,
+    "publicationGroup" : 279041,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1329414325,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 286495,
+    "totalTimesRated" : 0,
+    "viewCount" : 687,
+    "viewLastModified" : 1409936356,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vacant lots cleaned", "lot", "clean", "dsny", "sanitation", "garbage", "lots", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,175 @@
+[ {
+  "id" : 5395,
+  "body" : "All of the real property files have not been updated this month. ",
+  "createdAt" : 1439810659,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "uak7-5c4q",
+    "displayName" : "Sam M",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 899546,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sam M"
+  },
+  "view" : {
+    "id" : "636b-3b5g",
+    "name" : "ACRIS - Real Property Parties",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1379941074,
+    "description" : "Party Names for Real Property Related Documents Recorded in ACRIS",
+    "displayType" : "table",
+    "downloadCount" : 21898,
+    "indexUpdatedAt" : 1442300317,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 12986162,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1440425011,
+    "publicationGroup" : 1099093,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442253479,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3864295,
+    "totalTimesRated" : 0,
+    "viewCount" : 2055,
+    "viewLastModified" : 1409940033,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "blobId" : "75331466-3522-49D8-9049-119E1D4F0F9E",
+        "name" : "NYC_OpenData_ACRIS_Datasets.doc",
+        "filename" : "NYC_OpenData_ACRIS_Datasets.doc"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dof", "acris land records" ]
+  }
+}, {
+  "id" : 4910,
+  "body" : "Something is wrong with the download for this dataset.  Only ~1M (1,059,664) are downloaded, when the set has at least 35M rows.",
+  "createdAt" : 1426617985,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "tw9x-ds6b",
+    "displayName" : "John Krauss",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 1,
+    "oid" : 850880,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "John Krauss"
+  },
+  "view" : {
+    "id" : "636b-3b5g",
+    "name" : "ACRIS - Real Property Parties",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1379941074,
+    "description" : "Party Names for Real Property Related Documents Recorded in ACRIS",
+    "displayType" : "table",
+    "downloadCount" : 21898,
+    "indexUpdatedAt" : 1442300317,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 12986162,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1440425011,
+    "publicationGroup" : 1099093,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442253479,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 3864295,
+    "totalTimesRated" : 0,
+    "viewCount" : 2055,
+    "viewLastModified" : 1409940033,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "blobId" : "75331466-3522-49D8-9049-119E1D4F0F9E",
+        "name" : "NYC_OpenData_ACRIS_Datasets.doc",
+        "filename" : "NYC_OpenData_ACRIS_Datasets.doc"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dof", "acris land records" ]
+  }
+} ]

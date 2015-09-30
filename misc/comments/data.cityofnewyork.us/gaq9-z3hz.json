@@ -1,0 +1,460 @@
+[ {
+  "id" : 4530,
+  "body" : "We apologize for the late responses.\n\n@Alex - We'll try to do a better job of importing data that is geocoded when possible.\n\n",
+  "createdAt" : 1414291223,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "gaq9-z3hz",
+    "name" : "Recycling Diversion and Capture Rates",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1319228987,
+    "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+    "displayType" : "table",
+    "downloadCount" : 519,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 4140708,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843735,
+    "publicationGroup" : 247440,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843732,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932832,
+    "totalTimesRated" : 0,
+    "viewCount" : 2532,
+    "viewLastModified" : 1409936753,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3483,
+  "body" : "Is there any way we can translate the Districts into Lat/Long and neighborhood name? It would be helpful. Thanks!",
+  "createdAt" : 1395675034,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "ecgc-5fg5",
+    "displayName" : "Alex Salkever",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 879111,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Alex Salkever"
+  },
+  "view" : {
+    "id" : "gaq9-z3hz",
+    "name" : "Recycling Diversion and Capture Rates",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1319228987,
+    "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+    "displayType" : "table",
+    "downloadCount" : 519,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 4140708,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843735,
+    "publicationGroup" : 247440,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843732,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932832,
+    "totalTimesRated" : 0,
+    "viewCount" : 2532,
+    "viewLastModified" : 1409936753,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3150,
+  "body" : "Sarah: where did you find that shape file? It would be helpful if you could provide a link to it.",
+  "createdAt" : 1386636426,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "8s59-j4eq",
+    "displayName" : "kopperwoman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 866142,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "kopperwoman"
+  },
+  "view" : {
+    "id" : "gaq9-z3hz",
+    "name" : "Recycling Diversion and Capture Rates",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1319228987,
+    "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+    "displayType" : "table",
+    "downloadCount" : 519,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 4140708,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843735,
+    "publicationGroup" : 247440,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843732,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932832,
+    "totalTimesRated" : 0,
+    "viewCount" : 2532,
+    "viewLastModified" : 1409936753,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2983,
+  "body" : "Thanks Angelina. I did actually find a shape file that sort of matches up and did a spatial join between boroughs nad city districts. Then i'll have to number the zones from the maps on the city planning website. ",
+  "createdAt" : 1382413879,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "c4te-5ke9",
+    "displayName" : "Sara Allan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 855237,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sara Allan"
+  },
+  "view" : {
+    "id" : "gaq9-z3hz",
+    "name" : "Recycling Diversion and Capture Rates",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1319228987,
+    "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+    "displayType" : "table",
+    "downloadCount" : 519,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 4140708,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843735,
+    "publicationGroup" : 247440,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843732,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932832,
+    "totalTimesRated" : 0,
+    "viewCount" : 2532,
+    "viewLastModified" : 1409936753,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2977,
+  "body" : "Is there a shapefile that goes with this data? or an explanation of \"districts\"? I can't find a shapefile equivalent that matches the field. ",
+  "createdAt" : 1382301398,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 2982,
+    "body" : "Sara Allan, the description in the title indicates that it's likely community districts. NYC Planning has info on geographic boundaries and neighborhoods for each district: http://www.nyc.gov/html/dcp/html/lucds/cdstart.shtml ",
+    "createdAt" : 1382413603,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "hxig-mvtw",
+      "displayName" : "Angelina",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 855913,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Angelina"
+    },
+    "view" : {
+      "id" : "gaq9-z3hz",
+      "name" : "Recycling Diversion and Capture Rates",
+      "averageRating" : 0,
+      "category" : "Environment",
+      "createdAt" : 1319228987,
+      "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+      "displayType" : "table",
+      "downloadCount" : 519,
+      "indexUpdatedAt" : 1414260381,
+      "newBackend" : false,
+      "numberOfComments" : 6,
+      "oid" : 4140708,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371843735,
+      "publicationGroup" : 247440,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371843732,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 932832,
+      "totalTimesRated" : 0,
+      "viewCount" : 2532,
+      "viewLastModified" : 1409936753,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Sanitation (DSNY)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "c4te-5ke9",
+    "displayName" : "Sara Allan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 855237,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sara Allan"
+  },
+  "view" : {
+    "id" : "gaq9-z3hz",
+    "name" : "Recycling Diversion and Capture Rates",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1319228987,
+    "description" : "For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation (DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).",
+    "displayType" : "table",
+    "downloadCount" : 519,
+    "indexUpdatedAt" : 1414260381,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 4140708,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843735,
+    "publicationGroup" : 247440,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843732,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932832,
+    "totalTimesRated" : 0,
+    "viewCount" : 2532,
+    "viewLastModified" : 1409936753,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sanitation", "dsny", "refuse", "recycle", "recycling", "plastic", "metal", "paper", "community", "community district", "tonnage", "capture", "diversion", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

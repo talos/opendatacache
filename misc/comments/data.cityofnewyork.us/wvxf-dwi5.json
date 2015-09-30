@@ -1,0 +1,429 @@
+[ {
+  "id" : 5482,
+  "body" : "Thank you Socrata and NYC Open Data for making this so accessible!\n\nI've found an inaccuracy in the way this data is being handled - it seems the violationIDs are being treated as unique ids for this table. This is not the way the city handles the data (see the violation files documentation here: http://www1.nyc.gov/site/hpd/about/open-data.page) There should be a record every time the a particular violation's status is updated. Instead, only the latest violation status is available. While this is fine if someone only cares about the latest status, it makes a historical perspective on violation handling difficult/impossible.\n\nA quick example: this view (https://data.cityofnewyork.us/Housing-Development/violation_id-is-10407848/w4i9-r9s5) shows only 1 status for the particular violationId. However, there have to be at least 2 - the NOV_issued date (October/Nov 2014) and the date closed, and potentially more in between.\n\nIt is true that the city has written themselves out of their own historical perspective as well (at least from the available data on their site). As the fields have changed, they've struck the old docs and included only the latest version of every violation's status at that point in time, making it impossible to see accurate pre-october-2012 violation progression. It would be nice to at least handle what we do have access to properly.",
+  "createdAt" : 1441813128,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "twwz-vfad",
+    "displayName" : "Russell Matney",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 925333,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Russell Matney"
+  },
+  "view" : {
+    "id" : "wvxf-dwi5",
+    "name" : "Housing Maintenance Code Violations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384804187,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) issues violations against conditions in rental \r\ndwelling units that have been verified to violate the New York City Housing \r\nMaintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). \r\nViolations are issued when an inspection verifies that a violation of the HMC or MDL \r\nexists. It is closed when the violation is corrected, as observed/verified by HPD or as \r\ncertified by the landlord.",
+    "displayType" : "table",
+    "downloadCount" : 845,
+    "indexUpdatedAt" : 1441243610,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 10809944,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1427996217,
+    "publicationGroup" : 1360057,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 197620899,
+    "rowsUpdatedAt" : 1441243113,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 2592565,
+    "totalTimesRated" : 0,
+    "viewCount" : 2023,
+    "viewLastModified" : 1428016534,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : 197620899
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "violation", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5351,
+  "body" : "would it be possible to include unit counts for multifamily buildings on this list? it would be helpful to be able to get a sense of the number of violations per building per unit. Thanks. ",
+  "createdAt" : 1438634436,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "q6ch-t8ue",
+    "displayName" : "cea",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 926213,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cea"
+  },
+  "view" : {
+    "id" : "wvxf-dwi5",
+    "name" : "Housing Maintenance Code Violations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384804187,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) issues violations against conditions in rental \r\ndwelling units that have been verified to violate the New York City Housing \r\nMaintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). \r\nViolations are issued when an inspection verifies that a violation of the HMC or MDL \r\nexists. It is closed when the violation is corrected, as observed/verified by HPD or as \r\ncertified by the landlord.",
+    "displayType" : "table",
+    "downloadCount" : 845,
+    "indexUpdatedAt" : 1441243610,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 10809944,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1427996217,
+    "publicationGroup" : 1360057,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 197620899,
+    "rowsUpdatedAt" : 1441243113,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 2592565,
+    "totalTimesRated" : 0,
+    "viewCount" : 2023,
+    "viewLastModified" : 1428016534,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : 197620899
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "violation", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4899,
+  "body" : "When will NYC OpenData be updated with the HPD NOVs issued in February, 2015?  ",
+  "createdAt" : 1426176334,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "8txc-8ge9",
+    "displayName" : "Jeffrey Strykowski",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 906253,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jeffrey Strykowski"
+  },
+  "view" : {
+    "id" : "wvxf-dwi5",
+    "name" : "Housing Maintenance Code Violations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384804187,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) issues violations against conditions in rental \r\ndwelling units that have been verified to violate the New York City Housing \r\nMaintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). \r\nViolations are issued when an inspection verifies that a violation of the HMC or MDL \r\nexists. It is closed when the violation is corrected, as observed/verified by HPD or as \r\ncertified by the landlord.",
+    "displayType" : "table",
+    "downloadCount" : 845,
+    "indexUpdatedAt" : 1441243610,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 10809944,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1427996217,
+    "publicationGroup" : 1360057,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 197620899,
+    "rowsUpdatedAt" : 1441243113,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 2592565,
+    "totalTimesRated" : 0,
+    "viewCount" : 2023,
+    "viewLastModified" : 1428016534,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : 197620899
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "violation", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4272,
+  "body" : "Seems this dataset has not been updated since 1/32/2014",
+  "createdAt" : 1408888492,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4485,
+    "body" : "We apologize for the delayed response.\nThe data has been updated now.",
+    "createdAt" : 1413921591,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "wvxf-dwi5",
+      "name" : "Housing Maintenance Code Violations",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1384804187,
+      "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) issues violations against conditions in rental \r\ndwelling units that have been verified to violate the New York City Housing \r\nMaintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). \r\nViolations are issued when an inspection verifies that a violation of the HMC or MDL \r\nexists. It is closed when the violation is corrected, as observed/verified by HPD or as \r\ncertified by the landlord.",
+      "displayType" : "table",
+      "downloadCount" : 845,
+      "indexUpdatedAt" : 1441243610,
+      "newBackend" : false,
+      "numberOfComments" : 5,
+      "oid" : 10809944,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1427996217,
+      "publicationGroup" : 1360057,
+      "publicationStage" : "published",
+      "rowIdentifierColumnId" : 197620899,
+      "rowsUpdatedAt" : 1441243113,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 2592565,
+      "totalTimesRated" : 0,
+      "viewCount" : 2023,
+      "viewLastModified" : 1428016534,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Housing Preservation and Development (HPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : 197620899
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "violation", "department of housing preservation and development", "hpd" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "chzu-94kx",
+    "displayName" : "barry",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891854,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "barry"
+  },
+  "view" : {
+    "id" : "wvxf-dwi5",
+    "name" : "Housing Maintenance Code Violations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384804187,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) issues violations against conditions in rental \r\ndwelling units that have been verified to violate the New York City Housing \r\nMaintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). \r\nViolations are issued when an inspection verifies that a violation of the HMC or MDL \r\nexists. It is closed when the violation is corrected, as observed/verified by HPD or as \r\ncertified by the landlord.",
+    "displayType" : "table",
+    "downloadCount" : 845,
+    "indexUpdatedAt" : 1441243610,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 10809944,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1427996217,
+    "publicationGroup" : 1360057,
+    "publicationStage" : "published",
+    "rowIdentifierColumnId" : 197620899,
+    "rowsUpdatedAt" : 1441243113,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 2592565,
+    "totalTimesRated" : 0,
+    "viewCount" : 2023,
+    "viewLastModified" : 1428016534,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : 197620899
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "violation", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,99 @@
+[ {
+  "id" : 3814,
+  "body" : "CB 2010 shapefile posted in place of CB 2000",
+  "createdAt" : 1401744046,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rveg-cdu5",
+    "displayName" : "hadekoya",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 856900,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "hadekoya"
+  },
+  "view" : {
+    "id" : "xphm-ebrs",
+    "name" : "2000 Census Blocks",
+    "averageRating" : 0,
+    "blobFilename" : "nycb2000_12c.zip",
+    "blobFileSize" : 4324641,
+    "blobId" : "bDiucY4DfF8QNYb2fdgmJqA4xdXxZ8J2rSDezZyEAn8",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1359404294,
+    "description" : "GIS data: Boundaries of 2000 Census Blocks",
+    "displayType" : "map",
+    "downloadCount" : 77,
+    "indexUpdatedAt" : 1409771751,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 2366117,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442338638,
+    "publicationGroup" : 641943,
+    "publicationStage" : "published",
+    "tableId" : 641943,
+    "totalTimesRated" : 0,
+    "viewCount" : 197,
+    "viewLastModified" : 1442338638,
+    "viewType" : "geo",
+    "childViews" : [ "3qd6-r5pz" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "layers" : "geo_xphm-ebrs-1",
+        "isNbe" : false,
+        "bbox" : "-74.2571589754619,40.495992204976886,-73.69921518371501,40.915565528731186",
+        "bboxCrs" : "EPSG:4326",
+        "featureIdAttribute" : "_SocrataID",
+        "owsUrl" : "/api/geospatial/xphm-ebrs",
+        "namespace" : "geo_xphm-ebrs"
+      },
+      "attachments" : [ {
+        "blobId" : "8B366EAB-CBFB-4309-8742-3D54CF834991",
+        "name" : "nycb2000_13c_av.zip",
+        "filename" : "nycb2000_13c_av.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "2000 census blocks", "dcp", "census", "geographic", "location", "map", "cartography", "boundary", "block", "survey", "poll", "2000 census blocks & tracts gis: 2000 census blocks" ],
+    "flags" : [ "default" ]
+  }
+} ]

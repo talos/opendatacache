@@ -1,0 +1,78 @@
+[ {
+  "id" : 4838,
+  "body" : "Hey there! I have a question about this dataset, there is something that I might not understand. Could you please tell me what exactly does the \"Number Tested\" column count? I just want to be sure I understand well. ",
+  "createdAt" : 1424698938,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5vth-2rfd",
+    "displayName" : "afro",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 909016,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "afro"
+  },
+  "view" : {
+    "id" : "3tfu-x2qk",
+    "name" : "Math Test Results 2006-2012 - School - Ethnicity",
+    "averageRating" : 0,
+    "category" : "Education",
+    "createdAt" : 1361415229,
+    "description" : "Latest available data and trends in the state assessment results of math for grades 3 through 8. Data are disaggregated by school and ethnicity.",
+    "downloadCount" : 273,
+    "indexUpdatedAt" : 1414260307,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 2580659,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1361415651,
+    "publicationGroup" : 690199,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1361415649,
+    "rowsUpdatedBy" : "ya7g-926w",
+    "state" : "normal",
+    "tableId" : 690200,
+    "totalTimesRated" : 0,
+    "viewCount" : 211,
+    "viewLastModified" : 1409939763,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Education (DOE)"
+        }
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ya7g-926w",
+      "displayName" : "Aakash Dalwani",
+      "screenName" : "Aakash Dalwani"
+    },
+    "tags" : [ "math test result", "grade", "school", "ethnicity", "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

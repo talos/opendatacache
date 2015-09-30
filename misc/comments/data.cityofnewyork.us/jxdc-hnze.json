@@ -1,0 +1,80 @@
+[ {
+  "id" : 5259,
+  "body" : "Is anyone else having difficulties with exporting the location column? The location data type doesn't seem to be converting. ",
+  "createdAt" : 1436218074,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "iut9-3v59",
+    "displayName" : "lleigha",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 923708,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "lleigha"
+  },
+  "view" : {
+    "id" : "jxdc-hnze",
+    "name" : "Times Square Entertainment Venues",
+    "averageRating" : 0,
+    "category" : "Business",
+    "createdAt" : 1311713047,
+    "description" : "Directory of entertainment venues in the Times Square area\r\n\r\nUpdate Schedule: As required",
+    "displayType" : "table",
+    "downloadCount" : 713,
+    "indexUpdatedAt" : 1414260295,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 4140308,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371842767,
+    "publicationGroup" : 238818,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1371842764,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932710,
+    "totalTimesRated" : 0,
+    "viewCount" : 4302,
+    "viewLastModified" : 1409962319,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Other"
+        }
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "times square alliance", "times square", "crossroads", "crossroads of the world", "nyc", "new york city", "new york", "manhattan", "theater", "food", "screens", "pedestrian", "entertainment", "tourism" ],
+    "flags" : [ "default" ]
+  }
+} ]

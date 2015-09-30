@@ -1,0 +1,90 @@
+[ {
+  "id" : 1206,
+  "body" : "This is a GIS version version of the DYCD After-School program data?\n\nhttp://nycopendata.socrata.com/Education/DYCD-after-school-programs/mbd7-jfnc",
+  "createdAt" : 1324143293,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "view" : {
+    "id" : "6ej9-7qyi",
+    "name" : "After-School Programs",
+    "averageRating" : 0,
+    "blobFilename" : "DOITT_AFTER_SCHOOL_PROGRAM.zip",
+    "blobFileSize" : 365076,
+    "blobId" : "g-HybvzGxHWNalApVPV2FT3k7kTf-1lssKPbKHsHSAU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Social Services",
+    "createdAt" : 1365175564,
+    "description" : "After-School Programs",
+    "displayType" : "map",
+    "downloadCount" : 9307,
+    "indexUpdatedAt" : 1409773241,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 3081666,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365175576,
+    "publicationGroup" : 776799,
+    "publicationStage" : "published",
+    "tableId" : 776799,
+    "totalTimesRated" : 0,
+    "viewCount" : 3718,
+    "viewLastModified" : 1409938480,
+    "viewType" : "geo",
+    "childViews" : [ "reni-g9vg" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Youth and Community Development (DYCD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/6ej9-7qyi",
+        "bbox" : "-74.24555861478365,40.509427419901165,-73.70857560672879,40.90377646407496",
+        "layers" : "geo_6ej9-7qyi-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_6ej9-7qyi"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "0A5BC7E3-E42A-4A0B-8330-966EEF106E41",
+        "name" : "DOITT_AFTER_SCHOOL_PROGRAM.zip",
+        "filename" : "DOITT_AFTER_SCHOOL_PROGRAM.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "jobs and economic mobility", "education", "school", "services", "geographic", "location", "map", "cartography", "after school", "after-school", "program" ],
+    "flags" : [ "default" ]
+  }
+} ]

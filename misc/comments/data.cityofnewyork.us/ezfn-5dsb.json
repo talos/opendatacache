@@ -1,0 +1,408 @@
+[ {
+  "id" : 4883,
+  "body" : "Which field represents the 100yr flood elevation? if it's STATIC_BFE, why some values are even smaller than the value from the FEMA ABFE?",
+  "createdAt" : 1425850854,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "aai3-agie",
+    "displayName" : "tengmac",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 880387,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "tengmac"
+  },
+  "view" : {
+    "id" : "ezfn-5dsb",
+    "name" : "Sea Level Rise Maps (2020s 100-year Floodplain)",
+    "averageRating" : 0,
+    "blobFilename" : "2020_1p_092.zip",
+    "blobFileSize" : 5761007,
+    "blobId" : "kwuZR0ygTBnNLjhqfxOHQAUXidvroKI50AxFMzvJptc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1374613521,
+    "description" : "This is the 100-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+    "displayType" : "map",
+    "downloadCount" : 24998,
+    "indexUpdatedAt" : 1409765329,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 4594081,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1374613548,
+    "publicationGroup" : 994822,
+    "publicationStage" : "published",
+    "tableId" : 994822,
+    "totalTimesRated" : 0,
+    "viewCount" : 1498,
+    "viewLastModified" : 1409940527,
+    "viewType" : "geo",
+    "childViews" : [ "inra-wqx3" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long Term Planning and Sustainability (OLTPS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/ezfn-5dsb",
+        "bbox" : "-74.26608276387927,40.493103399146044,-73.71565383003319,40.92192492882973",
+        "layers" : "geo_ezfn-5dsb-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_ezfn-5dsb"
+      },
+      "attachments" : [ {
+        "blobId" : "1F7A128D-4F0D-430C-A98E-53E44CFFCAD7",
+        "name" : "npcc_climate_risk_information_2013_report.pdf",
+        "filename" : "npcc_climate_risk_information_2013_report.pdf"
+      }, {
+        "blobId" : "0D505C8C-546D-4A9B-9757-B7EB3B8AC32F",
+        "name" : "2020_1p_092.zip",
+        "filename" : "2020_1p_092.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sea level rise maps (2020s 100-year floodplain)", "oltps", "ocean", "sea", "flood" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4817,
+  "body" : "Has this shp been updated to match the New York City Panel on Climate Change February 2015 Report? ",
+  "createdAt" : 1424282807,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "64kd-468g",
+    "displayName" : "MV",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 847200,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "MV"
+  },
+  "view" : {
+    "id" : "ezfn-5dsb",
+    "name" : "Sea Level Rise Maps (2020s 100-year Floodplain)",
+    "averageRating" : 0,
+    "blobFilename" : "2020_1p_092.zip",
+    "blobFileSize" : 5761007,
+    "blobId" : "kwuZR0ygTBnNLjhqfxOHQAUXidvroKI50AxFMzvJptc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1374613521,
+    "description" : "This is the 100-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+    "displayType" : "map",
+    "downloadCount" : 24998,
+    "indexUpdatedAt" : 1409765329,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 4594081,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1374613548,
+    "publicationGroup" : 994822,
+    "publicationStage" : "published",
+    "tableId" : 994822,
+    "totalTimesRated" : 0,
+    "viewCount" : 1498,
+    "viewLastModified" : 1409940527,
+    "viewType" : "geo",
+    "childViews" : [ "inra-wqx3" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long Term Planning and Sustainability (OLTPS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/ezfn-5dsb",
+        "bbox" : "-74.26608276387927,40.493103399146044,-73.71565383003319,40.92192492882973",
+        "layers" : "geo_ezfn-5dsb-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_ezfn-5dsb"
+      },
+      "attachments" : [ {
+        "blobId" : "1F7A128D-4F0D-430C-A98E-53E44CFFCAD7",
+        "name" : "npcc_climate_risk_information_2013_report.pdf",
+        "filename" : "npcc_climate_risk_information_2013_report.pdf"
+      }, {
+        "blobId" : "0D505C8C-546D-4A9B-9757-B7EB3B8AC32F",
+        "name" : "2020_1p_092.zip",
+        "filename" : "2020_1p_092.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sea level rise maps (2020s 100-year floodplain)", "oltps", "ocean", "sea", "flood" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4078,
+  "body" : "Is there metadata available for this .shp? Would be very helpful. Thanks!",
+  "createdAt" : 1404845881,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4483,
+    "body" : "Thank you for you suggestion. The metadata that we have for this dataset is in the About tab of the dataset.",
+    "createdAt" : 1413921358,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "ezfn-5dsb",
+      "name" : "Sea Level Rise Maps (2020s 100-year Floodplain)",
+      "averageRating" : 0,
+      "blobFilename" : "2020_1p_092.zip",
+      "blobFileSize" : 5761007,
+      "blobId" : "kwuZR0ygTBnNLjhqfxOHQAUXidvroKI50AxFMzvJptc",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Environment",
+      "createdAt" : 1374613521,
+      "description" : "This is the 100-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+      "displayType" : "map",
+      "downloadCount" : 24998,
+      "indexUpdatedAt" : 1409765329,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 4594081,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1374613548,
+      "publicationGroup" : 994822,
+      "publicationStage" : "published",
+      "tableId" : 994822,
+      "totalTimesRated" : 0,
+      "viewCount" : 1498,
+      "viewLastModified" : 1409940527,
+      "viewType" : "geo",
+      "childViews" : [ "inra-wqx3" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Mayor's Office of Long Term Planning and Sustainability (OLTPS)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "geo" : {
+          "owsUrl" : "/api/geospatial/ezfn-5dsb",
+          "bbox" : "-74.26608276387927,40.493103399146044,-73.71565383003319,40.92192492882973",
+          "layers" : "geo_ezfn-5dsb-1",
+          "featureIdAttribute" : "_SocrataID",
+          "bboxCrs" : "EPSG:4326",
+          "namespace" : "geo_ezfn-5dsb"
+        },
+        "attachments" : [ {
+          "blobId" : "1F7A128D-4F0D-430C-A98E-53E44CFFCAD7",
+          "name" : "npcc_climate_risk_information_2013_report.pdf",
+          "filename" : "npcc_climate_risk_information_2013_report.pdf"
+        }, {
+          "blobId" : "0D505C8C-546D-4A9B-9757-B7EB3B8AC32F",
+          "name" : "2020_1p_092.zip",
+          "filename" : "2020_1p_092.zip"
+        } ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "sea level rise maps (2020s 100-year floodplain)", "oltps", "ocean", "sea", "flood" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "s9xw-fdcs",
+    "displayName" : "Jessie.B",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 740650,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jessie.B"
+  },
+  "view" : {
+    "id" : "ezfn-5dsb",
+    "name" : "Sea Level Rise Maps (2020s 100-year Floodplain)",
+    "averageRating" : 0,
+    "blobFilename" : "2020_1p_092.zip",
+    "blobFileSize" : 5761007,
+    "blobId" : "kwuZR0ygTBnNLjhqfxOHQAUXidvroKI50AxFMzvJptc",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Environment",
+    "createdAt" : 1374613521,
+    "description" : "This is the 100-Year Floodplain for the 2020s based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).  Please see the Disclaimer PDF for more information. Data Provided by the Mayor's Office of Long-Term Planning and Sustainability (OLTPS) on behalf of CUNY Institute for Sustainable Cities (CISC) and the New York Panel on Climate Change (NPCC).",
+    "displayType" : "map",
+    "downloadCount" : 24998,
+    "indexUpdatedAt" : 1409765329,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 4594081,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1374613548,
+    "publicationGroup" : 994822,
+    "publicationStage" : "published",
+    "tableId" : 994822,
+    "totalTimesRated" : 0,
+    "viewCount" : 1498,
+    "viewLastModified" : 1409940527,
+    "viewType" : "geo",
+    "childViews" : [ "inra-wqx3" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long Term Planning and Sustainability (OLTPS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/ezfn-5dsb",
+        "bbox" : "-74.26608276387927,40.493103399146044,-73.71565383003319,40.92192492882973",
+        "layers" : "geo_ezfn-5dsb-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_ezfn-5dsb"
+      },
+      "attachments" : [ {
+        "blobId" : "1F7A128D-4F0D-430C-A98E-53E44CFFCAD7",
+        "name" : "npcc_climate_risk_information_2013_report.pdf",
+        "filename" : "npcc_climate_risk_information_2013_report.pdf"
+      }, {
+        "blobId" : "0D505C8C-546D-4A9B-9757-B7EB3B8AC32F",
+        "name" : "2020_1p_092.zip",
+        "filename" : "2020_1p_092.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sea level rise maps (2020s 100-year floodplain)", "oltps", "ocean", "sea", "flood" ],
+    "flags" : [ "default" ]
+  }
+} ]

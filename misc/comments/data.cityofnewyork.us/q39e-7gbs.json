@@ -1,0 +1,160 @@
+[ {
+  "id" : 3322,
+  "body" : "What is the unit in \"Water per square foot\"? CCF, Gallons, CF? If there is more than one meter, are the totals combined?",
+  "createdAt" : 1393104821,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4468,
+    "body" : "We apologize for the delayed response.We will pass on your question to OLTPS and will update you once we hear from them.",
+    "createdAt" : 1413915386,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "q39e-7gbs",
+      "name" : "Energy and Water Data Disclosure for Local Law 84 (2011)",
+      "averageRating" : 0,
+      "category" : "Environment",
+      "createdAt" : 1386784637,
+      "description" : "On September 25, 2013, New York City released the 2012 energy and water use data for all properties required to annually benchmark under Local Law 84. New York City is the first in the nation to publicly disclose data for large multifamily buildings. Approximately a million New Yorkers can now see how much energy and water their apartment buildings consumed in 2011.",
+      "downloadCount" : 225,
+      "indexUpdatedAt" : 1414260233,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 6769904,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1386867173,
+      "publicationGroup" : 1395490,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1386784685,
+      "rowsUpdatedBy" : "txun-eb7e",
+      "tableId" : 1395490,
+      "totalTimesRated" : 0,
+      "viewCount" : 1113,
+      "viewLastModified" : 1409939256,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+          }
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "mayor's office of long term planning and sustainability (oltps)", "energy", "water", "benchmarking" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "bnce-kav3",
+    "displayName" : "McGee Young",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 876260,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "McGee Young"
+  },
+  "view" : {
+    "id" : "q39e-7gbs",
+    "name" : "Energy and Water Data Disclosure for Local Law 84 (2011)",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1386784637,
+    "description" : "On September 25, 2013, New York City released the 2012 energy and water use data for all properties required to annually benchmark under Local Law 84. New York City is the first in the nation to publicly disclose data for large multifamily buildings. Approximately a million New Yorkers can now see how much energy and water their apartment buildings consumed in 2011.",
+    "downloadCount" : 225,
+    "indexUpdatedAt" : 1414260233,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 6769904,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1386867173,
+    "publicationGroup" : 1395490,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1386784685,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 1395490,
+    "totalTimesRated" : 0,
+    "viewCount" : 1113,
+    "viewLastModified" : 1409939256,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        }
+      },
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "mayor's office of long term planning and sustainability (oltps)", "energy", "water", "benchmarking" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,93 @@
+[ {
+  "id" : 5254,
+  "body" : "Is it possible to provide definitions for values in TYPECATEGO column? ",
+  "createdAt" : 1435855096,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "bj53-mt7p",
+    "displayName" : "mp",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 896673,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mp"
+  },
+  "view" : {
+    "id" : "rjaj-zgq7",
+    "name" : "Parks Properties",
+    "averageRating" : 0,
+    "blobFilename" : "DPR_ParksProperties_001.zip",
+    "blobFileSize" : 1850099,
+    "blobId" : "03a27WqrRIM5tPc-_rBY2UYx8ZVgnUIZwQiYRKbiFMI",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1385403614,
+    "description" : "Directory of Parks Properties",
+    "displayType" : "map",
+    "downloadCount" : 1225,
+    "indexUpdatedAt" : 1409775058,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 6582984,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429822354,
+    "publicationGroup" : 1374551,
+    "publicationStage" : "published",
+    "tableId" : 1374551,
+    "totalTimesRated" : 0,
+    "viewCount" : 2114,
+    "viewLastModified" : 1429822354,
+    "viewType" : "geo",
+    "childViews" : [ "p7jc-c8ak" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "layers" : "geo_rjaj-zgq7-1",
+        "bbox" : "-74.25765694456565,40.49436757869482,-73.70832199691604,40.91137394758792",
+        "bboxCrs" : "EPSG:4326",
+        "featureIdAttribute" : "_SocrataID",
+        "owsUrl" : "/api/geospatial/rjaj-zgq7",
+        "namespace" : "geo_rjaj-zgq7"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "parks properties", "dpr", "parks" ],
+    "flags" : [ "default" ]
+  }
+} ]

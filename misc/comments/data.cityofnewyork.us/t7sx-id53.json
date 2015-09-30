@@ -1,0 +1,104 @@
+[ {
+  "id" : 4721,
+  "body" : "Has this dataset been vetted for accuracy recently? I canvassed western Queens for these locations and found that there were actually no PPTs at around 30% of the points shown on this map. Some PPTs shown on this map have been gone for years. -mt\n",
+  "createdAt" : 1420419402,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d8v3-j4ez",
+    "displayName" : "sorabji",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 405575,
+    "profileImageUrlLarge" : "/api/users/d8v3-j4ez/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/d8v3-j4ez/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/d8v3-j4ez/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "sorabji"
+  },
+  "view" : {
+    "id" : "t7sx-id53",
+    "name" : "Public Pay Telephone Locations",
+    "averageRating" : 0,
+    "blobFilename" : "payphone locations 20121024.zip",
+    "blobFileSize" : 439236,
+    "blobId" : "tws97JhlCwZtY2DnOemQpujs86bOWu6SMzMrUi1eRUw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Social Services",
+    "createdAt" : 1359485853,
+    "description" : "Public Pay Telephone NYC Free Public Wi-Fi locations, Advertising Locations and Zoning Information (the zoning information should be compared with the dates of most recent zoning changes found on the NYC Planning website)  http://www.nyc.gov/html/dcp/home.html\r\n\r\nDisclaimer\r\nThe Zoning Reference provides only general zoning information and is not meant to serve as a substitute for the actual regulations which are to be found in the Zoning Resolution.",
+    "displayType" : "map",
+    "downloadCount" : 462,
+    "iconUrl" : "fileId:mBLFjTaSr0BnY62XWImnZrhZvxhx1DJcICIYkUZM6ds",
+    "indexUpdatedAt" : 1409772989,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 2375484,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1441817763,
+    "publicationGroup" : 644164,
+    "publicationStage" : "published",
+    "tableId" : 644164,
+    "totalTimesRated" : 0,
+    "viewCount" : 10051,
+    "viewLastModified" : 1441817875,
+    "viewType" : "geo",
+    "childViews" : [ "vzju-a4ks" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "2 to 4 times per year"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/t7sx-id53",
+        "isNbe" : false,
+        "bbox" : "-74.24810295592104,40.509022695860196,-73.70916662338581,40.910651842862634",
+        "layers" : "geo_t7sx-id53-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_t7sx-id53"
+      },
+      "attachments" : [ {
+        "assetId" : "tahcFWJXyS02f1BfkCRmrjpCNJLnPi1Lah2Omj8_dKM",
+        "name" : "Public_Pay_Telephones.xlsx",
+        "filename" : "Public_Pay_Telephones.xlsx"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "x539-akqs",
+      "displayName" : "Andrew Nicklin",
+      "profileImageUrlLarge" : "/api/users/x539-akqs/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/x539-akqs/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/x539-akqs/profile_images/TINY",
+      "screenName" : "Andrew Nicklin"
+    },
+    "tags" : [ "public pay telephones", "ppt", "payphones", "reinvent payphones", "wifi hotspot", "nyc" ],
+    "flags" : [ "default" ]
+  }
+} ]

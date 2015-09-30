@@ -1,0 +1,168 @@
+[ {
+  "id" : 4302,
+  "body" : "How can I pay this open invoice?",
+  "createdAt" : 1409689463,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4484,
+    "body" : "We apologize for the delayed response. You can make the payment from the agency (HPD) website. If you have any further questions please contact the agency",
+    "createdAt" : 1413921546,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "emrz-5p35",
+      "name" : "Invoices for Open Market Order (OMO) Charges",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1384810937,
+      "description" : "Contains information about invoices submitted to HPD by private contractors under an OMO.",
+      "displayType" : "table",
+      "downloadCount" : 144,
+      "indexUpdatedAt" : 1441233906,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 13131201,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1441231406,
+      "publicationGroup" : 1360279,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1441231383,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 4198632,
+      "totalTimesRated" : 0,
+      "viewCount" : 298,
+      "viewLastModified" : 1441231406,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Monthly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Housing Preservation and Development (HPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "charges", "department of housing preservation and development", "hpd" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "4t8p-gd3k",
+    "displayName" : "DEBBY",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 892479,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "DEBBY"
+  },
+  "view" : {
+    "id" : "emrz-5p35",
+    "name" : "Invoices for Open Market Order (OMO) Charges",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384810937,
+    "description" : "Contains information about invoices submitted to HPD by private contractors under an OMO.",
+    "displayType" : "table",
+    "downloadCount" : 144,
+    "indexUpdatedAt" : 1441233906,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 13131201,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1441231406,
+    "publicationGroup" : 1360279,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1441231383,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4198632,
+    "totalTimesRated" : 0,
+    "viewCount" : 298,
+    "viewLastModified" : 1441231406,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "charges", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+} ]

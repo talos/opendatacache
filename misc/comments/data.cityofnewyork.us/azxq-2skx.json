@@ -1,0 +1,88 @@
+[ {
+  "id" : 5468,
+  "body" : "This dataset needs more documentation. What are the definitions of the Affordability Bands? How do the DWID, Project ID, and Building ID relate to other datasets? Is the Building ID the BIN? Is the Project ID a HUD project ID?",
+  "createdAt" : 1441033811,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "k3x5-urx4",
+    "displayName" : "Brian Karfunkel",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 929367,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Brian Karfunkel"
+  },
+  "view" : {
+    "id" : "azxq-2skx",
+    "name" : "HPD Rent Affordability Element",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1393516180,
+    "description" : "Information on units disaggregated by rent affordability for each building in a project.",
+    "displayType" : "table",
+    "downloadCount" : 114,
+    "indexUpdatedAt" : 1414260110,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 8700175,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1408631986,
+    "publicationGroup" : 1491619,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 163249892,
+    "rowsUpdatedAt" : 1408720551,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1691682,
+    "totalTimesRated" : 0,
+    "viewCount" : 524,
+    "viewLastModified" : 1409940241,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Biannually "
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "project_dwid_2",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "department of housing preservation and development", "hpd", "rent affordability" ],
+    "flags" : [ "default" ]
+  }
+} ]

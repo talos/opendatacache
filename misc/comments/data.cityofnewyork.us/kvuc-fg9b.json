@@ -1,0 +1,70 @@
+[ {
+  "id" : 1231,
+  "body" : "dead link",
+  "createdAt" : 1326001291,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "view" : {
+    "id" : "kvuc-fg9b",
+    "name" : "Demographic, Social, Economic, and Housing Profiles by Community District/PUMA",
+    "averageRating" : 20,
+    "category" : "City Government",
+    "createdAt" : 1312922489,
+    "description" : "Selected demographic, social, economic, and housing estimates data by community district/PUMA (Public Use Micro Data Sample Area). Three year estimates of population data from the Census Bureau's American Community Survey",
+    "displayType" : "href",
+    "downloadCount" : 1609,
+    "indexUpdatedAt" : 1409774424,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 331143,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1312922489,
+    "publicationGroup" : 239297,
+    "publicationStage" : "published",
+    "tableId" : 239297,
+    "totalTimesRated" : 1,
+    "viewCount" : 3283,
+    "viewLastModified" : 1409937136,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "accessPoints" : {
+        "xls" : "http://nyc.gov/html/dcp/download/biggapps/DCP_acs_cd_puma_001.xls"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 20
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "jobs and economic mobility", "dcp", "public use micro data sample area", "census", "demographics", "population" ],
+    "flags" : [ "default" ]
+  }
+} ]

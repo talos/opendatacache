@@ -1,0 +1,75 @@
+[ {
+  "id" : 4918,
+  "body" : "is there any chance that this feed will get updated as of today?",
+  "createdAt" : 1426798973,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "fg36-hu6m",
+    "displayName" : "Jean-François Chatelain",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 876467,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jean-François Chatelain"
+  },
+  "view" : {
+    "id" : "uzf5-f8n2",
+    "name" : "Annualized Rolling Sales Update",
+    "averageRating" : 0,
+    "blobFilename" : "2009-2003.zip",
+    "blobFileSize" : 40297480,
+    "blobId" : "oz0tlTxRF1To-JafO4BcJIAj1wO45GTmM-3yt7gX2gk",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1318121801,
+    "description" : "Sale prices of properties in a five borough from 2003-2009.  The files include neighborhood, building type, square footage, and other data.",
+    "displayType" : "blob",
+    "downloadCount" : 844,
+    "indexUpdatedAt" : 1409772573,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 342377,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318121801,
+    "publicationGroup" : 244230,
+    "publicationStage" : "published",
+    "tableId" : 244230,
+    "totalTimesRated" : 0,
+    "viewCount" : 2004,
+    "viewLastModified" : 1409937959,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "department of finance", "finance", "dof", "money", "2003", "2004", "2005", "2006", "2007", "2008", "2009" ],
+    "flags" : [ "default" ]
+  }
+} ]

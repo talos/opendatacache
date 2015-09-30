@@ -1,0 +1,85 @@
+[ {
+  "id" : 5472,
+  "body" : "The coopnum field is truncated to 1 digit making the field useless. I called this city about this 6 months ago and they didn't make any changes.",
+  "createdAt" : 1441214664,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ja32-2edr",
+    "displayName" : "Charlie Schmidt",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 919016,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Charlie Schmidt"
+  },
+  "view" : {
+    "id" : "bc8t-ecyu",
+    "name" : "Property Address Directory",
+    "averageRating" : 0,
+    "blobFilename" : "DCP_pad_001.zip",
+    "blobFileSize" : 26548671,
+    "blobId" : "OnmJbd9IfkV7-ITthwKLFVNiv-nMjgSFYtt8wlptNcE",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "City Government",
+    "createdAt" : 1433788337,
+    "description" : "The PAD (Property Address Directory) file contains additional geographic information at the tax lot level not found in the PLUTO files.  This data includes alias addresses and Building Identification Numbers (BINs).  It consists of two ASCII, comma delimited files: a tax lot file and an address file.\r\n\r\nNote To Users: A new field (ZIP Code) has been added to the bobaadrx (Address) file.  Please check your procedures to make sure this does not cause any problems.  For earlier versions, see PAD releases on the BYTES of the BIG APPLE archive page.",
+    "displayType" : "blob",
+    "downloadCount" : 119,
+    "indexUpdatedAt" : 1441912210,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 11664616,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1433788337,
+    "publicationGroup" : 3110954,
+    "publicationStage" : "published",
+    "tableId" : 3110954,
+    "totalTimesRated" : 0,
+    "viewCount" : 87,
+    "viewLastModified" : 1442338863,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Automation" : "No",
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of City Planning (DCP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dcp", "pad", "property address directory", "lot", "tax lot", "building", "city planning", "planning", "block" ],
+    "flags" : [ "default" ]
+  }
+} ]

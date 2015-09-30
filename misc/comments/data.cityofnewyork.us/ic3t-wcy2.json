@@ -1,0 +1,158 @@
+[ {
+  "id" : 4284,
+  "body" : "Hi, i'm trying to get the data with the following filter: \n\npre__filing_date gt '06/03/2014'\n\nThe response that i'm getting is everything aftert 06/03/2013??\n\nI'M i doing something wrong here?\n\nApparently month and day are filtered correctly but not the year.\n\nHere's my query:\n\nhttp://data.cityofnewyork.us/OData.svc/ic3t-wcy2?$filter=pre__filing_date%20gt%20%2706/03/2014%27",
+  "createdAt" : 1409241879,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4489,
+    "body" : "We apologize for the delayed response. You can post the question here\nhttps://support.socrata.com/hc/en-us/requests/new",
+    "createdAt" : 1413922411,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "ic3t-wcy2",
+      "name" : "DOB Job Application Filings",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1366298336,
+      "description" : "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+      "displayType" : "table",
+      "downloadCount" : 1753,
+      "indexUpdatedAt" : 1443559568,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 7167822,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1389906937,
+      "publicationGroup" : 804321,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1443557429,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1442967,
+      "totalTimesRated" : 0,
+      "viewCount" : 2163,
+      "viewLastModified" : 1409939527,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Buildings (DOB)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "job", "dob", "buildings" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "fg36-hu6m",
+    "displayName" : "Jean-François Chatelain",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 876467,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jean-François Chatelain"
+  },
+  "view" : {
+    "id" : "ic3t-wcy2",
+    "name" : "DOB Job Application Filings",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1366298336,
+    "description" : "A list of job applications filed for a particular day and associated data. Prior weekly and monthly reports are archived at DOB and are not available on NYC Open Data.",
+    "displayType" : "table",
+    "downloadCount" : 1753,
+    "indexUpdatedAt" : 1443559568,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 7167822,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1389906937,
+    "publicationGroup" : 804321,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443557429,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1442967,
+    "totalTimesRated" : 0,
+    "viewCount" : 2163,
+    "viewLastModified" : 1409939527,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "job", "dob", "buildings" ],
+    "flags" : [ "default" ]
+  }
+} ]

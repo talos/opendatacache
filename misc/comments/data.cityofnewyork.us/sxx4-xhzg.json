@@ -1,0 +1,234 @@
+[ {
+  "id" : 4527,
+  "body" : "We apologize for the delayed response. We will pass on the request to the appropriate agency.\n",
+  "createdAt" : 1414172485,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "sxx4-xhzg",
+    "name" : "Public Recycling Bins",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1341003072,
+    "description" : "Locations of public recycling bins throughout NYC",
+    "displayType" : "table",
+    "downloadCount" : 686,
+    "indexUpdatedAt" : 1414260111,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4140714,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843757,
+    "publicationGroup" : 370782,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843754,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932836,
+    "totalTimesRated" : 0,
+    "viewCount" : 2121,
+    "viewLastModified" : 1409936761,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "public recycling bins", "environmental sustainability", "green", "garbage", "sanitation", "dsny", "bins", "recycle", "dispose", "reduce", "reuse", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4407,
+  "body" : "is there any way to look at this data set over time?",
+  "createdAt" : 1412558906,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "sfag-iznq",
+    "displayName" : "andrew F",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 895105,
+    "profileImageUrlLarge" : "/api/users/sfag-iznq/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/sfag-iznq/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/sfag-iznq/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "andrew F"
+  },
+  "view" : {
+    "id" : "sxx4-xhzg",
+    "name" : "Public Recycling Bins",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1341003072,
+    "description" : "Locations of public recycling bins throughout NYC",
+    "displayType" : "table",
+    "downloadCount" : 686,
+    "indexUpdatedAt" : 1414260111,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4140714,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843757,
+    "publicationGroup" : 370782,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843754,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932836,
+    "totalTimesRated" : 0,
+    "viewCount" : 2121,
+    "viewLastModified" : 1409936761,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "public recycling bins", "environmental sustainability", "green", "garbage", "sanitation", "dsny", "bins", "recycle", "dispose", "reduce", "reuse", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2992,
+  "body" : "Is there any data with a better address field? It's very manual to geocode in ArcMap. ",
+  "createdAt" : 1382558996,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "c4te-5ke9",
+    "displayName" : "Sara Allan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 855237,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sara Allan"
+  },
+  "view" : {
+    "id" : "sxx4-xhzg",
+    "name" : "Public Recycling Bins",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1341003072,
+    "description" : "Locations of public recycling bins throughout NYC",
+    "displayType" : "table",
+    "downloadCount" : 686,
+    "indexUpdatedAt" : 1414260111,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4140714,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371843757,
+    "publicationGroup" : 370782,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371843754,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932836,
+    "totalTimesRated" : 0,
+    "viewCount" : 2121,
+    "viewLastModified" : 1409936761,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Sanitation (DSNY)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "public recycling bins", "environmental sustainability", "green", "garbage", "sanitation", "dsny", "bins", "recycle", "dispose", "reduce", "reuse", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

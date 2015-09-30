@@ -1,0 +1,1197 @@
+[ {
+  "id" : 5043,
+  "body" : "Is this based on mean tide?",
+  "createdAt" : 1429574659,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "2af2-2tky",
+    "displayName" : "aklein",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915453,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "aklein"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4242,
+  "body" : "Colin R, I appreciate that if we can download the whole dataset I can then break out boroughs, but it isn't easy to download the whole dataset at 100+ GB.  Maybe you could offer it as a whole dataset and as five separate smaller borough-specific downloads, as kmack suggested?",
+  "createdAt" : 1408022366,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4395,
+    "body" : "Unfortunately no. That is the way the data was provided to us. And we've been unsuccessful in trying to split it up. ",
+    "createdAt" : 1412179596,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "br4v-gwe4",
+      "displayName" : "Colin R",
+      "numberOfFollowers" : 1,
+      "numberOfFriends" : 0,
+      "oid" : 704077,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Colin R"
+    },
+    "view" : {
+      "id" : "dpc8-z3jc",
+      "name" : "1 foot Digital Elevation Model (DEM)",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1376089798,
+      "description" : "NYC 1foot Digital Elevation Model",
+      "displayType" : "href",
+      "downloadCount" : 6024,
+      "indexUpdatedAt" : 1409963660,
+      "newBackend" : false,
+      "numberOfComments" : 14,
+      "oid" : 4846878,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1377279618,
+      "publicationGroup" : 1032185,
+      "publicationStage" : "published",
+      "tableId" : 1032185,
+      "totalTimesRated" : 0,
+      "viewCount" : 3860,
+      "viewLastModified" : 1409963550,
+      "viewType" : "href",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Environmental Protection (DEP)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "href" : true
+          }
+        },
+        "availableDisplayTypes" : [ "href" ],
+        "accessPoints" : {
+          "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "rqdg-xj2v",
+        "displayName" : "Clare Zimmerman",
+        "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+        "screenName" : "Clare Zimmerman",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+        "flags" : [ "admin" ]
+      },
+      "tags" : [ "dem", "dep", "1ft" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "vce9-65vz",
+    "displayName" : "erotenberg",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891165,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "erotenberg"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4069,
+  "body" : "NAVD 1988",
+  "createdAt" : 1404758652,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "br4v-gwe4",
+    "displayName" : "Colin R",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 704077,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Colin R"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3996,
+  "body" : "Hi I was also wondering about the vertical datum.  Is it referenced to NAVD 1988?",
+  "createdAt" : 1403639572,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "nvpw-z8cs",
+    "displayName" : "kmack",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 853444,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "kmack"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3982,
+  "body" : "Hi, I have a quick question. \nDoes the DEM includes building elevations?",
+  "createdAt" : 1403544147,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "dbrj-mv97",
+    "displayName" : "alhan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 875928,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "alhan",
+    "title" : "Doctoral Student"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3644,
+  "body" : "What vertical datum is the data in?",
+  "createdAt" : 1398869764,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "9abb-x7n8",
+    "displayName" : "arez",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 882394,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "arez"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3286,
+  "body" : "Is it possible to have this file split into Boroughs? ",
+  "createdAt" : 1391809641,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3335,
+    "body" : "After you unzip the file, you can filter the dataset by borough to give you separate views. ",
+    "createdAt" : 1393267657,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "dpc8-z3jc",
+      "name" : "1 foot Digital Elevation Model (DEM)",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1376089798,
+      "description" : "NYC 1foot Digital Elevation Model",
+      "displayType" : "href",
+      "downloadCount" : 6024,
+      "indexUpdatedAt" : 1409963660,
+      "newBackend" : false,
+      "numberOfComments" : 14,
+      "oid" : 4846878,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1377279618,
+      "publicationGroup" : 1032185,
+      "publicationStage" : "published",
+      "tableId" : 1032185,
+      "totalTimesRated" : 0,
+      "viewCount" : 3860,
+      "viewLastModified" : 1409963550,
+      "viewType" : "href",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Environmental Protection (DEP)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "href" : true
+          }
+        },
+        "availableDisplayTypes" : [ "href" ],
+        "accessPoints" : {
+          "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "rqdg-xj2v",
+        "displayName" : "Clare Zimmerman",
+        "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+        "screenName" : "Clare Zimmerman",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+        "flags" : [ "admin" ]
+      },
+      "tags" : [ "dem", "dep", "1ft" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "rdxg-79me",
+    "displayName" : "polatalihan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 399959,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "polatalihan"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3259,
+  "body" : "Download has timed out before completion. Is there any other way to obtain this data?",
+  "createdAt" : 1390927257,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "yrmw-jwi7",
+    "displayName" : "Marc",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 871144,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Marc"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3030,
+  "body" : "I downloaded and unzipped it-- 121 GB!",
+  "createdAt" : 1383583132,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "nvpw-z8cs",
+    "displayName" : "kmack",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 853444,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "kmack"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3027,
+  "body" : "How big is this file unzipped?",
+  "createdAt" : 1383320401,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "hzzt-tw5i",
+    "displayName" : "esands00",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 859153,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "esands00"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2966,
+  "body" : "Hi, what is the source of this data?  What year does it represent?  Is it 2004?",
+  "createdAt" : 1381848060,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3025,
+    "body" : "Source is LiDAR captured in April/May 2010.",
+    "createdAt" : 1383318490,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "br4v-gwe4",
+      "displayName" : "Colin R",
+      "numberOfFollowers" : 1,
+      "numberOfFriends" : 0,
+      "oid" : 704077,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Colin R"
+    },
+    "view" : {
+      "id" : "dpc8-z3jc",
+      "name" : "1 foot Digital Elevation Model (DEM)",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1376089798,
+      "description" : "NYC 1foot Digital Elevation Model",
+      "displayType" : "href",
+      "downloadCount" : 6024,
+      "indexUpdatedAt" : 1409963660,
+      "newBackend" : false,
+      "numberOfComments" : 14,
+      "oid" : 4846878,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1377279618,
+      "publicationGroup" : 1032185,
+      "publicationStage" : "published",
+      "tableId" : 1032185,
+      "totalTimesRated" : 0,
+      "viewCount" : 3860,
+      "viewLastModified" : 1409963550,
+      "viewType" : "href",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Environmental Protection (DEP)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "href" : true
+          }
+        },
+        "availableDisplayTypes" : [ "href" ],
+        "accessPoints" : {
+          "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "rqdg-xj2v",
+        "displayName" : "Clare Zimmerman",
+        "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+        "screenName" : "Clare Zimmerman",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+        "flags" : [ "admin" ]
+      },
+      "tags" : [ "dem", "dep", "1ft" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "nvpw-z8cs",
+    "displayName" : "kmack",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 853444,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "kmack"
+  },
+  "view" : {
+    "id" : "dpc8-z3jc",
+    "name" : "1 foot Digital Elevation Model (DEM)",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1376089798,
+    "description" : "NYC 1foot Digital Elevation Model",
+    "displayType" : "href",
+    "downloadCount" : 6024,
+    "indexUpdatedAt" : 1409963660,
+    "newBackend" : false,
+    "numberOfComments" : 14,
+    "oid" : 4846878,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1377279618,
+    "publicationGroup" : 1032185,
+    "publicationStage" : "published",
+    "tableId" : 1032185,
+    "totalTimesRated" : 0,
+    "viewCount" : 3860,
+    "viewLastModified" : 1409963550,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Environmental Protection (DEP)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://static.socrata.com.s3.amazonaws.com/NYC_DEM_1ft.zip"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rqdg-xj2v",
+      "displayName" : "Clare Zimmerman",
+      "profileImageUrlLarge" : "/api/users/rqdg-xj2v/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rqdg-xj2v/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rqdg-xj2v/profile_images/TINY",
+      "screenName" : "Clare Zimmerman",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ],
+      "flags" : [ "admin" ]
+    },
+    "tags" : [ "dem", "dep", "1ft" ],
+    "flags" : [ "default" ]
+  }
+} ]

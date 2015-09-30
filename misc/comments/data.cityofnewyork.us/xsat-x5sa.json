@@ -1,0 +1,458 @@
+[ {
+  "id" : 5340,
+  "body" : "The data source seems to be frozen. There is the same data since yestarday :(",
+  "createdAt" : 1438240586,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "8czv-ky2g",
+    "displayName" : "Ismael Navas Delgado",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 925910,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ismael Navas Delgado"
+  },
+  "view" : {
+    "id" : "xsat-x5sa",
+    "name" : "Real-Time Traffic Speed Data",
+    "averageRating" : 80,
+    "category" : "Transportation",
+    "createdAt" : 1318289576,
+    "description" : "NYCDOT's Traffic Management Center (TMC) maintains a map of traffic speed detectors throughout the City. The speed detector themselves belong to various city and state agencies. The Traffic Speeds Map is available on the DOT's website (http://nyctmc.org/ ). This data feed contains 'real-time' traffic information from locations where NYCDOT picks up sensor feeds within the five boroughs, mostly on major arterials and highways. NYCDOT uses this information for emergency response and management.",
+    "displayType" : "href",
+    "downloadCount" : 136945,
+    "indexUpdatedAt" : 1409774403,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 343092,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318289733,
+    "publicationGroup" : 244570,
+    "publicationStage" : "published",
+    "tableId" : 244570,
+    "totalTimesRated" : 1,
+    "viewCount" : 14777,
+    "viewLastModified" : 1409937154,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "txt" : "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt"
+      },
+      "attachments" : [ {
+        "blobId" : "5695AD48-E3BE-4C04-8E26-4170EBC34B55",
+        "name" : "metadata_trafficspeeds.pdf",
+        "filename" : "metadata_trafficspeeds.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vehicles", "car", "bus", "automobile", "truck", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4455,
+  "body" : "We apologize for the delayed response. \n\n@cclauss: We will pass on your request/suggestion to NYC DOT and will update you once we hear from them.\n\n@mavvaj: The data is current. Please click on the external link and you will get the latest data.\n\n@Sean Zhan: We will pass on your request to NYC DOT and will update you once we hear from them.",
+  "createdAt" : 1413833710,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "xsat-x5sa",
+    "name" : "Real-Time Traffic Speed Data",
+    "averageRating" : 80,
+    "category" : "Transportation",
+    "createdAt" : 1318289576,
+    "description" : "NYCDOT's Traffic Management Center (TMC) maintains a map of traffic speed detectors throughout the City. The speed detector themselves belong to various city and state agencies. The Traffic Speeds Map is available on the DOT's website (http://nyctmc.org/ ). This data feed contains 'real-time' traffic information from locations where NYCDOT picks up sensor feeds within the five boroughs, mostly on major arterials and highways. NYCDOT uses this information for emergency response and management.",
+    "displayType" : "href",
+    "downloadCount" : 136945,
+    "indexUpdatedAt" : 1409774403,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 343092,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318289733,
+    "publicationGroup" : 244570,
+    "publicationStage" : "published",
+    "tableId" : 244570,
+    "totalTimesRated" : 1,
+    "viewCount" : 14777,
+    "viewLastModified" : 1409937154,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "txt" : "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt"
+      },
+      "attachments" : [ {
+        "blobId" : "5695AD48-E3BE-4C04-8E26-4170EBC34B55",
+        "name" : "metadata_trafficspeeds.pdf",
+        "filename" : "metadata_trafficspeeds.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vehicles", "car", "bus", "automobile", "truck", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4068,
+  "body" : "Is there a way or any sources I can get the past data of this dataset?",
+  "createdAt" : 1404758505,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "n269-vads",
+    "displayName" : "Sean Zhan",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 888249,
+    "profileImageUrlLarge" : "/api/users/n269-vads/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/n269-vads/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/n269-vads/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sean Zhan",
+    "title" : "Phd Student"
+  },
+  "view" : {
+    "id" : "xsat-x5sa",
+    "name" : "Real-Time Traffic Speed Data",
+    "averageRating" : 80,
+    "category" : "Transportation",
+    "createdAt" : 1318289576,
+    "description" : "NYCDOT's Traffic Management Center (TMC) maintains a map of traffic speed detectors throughout the City. The speed detector themselves belong to various city and state agencies. The Traffic Speeds Map is available on the DOT's website (http://nyctmc.org/ ). This data feed contains 'real-time' traffic information from locations where NYCDOT picks up sensor feeds within the five boroughs, mostly on major arterials and highways. NYCDOT uses this information for emergency response and management.",
+    "displayType" : "href",
+    "downloadCount" : 136945,
+    "indexUpdatedAt" : 1409774403,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 343092,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318289733,
+    "publicationGroup" : 244570,
+    "publicationStage" : "published",
+    "tableId" : 244570,
+    "totalTimesRated" : 1,
+    "viewCount" : 14777,
+    "viewLastModified" : 1409937154,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "txt" : "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt"
+      },
+      "attachments" : [ {
+        "blobId" : "5695AD48-E3BE-4C04-8E26-4170EBC34B55",
+        "name" : "metadata_trafficspeeds.pdf",
+        "filename" : "metadata_trafficspeeds.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vehicles", "car", "bus", "automobile", "truck", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3651,
+  "body" : "Is this list no longer maintaned? ",
+  "createdAt" : 1398989925,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "vwx9-g63p",
+    "displayName" : "mavvaj",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 882544,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mavvaj"
+  },
+  "view" : {
+    "id" : "xsat-x5sa",
+    "name" : "Real-Time Traffic Speed Data",
+    "averageRating" : 80,
+    "category" : "Transportation",
+    "createdAt" : 1318289576,
+    "description" : "NYCDOT's Traffic Management Center (TMC) maintains a map of traffic speed detectors throughout the City. The speed detector themselves belong to various city and state agencies. The Traffic Speeds Map is available on the DOT's website (http://nyctmc.org/ ). This data feed contains 'real-time' traffic information from locations where NYCDOT picks up sensor feeds within the five boroughs, mostly on major arterials and highways. NYCDOT uses this information for emergency response and management.",
+    "displayType" : "href",
+    "downloadCount" : 136945,
+    "indexUpdatedAt" : 1409774403,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 343092,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318289733,
+    "publicationGroup" : 244570,
+    "publicationStage" : "published",
+    "tableId" : 244570,
+    "totalTimesRated" : 1,
+    "viewCount" : 14777,
+    "viewLastModified" : 1409937154,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "txt" : "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt"
+      },
+      "attachments" : [ {
+        "blobId" : "5695AD48-E3BE-4C04-8E26-4170EBC34B55",
+        "name" : "metadata_trafficspeeds.pdf",
+        "filename" : "metadata_trafficspeeds.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vehicles", "car", "bus", "automobile", "truck", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3008,
+  "body" : "This dataset has endOfLine characters in the LinkPoints field of numerous records.  This makes the file difficult to parse.  If you open a local copy of this dataset in a syntax highlighting editor, you will see the issue.",
+  "createdAt" : 1383043300,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "3hwp-gayp",
+    "displayName" : "cclauss",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 858108,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cclauss",
+    "title" : "Director of Technical Strategy and Partner Recruitment"
+  },
+  "view" : {
+    "id" : "xsat-x5sa",
+    "name" : "Real-Time Traffic Speed Data",
+    "averageRating" : 80,
+    "category" : "Transportation",
+    "createdAt" : 1318289576,
+    "description" : "NYCDOT's Traffic Management Center (TMC) maintains a map of traffic speed detectors throughout the City. The speed detector themselves belong to various city and state agencies. The Traffic Speeds Map is available on the DOT's website (http://nyctmc.org/ ). This data feed contains 'real-time' traffic information from locations where NYCDOT picks up sensor feeds within the five boroughs, mostly on major arterials and highways. NYCDOT uses this information for emergency response and management.",
+    "displayType" : "href",
+    "downloadCount" : 136945,
+    "indexUpdatedAt" : 1409774403,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 343092,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318289733,
+    "publicationGroup" : 244570,
+    "publicationStage" : "published",
+    "tableId" : 244570,
+    "totalTimesRated" : 1,
+    "viewCount" : 14777,
+    "viewLastModified" : 1409937154,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "txt" : "http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt"
+      },
+      "attachments" : [ {
+        "blobId" : "5695AD48-E3BE-4C04-8E26-4170EBC34B55",
+        "name" : "metadata_trafficspeeds.pdf",
+        "filename" : "metadata_trafficspeeds.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "vehicles", "car", "bus", "automobile", "truck", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

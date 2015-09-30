@@ -1,0 +1,163 @@
+[ {
+  "id" : 4908,
+  "body" : "Dear NYC OpenData,  my website and mobile app are heavily depended on the old Parking Regulation Location and Parking Regulation Signs datasets that were recently deleted and API endpoints aren't useful anymore. I'm sure my site and app are not the only one that were retrieving records from those datasets by Soda API,  Please post the information if you are planning to provide Soda API services for new datasets. Thank you, Julia Marina",
+  "createdAt" : 1426465029,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mpe4-yswb",
+    "displayName" : "Julia Marina",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 911203,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Julia Marina"
+  },
+  "view" : {
+    "id" : "jpjb-rq49",
+    "name" : "Parking Regulation Locations",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1426279876,
+    "description" : "The Parking Regulations are drawn from DOT’s traffic sign database, STATUS, which is used by DOT in managing its inventory of over one million traffic signs in New York City. The database keeps track of the description, location and installation dates for DOT traffic signs. The Locations and Signs datasets need to be used in combination. The data in files can be linked, to find an applicable regulation, using the 'StatusOrderNumber' value. This process is automated at our  DOT Parking Regulation website: http://a841-dotvweb01.nyc.gov/ParkingRegs/ViewController/LocationValidation.aspx",
+    "displayType" : "href",
+    "downloadCount" : 122,
+    "indexUpdatedAt" : 1426287575,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 10594187,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1426279885,
+    "publicationGroup" : 2478644,
+    "publicationStage" : "published",
+    "tableId" : 2478644,
+    "totalTimesRated" : 0,
+    "viewCount" : 386,
+    "viewLastModified" : 1426279885,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "csv" : "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/locations.CSV"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4905,
+  "body" : "API please!!!!!!!",
+  "createdAt" : 1426378644,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mpe4-yswb",
+    "displayName" : "Julia Marina",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 911203,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Julia Marina"
+  },
+  "view" : {
+    "id" : "jpjb-rq49",
+    "name" : "Parking Regulation Locations",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1426279876,
+    "description" : "The Parking Regulations are drawn from DOT’s traffic sign database, STATUS, which is used by DOT in managing its inventory of over one million traffic signs in New York City. The database keeps track of the description, location and installation dates for DOT traffic signs. The Locations and Signs datasets need to be used in combination. The data in files can be linked, to find an applicable regulation, using the 'StatusOrderNumber' value. This process is automated at our  DOT Parking Regulation website: http://a841-dotvweb01.nyc.gov/ParkingRegs/ViewController/LocationValidation.aspx",
+    "displayType" : "href",
+    "downloadCount" : 122,
+    "indexUpdatedAt" : 1426287575,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 10594187,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1426279885,
+    "publicationGroup" : 2478644,
+    "publicationStage" : "published",
+    "tableId" : 2478644,
+    "totalTimesRated" : 0,
+    "viewCount" : 386,
+    "viewLastModified" : 1426279885,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "csv" : "http://a841-dotweb01.nyc.gov/datafeeds/ParkingReg/locations.CSV"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

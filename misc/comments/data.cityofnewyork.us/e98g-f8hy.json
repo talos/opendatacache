@@ -1,0 +1,149 @@
+[ {
+  "id" : 2968,
+  "body" : "When should we expect a real database of records contained under the BIS? Up to date records, violations, job filings, sign offs etc. ",
+  "createdAt" : 1381880392,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "view" : {
+    "id" : "e98g-f8hy",
+    "name" : "Property Data (Buildings Information System)",
+    "averageRating" : 40,
+    "category" : "Housing & Development",
+    "createdAt" : 1319133802,
+    "description" : "List of NYC Properties under DOB jurisdiction",
+    "displayType" : "table",
+    "downloadCount" : 606,
+    "indexUpdatedAt" : 1429114485,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 10093633,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1422910217,
+    "publicationGroup" : 247193,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1422910059,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 2185397,
+    "totalTimesRated" : 1,
+    "viewCount" : 6070,
+    "viewLastModified" : 1429113571,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 40
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "building", "jurisdiction", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1495,
+  "body" : "This dataset's title is very provocative, suggesting it lists all the properties under DOB jurisdiction. But the data presented simply isn't it, and focuses on permits, which are less utility. What would really help is DOB's master list of every address in the city with their classifications so they may be cross-referenced with DOF's RPAD to avoid inaccuracies. Anyone doing work on GIS in NYC would benefit from being bale to use this. ",
+  "createdAt" : 1332948503,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "xgni-s9pb",
+    "displayName" : "Ben H Sacks",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 398473,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben H Sacks"
+  },
+  "view" : {
+    "id" : "e98g-f8hy",
+    "name" : "Property Data (Buildings Information System)",
+    "averageRating" : 40,
+    "category" : "Housing & Development",
+    "createdAt" : 1319133802,
+    "description" : "List of NYC Properties under DOB jurisdiction",
+    "displayType" : "table",
+    "downloadCount" : 606,
+    "indexUpdatedAt" : 1429114485,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 10093633,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1422910217,
+    "publicationGroup" : 247193,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1422910059,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 2185397,
+    "totalTimesRated" : 1,
+    "viewCount" : 6070,
+    "viewLastModified" : 1429113571,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Buildings (DOB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 40
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "property", "building", "jurisdiction", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

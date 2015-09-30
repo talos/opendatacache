@@ -1,0 +1,92 @@
+[ {
+  "id" : 1819,
+  "body" : "What do the different levels represent?",
+  "createdAt" : 1345562650,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "v4c9-bc9b",
+    "description" : "Discover, develop, curate, and upload datasets and shapefiles that are relevant to Bronx community engagement. GISc M.S. recipient, lehman College, 2014",
+    "displayName" : "cpbride",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 671475,
+    "profileImageUrlLarge" : "/api/users/v4c9-bc9b/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/v4c9-bc9b/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/v4c9-bc9b/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cpbride",
+    "title" : "Data Acquisition Manager"
+  },
+  "view" : {
+    "id" : "jufi-gzgp",
+    "name" : "NYS Math Test Results By Grade 2006-2011 - School Level - All Students",
+    "averageRating" : 0,
+    "category" : "Education",
+    "createdAt" : 1317920026,
+    "description" : "New York City Results on the New York State Mathematics Tests, Grades 3 - 8\r\nNotes:\r\nAs of 2006, the New York State Education Department expanded the ELA and mathematics testing programs to Grades 3-8. Previously, state tests were administered in Grades 4 and 8 and citywide tests were administered in Grades 3, 5, 6, and 7.\r\nIn 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.\r\nStarting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.\r\n\r\nRows are suppressed (noted with ‘s’) if the number of tested students was 5 or fewer. \r\nPrior to 2011, the mean scale scores for ‘All Grades’ were not calculated.",
+    "displayType" : "table",
+    "downloadCount" : 478,
+    "indexUpdatedAt" : 1414260335,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 341066,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318356727,
+    "publicationGroup" : 243457,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1317920046,
+    "rowsUpdatedBy" : "rnig-m3uj",
+    "tableId" : 243457,
+    "totalTimesRated" : 0,
+    "viewCount" : 2268,
+    "viewLastModified" : 1409938690,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Education (DOE)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rnig-m3uj",
+      "displayName" : "Jorge J.",
+      "profileImageUrlLarge" : "/api/users/rnig-m3uj/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rnig-m3uj/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rnig-m3uj/profile_images/TINY",
+      "screenName" : "Jorge J."
+    },
+    "tags" : [ "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

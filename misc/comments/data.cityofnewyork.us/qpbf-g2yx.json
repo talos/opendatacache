@@ -1,0 +1,264 @@
+[ {
+  "id" : 4526,
+  "body" : "We apologize for the delayed response. We will pass on the request to the appropriate agency.\n",
+  "createdAt" : 1414172253,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "qpbf-g2yx",
+    "name" : "Bicycle Parking",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1318281342,
+    "description" : "DOT's CityRacks provide free sidewalk bicycle parking racks throughout the five boroughs. CityRacks are a convenience for the entire cycling community. Also, the availability of CityRacks parking discourages cyclists from parking at mailboxes, parking meters, trees, and other sidewalk structures.",
+    "displayType" : "href",
+    "downloadCount" : 1087,
+    "indexUpdatedAt" : 1424896926,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 342895,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318281390,
+    "publicationGroup" : 244532,
+    "publicationStage" : "published",
+    "tableId" : 244532,
+    "totalTimesRated" : 0,
+    "viewCount" : 2501,
+    "viewLastModified" : 1424894466,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "shapefile" : "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip"
+      },
+      "attachments" : [ {
+        "assetId" : "2yeB8Z_jNmOijco5GXo_3nPgRzT3nz8WW_7VDMiKLco",
+        "name" : "cityracks_map_metadata.pdf",
+        "filename" : "cityracks_map_metadata.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1753,
+  "body" : "could we get install date too in this dataset?",
+  "createdAt" : 1342633687,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "p5nq-wkv6",
+    "displayName" : "Chris McNally",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 617194,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Chris McNally"
+  },
+  "view" : {
+    "id" : "qpbf-g2yx",
+    "name" : "Bicycle Parking",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1318281342,
+    "description" : "DOT's CityRacks provide free sidewalk bicycle parking racks throughout the five boroughs. CityRacks are a convenience for the entire cycling community. Also, the availability of CityRacks parking discourages cyclists from parking at mailboxes, parking meters, trees, and other sidewalk structures.",
+    "displayType" : "href",
+    "downloadCount" : 1087,
+    "indexUpdatedAt" : 1424896926,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 342895,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318281390,
+    "publicationGroup" : 244532,
+    "publicationStage" : "published",
+    "tableId" : 244532,
+    "totalTimesRated" : 0,
+    "viewCount" : 2501,
+    "viewLastModified" : 1424894466,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "shapefile" : "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip"
+      },
+      "attachments" : [ {
+        "assetId" : "2yeB8Z_jNmOijco5GXo_3nPgRzT3nz8WW_7VDMiKLco",
+        "name" : "cityracks_map_metadata.pdf",
+        "filename" : "cityracks_map_metadata.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1752,
+  "body" : "There seems to be a duplicate, but update to date set of the same data here:\n\nhttp://www.nyc.gov/html/dot/html/about/datafeeds.shtml#Bikes\n\n",
+  "createdAt" : 1342633654,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "p5nq-wkv6",
+    "displayName" : "Chris McNally",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 617194,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Chris McNally"
+  },
+  "view" : {
+    "id" : "qpbf-g2yx",
+    "name" : "Bicycle Parking",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1318281342,
+    "description" : "DOT's CityRacks provide free sidewalk bicycle parking racks throughout the five boroughs. CityRacks are a convenience for the entire cycling community. Also, the availability of CityRacks parking discourages cyclists from parking at mailboxes, parking meters, trees, and other sidewalk structures.",
+    "displayType" : "href",
+    "downloadCount" : 1087,
+    "indexUpdatedAt" : 1424896926,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 342895,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318281390,
+    "publicationGroup" : 244532,
+    "publicationStage" : "published",
+    "tableId" : 244532,
+    "totalTimesRated" : 0,
+    "viewCount" : 2501,
+    "viewLastModified" : 1424894466,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Transportation (DOT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "shapefile" : "http://www.nyc.gov/html/dot/downloads/misc/2013-cityracks-shp.zip"
+      },
+      "attachments" : [ {
+        "assetId" : "2yeB8Z_jNmOijco5GXo_3nPgRzT3nz8WW_7VDMiKLco",
+        "name" : "cityracks_map_metadata.pdf",
+        "filename" : "cityracks_map_metadata.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

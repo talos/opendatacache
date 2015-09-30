@@ -1,0 +1,88 @@
+[ {
+  "id" : 5166,
+  "body" : "This table is busted.  I recreated it by looking up individual properties in the ACRIS web portal (one for each code I found in the actual data). https://docs.google.com/spreadsheets/d/1o3oS6GuBk94Zxq42lO4HU7-Ft5lHROpTXuAUi55SPek/edit?usp=sharing",
+  "createdAt" : 1432327047,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ja32-2edr",
+    "displayName" : "Charlie Schmidt",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 919016,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Charlie Schmidt"
+  },
+  "view" : {
+    "id" : "94g4-w6xz",
+    "name" : "ACRIS - Property Types Codes",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1379355568,
+    "description" : "ACRIS State mapping for Codes in the ACRIS Real and Personal Property Legals Datasets",
+    "displayType" : "table",
+    "downloadCount" : 223,
+    "indexUpdatedAt" : 1441831674,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 13240695,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1441822708,
+    "publicationGroup" : 1153949,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1441822694,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4275875,
+    "totalTimesRated" : 0,
+    "viewCount" : 676,
+    "viewLastModified" : 1441822708,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Monthly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Finance (DOF)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "blobId" : "BF961D4E-1E0F-4F58-BFE1-BFA633129FF6",
+        "name" : "NYC_OpenData_ACRIS_Datasets.doc",
+        "filename" : "NYC_OpenData_ACRIS_Datasets.doc"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dof", "acris land records" ],
+    "flags" : [ "default" ]
+  }
+} ]

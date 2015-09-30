@@ -1,0 +1,220 @@
+[ {
+  "id" : 4501,
+  "body" : "Thanks for responding -- even if, after two years, a little bit slowly!\nI remain interested to see the data for fuels other than the #4 and #6 oil that the database appears to be limited to currently. It is very difficult to model the impacts of New York City's heating sector without having information on all the fuels used.",
+  "createdAt" : 1413985766,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "93p8-qzaw",
+    "displayName" : "Bob Wyman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 491778,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Bob Wyman"
+  },
+  "view" : {
+    "id" : "jfzu-yy6n",
+    "name" : "Oil Boilers - Detailed Fuel Consumption and Building Data",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1317311134,
+    "description" : "Detailed data on NYC buildings with oil boilers, including fuel consumption, BBL, building owner/management info, deadline for complying with Audit and Retrocommissioning Law, building type and year constructed, number of floors and residential units, Condo/Coop status, and more.",
+    "displayType" : "table",
+    "downloadCount" : 3406,
+    "indexUpdatedAt" : 1414260177,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4141660,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847795,
+    "publicationGroup" : 241950,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847768,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 933160,
+    "totalTimesRated" : 0,
+    "viewCount" : 5143,
+    "viewLastModified" : 1409937418,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "energy", "power", "environment", "planning", "construction", "housing", "property" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1627,
+  "body" : "This database appears to only contain data on buildings burning #4 or #6 oil. That is only a subset of \"NYC Buildings with oil burners\" which is how the database is labelled. \nWhere do we find data on buildings burning #2 oil  ?",
+  "createdAt" : 1337466592,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 3,
+  "children" : [ {
+    "id" : 4479,
+    "body" : "We apologize for the delayed response.  We have read you comment and will reply to your inquiry as soon as we receive an answer.",
+    "createdAt" : 1413920116,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "jfzu-yy6n",
+      "name" : "Oil Boilers - Detailed Fuel Consumption and Building Data",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1317311134,
+      "description" : "Detailed data on NYC buildings with oil boilers, including fuel consumption, BBL, building owner/management info, deadline for complying with Audit and Retrocommissioning Law, building type and year constructed, number of floors and residential units, Condo/Coop status, and more.",
+      "displayType" : "table",
+      "downloadCount" : 3406,
+      "indexUpdatedAt" : 1414260177,
+      "newBackend" : false,
+      "numberOfComments" : 3,
+      "oid" : 4141660,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371847795,
+      "publicationGroup" : 241950,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371847768,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 933160,
+      "totalTimesRated" : 0,
+      "viewCount" : 5143,
+      "viewLastModified" : 1409937418,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Information" : {
+            "Agency" : "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "energy", "power", "environment", "planning", "construction", "housing", "property" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "93p8-qzaw",
+    "displayName" : "Bob Wyman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 491778,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Bob Wyman"
+  },
+  "view" : {
+    "id" : "jfzu-yy6n",
+    "name" : "Oil Boilers - Detailed Fuel Consumption and Building Data",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1317311134,
+    "description" : "Detailed data on NYC buildings with oil boilers, including fuel consumption, BBL, building owner/management info, deadline for complying with Audit and Retrocommissioning Law, building type and year constructed, number of floors and residential units, Condo/Coop status, and more.",
+    "displayType" : "table",
+    "downloadCount" : 3406,
+    "indexUpdatedAt" : 1414260177,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4141660,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371847795,
+    "publicationGroup" : 241950,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371847768,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 933160,
+    "totalTimesRated" : 0,
+    "viewCount" : 5143,
+    "viewLastModified" : 1409937418,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Dataset Information" : {
+          "Agency" : "Mayor's Office of Long-Term Planning and Sustainability (OLTPS)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "energy", "power", "environment", "planning", "construction", "housing", "property" ],
+    "flags" : [ "default" ]
+  }
+} ]

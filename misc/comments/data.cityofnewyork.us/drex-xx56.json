@@ -1,0 +1,820 @@
+[ {
+  "id" : 4802,
+  "body" : "It must be more great, if we can read the number of people at each entrance.",
+  "createdAt" : 1423690620,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "2h8b-di3s",
+    "displayName" : "cityofnewyorksy",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 906845,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cityofnewyorksy"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4768,
+  "body" : "If I want to show a data set on a map in statistical way (eg. like pie chart,histogram etc for different area), how do I do it? Can someone help please~",
+  "createdAt" : 1422587032,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "dur9-i82x",
+    "displayName" : "Jessie",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 906182,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jessie"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4743,
+  "body" : "Can closed entrances be shaded a different color? As milesm and Nathan R alluded to, there are several entrances on this map that are closed.",
+  "createdAt" : 1421172639,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "jvda-he45",
+    "displayName" : "Alan Minor",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 904504,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Alan Minor"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4725,
+  "body" : "Traditionalist Columnar data set with geocodes and lines is here http://web.mta.info/developers/data/nyct/subway/StationEntrances.csv - no need to sign up for api, just accept the license agreement and download.",
+  "createdAt" : 1420504215,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "firy-tcy8",
+    "displayName" : "Ted C",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 903755,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ted C"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4631,
+  "body" : "Great this is what I'm looking for since a long time !! I don't understand why MTA or Google didn't include the Entrances position in their map, also is it possible to show the subway line ?",
+  "createdAt" : 1416515559,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "9d7p-ck63",
+    "displayName" : "promac",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 900633,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "promac"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4482,
+  "body" : "We apologize for the delayed response. We will pass on your request to the appropriate agency.",
+  "createdAt" : 1413921309,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3518,
+  "body" : "The G train exit at Marcy and Willoughby had been sealed of for decades. Why is it included?",
+  "createdAt" : 1396391098,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "children" : [ {
+    "id" : 3689,
+    "body" : "Agreed, I checked specifically to see if it was listed, and oddly it is. I'd be nice if it was opened back up! I live very close to this sealed entrance and it feels silly to walk three blocks to enter a station that's right under my house.",
+    "createdAt" : 1399754466,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "h6mg-swzg",
+      "displayName" : "Nathan R",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 883065,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Nathan R"
+    },
+    "view" : {
+      "id" : "drex-xx56",
+      "name" : "Subway Entrances",
+      "averageRating" : 100,
+      "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+      "blobFileSize" : 79765,
+      "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Transportation",
+      "createdAt" : 1365616186,
+      "description" : "Map of NYC Subway Entrances",
+      "displayType" : "map",
+      "downloadCount" : 27983,
+      "indexUpdatedAt" : 1413253051,
+      "newBackend" : false,
+      "numberOfComments" : 8,
+      "oid" : 3145525,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1365616190,
+      "publicationGroup" : 787747,
+      "publicationStage" : "published",
+      "tableId" : 787747,
+      "totalTimesRated" : 1,
+      "viewCount" : 74004,
+      "viewLastModified" : 1413253044,
+      "viewType" : "geo",
+      "childViews" : [ "he7q-3hwy" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Metropolitan Transportation Authority (MTA)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "geo" : {
+          "owsUrl" : "/api/geospatial/drex-xx56",
+          "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+          "layers" : "geo_drex-xx56-1",
+          "featureIdAttribute" : "_SocrataID",
+          "bboxCrs" : "EPSG:4326",
+          "namespace" : "geo_drex-xx56"
+        },
+        "attachments" : [ {
+          "assetId" : "",
+          "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+          "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+          "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+        } ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 100
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qy85-itiy",
+        "displayName" : "gneuhaus",
+        "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+        "screenName" : "gneuhaus"
+      },
+      "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "s454-3zym",
+    "displayName" : "milesm",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 879996,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "milesm"
+  },
+  "view" : {
+    "id" : "drex-xx56",
+    "name" : "Subway Entrances",
+    "averageRating" : 100,
+    "blobFilename" : "DOITT_SUBWAY_ENTRANCE.zip",
+    "blobFileSize" : 79765,
+    "blobId" : "l1-A5syCtcI3Yvsq1oOahHdCiM9tqviAyLwHexJU-Rg",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1365616186,
+    "description" : "Map of NYC Subway Entrances",
+    "displayType" : "map",
+    "downloadCount" : 27983,
+    "indexUpdatedAt" : 1413253051,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 3145525,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365616190,
+    "publicationGroup" : 787747,
+    "publicationStage" : "published",
+    "tableId" : 787747,
+    "totalTimesRated" : 1,
+    "viewCount" : 74004,
+    "viewLastModified" : 1413253044,
+    "viewType" : "geo",
+    "childViews" : [ "he7q-3hwy" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/drex-xx56",
+        "bbox" : "-74.25432097332259,40.51211404230778,-73.75306813385586,40.903675171671686",
+        "layers" : "geo_drex-xx56-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_drex-xx56"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "A42EB1FC-C3CC-40F1-BC50-755A9A1C4037",
+        "name" : "DOITT_SUBWAY_ENTRANCE.zip",
+        "filename" : "DOITT_SUBWAY_ENTRANCE.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 100
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "mta", "metropolitan transportation authority", "jobs and economic mobility", "location", "map", "cartography", "basemap", "transit", "transportation", "train", "subway", "travel", "entrance", "station" ],
+    "flags" : [ "default" ]
+  }
+} ]

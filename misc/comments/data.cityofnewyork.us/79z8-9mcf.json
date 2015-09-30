@@ -1,0 +1,199 @@
+[ {
+  "id" : 5248,
+  "body" : " MINY Vendors?? What is that?? IT?? Small Business??",
+  "createdAt" : 1435640916,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "v32t-c5qh",
+    "displayName" : "오성 권",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 923104,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "오성 권"
+  },
+  "view" : {
+    "id" : "79z8-9mcf",
+    "name" : "MINY Vendors",
+    "averageRating" : 0,
+    "blobFilename" : "DOITT_MINY_VENDOR.zip",
+    "blobFileSize" : 124467,
+    "blobId" : "QhogQ6joiyxkAIjrj82Mm7Kp36jee0kEh20Ggf2F8yQ",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Business",
+    "createdAt" : 1365523346,
+    "description" : "MINY Vendors",
+    "displayType" : "map",
+    "downloadCount" : 2728,
+    "indexUpdatedAt" : 1409962641,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 3131358,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365523352,
+    "publicationGroup" : 785332,
+    "publicationStage" : "published",
+    "tableId" : 785332,
+    "totalTimesRated" : 0,
+    "viewCount" : 1207,
+    "viewLastModified" : 1409962346,
+    "viewType" : "geo",
+    "childViews" : [ "e9pa-tau9" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Other"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/79z8-9mcf",
+        "bbox" : "-74.27352475439552,40.50205305428084,-72.9880834725752,41.45084473546773",
+        "layers" : "geo_79z8-9mcf-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_79z8-9mcf"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "916161A9-EAD5-411F-AC35-B66BC3695C8C",
+        "name" : "DOITT_MINY_VENDOR.zip",
+        "filename" : "DOITT_MINY_VENDOR.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "location", "map", "cartography", "basemap", "miny", "vendor", "made in ny incentive program", "incentive", "program", "development", "economic", "economy" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4662,
+  "body" : "What are MINY Vendors?",
+  "createdAt" : 1417711319,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "r33w-rhei",
+    "displayName" : "spatrick",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 901689,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "spatrick"
+  },
+  "view" : {
+    "id" : "79z8-9mcf",
+    "name" : "MINY Vendors",
+    "averageRating" : 0,
+    "blobFilename" : "DOITT_MINY_VENDOR.zip",
+    "blobFileSize" : 124467,
+    "blobId" : "QhogQ6joiyxkAIjrj82Mm7Kp36jee0kEh20Ggf2F8yQ",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Business",
+    "createdAt" : 1365523346,
+    "description" : "MINY Vendors",
+    "displayType" : "map",
+    "downloadCount" : 2728,
+    "indexUpdatedAt" : 1409962641,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 3131358,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1365523352,
+    "publicationGroup" : 785332,
+    "publicationStage" : "published",
+    "tableId" : 785332,
+    "totalTimesRated" : 0,
+    "viewCount" : 1207,
+    "viewLastModified" : 1409962346,
+    "viewType" : "geo",
+    "childViews" : [ "e9pa-tau9" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Other"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/79z8-9mcf",
+        "bbox" : "-74.27352475439552,40.50205305428084,-72.9880834725752,41.45084473546773",
+        "layers" : "geo_79z8-9mcf-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_79z8-9mcf"
+      },
+      "attachments" : [ {
+        "assetId" : "",
+        "blobId" : "916161A9-EAD5-411F-AC35-B66BC3695C8C",
+        "name" : "DOITT_MINY_VENDOR.zip",
+        "filename" : "DOITT_MINY_VENDOR.zip"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qy85-itiy",
+      "displayName" : "gneuhaus",
+      "profileImageUrlLarge" : "/api/users/qy85-itiy/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/qy85-itiy/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/qy85-itiy/profile_images/TINY",
+      "screenName" : "gneuhaus"
+    },
+    "tags" : [ "location", "map", "cartography", "basemap", "miny", "vendor", "made in ny incentive program", "incentive", "program", "development", "economic", "economy" ],
+    "flags" : [ "default" ]
+  }
+} ]

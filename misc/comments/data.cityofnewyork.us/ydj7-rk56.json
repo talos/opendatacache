@@ -1,0 +1,77 @@
+[ {
+  "id" : 4645,
+  "body" : "Is there a way to get this information in another format that is compatible with GIS software (i.e. shapefile or CSV)?",
+  "createdAt" : 1417029617,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "bvwq-ht49",
+    "displayName" : "LRealmuto",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 901125,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "LRealmuto"
+  },
+  "view" : {
+    "id" : "ydj7-rk56",
+    "name" : "Directory of Recreation Centers",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1318103510,
+    "description" : "Indoor recreation facilities in New York City Department of Parks & Recreation properties.",
+    "displayType" : "href",
+    "downloadCount" : 237,
+    "indexUpdatedAt" : 1409765409,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 342191,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318103522,
+    "publicationGroup" : 244064,
+    "publicationStage" : "published",
+    "tableId" : 244064,
+    "totalTimesRated" : 0,
+    "viewCount" : 248,
+    "viewLastModified" : 1409940299,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "accessPoints" : {
+        "xml" : "http://nycgovparks.org/bigapps/DPR_RecreationCenter_001.xml"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "healthy living" ],
+    "flags" : [ "default" ]
+  }
+} ]

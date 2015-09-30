@@ -1,0 +1,161 @@
+[ {
+  "id" : 2368,
+  "body" : "when was the last update for this dataset? There must have been more than 5 movies shot in the Bronx. The latest one here is from 1994",
+  "createdAt" : 1364835617,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 2377,
+    "body" : "Hi, this dataset won't be receiving any updates because the filming locations are all based on a published book.\n\n-Albert",
+    "createdAt" : 1364933784,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "numberOfFollowers" : 7,
+      "numberOfFriends" : 0,
+      "oid" : 392904,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Albert Webber"
+    },
+    "view" : {
+      "id" : "qb3k-n8mm",
+      "name" : "Filming Locations (Scenes from the City)",
+      "averageRating" : 0,
+      "blobFilename" : "Interactive_Map_Data.xml",
+      "blobFileSize" : 691720,
+      "blobId" : "m5Hfppz7O56-Rq4pMkLBVgzeb6GUjRoGQHwOWZ0Rebo",
+      "blobMimeType" : "application/xml; charset=us-ascii",
+      "category" : "Business",
+      "createdAt" : 1311775358,
+      "description" : "List of filming locations mentioned in the book Scenes from the City",
+      "displayType" : "blob",
+      "downloadCount" : 6780,
+      "indexUpdatedAt" : 1409775519,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 330476,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1311775358,
+      "publicationGroup" : 238844,
+      "publicationStage" : "published",
+      "tableId" : 238844,
+      "totalTimesRated" : 0,
+      "viewCount" : 10942,
+      "viewLastModified" : 1409937055,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Office of Film, Theatre, and Broadcasting (FILM)"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "film", "movie", "scene", "scenes from the city" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "v4c9-bc9b",
+    "description" : "Discover, develop, curate, and upload datasets and shapefiles that are relevant to Bronx community engagement. GISc M.S. recipient, lehman College, 2014",
+    "displayName" : "cpbride",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 671475,
+    "profileImageUrlLarge" : "/api/users/v4c9-bc9b/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/v4c9-bc9b/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/v4c9-bc9b/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cpbride",
+    "title" : "Data Acquisition Manager"
+  },
+  "view" : {
+    "id" : "qb3k-n8mm",
+    "name" : "Filming Locations (Scenes from the City)",
+    "averageRating" : 0,
+    "blobFilename" : "Interactive_Map_Data.xml",
+    "blobFileSize" : 691720,
+    "blobId" : "m5Hfppz7O56-Rq4pMkLBVgzeb6GUjRoGQHwOWZ0Rebo",
+    "blobMimeType" : "application/xml; charset=us-ascii",
+    "category" : "Business",
+    "createdAt" : 1311775358,
+    "description" : "List of filming locations mentioned in the book Scenes from the City",
+    "displayType" : "blob",
+    "downloadCount" : 6780,
+    "indexUpdatedAt" : 1409775519,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 330476,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1311775358,
+    "publicationGroup" : 238844,
+    "publicationStage" : "published",
+    "tableId" : 238844,
+    "totalTimesRated" : 0,
+    "viewCount" : 10942,
+    "viewLastModified" : 1409937055,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Office of Film, Theatre, and Broadcasting (FILM)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "film", "movie", "scene", "scenes from the city" ],
+    "flags" : [ "default" ]
+  }
+} ]

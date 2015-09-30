@@ -1,0 +1,152 @@
+[ {
+  "id" : 5128,
+  "body" : "It would be great if you included either a (1) data dictionary explaining what the numbers listed signify, or else (2) hyperlinks for the numbers with pop up boxes of the description of what the numbers signify. Otherwise, it's hard to understand what any of this means!",
+  "createdAt" : 1431364665,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5515,
+    "body" : "We're sorry for the late reply. Thank you for the suggestion. We'll work with the agency that maintains the data to provide better metadata.",
+    "createdAt" : 1441909159,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "ngf9-zejg",
+      "name" : "Type & Number Of Allegation Complaints Received",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1361827474,
+      "description" : "This table represents the type of allegation and total number of allegations received for a particular type of complaint. Types of allegations and complaints are Force, Abuse of Authority, Discourtsey, Offensive Language.",
+      "displayType" : "table",
+      "downloadCount" : 132,
+      "indexUpdatedAt" : 1414260078,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 4140999,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371845195,
+      "publicationGroup" : 699468,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371845189,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 932971,
+      "totalTimesRated" : 0,
+      "viewCount" : 166,
+      "viewLastModified" : 1409937053,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Civilian Complaint Review Board (CCRB)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "iacr-duv5",
+        "displayName" : "Tejas.Patel",
+        "screenName" : "Tejas.Patel"
+      },
+      "tags" : [ "ccrb", "allegations", "complaints", "abuse", "force", "offensive language" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "rfj6-u4y4",
+    "displayName" : "Nikki",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 918063,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Nikki"
+  },
+  "view" : {
+    "id" : "ngf9-zejg",
+    "name" : "Type & Number Of Allegation Complaints Received",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1361827474,
+    "description" : "This table represents the type of allegation and total number of allegations received for a particular type of complaint. Types of allegations and complaints are Force, Abuse of Authority, Discourtsey, Offensive Language.",
+    "displayType" : "table",
+    "downloadCount" : 132,
+    "indexUpdatedAt" : 1414260078,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 4140999,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371845195,
+    "publicationGroup" : 699468,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371845189,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932971,
+    "totalTimesRated" : 0,
+    "viewCount" : 166,
+    "viewLastModified" : 1409937053,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Civilian Complaint Review Board (CCRB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "iacr-duv5",
+      "displayName" : "Tejas.Patel",
+      "screenName" : "Tejas.Patel"
+    },
+    "tags" : [ "ccrb", "allegations", "complaints", "abuse", "force", "offensive language" ],
+    "flags" : [ "default" ]
+  }
+} ]

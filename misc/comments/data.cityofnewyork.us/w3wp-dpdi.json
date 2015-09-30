@@ -1,0 +1,155 @@
+[ {
+  "id" : 5331,
+  "body" : "Is there any plan for this to be updated?",
+  "createdAt" : 1437957928,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "r7kz-6r8v",
+    "displayName" : "Reuben James",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 925571,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Reuben James"
+  },
+  "view" : {
+    "id" : "w3wp-dpdi",
+    "name" : "NYC Parks Public Events – Upcoming 14 Days",
+    "averageRating" : 0,
+    "category" : "Recreation",
+    "createdAt" : 1313095598,
+    "description" : "A listing of the next two weeks of events taking place on NYC Parks properties that are open to the public.",
+    "displayType" : "href",
+    "downloadCount" : 929,
+    "indexUpdatedAt" : 1438803494,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 331240,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1313095598,
+    "publicationGroup" : 239355,
+    "publicationStage" : "published",
+    "tableId" : 239355,
+    "totalTimesRated" : 0,
+    "viewCount" : 1230,
+    "viewLastModified" : 1438800364,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Automation" : "No",
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "accessPoints" : {
+        "xml" : "http://www.nycgovparks.org/xml/events_300_rss.xml"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "calendar of special events", "dpr", "nyc parks public events – upcoming 14 days" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2713,
+  "body" : "Is this still being updated? I'm not getting any data past Aug 13th.",
+  "createdAt" : 1376574870,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gi5z-9wfc",
+    "displayName" : "Michelle",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 758535,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Michelle"
+  },
+  "view" : {
+    "id" : "w3wp-dpdi",
+    "name" : "NYC Parks Public Events – Upcoming 14 Days",
+    "averageRating" : 0,
+    "category" : "Recreation",
+    "createdAt" : 1313095598,
+    "description" : "A listing of the next two weeks of events taking place on NYC Parks properties that are open to the public.",
+    "displayType" : "href",
+    "downloadCount" : 929,
+    "indexUpdatedAt" : 1438803494,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 331240,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1313095598,
+    "publicationGroup" : 239355,
+    "publicationStage" : "published",
+    "tableId" : 239355,
+    "totalTimesRated" : 0,
+    "viewCount" : 1230,
+    "viewLastModified" : 1438800364,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Automation" : "No",
+          "Update Frequency" : "Biweekly "
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "accessPoints" : {
+        "xml" : "http://www.nycgovparks.org/xml/events_300_rss.xml"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "calendar of special events", "dpr", "nyc parks public events – upcoming 14 days" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,338 @@
+[ {
+  "id" : 4742,
+  "body" : "I do not see a link to download the subway line file that corresponds to the station locations?",
+  "createdAt" : 1421168502,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "tmci-vpb3",
+    "displayName" : "CVS",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 904490,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "CVS"
+  },
+  "view" : {
+    "id" : "mmu8-8w8b",
+    "name" : "MTA Data",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1314737500,
+    "description" : "Information pertaining to MTA (Metropolitan Transportation Authority of the State of New York) subways, buses, commuter rail, bridges, and tunnels",
+    "displayType" : "href",
+    "downloadCount" : 11405,
+    "indexUpdatedAt" : 1409774362,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 332247,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1314737500,
+    "publicationGroup" : 239952,
+    "publicationStage" : "published",
+    "tableId" : 239952,
+    "totalTimesRated" : 0,
+    "viewCount" : 20929,
+    "viewLastModified" : 1409937240,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "html" : "http://datamine.mta.info/user/register"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "traffic", "vehicles", "route", "schedules", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4512,
+  "body" : "hello , i would like to ask, how do i access this data? i need to use it in my research, could you help me please..\nThank you",
+  "createdAt" : 1414090887,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ucmi-qshm",
+    "displayName" : "Hendrik Tampubolon",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 1,
+    "oid" : 897824,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Hendrik Tampubolon",
+    "title" : "MR"
+  },
+  "view" : {
+    "id" : "mmu8-8w8b",
+    "name" : "MTA Data",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1314737500,
+    "description" : "Information pertaining to MTA (Metropolitan Transportation Authority of the State of New York) subways, buses, commuter rail, bridges, and tunnels",
+    "displayType" : "href",
+    "downloadCount" : 11405,
+    "indexUpdatedAt" : 1409774362,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 332247,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1314737500,
+    "publicationGroup" : 239952,
+    "publicationStage" : "published",
+    "tableId" : 239952,
+    "totalTimesRated" : 0,
+    "viewCount" : 20929,
+    "viewLastModified" : 1409937240,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "html" : "http://datamine.mta.info/user/register"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "traffic", "vehicles", "route", "schedules", "clean web" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2393,
+  "body" : "https://bronx.lehman.cuny.edu/My-Neighborhood/MTA-Weekly-Fare-Data/pah9-a258 ",
+  "createdAt" : 1365433889,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3202,
+    "body" : "Sorry for the delay in responding.\n\nThanks for the link to the Lehman College views based on the MTA Weekly Fare Data dataset.\n\nPlease use our Suggest a Dataset link https://data.cityofnewyork.us/nominate to nominate these and any future dataset suggestions, so they can be recorded in our platform stats.\n\nThanks again for your input.",
+    "createdAt" : 1389217287,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "mmu8-8w8b",
+      "name" : "MTA Data",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1314737500,
+      "description" : "Information pertaining to MTA (Metropolitan Transportation Authority of the State of New York) subways, buses, commuter rail, bridges, and tunnels",
+      "displayType" : "href",
+      "downloadCount" : 11405,
+      "indexUpdatedAt" : 1409774362,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 332247,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1314737500,
+      "publicationGroup" : 239952,
+      "publicationStage" : "published",
+      "tableId" : 239952,
+      "totalTimesRated" : 0,
+      "viewCount" : 20929,
+      "viewLastModified" : 1409937240,
+      "viewType" : "href",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Metropolitan Transportation Authority (MTA)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "href" : true
+          }
+        },
+        "availableDisplayTypes" : [ "href" ],
+        "accessPoints" : {
+          "html" : "http://datamine.mta.info/user/register"
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "traffic", "vehicles", "route", "schedules", "clean web" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "v4c9-bc9b",
+    "description" : "Discover, develop, curate, and upload datasets and shapefiles that are relevant to Bronx community engagement. GISc M.S. recipient, lehman College, 2014",
+    "displayName" : "cpbride",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 671475,
+    "profileImageUrlLarge" : "/api/users/v4c9-bc9b/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/v4c9-bc9b/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/v4c9-bc9b/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "cpbride",
+    "title" : "Data Acquisition Manager"
+  },
+  "view" : {
+    "id" : "mmu8-8w8b",
+    "name" : "MTA Data",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1314737500,
+    "description" : "Information pertaining to MTA (Metropolitan Transportation Authority of the State of New York) subways, buses, commuter rail, bridges, and tunnels",
+    "displayType" : "href",
+    "downloadCount" : 11405,
+    "indexUpdatedAt" : 1409774362,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 332247,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1314737500,
+    "publicationGroup" : 239952,
+    "publicationStage" : "published",
+    "tableId" : 239952,
+    "totalTimesRated" : 0,
+    "viewCount" : 20929,
+    "viewLastModified" : 1409937240,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Metropolitan Transportation Authority (MTA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "html" : "http://datamine.mta.info/user/register"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "traffic", "vehicles", "route", "schedules", "clean web" ],
+    "flags" : [ "default" ]
+  }
+} ]

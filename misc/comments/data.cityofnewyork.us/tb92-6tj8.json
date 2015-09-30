@@ -1,0 +1,2145 @@
+[ {
+  "id" : 5197,
+  "body" : "I'm seeing some inconsistencies with building height. For example, One World Trade Center (1776 with spire). Empire State Building is listed at the tallest at 1238.79 (it's 1250 last I saw) and this does not seem to include 432 Park Avenue which stands at 1396 and should be the second only to One World Trade Center. I'm currently seeing that Empire State Building is the tallest tower.\n\nAre these shapemaps / heights up to date? I see that it was last updated in April 2015, but One World Trade Center was completed well before that.",
+  "createdAt" : 1433437865,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gbte-6ciq",
+    "displayName" : "Ben Freese",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 1,
+    "oid" : 920775,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ben Freese"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4538,
+  "body" : "Is there any manual way of changing the projection for the file? what is the current projection for the .shp file?",
+  "createdAt" : 1414365884,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4626,
+    "body" : "The metadata is correct. Projection details below. Data can be reprojected using any of a number of software (ArcMap, QGIS).\n* GEOGRAPHIC COORDINATE REFERENCE GCS_WGS_1984 \n* PROJECTION WGS_1984_Web_Mercator_Auxiliary_Sphere \n",
+    "createdAt" : 1416501880,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "br4v-gwe4",
+      "displayName" : "Colin R",
+      "numberOfFollowers" : 1,
+      "numberOfFriends" : 0,
+      "oid" : 704077,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Colin R"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "4kn4-ktaw",
+    "displayName" : "Sbd.arch",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 898016,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sbd.arch"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4534,
+  "body" : "We apologize for the late response.\n\n@mp - We'll look into the metadata",
+  "createdAt" : 1414292878,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5024,
+    "body" : "For anyone using R out there, make sure to set the proj4string on this dataset to: \"+init=epsg:3857\"\nAfter importing it, then you can spTransform it to whatever CRS you like.",
+    "createdAt" : 1429278246,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "ifw5-rdux",
+      "displayName" : "kheric",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 914551,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "kheric"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 4997,
+    "body" : "Is there any chance you've looked into this yet?  The missing CRS arguments make working with this data extremely difficult and impossible.  I'm sure I'm not the only one who would love this to tie out with the NYC PLUTO data set!!",
+    "createdAt" : 1428935992,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "ifw5-rdux",
+      "displayName" : "kheric",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 914551,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "kheric"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "numberOfFollowers" : 9,
+    "numberOfFriends" : 0,
+    "oid" : 399231,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "administrator",
+    "screenName" : "NYC OpenData",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4427,
+  "body" : "The meta data has the wrong projection. ",
+  "createdAt" : 1413007650,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4628,
+    "body" : "As of 10/4/14 \"building_0814_metadata.htm\" says the projection is  \"NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet\". Thanks\n",
+    "createdAt" : 1416502701,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "bj53-mt7p",
+      "displayName" : "mp",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 896673,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "mp"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 4625,
+    "body" : "No it does not. It is correct. \n\n* GEOGRAPHIC COORDINATE REFERENCE GCS_WGS_1984 \n* PROJECTION WGS_1984_Web_Mercator_Auxiliary_Sphere \n",
+    "createdAt" : 1416501768,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "br4v-gwe4",
+      "displayName" : "Colin R",
+      "numberOfFollowers" : 1,
+      "numberOfFriends" : 0,
+      "oid" : 704077,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Colin R"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "bj53-mt7p",
+    "displayName" : "mp",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 896673,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mp"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4417,
+  "body" : "How do you view the GIS stuff from this site? i was expecting something i could open autocad, but it looks like there is more data available (the dbf files). also, the shape files aren't in the same syntax that i know from autocad, so i'm guessing there's a viewer?? i grabbed a simple shape viewer, but that freezes on some larger data files. i poked around ESRI, but nothing jumped out at me as a free viewer...",
+  "createdAt" : 1412796477,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4627,
+    "body" : "QGIS is free (http://www.qgis.org/en/site/).  No issues with QGIS on our larger data sets. \n\n",
+    "createdAt" : 1416501998,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "br4v-gwe4",
+      "displayName" : "Colin R",
+      "numberOfFollowers" : 1,
+      "numberOfFriends" : 0,
+      "oid" : 704077,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Colin R"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "d53k-ejhp",
+    "displayName" : "OwenIverson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 896359,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "OwenIverson"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4039,
+  "body" : "A new export was provided to the open data team. We are waiting for the data to be posted to the site. Apologies for the inconvenience. ",
+  "createdAt" : 1404141420,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4394,
+    "body" : "Has the new data been posted yet?",
+    "createdAt" : 1412124184,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "2hq8-2gif",
+      "displayName" : "Amber@HowLoud",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 1,
+      "oid" : 895090,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "Amber@HowLoud"
+    },
+    "view" : {
+      "id" : "tb92-6tj8",
+      "name" : "Building Footprints",
+      "averageRating" : 0,
+      "blobFilename" : "building_footprints_shape@07-15.zip",
+      "blobFileSize" : 185253156,
+      "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+      "blobMimeType" : "application/zip; charset=binary",
+      "category" : "Housing & Development",
+      "createdAt" : 1379625167,
+      "description" : "Shapefile of footprint outlines of buildings in New York City.",
+      "displayType" : "blob",
+      "downloadCount" : 7325,
+      "indexUpdatedAt" : 1409765868,
+      "newBackend" : false,
+      "numberOfComments" : 26,
+      "oid" : 5504071,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1379625167,
+      "publicationGroup" : 1164696,
+      "publicationStage" : "published",
+      "tableId" : 1164696,
+      "totalTimesRated" : 0,
+      "viewCount" : 18016,
+      "viewLastModified" : 1440187162,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "blob" : true
+          }
+        },
+        "availableDisplayTypes" : [ "blob" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "br4v-gwe4",
+    "displayName" : "Colin R",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 704077,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Colin R"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4012,
+  "body" : "NYC Open Data, are you planning to publish a corrected version of the building footprints? The attribute table corruption prevents this data from being very useful. \nIf anyone is interested, I have a file geodatabase on dropbox with no geometry errors (but still missing 85%.) https://www.dropbox.com/s/owwxdc6vevc6zo4/NYCbuildingfootprint0414.gdb.zip\n\nDave LaShell. dlashell@esri.com\n ",
+  "createdAt" : 1403737062,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3955,
+  "body" : "Looking into this data further, it looks like only 112,350 buildings out of 795,105 have attributes, the rest are empty.",
+  "createdAt" : 1402754633,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3953,
+  "body" : "Updated web service for nyc buildings based on corrected geometry from the 0414 shapefile, you can map/query all buildings through this service online, and read it directly into ArcGIS for Desktop 10.x,\nhttp://www.arcgis.com/home/item.html?id=6c55e9f147454830bd633d1cadd28520\n\nHere'd direct link to REST endpoint, you can query and download JSON, http://services1.arcgis.com/oOUgp466Coyjcu6V/arcgis/rest/services/NYCbuildings0414/FeatureServer/0\n\n",
+  "createdAt" : 1402753516,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3941,
+  "body" : "I've published an online version of the corrected buildings data, you can access the REST endpoint and download JSON, etc., or access/draw features directly from this web service, http://nycgov.maps.arcgis.com/home/item.html?id=6c55e9f147454830bd633d1cadd28520\n\nHere's the description: NYC buildings downloaded from the NYC Open Data on 6/11/2014, downloaded data set called \"buliding_0414.shape_webmercator.\" Numerous geometry errors were corrected using the ArcGIS \"repair geometry\" tool. One building with significant errors was removed, shapefile FID=7951, BIN=4566377, within BBL=4099850029 (downloaded data has incorrect BBL for this building, downloaded data BBL=4117250018), at address=90-39 144th Place, Queens, NY. \n",
+  "createdAt" : 1402585710,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3925,
+  "body" : "Correction, tool to fix geometry errors is \"Repair Geometry\" ",
+  "createdAt" : 1402504953,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3924,
+  "body" : "Hi NYC Open Data, we noticed that the buildings_0414 shapefile contains numerous geometry errors. These are easily fixed using the ArcGIS \"fix geometry\" tool. You can run this tool manually (ArcToolbox) or within a Python script. We ran the fix and include all the geometries with errors below. Thank you, Dave LaShell, dlashell@esri.com\n\nExecuting: RepairGeometry C:\\Users\\davel\\Documents\\Projects\\Data\\buliding_0414.shape_webmercator\\building_0414.shp DELETE_NULL\nStart Time: Wed Jun 11 12:10:34 2014\nWARNING 000986: C:\\Users\\davel\\AppData\\Local\\Temp\\arcEA64\\building_04140.txt contains the full list of non simple features.\nWARNING 000461: Repaired feature 56103 because of self intersections\nWARNING 000461: Repaired feature 59099 because of self intersections\nWARNING 000461: Repaired feature 85097 because of self intersections\nWARNING 000461: Repaired feature 93624 because of self intersections\nWARNING 000461: Repaired feature 166682 because of self intersections\nWARNING 000461: Repaired feature 167121 because of self intersections\nWARNING 000461: Repaired feature 167337 because of self intersections\nWARNING 000461: Repaired feature 167942 because of self intersections\nWARNING 000461: Repaired feature 168265 because of self intersections\nWARNING 000461: Repaired feature 168446 because of self intersections\nWARNING 000461: Repaired feature 169471 because of self intersections\nWARNING 000461: Repaired feature 193415 because of self intersections\nWARNING 000461: Repaired feature 193902 because of self intersections\nWARNING 000461: Repaired feature 196886 because of self intersections\nWARNING 000461: Repaired feature 204571 because of self intersections\nWARNING 000461: Repaired feature 221666 because of self intersections\nWARNING 000461: Repaired feature 244043 because of self intersections\nWARNING 000461: Repaired feature 290489 because of self intersections\nWARNING 000461: Repaired feature 332286 because of self intersections\nWARNING 000461: Repaired feature 332529 because of self intersections\nWARNING 000461: Repaired feature 336441 because of self intersections\nWARNING 000461: Repaired feature 346157 because of self intersections\nWARNING 000461: Repaired feature 389798 because of self intersections\nWARNING 000461: Repaired feature 420161 because of self intersections\nWARNING 000461: Repaired feature 420234 because of self intersections\nSucceeded at Wed Jun 11 12:19:35 2014 (Elapsed Time: 8 minutes 56 seconds)\n",
+  "createdAt" : 1402504487,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ihyj-hdb8",
+    "description" : "I am a New York City geographer, and a senior account executive for Esri - a geographic sciences and technology company. My responsibilities include strategic consulting and business development for the City of New York, transportation authorities in the region, and the City of Philadelphia. My experience includes management and implementation of GIS projects across a wide range of industries. My interests include sustainable communities, education, environmental protection, social equity and effective government.\r\n\r\nhttp://www.gis.com, http://linkd.in/gV0ea3, I tweet @davelashell",
+    "displayName" : "Dave LaShell",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 397668,
+    "profileImageUrlLarge" : "/api/users/ihyj-hdb8/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/ihyj-hdb8/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/ihyj-hdb8/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dave LaShell",
+    "title" : "Sr. Account Executive"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3919,
+  "body" : "Yeah, and in QGIS its not even loading anything above 112326 in the attribute table view. ",
+  "createdAt" : 1402437541,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3918,
+  "body" : "The file seems to be incomplete. All the rows after FID 112327 are duplicates. Also, is there a gdb version?",
+  "createdAt" : 1402435015,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "3rii-qmuu",
+    "displayName" : "Paul Salama",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 4,
+    "oid" : 708652,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Paul Salama",
+    "title" : "Senior Urban Planner"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3915,
+  "body" : "I'm getting some draw errors in ArcMap with the original file. Import to GDB drops a ton of features. Building spelled incorrectly and a period in the filename also seem to raise question of data-quality. ",
+  "createdAt" : 1402428039,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3465,
+  "body" : "Hi, Is this portal here to show us building information we would previously search for on other websites such as FAR, Lot Sizes, Zoning...etc. Hope to hear an answer!",
+  "createdAt" : 1395414863,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "8gkg-k7yk",
+    "displayName" : "Dan Tebele",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 878959,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Dan Tebele"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3371,
+  "body" : "Is there someone that can help me? I'm trying to import the shape file using Ogr2Ogr using the MSSQLSpatial format. It always gives me the following error: \n\nArithmetic overflow error converting numeric to data type numeric\n\nCan you also tell me what is the SRS used to the projected coordinates? Thanks for you help and keep on the good work!",
+  "createdAt" : 1393873882,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "fg36-hu6m",
+    "displayName" : "Jean-François Chatelain",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 876467,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Jean-François Chatelain"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3314,
+  "body" : "Yes, we will provide me details in the next extract. LiDAR was not used. The elevations were caprtured stereoscopically (i.e., using stereo paris). ",
+  "createdAt" : 1392822191,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "br4v-gwe4",
+    "displayName" : "Colin R",
+    "numberOfFollowers" : 1,
+    "numberOfFriends" : 0,
+    "oid" : 704077,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Colin R"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2897,
+  "body" : "Would you mind expanding the metadata to explain how the ground and roof elevations were calculated? is the ground elevation representative of the lowest adjacent grade? is the roof elevation representative of the highest elevation? was this information derived from LiDAR? if so, would you mind referencing the source?\n\nThanks a lot, and please keep the good work in opening datasets.",
+  "createdAt" : 1380035597,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "64kd-468g",
+    "displayName" : "MV",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 847200,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "MV"
+  },
+  "view" : {
+    "id" : "tb92-6tj8",
+    "name" : "Building Footprints",
+    "averageRating" : 0,
+    "blobFilename" : "building_footprints_shape@07-15.zip",
+    "blobFileSize" : 185253156,
+    "blobId" : "0yC8fXlXT0ESJX-z-R5yMJEPOapRF72jSclU43W1YXU",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Housing & Development",
+    "createdAt" : 1379625167,
+    "description" : "Shapefile of footprint outlines of buildings in New York City.",
+    "displayType" : "blob",
+    "downloadCount" : 7325,
+    "indexUpdatedAt" : 1409765868,
+    "newBackend" : false,
+    "numberOfComments" : 26,
+    "oid" : 5504071,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379625167,
+    "publicationGroup" : 1164696,
+    "publicationStage" : "published",
+    "tableId" : 1164696,
+    "totalTimesRated" : 0,
+    "viewCount" : 18016,
+    "viewLastModified" : 1440187162,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "blob" : true
+        }
+      },
+      "availableDisplayTypes" : [ "blob" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "building footprints", "doitt", "outline", "base", "blueprint", "doitt gis", "doittgis" ],
+    "flags" : [ "default" ]
+  }
+} ]

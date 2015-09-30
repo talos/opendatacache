@@ -1,0 +1,77 @@
+[ {
+  "id" : 4576,
+  "body" : "There's no metadata for this for temporal info and it also says its barbecuing areas. ",
+  "createdAt" : 1415655060,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "59gn-q4ai",
+    "name" : "Directory of Playgrounds",
+    "averageRating" : 0,
+    "category" : "Environment",
+    "createdAt" : 1318103212,
+    "description" : "Designated barbecuing areas in New York City Department of Parks & Recreation properties.",
+    "displayType" : "href",
+    "downloadCount" : 593,
+    "indexUpdatedAt" : 1409775168,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 342188,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318103236,
+    "publicationGroup" : 244061,
+    "publicationStage" : "published",
+    "tableId" : 244061,
+    "totalTimesRated" : 0,
+    "viewCount" : 579,
+    "viewLastModified" : 1409937444,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Parks and Recreation (DPR)"
+        }
+      },
+      "accessPoints" : {
+        "xml" : "http://nycgovparks.org/bigapps/DPR_Playgrounds_001.xml"
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "healthy living" ],
+    "flags" : [ "default" ]
+  }
+} ]

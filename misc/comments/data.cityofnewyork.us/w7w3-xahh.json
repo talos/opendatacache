@@ -1,0 +1,355 @@
+[ {
+  "id" : 5048,
+  "body" : "How often does this table update?",
+  "createdAt" : 1429638365,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5101,
+    "body" : "This dataset is updated weekly.",
+    "createdAt" : 1430938686,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "w7w3-xahh",
+      "name" : "Legally Operating Businesses",
+      "averageRating" : 0,
+      "category" : "Business",
+      "createdAt" : 1425675688,
+      "description" : "Businesses legally operating with DCA licenses or temporary operating letters. Dataset now includes detailed sidewalk café and garage and parking lot information. Sightseeing guides and temporary street fair vendors are not included in this data set.",
+      "displayType" : "table",
+      "downloadCount" : 226,
+      "indexUpdatedAt" : 1443239886,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 13499727,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1443237092,
+      "publicationGroup" : 2429938,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1443237077,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 4457802,
+      "totalTimesRated" : 0,
+      "viewCount" : 1101,
+      "viewLastModified" : 1443237092,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Weekly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Consumer Affairs (DCA)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "CPP8tK75ttES2EzFINRJqvG5d2UiemqMFOJeX_cCyIU",
+          "blobId" : "",
+          "name" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx",
+          "filename" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx"
+        } ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "bvij-xu4k",
+    "displayName" : "Cwu",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915552,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Cwu"
+  },
+  "view" : {
+    "id" : "w7w3-xahh",
+    "name" : "Legally Operating Businesses",
+    "averageRating" : 0,
+    "category" : "Business",
+    "createdAt" : 1425675688,
+    "description" : "Businesses legally operating with DCA licenses or temporary operating letters. Dataset now includes detailed sidewalk café and garage and parking lot information. Sightseeing guides and temporary street fair vendors are not included in this data set.",
+    "displayType" : "table",
+    "downloadCount" : 226,
+    "indexUpdatedAt" : 1443239886,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 13499727,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443237092,
+    "publicationGroup" : 2429938,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443237077,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4457802,
+    "totalTimesRated" : 0,
+    "viewCount" : 1101,
+    "viewLastModified" : 1443237092,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Consumer Affairs (DCA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "assetId" : "CPP8tK75ttES2EzFINRJqvG5d2UiemqMFOJeX_cCyIU",
+        "blobId" : "",
+        "name" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx",
+        "filename" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4889,
+  "body" : "The building column appears to be formatted as a date, is there any chance of fixing this as it's difficult to use this dataset without it?",
+  "createdAt" : 1425924256,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5100,
+    "body" : "This has been fixed.",
+    "createdAt" : 1430938277,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "w7w3-xahh",
+      "name" : "Legally Operating Businesses",
+      "averageRating" : 0,
+      "category" : "Business",
+      "createdAt" : 1425675688,
+      "description" : "Businesses legally operating with DCA licenses or temporary operating letters. Dataset now includes detailed sidewalk café and garage and parking lot information. Sightseeing guides and temporary street fair vendors are not included in this data set.",
+      "displayType" : "table",
+      "downloadCount" : 226,
+      "indexUpdatedAt" : 1443239886,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 13499727,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1443237092,
+      "publicationGroup" : 2429938,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1443237077,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 4457802,
+      "totalTimesRated" : 0,
+      "viewCount" : 1101,
+      "viewLastModified" : 1443237092,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Weekly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Consumer Affairs (DCA)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "CPP8tK75ttES2EzFINRJqvG5d2UiemqMFOJeX_cCyIU",
+          "blobId" : "",
+          "name" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx",
+          "filename" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx"
+        } ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "f5m2-24xv",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 401389,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "w7w3-xahh",
+    "name" : "Legally Operating Businesses",
+    "averageRating" : 0,
+    "category" : "Business",
+    "createdAt" : 1425675688,
+    "description" : "Businesses legally operating with DCA licenses or temporary operating letters. Dataset now includes detailed sidewalk café and garage and parking lot information. Sightseeing guides and temporary street fair vendors are not included in this data set.",
+    "displayType" : "table",
+    "downloadCount" : 226,
+    "indexUpdatedAt" : 1443239886,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 13499727,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1443237092,
+    "publicationGroup" : 2429938,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443237077,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4457802,
+    "totalTimesRated" : 0,
+    "viewCount" : 1101,
+    "viewLastModified" : 1443237092,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Weekly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Consumer Affairs (DCA)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "assetId" : "CPP8tK75ttES2EzFINRJqvG5d2UiemqMFOJeX_cCyIU",
+        "blobId" : "",
+        "name" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx",
+        "filename" : "DCA_Legally_Operating_Businesses_Dictionary.xlsx"
+      } ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

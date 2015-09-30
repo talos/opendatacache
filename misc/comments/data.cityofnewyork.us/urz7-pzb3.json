@@ -1,0 +1,87 @@
+[ {
+  "id" : 3195,
+  "body" : "Is there a 2012-2013 set available...it is on the DOE website in excel format but would be great to have this on \"open data\"",
+  "createdAt" : 1389047084,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "gn6f-kqab",
+    "displayName" : "Eric",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 868223,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Eric"
+  },
+  "view" : {
+    "id" : "urz7-pzb3",
+    "name" : "2010-2011 Class Size - School-level detail",
+    "averageRating" : 0,
+    "category" : "Education",
+    "createdAt" : 1318523204,
+    "description" : "Average class sizes for each school, by grade and program type (General Education, Self-Contained Special Education, Collaborative Team Teaching (CTT)) for grades K-9 (where grade 9 is not reported by subject area), and for grades 5-9 (where available) and 9-12, aggregated by program type (General Education, CTT, and Self-Contained Special Education) and core course (e.g. English 9, Integrated Algebra, US History, etc.).\r\n\r\nClass size data is based on January 28, 2011 data.\r\n\r\n*Grade 9 Official Class data is included for 0K-09 schools. Core Course information for these sections is not reported.",
+    "displayType" : "table",
+    "downloadCount" : 437,
+    "indexUpdatedAt" : 1414260069,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 344841,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1318523557,
+    "publicationGroup" : 245485,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1318523227,
+    "rowsUpdatedBy" : "rnig-m3uj",
+    "tableId" : 245485,
+    "totalTimesRated" : 0,
+    "viewCount" : 1463,
+    "viewLastModified" : 1409938679,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Historical Data"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Education (DOE)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rnig-m3uj",
+      "displayName" : "Jorge J.",
+      "profileImageUrlLarge" : "/api/users/rnig-m3uj/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rnig-m3uj/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rnig-m3uj/profile_images/TINY",
+      "screenName" : "Jorge J."
+    },
+    "tags" : [ "lifelong learning" ],
+    "flags" : [ "default" ]
+  }
+} ]

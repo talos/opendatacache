@@ -1,0 +1,150 @@
+[ {
+  "id" : 2988,
+  "body" : "Data is incomplete please update with full info from NYCCFB.info",
+  "createdAt" : 1382494221,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4490,
+    "body" : "We apologize for the delayed response. We will pass on the information to the appropriate agency and will update you once we hear from them.",
+    "createdAt" : 1413922776,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "bbs3-q5us",
+      "name" : "2009 Campaign Contributions",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1315956815,
+      "description" : "A listing of campaign contributions for candidates for City office during the 209 election cycle",
+      "displayType" : "table",
+      "downloadCount" : 521,
+      "indexUpdatedAt" : 1414260293,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 4140877,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371844295,
+      "publicationGroup" : 240390,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371844262,
+      "rowsUpdatedBy" : "txun-eb7e",
+      "tableId" : 932906,
+      "totalTimesRated" : 0,
+      "viewCount" : 759,
+      "viewLastModified" : 1409936935,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Information" : {
+            "Agency" : "Campaign Finance Board (CFB)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "finance", "campaign finance board", "cfb", "nyccfb", "campaign finance", "elections", "contributions", "politics", "campaign", "funding" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "fsqs-zsan",
+    "displayName" : "Ari Jankelowitz",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 763172,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Ari Jankelowitz"
+  },
+  "view" : {
+    "id" : "bbs3-q5us",
+    "name" : "2009 Campaign Contributions",
+    "averageRating" : 0,
+    "category" : "City Government",
+    "createdAt" : 1315956815,
+    "description" : "A listing of campaign contributions for candidates for City office during the 209 election cycle",
+    "displayType" : "table",
+    "downloadCount" : 521,
+    "indexUpdatedAt" : 1414260293,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 4140877,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371844295,
+    "publicationGroup" : 240390,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371844262,
+    "rowsUpdatedBy" : "txun-eb7e",
+    "tableId" : 932906,
+    "totalTimesRated" : 0,
+    "viewCount" : 759,
+    "viewLastModified" : 1409936935,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Dataset Information" : {
+          "Agency" : "Campaign Finance Board (CFB)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "finance", "campaign finance board", "cfb", "nyccfb", "campaign finance", "elections", "contributions", "politics", "campaign", "funding" ],
+    "flags" : [ "default" ]
+  }
+} ]

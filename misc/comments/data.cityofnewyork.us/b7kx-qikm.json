@@ -1,0 +1,224 @@
+[ {
+  "id" : 5402,
+  "body" : "It's mixed addresses and intersections, not great for geocoding. ",
+  "createdAt" : 1440006815,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "d56b-vshp",
+    "displayName" : "NYGeog",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 713379,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "NYGeog"
+  },
+  "view" : {
+    "id" : "b7kx-qikm",
+    "name" : "2012 NYC Farmers Market List",
+    "averageRating" : 0,
+    "category" : "Business",
+    "createdAt" : 1340724547,
+    "description" : "Listing of NYC farmers markets.",
+    "displayType" : "table",
+    "downloadCount" : 849,
+    "indexUpdatedAt" : 1414260368,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4140322,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371842836,
+    "publicationGroup" : 368324,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371842832,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932714,
+    "totalTimesRated" : 0,
+    "viewCount" : 4674,
+    "viewLastModified" : 1409936467,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "2012 nyc market list", "dohmh", "farmers market", "green", "food", "health", "healthy living" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2378,
+  "body" : "does anyone know how we can add location data to this dataset, and what that data needs to look like?\n",
+  "createdAt" : 1364988436,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 2445,
+    "body" : "what do you mean by data location? there's already street address.",
+    "createdAt" : 1366513746,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "w7vq-ygyw",
+      "displayName" : "hunterk",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 712455,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "hunterk"
+    },
+    "view" : {
+      "id" : "b7kx-qikm",
+      "name" : "2012 NYC Farmers Market List",
+      "averageRating" : 0,
+      "category" : "Business",
+      "createdAt" : 1340724547,
+      "description" : "Listing of NYC farmers markets.",
+      "displayType" : "table",
+      "downloadCount" : 849,
+      "indexUpdatedAt" : 1414260368,
+      "newBackend" : false,
+      "numberOfComments" : 3,
+      "oid" : 4140322,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371842836,
+      "publicationGroup" : 368324,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1371842832,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 932714,
+      "totalTimesRated" : 0,
+      "viewCount" : 4674,
+      "viewLastModified" : 1409936467,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+          }
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "2012 nyc market list", "dohmh", "farmers market", "green", "food", "health", "healthy living" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "f2uf-rq24",
+    "displayName" : "hervejb",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 710082,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "hervejb"
+  },
+  "view" : {
+    "id" : "b7kx-qikm",
+    "name" : "2012 NYC Farmers Market List",
+    "averageRating" : 0,
+    "category" : "Business",
+    "createdAt" : 1340724547,
+    "description" : "Listing of NYC farmers markets.",
+    "displayType" : "table",
+    "downloadCount" : 849,
+    "indexUpdatedAt" : 1414260368,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 4140322,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1371842836,
+    "publicationGroup" : 368324,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1371842832,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 932714,
+    "totalTimesRated" : 0,
+    "viewCount" : 4674,
+    "viewLastModified" : 1409936467,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Annually"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Health and Mental Hygiene (DOHMH)"
+        }
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "2012 nyc market list", "dohmh", "farmers market", "green", "food", "health", "healthy living" ],
+    "flags" : [ "default" ]
+  }
+} ]

@@ -1,0 +1,335 @@
+[ {
+  "id" : 4271,
+  "body" : "Which data set contains the A units and B units associated with each registration id?",
+  "createdAt" : 1408886710,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4463,
+    "body" : "We apologize for the delayed response.  We have read you comment and will reply to your inquiry as soon as we receive an answer",
+    "createdAt" : 1413913467,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "tesw-yqqr",
+      "name" : "Multiple Dwelling Registrations",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1384802000,
+      "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) collects registration information from owners of \r\nresidential rental units. Owners are required to register if they own residential buildings \r\nwith three or more units or if they own one- or two-family homes and neither they nor \r\nmembers of their immediate family live there. Registrations are required upon taking \r\nownership of a qualifying building, and once a year thereafter.",
+      "displayType" : "table",
+      "downloadCount" : 233,
+      "indexUpdatedAt" : 1441141181,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 13114794,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1441139730,
+      "publicationGroup" : 1359994,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1441139693,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 4186782,
+      "totalTimesRated" : 0,
+      "viewCount" : 622,
+      "viewLastModified" : 1441139730,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Quarterly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Housing Preservation and Development (HPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "registrations", "department of housing preservation and development", "hpd" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "chzu-94kx",
+    "displayName" : "barry",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891854,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "barry"
+  },
+  "view" : {
+    "id" : "tesw-yqqr",
+    "name" : "Multiple Dwelling Registrations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384802000,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) collects registration information from owners of \r\nresidential rental units. Owners are required to register if they own residential buildings \r\nwith three or more units or if they own one- or two-family homes and neither they nor \r\nmembers of their immediate family live there. Registrations are required upon taking \r\nownership of a qualifying building, and once a year thereafter.",
+    "displayType" : "table",
+    "downloadCount" : 233,
+    "indexUpdatedAt" : 1441141181,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 13114794,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1441139730,
+    "publicationGroup" : 1359994,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1441139693,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4186782,
+    "totalTimesRated" : 0,
+    "viewCount" : 622,
+    "viewLastModified" : 1441139730,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "registrations", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4270,
+  "body" : "This dataset is empty. Why?",
+  "createdAt" : 1408885961,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4464,
+    "body" : "We apologize for the delayed response.  We have read you comment and will reply to your inquiry as soon as we receive an answer",
+    "createdAt" : 1413913471,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "tesw-yqqr",
+      "name" : "Multiple Dwelling Registrations",
+      "averageRating" : 0,
+      "category" : "Housing & Development",
+      "createdAt" : 1384802000,
+      "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) collects registration information from owners of \r\nresidential rental units. Owners are required to register if they own residential buildings \r\nwith three or more units or if they own one- or two-family homes and neither they nor \r\nmembers of their immediate family live there. Registrations are required upon taking \r\nownership of a qualifying building, and once a year thereafter.",
+      "displayType" : "table",
+      "downloadCount" : 233,
+      "indexUpdatedAt" : 1441141181,
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 13114794,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1441139730,
+      "publicationGroup" : 1359994,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1441139693,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 4186782,
+      "totalTimesRated" : 0,
+      "viewCount" : 622,
+      "viewLastModified" : 1441139730,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Quarterly"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Housing Preservation and Development (HPD)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "registrations", "department of housing preservation and development", "hpd" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "chzu-94kx",
+    "displayName" : "barry",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891854,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "barry"
+  },
+  "view" : {
+    "id" : "tesw-yqqr",
+    "name" : "Multiple Dwelling Registrations",
+    "averageRating" : 0,
+    "category" : "Housing & Development",
+    "createdAt" : 1384802000,
+    "description" : "Pursuant to New York City’s Housing Maintenance Code, the Department of Housing \r\nPreservation and Development (HPD) collects registration information from owners of \r\nresidential rental units. Owners are required to register if they own residential buildings \r\nwith three or more units or if they own one- or two-family homes and neither they nor \r\nmembers of their immediate family live there. Registrations are required upon taking \r\nownership of a qualifying building, and once a year thereafter.",
+    "displayType" : "table",
+    "downloadCount" : 233,
+    "indexUpdatedAt" : 1441141181,
+    "newBackend" : false,
+    "numberOfComments" : 4,
+    "oid" : 13114794,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1441139730,
+    "publicationGroup" : 1359994,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1441139693,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "tableId" : 4186782,
+    "totalTimesRated" : 0,
+    "viewCount" : 622,
+    "viewLastModified" : 1441139730,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Quarterly"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Housing Preservation and Development (HPD)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "registrations", "department of housing preservation and development", "hpd" ],
+    "flags" : [ "default" ]
+  }
+} ]

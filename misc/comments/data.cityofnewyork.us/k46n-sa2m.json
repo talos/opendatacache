@@ -1,0 +1,254 @@
+[ {
+  "id" : 5068,
+  "body" : "Any updates?",
+  "createdAt" : 1430239944,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "yijp-44qn",
+    "displayName" : "bxrtley",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 916578,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "bxrtley"
+  },
+  "view" : {
+    "id" : "k46n-sa2m",
+    "name" : "DHS Daily Report",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1377199230,
+    "description" : "This dataset includes the daily number of families and individuals residing in the Department of Homeless Services (DHS) shelter system and the daily number of families applying to the DHS shelter system.",
+    "displayType" : "table",
+    "downloadCount" : 819,
+    "indexUpdatedAt" : 1443556672,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 9130571,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1413402143,
+    "publicationGroup" : 1074405,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443554238,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1800316,
+    "totalTimesRated" : 0,
+    "viewCount" : 2449,
+    "viewLastModified" : 1413488411,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Homeless Services (DHS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dhs", "homeless", "daily", "report" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3729,
+  "body" : "Is it possible to get this information, but split up by shelter as well?\n\nThanks",
+  "createdAt" : 1400778215,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "children" : [ {
+    "id" : 4493,
+    "body" : "Thanks for the suggestion. We will reach out to the appropriate agency and will update you once we hear from them",
+    "createdAt" : 1413922928,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 1,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "k46n-sa2m",
+      "name" : "DHS Daily Report",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1377199230,
+      "description" : "This dataset includes the daily number of families and individuals residing in the Department of Homeless Services (DHS) shelter system and the daily number of families applying to the DHS shelter system.",
+      "displayType" : "table",
+      "downloadCount" : 819,
+      "indexUpdatedAt" : 1443556672,
+      "newBackend" : false,
+      "numberOfComments" : 3,
+      "oid" : 9130571,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1413402143,
+      "publicationGroup" : 1074405,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1443554238,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1800316,
+      "totalTimesRated" : 0,
+      "viewCount" : 2449,
+      "viewLastModified" : 1413488411,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Homeless Services (DHS)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "dhs", "homeless", "daily", "report" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "89sb-8qtb",
+    "displayName" : "BartG",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 884188,
+    "profileImageUrlLarge" : "/api/users/89sb-8qtb/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/89sb-8qtb/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/89sb-8qtb/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "BartG",
+    "title" : "PhD Student"
+  },
+  "view" : {
+    "id" : "k46n-sa2m",
+    "name" : "DHS Daily Report",
+    "averageRating" : 0,
+    "category" : "Social Services",
+    "createdAt" : 1377199230,
+    "description" : "This dataset includes the daily number of families and individuals residing in the Department of Homeless Services (DHS) shelter system and the daily number of families applying to the DHS shelter system.",
+    "displayType" : "table",
+    "downloadCount" : 819,
+    "indexUpdatedAt" : 1443556672,
+    "newBackend" : false,
+    "numberOfComments" : 3,
+    "oid" : 9130571,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1413402143,
+    "publicationGroup" : 1074405,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443554238,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1800316,
+    "totalTimesRated" : 0,
+    "viewCount" : 2449,
+    "viewLastModified" : 1413488411,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Department of Homeless Services (DHS)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "dhs", "homeless", "daily", "report" ],
+    "flags" : [ "default" ]
+  }
+} ]

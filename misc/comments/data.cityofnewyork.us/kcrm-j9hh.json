@@ -1,0 +1,160 @@
+[ {
+  "id" : 2140,
+  "body" : "closing dates are kind of hard to decipher programmatically because they don't have a consistent format. It will be a nice to have them in a consistent format. Thank you!!",
+  "createdAt" : 1359323733,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 3203,
+    "body" : "Thanks for your suggestion. Sorry for the delay in responding. We'll be happy to look into it.",
+    "createdAt" : 1389218288,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "kcrm-j9hh",
+      "name" : "Museums and galleries",
+      "averageRating" : 80,
+      "blobFilename" : "NYCGO_museums and galleries_001.xml",
+      "blobFileSize" : 25160,
+      "blobId" : "g5iiDl27zmKcETR-hHG58WnVB4ZKgnCUMwnK_dHW2AY",
+      "blobMimeType" : "application/xml; charset=us-ascii",
+      "category" : "Recreation",
+      "createdAt" : 1311710187,
+      "description" : "NYC and Co. museums and galleries",
+      "displayType" : "blob",
+      "downloadCount" : 2025,
+      "indexUpdatedAt" : 1409773042,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 330425,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1311710187,
+      "publicationGroup" : 238808,
+      "publicationStage" : "published",
+      "tableId" : 238808,
+      "totalTimesRated" : 1,
+      "viewCount" : 3764,
+      "viewLastModified" : 1409937733,
+      "viewType" : "blobby",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "NYC & Company (NYCGO)"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "ratings" : {
+        "rating" : 80
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "screenName" : "Albert Webber"
+      },
+      "tags" : [ "new york", "nycgo", "new york & company", "new york & co.", "co.", "museum", "museums", "gallery", "galleries", "xml", "data", "nyc", "the city" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "mmm7-smhw",
+    "displayName" : "Camilo",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 705287,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Camilo"
+  },
+  "view" : {
+    "id" : "kcrm-j9hh",
+    "name" : "Museums and galleries",
+    "averageRating" : 80,
+    "blobFilename" : "NYCGO_museums and galleries_001.xml",
+    "blobFileSize" : 25160,
+    "blobId" : "g5iiDl27zmKcETR-hHG58WnVB4ZKgnCUMwnK_dHW2AY",
+    "blobMimeType" : "application/xml; charset=us-ascii",
+    "category" : "Recreation",
+    "createdAt" : 1311710187,
+    "description" : "NYC and Co. museums and galleries",
+    "displayType" : "blob",
+    "downloadCount" : 2025,
+    "indexUpdatedAt" : 1409773042,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 330425,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1311710187,
+    "publicationGroup" : 238808,
+    "publicationStage" : "published",
+    "tableId" : 238808,
+    "totalTimesRated" : 1,
+    "viewCount" : 3764,
+    "viewLastModified" : 1409937733,
+    "viewType" : "blobby",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "As needed"
+        },
+        "Dataset Information" : {
+          "Agency" : "NYC & Company (NYCGO)"
+        }
+      }
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "ratings" : {
+      "rating" : 80
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "txun-eb7e",
+      "displayName" : "Albert Webber",
+      "screenName" : "Albert Webber"
+    },
+    "tags" : [ "new york", "nycgo", "new york & company", "new york & co.", "co.", "museum", "museums", "gallery", "galleries", "xml", "data", "nyc", "the city" ],
+    "flags" : [ "default" ]
+  }
+} ]

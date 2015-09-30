@@ -1,0 +1,176 @@
+[ {
+  "id" : 5324,
+  "body" : "I would like to know if TLC got my drug test results 5479645",
+  "createdAt" : 1437747410,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 5516,
+    "body" : "Sorry for the delayed response. Please contact TLC through one of the appropriate channels on the following page. http://www.nyc.gov/html/tlc/html/contact/contact.shtml\n",
+    "createdAt" : 1441909215,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "n776-dsqy",
+      "name" : "Medallion Drivers Historical Archive 3/7/2013 -1/4/2014",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1362164939,
+      "description" : "This list contains information on the status of current medallion drivers who were authorized to operate NYC TLC licensed Taxicabs from 03/07/2013 through 01/04/2014. The new data set which lists the current day’s snapshot of medallion drivers can be accessed from the link given below https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+      "displayType" : "table",
+      "downloadCount" : 36852,
+      "indexUpdatedAt" : 1414455402,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 5275054,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1378411085,
+      "publicationGroup" : 707763,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1388866709,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1118510,
+      "totalTimesRated" : 0,
+      "viewCount" : 18263,
+      "viewLastModified" : 1409939591,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "Taxi and Limousine Commission (TLC)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "yt7q-c8cq",
+    "displayName" : "Alex M",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 925418,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Alex M"
+  },
+  "view" : {
+    "id" : "n776-dsqy",
+    "name" : "Medallion Drivers Historical Archive 3/7/2013 -1/4/2014",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1362164939,
+    "description" : "This list contains information on the status of current medallion drivers who were authorized to operate NYC TLC licensed Taxicabs from 03/07/2013 through 01/04/2014. The new data set which lists the current day’s snapshot of medallion drivers can be accessed from the link given below https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+    "displayType" : "table",
+    "downloadCount" : 36852,
+    "indexUpdatedAt" : 1414455402,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5275054,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1378411085,
+    "publicationGroup" : 707763,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1388866709,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1118510,
+    "totalTimesRated" : 0,
+    "viewCount" : 18263,
+    "viewLastModified" : 1409939591,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Taxi and Limousine Commission (TLC)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+    "flags" : [ "default" ]
+  }
+} ]

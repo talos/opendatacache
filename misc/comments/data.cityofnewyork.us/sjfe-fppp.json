@@ -1,0 +1,432 @@
+[ {
+  "id" : 4599,
+  "body" : "what is active flag cell mean?",
+  "createdAt" : 1416237957,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rswt-36jb",
+    "displayName" : "Mohamed Mashaal",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 900157,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Mohamed Mashaal"
+  },
+  "view" : {
+    "id" : "sjfe-fppp",
+    "name" : "Medallion Drivers – Status Change Log 10/28/2013 - present",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1384980303,
+    "description" : "This list contains information on changes in status to current medallion drivers and their corresponding record history starting from 10/28/2013 (inclusive). Historical information from 03/07/2013 – 01/04/2014 can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. The most recently published active medallion drivers list can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+    "displayType" : "table",
+    "downloadCount" : 606,
+    "indexUpdatedAt" : 1443558219,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 6503560,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1384981065,
+    "publicationGroup" : 1364042,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 116712736,
+    "rowsUpdatedAt" : 1443555532,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1364056,
+    "totalTimesRated" : 0,
+    "viewCount" : 14646,
+    "viewLastModified" : 1409938776,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Taxi and Limousine Commission (TLC)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "row_wid",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4241,
+  "body" : "I need to know if my drug test came in. 477933. late taken test dt/susp",
+  "createdAt" : 1407928583,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4461,
+    "body" : "We apologize for the delayed response.Please reach out to TLC",
+    "createdAt" : 1413913242,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "sjfe-fppp",
+      "name" : "Medallion Drivers – Status Change Log 10/28/2013 - present",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1384980303,
+      "description" : "This list contains information on changes in status to current medallion drivers and their corresponding record history starting from 10/28/2013 (inclusive). Historical information from 03/07/2013 – 01/04/2014 can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. The most recently published active medallion drivers list can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+      "displayType" : "table",
+      "downloadCount" : 606,
+      "indexUpdatedAt" : 1443558219,
+      "newBackend" : false,
+      "numberOfComments" : 5,
+      "oid" : 6503560,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1384981065,
+      "publicationGroup" : 1364042,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 116712736,
+      "rowsUpdatedAt" : 1443555532,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1364056,
+      "totalTimesRated" : 0,
+      "viewCount" : 14646,
+      "viewLastModified" : 1409938776,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "Taxi and Limousine Commission (TLC)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "row_wid",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "u98w-3icx",
+    "displayName" : "guillermo rivera",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891094,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "guillermo rivera"
+  },
+  "view" : {
+    "id" : "sjfe-fppp",
+    "name" : "Medallion Drivers – Status Change Log 10/28/2013 - present",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1384980303,
+    "description" : "This list contains information on changes in status to current medallion drivers and their corresponding record history starting from 10/28/2013 (inclusive). Historical information from 03/07/2013 – 01/04/2014 can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. The most recently published active medallion drivers list can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+    "displayType" : "table",
+    "downloadCount" : 606,
+    "indexUpdatedAt" : 1443558219,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 6503560,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1384981065,
+    "publicationGroup" : 1364042,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 116712736,
+    "rowsUpdatedAt" : 1443555532,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1364056,
+    "totalTimesRated" : 0,
+    "viewCount" : 14646,
+    "viewLastModified" : 1409938776,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Taxi and Limousine Commission (TLC)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "row_wid",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3287,
+  "body" : "I need to know if my address change request completed. Thank you.",
+  "createdAt" : 1391809680,
+  "domainId" : 75,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4462,
+    "body" : "We apologize for the delayed response.\nPlease reach out to TLC",
+    "createdAt" : 1413913363,
+    "domainId" : 75,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "numberOfFollowers" : 9,
+      "numberOfFriends" : 0,
+      "oid" : 399231,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "sjfe-fppp",
+      "name" : "Medallion Drivers – Status Change Log 10/28/2013 - present",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1384980303,
+      "description" : "This list contains information on changes in status to current medallion drivers and their corresponding record history starting from 10/28/2013 (inclusive). Historical information from 03/07/2013 – 01/04/2014 can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. The most recently published active medallion drivers list can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+      "displayType" : "table",
+      "downloadCount" : 606,
+      "indexUpdatedAt" : 1443558219,
+      "newBackend" : false,
+      "numberOfComments" : 5,
+      "oid" : 6503560,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1384981065,
+      "publicationGroup" : 1364042,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 116712736,
+      "rowsUpdatedAt" : 1443555532,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "state" : "normal",
+      "tableId" : 1364056,
+      "totalTimesRated" : 0,
+      "viewCount" : 14646,
+      "viewLastModified" : 1409938776,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "Daily"
+          },
+          "Dataset Information" : {
+            "Agency" : "Taxi and Limousine Commission (TLC)"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "row_wid",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "ew5s-ts2p",
+        "displayName" : "Venkat",
+        "screenName" : "Venkat"
+      },
+      "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "28wg-zmhj",
+    "displayName" : "syed.payroll@gmail.com",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 874993,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "syed.payroll@gmail.com"
+  },
+  "view" : {
+    "id" : "sjfe-fppp",
+    "name" : "Medallion Drivers – Status Change Log 10/28/2013 - present",
+    "averageRating" : 0,
+    "category" : "Transportation",
+    "createdAt" : 1384980303,
+    "description" : "This list contains information on changes in status to current medallion drivers and their corresponding record history starting from 10/28/2013 (inclusive). Historical information from 03/07/2013 – 01/04/2014 can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy. The most recently published active medallion drivers list can be found at https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/jb3k-j3gp",
+    "displayType" : "table",
+    "downloadCount" : 606,
+    "indexUpdatedAt" : 1443558219,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 6503560,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1384981065,
+    "publicationGroup" : 1364042,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 116712736,
+    "rowsUpdatedAt" : 1443555532,
+    "rowsUpdatedBy" : "5fuc-pqz2",
+    "state" : "normal",
+    "tableId" : 1364056,
+    "totalTimesRated" : 0,
+    "viewCount" : 14646,
+    "viewLastModified" : 1409938776,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Update" : {
+          "Update Frequency" : "Daily"
+        },
+        "Dataset Information" : {
+          "Agency" : "Taxi and Limousine Commission (TLC)"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "row_wid",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData",
+      "roleName" : "administrator",
+      "screenName" : "NYC OpenData",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "ew5s-ts2p",
+      "displayName" : "Venkat",
+      "screenName" : "Venkat"
+    },
+    "tags" : [ "taxi", "taxicab", "tlc", "limousine", "taxi driver", "medallion", "taxi license", "driver" ],
+    "flags" : [ "default" ]
+  }
+} ]
