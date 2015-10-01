@@ -1,0 +1,98 @@
+[ {
+  "id" : 1780,
+  "body" : "Great",
+  "createdAt" : 1343253474,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rqhe-pggr",
+    "displayName" : "Sandy87",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 633414,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sandy87"
+  },
+  "view" : {
+    "id" : "hr5m-xnxc",
+    "name" : "Lobbyist Activity - Contacts of Public Officials",
+    "averageRating" : 0,
+    "category" : "City Management and Ethics",
+    "createdAt" : 1335484709,
+    "description" : "The name of each officer of the City and County of San Francisco with whom a lobbyist made a contact.  Contacts of public officials are disclosed by lobbyists registered with the Ethics Commission on a monthly basis.  This dataset updates automatically every night.",
+    "displayType" : "table",
+    "downloadCount" : 699,
+    "indexUpdatedAt" : 1443115753,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 8709635,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1408725955,
+    "publicationGroup" : 328395,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1443110844,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 1693274,
+    "totalTimesRated" : 0,
+    "viewCount" : 1976,
+    "viewLastModified" : 1443629310,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Not applicable"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Ethics Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "vm9c-ykir",
+      "displayName" : "Steven Massey",
+      "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+      "roleName" : "publisher",
+      "screenName" : "Steven Massey",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "vm9c-ykir",
+      "displayName" : "Steven Massey",
+      "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+      "roleName" : "publisher",
+      "screenName" : "Steven Massey",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+    },
+    "tags" : [ "ethics", "lobbyist", "contacts", "public official" ],
+    "flags" : [ "default" ]
+  }
+} ]

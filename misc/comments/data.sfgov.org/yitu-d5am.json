@@ -1,0 +1,471 @@
+[ {
+  "id" : 5029,
+  "body" : "MISSPELLED ACTORS :  \n\n'Barbara Streisand'\tshould be 'Barbra Streisand'.  \n'Bert Lancaster' should be 'Burt Lancaster'.  \n'Jake Gyllenhall' should be 'Jake Gyllenhaal'.  \n'Kieu Chung' should be 'Kieu Chinh'.  \n'Nicholas Cage' should be 'Nicolas Cage'.  'Richard Dryfuss' should be 'Richard Dreyfuss'.  \n'Whoppi Goldberg' should be 'Whoopi Goldberg'.  ",
+  "createdAt" : 1429317279,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "aewt-jhkv",
+    "displayName" : "christinekim",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915171,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "christinekim"
+  },
+  "view" : {
+    "id" : "yitu-d5am",
+    "name" : "Film Locations in San Francisco",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1320948813,
+    "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+    "displayType" : "table",
+    "downloadCount" : 3785,
+    "indexUpdatedAt" : 1442618399,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 13348435,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442611258,
+    "publicationGroup" : 251717,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442611167,
+    "rowsUpdatedBy" : "qp74-qyt9",
+    "tableId" : 4354895,
+    "totalTimesRated" : 0,
+    "viewCount" : 71345,
+    "viewLastModified" : 1442611258,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+          "Geographic unit" : "Other"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Weekly",
+          "Publishing frequency" : "Annually"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Film Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "title"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5028,
+  "body" : "MISSPELLED / MISFORMATTED MOVIES : 'Doctor Doolittle' should be 'Doctor Dolittle'.  \n'Dr. Doolittle 2' should be 'Dr. Dolittle 2'.  \n'Forty Days and Forty Nights' should be '40 Days and 40 Nights'.  \n'Star Trek VI: The Undiscovered County' should be 'Star Trek VI: The Undiscovered Country'.  \n'The Competiton' should be 'The Competition'.  \n'Tucker: The Man and His Dreams' should be 'Tucker: The Man and His Dream'.\n",
+  "createdAt" : 1429317237,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "aewt-jhkv",
+    "displayName" : "christinekim",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915171,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "christinekim"
+  },
+  "view" : {
+    "id" : "yitu-d5am",
+    "name" : "Film Locations in San Francisco",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1320948813,
+    "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+    "displayType" : "table",
+    "downloadCount" : 3785,
+    "indexUpdatedAt" : 1442618399,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 13348435,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442611258,
+    "publicationGroup" : 251717,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442611167,
+    "rowsUpdatedBy" : "qp74-qyt9",
+    "tableId" : 4354895,
+    "totalTimesRated" : 0,
+    "viewCount" : 71345,
+    "viewLastModified" : 1442611258,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+          "Geographic unit" : "Other"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Weekly",
+          "Publishing frequency" : "Annually"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Film Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "title"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5027,
+  "body" : "RELEASE YEAR ERRORS\n\n\n'Ant-Man' should be 2015.\n\n'Big Sur' should be 2013.\n\n'Dim Sum: A Little Bit of Heart' should be 1985.\n\n'Dream for an Insomniac' should be 1996.\n\n'Heart and Souls' should be 1993.\n\n'Hereafter' should be 2010.\n\n'Knife Fight' should be 2013.\n\n'Love & Taxes'\tshould be 2014.\n\n'On the Road' should be 2012.\n\n'Quitters' should be 2015.\n\n'San Andreas' should be 2015.\n\n'Sense8' should be 2015.\n\n'Terminator - Genisys' should be 2015.\n\n'Vegas in Space' should be 1992.\n\n\n\nAlso, only 1 out of 7 'High Crimes' records have the correct 2002 year. The others have 1977, which is wrong. Looks like a copy/paste issue from the movie above, 'High Anxiety'",
+  "createdAt" : 1429317187,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "aewt-jhkv",
+    "displayName" : "christinekim",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915171,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "christinekim"
+  },
+  "view" : {
+    "id" : "yitu-d5am",
+    "name" : "Film Locations in San Francisco",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1320948813,
+    "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+    "displayType" : "table",
+    "downloadCount" : 3785,
+    "indexUpdatedAt" : 1442618399,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 13348435,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442611258,
+    "publicationGroup" : 251717,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442611167,
+    "rowsUpdatedBy" : "qp74-qyt9",
+    "tableId" : 4354895,
+    "totalTimesRated" : 0,
+    "viewCount" : 71345,
+    "viewLastModified" : 1442611258,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+          "Geographic unit" : "Other"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Weekly",
+          "Publishing frequency" : "Annually"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Film Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "title"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4260,
+  "body" : "Geez... the misspellings of places are rampant!",
+  "createdAt" : 1408677806,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 1,
+  "user" : {
+    "id" : "mf89-8r4a",
+    "displayName" : "ptpower",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891726,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "ptpower"
+  },
+  "view" : {
+    "id" : "yitu-d5am",
+    "name" : "Film Locations in San Francisco",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1320948813,
+    "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+    "displayType" : "table",
+    "downloadCount" : 3785,
+    "indexUpdatedAt" : 1442618399,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 13348435,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442611258,
+    "publicationGroup" : 251717,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442611167,
+    "rowsUpdatedBy" : "qp74-qyt9",
+    "tableId" : 4354895,
+    "totalTimesRated" : 0,
+    "viewCount" : 71345,
+    "viewLastModified" : 1442611258,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+          "Geographic unit" : "Other"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Weekly",
+          "Publishing frequency" : "Annually"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Film Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "title"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4259,
+  "body" : "Spelling errors in listing for Sweet November... Dolores (Not Delores) Park... also cemetery not cemetary",
+  "createdAt" : 1408644495,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mf89-8r4a",
+    "displayName" : "ptpower",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 891726,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "ptpower"
+  },
+  "view" : {
+    "id" : "yitu-d5am",
+    "name" : "Film Locations in San Francisco",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1320948813,
+    "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+    "displayType" : "table",
+    "downloadCount" : 3785,
+    "indexUpdatedAt" : 1442618399,
+    "newBackend" : false,
+    "numberOfComments" : 5,
+    "oid" : 13348435,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1442611258,
+    "publicationGroup" : 251717,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1442611167,
+    "rowsUpdatedBy" : "qp74-qyt9",
+    "tableId" : 4354895,
+    "totalTimesRated" : 0,
+    "viewCount" : 71345,
+    "viewLastModified" : 1442611258,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+          "Geographic unit" : "Other"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Weekly",
+          "Publishing frequency" : "Annually"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Film Commission"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rowLabel" : "Row",
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "title"
+        } ]
+      },
+      "rdfSubject" : "0"
+    },
+    "owner" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "qp74-qyt9",
+      "displayName" : "Susannah Robbins",
+      "roleName" : "editor",
+      "screenName" : "Susannah Robbins",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+    "flags" : [ "default" ]
+  }
+} ]

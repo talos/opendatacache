@@ -1,0 +1,103 @@
+[ {
+  "id" : 4152,
+  "body" : "I corrected the missing end Street column and it is available now as the third column.\nThank you for your patience.\nSherman\n= = =\nMuhammad azeem what is backlinks  \n\n2 years ago\n\nMeg The end location does not get exported or printed. This makes it very difficult to map. If you could provide the street CNN that would be very helpful. \n\n2 years ago\n\n Sherman Luk, CBIP Sorry Meg for the late reply. We will fix it soon. SL 10/21/13. \n\n9 months ago",
+  "createdAt" : 1406160091,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "99ku-nz3k",
+    "description" : "IT Practice Portfolio Lead, City Performance Unit, City Services Auditor, Controller's Office",
+    "displayName" : "Sherman Luk, CBIP",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 403451,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "editor",
+    "screenName" : "Sherman Luk, CBIP",
+    "title" : "Project Manager",
+    "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+  },
+  "view" : {
+    "id" : "i8y7-m763",
+    "name" : "FY07-11 Street Evaluation Results",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1406159366,
+    "description" : "The Controller's Office's City Services Auditor (CSA) Division has worked with the Department of Public Works (DPW) to develop maintenance standards for streets and sidewalks and schedules and inspect for compliance since July 2004. This data file consolidates street and sidewalk inspection results FY07-FY11. Current evaluation results are also available on DataSF; however, they are not comparable to this data set because of changes in methodology.You can access the annual reports at  http://sfcontroller.org/index.aspx?page=49",
+    "displayType" : "table",
+    "downloadCount" : 133,
+    "indexUpdatedAt" : 1439235984,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 8492135,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1406159798,
+    "publicationGroup" : 1659167,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1406159402,
+    "rowsUpdatedBy" : "99ku-nz3k",
+    "tableId" : 1659167,
+    "totalTimesRated" : 0,
+    "viewCount" : 142,
+    "viewLastModified" : 1439941257,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Additional Information" : {
+          "Dataset Fields" : "See attachment"
+        },
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Intersection or street segment",
+          "Program link" : "http://sfcontroller.org/index.aspx?page=49"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Not updated (historical only)"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Controller",
+          "Frequency" : "This historical dataset will no longer be updated."
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "assetId" : "wuQoNCsZjDT8in5UxfLpi5lh0yYGqkMQTtq-WZH8gb8",
+        "name" : "CON_DataDictionary_street-evals-2007-11.xlsx",
+        "filename" : "CON_DataDictionary_street-evals-2007-11.xlsx"
+      } ],
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "99ku-nz3k",
+      "displayName" : "Sherman Luk, CBIP",
+      "roleName" : "editor",
+      "screenName" : "Sherman Luk, CBIP",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "99ku-nz3k",
+      "displayName" : "Sherman Luk, CBIP",
+      "roleName" : "editor",
+      "screenName" : "Sherman Luk, CBIP",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "controller's street evaluation program", "street evaluation", "litter", "street", "sidewalk", "inspection", "results", "performance", "graffiti", "trash", "tree", "grime", "leaks", "spills" ],
+    "flags" : [ "default" ]
+  }
+} ]

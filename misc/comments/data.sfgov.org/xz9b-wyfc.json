@@ -1,0 +1,205 @@
+[ {
+  "id" : 3666,
+  "body" : "Never mind, I guess parts of Alameda Island are part of SF county. ",
+  "createdAt" : 1399324305,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "r5hk-gn7m",
+    "displayName" : "mpmckenna8",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 2,
+    "oid" : 712296,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mpmckenna8",
+    "title" : "Interested Citizen"
+  },
+  "view" : {
+    "id" : "xz9b-wyfc",
+    "name" : "Supervisorial Districts as of April 2012",
+    "averageRating" : 0,
+    "blobFilename" : "Elect_Supervisor_Dists (1).zip",
+    "blobFileSize" : 142587,
+    "blobId" : "FnsDT5OmSNOhSqyKzevFzDIG5OkfX0e069ahdoY5Ymw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Geographic Locations and Boundaries",
+    "createdAt" : 1379355667,
+    "description" : "Supervisorial Districts, developed by Redistricting Task Force, submitted on 18 April 2012. Note: for mapping and analysis purposes, the non-land areas of the districts have been removed in this version. The original submitted dataset with ocean and bay included described here; http://www.sfgov2.org/index.aspx?page=3450.",
+    "displayType" : "map",
+    "downloadCount" : 471,
+    "indexUpdatedAt" : 1429892958,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5447437,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379355669,
+    "publicationGroup" : 1153960,
+    "publicationStage" : "published",
+    "tableId" : 1153960,
+    "totalTimesRated" : 0,
+    "viewCount" : 1067,
+    "viewLastModified" : 1439941019,
+    "viewType" : "geo",
+    "childViews" : [ "487i-vkgi" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Supervisorial district"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Elections"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/xz9b-wyfc",
+        "bbox" : "-122.51631499086724,37.70582230417139,-122.32613838693322,37.833118747052325",
+        "layers" : "geo_xz9b-wyfc-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_xz9b-wyfc"
+      }
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "vm9c-ykir",
+      "displayName" : "Steven Massey",
+      "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+      "roleName" : "publisher",
+      "screenName" : "Steven Massey",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+    },
+    "tags" : [ "supervisor", "district", "elections" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3664,
+  "body" : "Great being inclusive and all having some of Alameda island but I fixed it if you want better data in a bunch of formats not including the East Bay in most of them see and use: https://github.com/mpmckenna8/geo/tree/master/sfBOS",
+  "createdAt" : 1399323062,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "r5hk-gn7m",
+    "displayName" : "mpmckenna8",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 2,
+    "oid" : 712296,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mpmckenna8",
+    "title" : "Interested Citizen"
+  },
+  "view" : {
+    "id" : "xz9b-wyfc",
+    "name" : "Supervisorial Districts as of April 2012",
+    "averageRating" : 0,
+    "blobFilename" : "Elect_Supervisor_Dists (1).zip",
+    "blobFileSize" : 142587,
+    "blobId" : "FnsDT5OmSNOhSqyKzevFzDIG5OkfX0e069ahdoY5Ymw",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Geographic Locations and Boundaries",
+    "createdAt" : 1379355667,
+    "description" : "Supervisorial Districts, developed by Redistricting Task Force, submitted on 18 April 2012. Note: for mapping and analysis purposes, the non-land areas of the districts have been removed in this version. The original submitted dataset with ocean and bay included described here; http://www.sfgov2.org/index.aspx?page=3450.",
+    "displayType" : "map",
+    "downloadCount" : 471,
+    "indexUpdatedAt" : 1429892958,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5447437,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1379355669,
+    "publicationGroup" : 1153960,
+    "publicationStage" : "published",
+    "tableId" : 1153960,
+    "totalTimesRated" : 0,
+    "viewCount" : 1067,
+    "viewLastModified" : 1439941019,
+    "viewType" : "geo",
+    "childViews" : [ "487i-vkgi" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Supervisorial district"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Elections"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/xz9b-wyfc",
+        "bbox" : "-122.51631499086724,37.70582230417139,-122.32613838693322,37.833118747052325",
+        "layers" : "geo_xz9b-wyfc-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_xz9b-wyfc"
+      }
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "vm9c-ykir",
+      "displayName" : "Steven Massey",
+      "profileImageUrlLarge" : "/api/users/vm9c-ykir/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/vm9c-ykir/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/vm9c-ykir/profile_images/TINY",
+      "roleName" : "publisher",
+      "screenName" : "Steven Massey",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+    },
+    "tags" : [ "supervisor", "district", "elections" ],
+    "flags" : [ "default" ]
+  }
+} ]

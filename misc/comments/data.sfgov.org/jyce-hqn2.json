@@ -1,0 +1,191 @@
+[ {
+  "id" : 3652,
+  "body" : "Warning, this file does NOT have accurate census tracts as crossreferenced by http://www2.census.gov/geo/maps/dc10map/tract/st06_ca/c06075_san_francisco/DC10CT_C06075_004.pdf",
+  "createdAt" : 1399000073,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "vjjs-kgrn",
+    "displayName" : "AVis",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 882549,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "AVis"
+  },
+  "view" : {
+    "id" : "jyce-hqn2",
+    "name" : "Census 2010: Census Tracts for San Francisco (Zipped Shapefile format)",
+    "averageRating" : 0,
+    "category" : "Geographic Locations and Boundaries",
+    "createdAt" : 1380922746,
+    "description" : "The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad tracks, and/or by nonvisible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of streets and roads. Census blocks are relatively small in area; for example, a block in a city bounded by streets. However, census blocks in remote areas are often large and irregular and may even be many square miles in area. A common misunderstanding is that data users think census blocks are used geographically to build all other census geographic areas, rather all other census geographic areas are updated and then used as the primary constraints, along with roads and water features, to delineate the tabulation blocks. As a result, all 2010 Census blocks nest within every other 2010 Census geographic area, so that Census Bureau statistical data can be tabulated at the block level and aggregated up to the appropriate geographic areas.",
+    "displayType" : "href",
+    "downloadCount" : 717,
+    "indexUpdatedAt" : 1433276297,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5757693,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1380922756,
+    "publicationGroup" : 1217270,
+    "publicationStage" : "published",
+    "tableId" : 1217270,
+    "totalTimesRated" : 0,
+    "viewCount" : 1192,
+    "viewLastModified" : 1439941053,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Census tract"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "As needed",
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Technology",
+          "Frequency" : "As Needed"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://apps.sfgov.org/datafiles/view.php?file=sfgis/tl_2010_06075_tract10.zip"
+      }
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2933,
+  "body" : "KML version was requested of DT via email on 04 Oct 2013.",
+  "createdAt" : 1380923694,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "urtw-9mv6",
+    "displayName" : "Samuel Valdez",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 400460,
+    "profileImageUrlLarge" : "/api/users/urtw-9mv6/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/urtw-9mv6/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/urtw-9mv6/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "roleName" : "publisher",
+    "screenName" : "Samuel Valdez",
+    "title" : "Enterprise GIS Engineer",
+    "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_sdp", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+  },
+  "view" : {
+    "id" : "jyce-hqn2",
+    "name" : "Census 2010: Census Tracts for San Francisco (Zipped Shapefile format)",
+    "averageRating" : 0,
+    "category" : "Geographic Locations and Boundaries",
+    "createdAt" : 1380922746,
+    "description" : "The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad tracks, and/or by nonvisible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of streets and roads. Census blocks are relatively small in area; for example, a block in a city bounded by streets. However, census blocks in remote areas are often large and irregular and may even be many square miles in area. A common misunderstanding is that data users think census blocks are used geographically to build all other census geographic areas, rather all other census geographic areas are updated and then used as the primary constraints, along with roads and water features, to delineate the tabulation blocks. As a result, all 2010 Census blocks nest within every other 2010 Census geographic area, so that Census Bureau statistical data can be tabulated at the block level and aggregated up to the appropriate geographic areas.",
+    "displayType" : "href",
+    "downloadCount" : 717,
+    "indexUpdatedAt" : 1433276297,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 5757693,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1380922756,
+    "publicationGroup" : 1217270,
+    "publicationStage" : "published",
+    "tableId" : 1217270,
+    "totalTimesRated" : 0,
+    "viewCount" : 1192,
+    "viewLastModified" : 1439941053,
+    "viewType" : "href",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Census tract"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "As needed",
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Technology",
+          "Frequency" : "As Needed"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "href" : true
+        }
+      },
+      "availableDisplayTypes" : [ "href" ],
+      "accessPoints" : {
+        "zip" : "http://apps.sfgov.org/datafiles/view.php?file=sfgis/tl_2010_06075_tract10.zip"
+      }
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

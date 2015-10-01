@@ -1,0 +1,185 @@
+[ {
+  "id" : 2935,
+  "body" : "Is there anything underway for publishing the data as Shapefiles, too?",
+  "createdAt" : 1380988336,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "view" : {
+    "id" : "tkzw-k3nq",
+    "name" : "Street Tree List",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1348534308,
+    "description" : "List of dpw maintained street trees including: Planting date, species, and location",
+    "displayType" : "table",
+    "downloadCount" : 1497,
+    "indexUpdatedAt" : 1443630972,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 12328339,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1437147537,
+    "publicationGroup" : 434273,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443626236,
+    "rowsUpdatedBy" : "rcpp-nrjq",
+    "state" : "normal",
+    "tableId" : 3597682,
+    "totalTimesRated" : 0,
+    "viewCount" : 2760,
+    "viewLastModified" : 1443625915,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Additional Information" : {
+          "Special Use Disclaimer" : "This data is provided on as 'as-is' basis and is subject to change at any time without notice. Please visit http://data.sfgov.org often to get the latest version."
+        },
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Public Works"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "biK1RHNRcrlnB42VCsuvdib3tybKjazIH4kuDcrOczw",
+        "name" : "DPW_DataDictionary_Street-Tree-List.pdf",
+        "filename" : "DPW_DataDictionary_Street-Tree-List.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "rcpp-nrjq",
+      "displayName" : "SFDPW",
+      "profileImageUrlLarge" : "/api/users/rcpp-nrjq/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rcpp-nrjq/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rcpp-nrjq/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "SFDPW",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rcpp-nrjq",
+      "displayName" : "SFDPW",
+      "profileImageUrlLarge" : "/api/users/rcpp-nrjq/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rcpp-nrjq/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rcpp-nrjq/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "SFDPW",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "trees" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2065,
+  "body" : "Could please publish the street tree data also as ESRI Shapefiles?",
+  "createdAt" : 1355668269,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "view" : {
+    "id" : "tkzw-k3nq",
+    "name" : "Street Tree List",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1348534308,
+    "description" : "List of dpw maintained street trees including: Planting date, species, and location",
+    "displayType" : "table",
+    "downloadCount" : 1497,
+    "indexUpdatedAt" : 1443630972,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 12328339,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1437147537,
+    "publicationGroup" : 434273,
+    "publicationStage" : "published",
+    "rowsUpdatedAt" : 1443626236,
+    "rowsUpdatedBy" : "rcpp-nrjq",
+    "state" : "normal",
+    "tableId" : 3597682,
+    "totalTimesRated" : 0,
+    "viewCount" : 2760,
+    "viewLastModified" : 1443625915,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Additional Information" : {
+          "Special Use Disclaimer" : "This data is provided on as 'as-is' basis and is subject to change at any time without notice. Please visit http://data.sfgov.org often to get the latest version."
+        },
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Public Works"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "attachments" : [ {
+        "blobId" : "",
+        "assetId" : "biK1RHNRcrlnB42VCsuvdib3tybKjazIH4kuDcrOczw",
+        "name" : "DPW_DataDictionary_Street-Tree-List.pdf",
+        "filename" : "DPW_DataDictionary_Street-Tree-List.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "rcpp-nrjq",
+      "displayName" : "SFDPW",
+      "profileImageUrlLarge" : "/api/users/rcpp-nrjq/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rcpp-nrjq/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rcpp-nrjq/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "SFDPW",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "rcpp-nrjq",
+      "displayName" : "SFDPW",
+      "profileImageUrlLarge" : "/api/users/rcpp-nrjq/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/rcpp-nrjq/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/rcpp-nrjq/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "SFDPW",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "trees" ],
+    "flags" : [ "default" ]
+  }
+} ]

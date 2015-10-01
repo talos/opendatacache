@@ -1,0 +1,115 @@
+[ {
+  "id" : 4042,
+  "body" : "I made a great visual map of the incidents that helps know where they are and the info associated at http://damiann.github.io/graffiti-city/ ",
+  "createdAt" : 1404169048,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ks5y-7bgf",
+    "displayName" : "dknelson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 887598,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "dknelson"
+  },
+  "view" : {
+    "id" : "p6sg-7yp7",
+    "name" : "Graffiti - 30 Days",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1391639744,
+    "displayType" : "table",
+    "downloadCount" : 160,
+    "indexUpdatedAt" : 1442358422,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 7297647,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1391644322,
+    "publicationGroup" : 1467199,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1391644304,
+    "rowsUpdatedBy" : "bafi-3z6i",
+    "tableId" : 1467263,
+    "totalTimesRated" : 0,
+    "viewCount" : 672,
+    "viewLastModified" : 1442352579,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Multiple times per hour",
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "AND",
+          "type" : "operator",
+          "metadata" : {
+            "multiSelect" : false,
+            "customValues" : [ [ 0 ] ],
+            "tableColumnId" : {
+              "1467199" : 17974030
+            },
+            "operator" : "GREATER_THAN"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

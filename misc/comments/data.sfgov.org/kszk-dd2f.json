@@ -1,0 +1,103 @@
+[ {
+  "id" : 4864,
+  "body" : "Yeah Jennifer! Thanks for all your hard work.\n-Carlos",
+  "createdAt" : 1425424070,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "jxr2-s5x6",
+    "displayName" : "Carlos",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 909990,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Carlos"
+  },
+  "view" : {
+    "id" : "kszk-dd2f",
+    "name" : "Bay Area Bike Share Pilot Stations",
+    "averageRating" : 0,
+    "blobFilename" : "BikeShareStationsPilot_092014.zip",
+    "blobFileSize" : 4023,
+    "blobId" : "erAEvs6g2SkWl9e_yYZZ3vzvF1O3CyJX5Htnh8W-reE",
+    "blobMimeType" : "application/zip; charset=binary",
+    "category" : "Transportation",
+    "createdAt" : 1413569687,
+    "description" : "This shapefile contains information about the pilot stations of the Bay Area Bike Share program, including the type of location. This data is subject to change and the SFMTA does not assume any responsibility or liability for any property damage, injury, or other adverse circumstances that may arise while using this mapping data.",
+    "displayType" : "map",
+    "downloadCount" : 88,
+    "indexUpdatedAt" : 1442356265,
+    "newBackend" : false,
+    "numberOfComments" : 1,
+    "oid" : 9150509,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1413569689,
+    "publicationGroup" : 1807961,
+    "publicationStage" : "published",
+    "tableId" : 1807961,
+    "totalTimesRated" : 0,
+    "viewCount" : 226,
+    "viewLastModified" : 1442351109,
+    "viewType" : "geo",
+    "childViews" : [ "kjjz-acch" ],
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "As needed",
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Municipal Transportation Agency "
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "map" : true
+        }
+      },
+      "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+      "geo" : {
+        "owsUrl" : "/api/geospatial/kszk-dd2f",
+        "bbox" : "-122.4189542,37.77105752,-122.38812761178994,37.80476999002619",
+        "layers" : "geo_kszk-dd2f-1",
+        "featureIdAttribute" : "_SocrataID",
+        "bboxCrs" : "EPSG:4326",
+        "namespace" : "geo_kszk-dd2f"
+      },
+      "attachments" : [ {
+        "assetId" : "qOzSTfmsea_vA8h_d2_0I-p5FFj3gPUzCyicypkkfFA",
+        "blobId" : "",
+        "name" : "DataDictionary_BayAreaBikeSharePilotStations.pdf",
+        "filename" : "DataDictionary_BayAreaBikeSharePilotStations.pdf"
+      } ]
+    },
+    "owner" : {
+      "id" : "pxuf-5k5q",
+      "displayName" : "Jennifer Wong",
+      "roleName" : "editor",
+      "screenName" : "Jennifer Wong",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "pxuf-5k5q",
+      "displayName" : "Jennifer Wong",
+      "roleName" : "editor",
+      "screenName" : "Jennifer Wong",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "bikeshare", "bicycle share", "pilot", "bike", "bicycle" ],
+    "flags" : [ "default" ]
+  }
+} ]

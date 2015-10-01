@@ -1,0 +1,192 @@
+[ {
+  "id" : 2659,
+  "body" : "It would be great if the latitude and longitude info could have their own separate columns.",
+  "createdAt" : 1375206298,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4672,
+    "body" : "what program are you using to analyze it?",
+    "createdAt" : 1418107285,
+    "domainId" : 126,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "mub8-kc7k",
+      "displayName" : "David",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 900214,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "David"
+    },
+    "view" : {
+      "id" : "z76i-7s65",
+      "name" : "Recreation & Park Department Park Info Dataset",
+      "averageRating" : 0,
+      "category" : "Culture and Recreation",
+      "createdAt" : 1321380888,
+      "description" : "The following data-set is from the Recreation and Park Departments Master Property database. It list all Parks, Playgrounds, and Stadiums. This master list also contains the Park Service Area Manager along with their individual contact information.",
+      "displayType" : "table",
+      "downloadCount" : 1477,
+      "indexUpdatedAt" : 1430937442,
+      "newBackend" : false,
+      "numberOfComments" : 2,
+      "oid" : 4737550,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1375459154,
+      "publicationGroup" : 252748,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1375459014,
+      "rowsUpdatedBy" : "3b4m-maes",
+      "tableId" : 1014806,
+      "totalTimesRated" : 0,
+      "viewCount" : 1919,
+      "viewLastModified" : 1439940988,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "As needed",
+            "Publishing frequency" : "As needed"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Recreation and Parks"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "3b4m-maes",
+        "displayName" : "Sean Stasio",
+        "profileImageUrlLarge" : "/api/users/3b4m-maes/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3b4m-maes/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3b4m-maes/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Sean Stasio",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3b4m-maes",
+        "displayName" : "Sean Stasio",
+        "profileImageUrlLarge" : "/api/users/3b4m-maes/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3b4m-maes/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3b4m-maes/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "Sean Stasio",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "recreation", "parks", "playgrounds", "stadiums" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "ehgj-scj5",
+    "displayName" : "PencilAndPaper",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 743280,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "PencilAndPaper"
+  },
+  "view" : {
+    "id" : "z76i-7s65",
+    "name" : "Recreation & Park Department Park Info Dataset",
+    "averageRating" : 0,
+    "category" : "Culture and Recreation",
+    "createdAt" : 1321380888,
+    "description" : "The following data-set is from the Recreation and Park Departments Master Property database. It list all Parks, Playgrounds, and Stadiums. This master list also contains the Park Service Area Manager along with their individual contact information.",
+    "displayType" : "table",
+    "downloadCount" : 1477,
+    "indexUpdatedAt" : 1430937442,
+    "newBackend" : false,
+    "numberOfComments" : 2,
+    "oid" : 4737550,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1375459154,
+    "publicationGroup" : 252748,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowsUpdatedAt" : 1375459014,
+    "rowsUpdatedBy" : "3b4m-maes",
+    "tableId" : 1014806,
+    "totalTimesRated" : 0,
+    "viewCount" : 1919,
+    "viewLastModified" : 1439940988,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "As needed",
+          "Publishing frequency" : "As needed"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Recreation and Parks"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "rdfSubject" : "0",
+      "rowIdentifier" : "0",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "3b4m-maes",
+      "displayName" : "Sean Stasio",
+      "profileImageUrlLarge" : "/api/users/3b4m-maes/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3b4m-maes/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3b4m-maes/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "Sean Stasio",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3b4m-maes",
+      "displayName" : "Sean Stasio",
+      "profileImageUrlLarge" : "/api/users/3b4m-maes/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3b4m-maes/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3b4m-maes/profile_images/TINY",
+      "roleName" : "editor",
+      "screenName" : "Sean Stasio",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "recreation", "parks", "playgrounds", "stadiums" ],
+    "flags" : [ "default" ]
+  }
+} ]

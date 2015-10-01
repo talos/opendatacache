@@ -1,0 +1,1230 @@
+[ {
+  "id" : 4761,
+  "body" : "Case Murder By todd lee tubbs and waivers of instructions. The Outlet is being hiested along with the city imprompu. these things shouldnt have been allowed to be around the placing of new stuff, which it would cause interference, and also allow ministries to go around.. ",
+  "createdAt" : 1422313897,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "6nue-2j8h",
+    "displayName" : "Treasury Todd lee tubbs",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 905792,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Treasury Todd lee tubbs"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4071,
+  "body" : "The closed data has been entered incorrectly (as AM instead of PM) for nearly 2000 cases. See CaseID 3782050- the case appears to be closed before it was opened.",
+  "createdAt" : 1404836249,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "pz6x-n6g3",
+    "displayName" : "Tufts Student",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 888370,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Tufts Student"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3971,
+  "body" : "Are the coordinates provided by a geocoding service, or are they taken from the GPS of the data uploader?",
+  "createdAt" : 1403212448,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "pygy-i5a5",
+    "displayName" : "Carl Anderson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 1,
+    "oid" : 886590,
+    "profileImageUrlLarge" : "/api/users/pygy-i5a5/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/pygy-i5a5/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/pygy-i5a5/profile_images/TINY",
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Carl Anderson"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3266,
+  "body" : "<a href=\"http://baixarmais.org/\">Baixar Filmes Grátis</a>",
+  "createdAt" : 1391380842,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rgm4-xwti",
+    "description" : "Baixar Mais Filmes - Download Filmes e Séries Completas, Filmes Bluray, Download de Jogos e Games, Baixar Músicas e Livros - Acessem: http://baixarmais.org/",
+    "displayName" : "LuiziNNN",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 872422,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "LuiziNNN"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 3265,
+  "body" : "<a href=\"http://baixarmais.org/\">Download de Filmes</a>",
+  "createdAt" : 1391380826,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rgm4-xwti",
+    "description" : "Baixar Mais Filmes - Download Filmes e Séries Completas, Filmes Bluray, Download de Jogos e Games, Baixar Músicas e Livros - Acessem: http://baixarmais.org/",
+    "displayName" : "LuiziNNN",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 872422,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "LuiziNNN"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 2746,
+  "body" : "Is there a definition somewhere of the \"Integrated Agency\" category under \"Source\"?",
+  "createdAt" : 1377460067,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "dr4y-24pq",
+    "displayName" : "MBridegam",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 764377,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "MBridegam"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1940,
+  "body" : "Hi... Can anyone tell me , can this data be used for Data Mining ? if possible ..some example of using this data for data mining.",
+  "createdAt" : 1350880746,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "9cej-9qe7",
+    "displayName" : "Aesha",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 698808,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Aesha"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 1779,
+  "body" : "Great",
+  "createdAt" : 1343253385,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "rqhe-pggr",
+    "displayName" : "Sandy87",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 633414,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Sandy87"
+  },
+  "view" : {
+    "id" : "vw6y-z8j6",
+    "name" : "Case Data from San Francisco 311 (SF311)",
+    "averageRating" : 0,
+    "category" : "City Infrastructure",
+    "createdAt" : 1318104077,
+    "description" : "SF311 cases created since 7/1/2008 with location information",
+    "displayType" : "table",
+    "downloadCount" : 7529,
+    "indexUpdatedAt" : 1442602720,
+    "newBackend" : false,
+    "numberOfComments" : 8,
+    "oid" : 11011767,
+    "publicationAppendEnabled" : false,
+    "publicationDate" : 1429738174,
+    "publicationGroup" : 244069,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 200204337,
+    "rowsUpdatedAt" : 1443632575,
+    "rowsUpdatedBy" : "jmys-xxvb",
+    "state" : "normal",
+    "tableId" : 2710329,
+    "totalTimesRated" : 0,
+    "viewCount" : 21424,
+    "viewLastModified" : 1439942134,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "311"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "thumbnail" : {
+        "page" : {
+          "created" : true,
+          "filename" : "page.png-762.406.47.4.png",
+          "selection" : {
+            "height" : 406,
+            "width" : 762,
+            "y1" : 4,
+            "y2" : 410,
+            "x2" : 809,
+            "x1" : 47
+          }
+        }
+      },
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "opened"
+        } ]
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "244069" : 1563800
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ "Open" ], [ "Closed" ] ],
+            "tableColumnId" : {
+              "244069" : 1563802
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "customValues" : [ [ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 6 ], [ 7 ], [ 8 ], [ 9 ], [ 10 ], [ 11 ] ],
+            "tableColumnId" : {
+              "244069" : 1563807
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : "200204337",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "isin-8y46",
+      "displayName" : "AndyM",
+      "profileImageUrlLarge" : "/api/users/isin-8y46/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/isin-8y46/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/isin-8y46/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "AndyM",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "flags" : [ "default" ]
+  }
+} ]

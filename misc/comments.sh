@@ -2,7 +2,7 @@
 
 
 for idfile in $(find $1 -name ids.log); do
-  portal=$(echo $idfile | cut -d '/' -f 2)
+  portal=$(echo $idfile | cut -d '/' -f 3)
   echo $idfile: $portal
   mkdir -p comments/$portal
   for id in $(cat $idfile); do

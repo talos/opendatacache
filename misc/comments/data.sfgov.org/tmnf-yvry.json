@@ -1,0 +1,1517 @@
+[ {
+  "id" : 5312,
+  "body" : "What happened to the \"By Neighborhood\" map in the Data Lens view?",
+  "createdAt" : 1437428565,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "qugx-qmut",
+    "displayName" : "jonkim47",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 893563,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "jonkim47"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5267,
+  "body" : "Where is homicide hiding in this data?",
+  "createdAt" : 1436395302,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "cckj-hyvk",
+    "displayName" : "mlfriedman",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 915338,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "mlfriedman"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4856,
+  "body" : "Is this file the entire extract from CAD, or is it scrubbed for certain information?",
+  "createdAt" : 1425069681,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "5dpc-qrag",
+    "displayName" : "Corey",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 884078,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Corey"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4769,
+  "body" : "with most data entered in plain text format, how can one expect to do any meaningful analysis?",
+  "createdAt" : 1422598110,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "ngvs-3axs",
+    "displayName" : "smm888",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 906185,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "smm888"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4720,
+  "body" : "What is the time zone of the Time field?",
+  "createdAt" : 1420418770,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4724,
+    "body" : "Pacific",
+    "createdAt" : 1420487378,
+    "domainId" : 126,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 1,
+    "user" : {
+      "id" : "3i4b-bknh",
+      "description" : "I manage the San Francisco Enterprise Geographic Information Systems (SFGIS) Program within the Department of Technology for the City and County of San Francisco.",
+      "displayName" : "Jeff Johnson",
+      "numberOfFollowers" : 12,
+      "numberOfFriends" : 0,
+      "oid" : 400501,
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "title" : "Manager, SFGIS Program",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "tmnf-yvry",
+      "name" : "SFPD Incidents - from 1 January 2003",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1330116913,
+      "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+      "displayType" : "table",
+      "downloadCount" : 16082,
+      "indexUpdatedAt" : 1443696304,
+      "newBackend" : false,
+      "numberOfComments" : 10,
+      "oid" : 13008148,
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1441307241,
+      "publicationGroup" : 289138,
+      "publicationStage" : "published",
+      "resourceName" : "PdId",
+      "rowIdentifierColumnId" : 219196225,
+      "rowsUpdatedAt" : 1443694712,
+      "rowsUpdatedBy" : "3i4b-bknh",
+      "state" : "normal",
+      "tableId" : 4109510,
+      "totalTimesRated" : 0,
+      "viewCount" : 26548,
+      "viewLastModified" : 1443694014,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Daily",
+            "Publishing frequency" : "Daily"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Police Department"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "time"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "primary"
+          } ]
+        },
+        "thumbnail" : {
+          "page" : {
+            "created" : true
+          }
+        },
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155100
+              },
+              "operator" : "BETWEEN"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155097
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155096
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 219196225
+      },
+      "owner" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "sfpd", "crime" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "3rv4-e235",
+    "displayName" : "srt32",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 903650,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "srt32"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4658,
+  "body" : "Now I wanna import real-time data from this dataset ,but the issue is it didn't sorted by some comlumns,feel struggle.",
+  "createdAt" : 1417599307,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "f85w-x535",
+    "displayName" : "feelitgood",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 901547,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "feelitgood"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4657,
+  "body" : "is the dataset sorted by some columns?",
+  "createdAt" : 1417599146,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4705,
+    "body" : "You can sort by any column by clicking on that column header",
+    "createdAt" : 1419294982,
+    "domainId" : 126,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "qugx-qmut",
+      "displayName" : "jonkim47",
+      "numberOfFollowers" : 0,
+      "numberOfFriends" : 0,
+      "oid" : 893563,
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "screenName" : "jonkim47"
+    },
+    "view" : {
+      "id" : "tmnf-yvry",
+      "name" : "SFPD Incidents - from 1 January 2003",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1330116913,
+      "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+      "displayType" : "table",
+      "downloadCount" : 16082,
+      "indexUpdatedAt" : 1443696304,
+      "newBackend" : false,
+      "numberOfComments" : 10,
+      "oid" : 13008148,
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1441307241,
+      "publicationGroup" : 289138,
+      "publicationStage" : "published",
+      "resourceName" : "PdId",
+      "rowIdentifierColumnId" : 219196225,
+      "rowsUpdatedAt" : 1443694712,
+      "rowsUpdatedBy" : "3i4b-bknh",
+      "state" : "normal",
+      "tableId" : 4109510,
+      "totalTimesRated" : 0,
+      "viewCount" : 26548,
+      "viewLastModified" : 1443694014,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Daily",
+            "Publishing frequency" : "Daily"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Police Department"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "time"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "primary"
+          } ]
+        },
+        "thumbnail" : {
+          "page" : {
+            "created" : true
+          }
+        },
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155100
+              },
+              "operator" : "BETWEEN"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155097
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155096
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 219196225
+      },
+      "owner" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "sfpd", "crime" ],
+      "flags" : [ "default" ]
+    }
+  }, {
+    "id" : 4699,
+    "body" : "This dataset is sorted by date and time, in descending order, i.e., the latest reported incident is the first record.",
+    "createdAt" : 1419034406,
+    "domainId" : 126,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "3i4b-bknh",
+      "description" : "I manage the San Francisco Enterprise Geographic Information Systems (SFGIS) Program within the Department of Technology for the City and County of San Francisco.",
+      "displayName" : "Jeff Johnson",
+      "numberOfFollowers" : 12,
+      "numberOfFriends" : 0,
+      "oid" : 400501,
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "title" : "Manager, SFGIS Program",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "tmnf-yvry",
+      "name" : "SFPD Incidents - from 1 January 2003",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1330116913,
+      "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+      "displayType" : "table",
+      "downloadCount" : 16082,
+      "indexUpdatedAt" : 1443696304,
+      "newBackend" : false,
+      "numberOfComments" : 10,
+      "oid" : 13008148,
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1441307241,
+      "publicationGroup" : 289138,
+      "publicationStage" : "published",
+      "resourceName" : "PdId",
+      "rowIdentifierColumnId" : 219196225,
+      "rowsUpdatedAt" : 1443694712,
+      "rowsUpdatedBy" : "3i4b-bknh",
+      "state" : "normal",
+      "tableId" : 4109510,
+      "totalTimesRated" : 0,
+      "viewCount" : 26548,
+      "viewLastModified" : 1443694014,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Daily",
+            "Publishing frequency" : "Daily"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Police Department"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "time"
+          }, {
+            "ascending" : false,
+            "columnFieldName" : "primary"
+          } ]
+        },
+        "thumbnail" : {
+          "page" : {
+            "created" : true
+          }
+        },
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155100
+              },
+              "operator" : "BETWEEN"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155097
+              },
+              "operator" : "EQUALS"
+            }
+          }, {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "289138" : 2155096
+              },
+              "operator" : "EQUALS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : true
+          }
+        },
+        "rowIdentifier" : 219196225
+      },
+      "owner" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "3i4b-bknh",
+        "displayName" : "Jeff Johnson",
+        "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Jeff Johnson",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "sfpd", "crime" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "f85w-x535",
+    "displayName" : "feelitgood",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 901547,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "feelitgood"
+  },
+  "view" : {
+    "id" : "tmnf-yvry",
+    "name" : "SFPD Incidents - from 1 January 2003",
+    "averageRating" : 0,
+    "category" : "Public Safety",
+    "createdAt" : 1330116913,
+    "description" : "***As of July 19, 2015, the PD District boundaries have been updated through a redistricting process. These new boundaries are not reflected in the dataset yet so you cannot compare data from July 19, 2015 onward to official reports from PD with the Police District column. We are working on an update to the dataset to reflect the updated boundaries starting with data entered July 19 onward.***\r\n\r\nIncidents derived from SFPD Crime Incident Reporting system  Updated daily, showing data from 1/1/2003 up until two weeks ago from current date. Please note: San Francisco police have implemented a new system for tracking crime. The dataset included here is still coming from the old system, which is in the process of being retired (a multi-year process).  Data included here is no longer the official SFPD data. We will migrate to the new system for DataSF in the upcoming months.",
+    "displayType" : "table",
+    "downloadCount" : 16082,
+    "indexUpdatedAt" : 1443696304,
+    "newBackend" : false,
+    "numberOfComments" : 10,
+    "oid" : 13008148,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1441307241,
+    "publicationGroup" : 289138,
+    "publicationStage" : "published",
+    "resourceName" : "PdId",
+    "rowIdentifierColumnId" : 219196225,
+    "rowsUpdatedAt" : 1443694712,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 4109510,
+    "totalTimesRated" : 0,
+    "viewCount" : 26548,
+    "viewLastModified" : 1443694014,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Latitude/longitude"
+        },
+        "Publishing Details" : {
+          "Data change frequency" : "Daily",
+          "Publishing frequency" : "Daily"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Police Department"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "rowLabel" : "Row",
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : false,
+          "columnFieldName" : "date"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "time"
+        }, {
+          "ascending" : false,
+          "columnFieldName" : "primary"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155100
+            },
+            "operator" : "BETWEEN"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155097
+            },
+            "operator" : "EQUALS"
+          }
+        }, {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "289138" : 2155096
+            },
+            "operator" : "EQUALS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : true
+        }
+      },
+      "rowIdentifier" : 219196225
+    },
+    "owner" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "3i4b-bknh",
+      "displayName" : "Jeff Johnson",
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "tags" : [ "sfpd", "crime" ],
+    "flags" : [ "default" ]
+  }
+} ]

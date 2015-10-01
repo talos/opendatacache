@@ -1,0 +1,729 @@
+[ {
+  "id" : 5623,
+  "body" : "How can you tell whether a business has renewed their registration? There is no renewal date indicated in this database.",
+  "createdAt" : 1443541038,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mnb6-x76d",
+    "displayName" : "Annette",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 932071,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Annette"
+  },
+  "view" : {
+    "id" : "g8m3-pdis",
+    "name" : "Registered Business Locations - San Francisco",
+    "averageRating" : 0,
+    "category" : "Economy and Community",
+    "createdAt" : 1389898067,
+    "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+    "displayType" : "table",
+    "downloadCount" : 5687,
+    "indexUpdatedAt" : 1443509339,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 9705391,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1429715940,
+    "publicationGroup" : 1442833,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 181193654,
+    "rowsUpdatedAt" : 1443507674,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 2008631,
+    "totalTimesRated" : 0,
+    "viewCount" : 21660,
+    "viewLastModified" : 1443506670,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Weekly"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Treasurer-Tax Collector",
+          "Frequency" : "Weekly"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "ttxid"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "1442833" : 17617464
+            },
+            "operator" : "CONTAINS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : false
+        }
+      },
+      "rowIdentifier" : "181193654",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "business" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5622,
+  "body" : "How can you tell whether a SF business has renewed their registraiton with the city? There is no date in this database to indicate.",
+  "createdAt" : 1443540949,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "mnb6-x76d",
+    "displayName" : "Annette",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 932071,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Annette"
+  },
+  "view" : {
+    "id" : "g8m3-pdis",
+    "name" : "Registered Business Locations - San Francisco",
+    "averageRating" : 0,
+    "category" : "Economy and Community",
+    "createdAt" : 1389898067,
+    "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+    "displayType" : "table",
+    "downloadCount" : 5687,
+    "indexUpdatedAt" : 1443509339,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 9705391,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1429715940,
+    "publicationGroup" : 1442833,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 181193654,
+    "rowsUpdatedAt" : 1443507674,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 2008631,
+    "totalTimesRated" : 0,
+    "viewCount" : 21660,
+    "viewLastModified" : 1443506670,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Weekly"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Treasurer-Tax Collector",
+          "Frequency" : "Weekly"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "ttxid"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "1442833" : 17617464
+            },
+            "operator" : "CONTAINS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : false
+        }
+      },
+      "rowIdentifier" : "181193654",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "business" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5452,
+  "body" : "Is there a way to get a csv version with Latitude and Longitude in separate columns? Many thanks.",
+  "createdAt" : 1440446377,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "h4ts-cnjv",
+    "displayName" : "ESchaffer",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 854494,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "ESchaffer"
+  },
+  "view" : {
+    "id" : "g8m3-pdis",
+    "name" : "Registered Business Locations - San Francisco",
+    "averageRating" : 0,
+    "category" : "Economy and Community",
+    "createdAt" : 1389898067,
+    "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+    "displayType" : "table",
+    "downloadCount" : 5687,
+    "indexUpdatedAt" : 1443509339,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 9705391,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1429715940,
+    "publicationGroup" : 1442833,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 181193654,
+    "rowsUpdatedAt" : 1443507674,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 2008631,
+    "totalTimesRated" : 0,
+    "viewCount" : 21660,
+    "viewLastModified" : 1443506670,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Weekly"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Treasurer-Tax Collector",
+          "Frequency" : "Weekly"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "ttxid"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "1442833" : 17617464
+            },
+            "operator" : "CONTAINS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : false
+        }
+      },
+      "rowIdentifier" : "181193654",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "business" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 5002,
+  "body" : "Hi, When will the NAICS codes be visible? Also is there an easy way to know which PBC codes related to which SIC or NAICS codes?",
+  "createdAt" : 1428970828,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "user" : {
+    "id" : "22ku-t2yb",
+    "displayName" : "Anya",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 914630,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "Anya"
+  },
+  "view" : {
+    "id" : "g8m3-pdis",
+    "name" : "Registered Business Locations - San Francisco",
+    "averageRating" : 0,
+    "category" : "Economy and Community",
+    "createdAt" : 1389898067,
+    "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+    "displayType" : "table",
+    "downloadCount" : 5687,
+    "indexUpdatedAt" : 1443509339,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 9705391,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1429715940,
+    "publicationGroup" : 1442833,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 181193654,
+    "rowsUpdatedAt" : 1443507674,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 2008631,
+    "totalTimesRated" : 0,
+    "viewCount" : 21660,
+    "viewLastModified" : 1443506670,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Weekly"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Treasurer-Tax Collector",
+          "Frequency" : "Weekly"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "ttxid"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "1442833" : 17617464
+            },
+            "operator" : "CONTAINS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : false
+        }
+      },
+      "rowIdentifier" : "181193654",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "business" ],
+    "flags" : [ "default" ]
+  }
+}, {
+  "id" : 4857,
+  "body" : "Is there a reason some businesses with offices in SF wouldn't be on this list? For example, Lyft? ",
+  "createdAt" : 1425262087,
+  "domainId" : 126,
+  "downRatings" : 0,
+  "status" : "approved",
+  "upRatings" : 0,
+  "children" : [ {
+    "id" : 4862,
+    "body" : "It looks like Lyft is in there: filter for Lyft in the DBA Name.  They are at 568 Brannan St.",
+    "createdAt" : 1425403236,
+    "domainId" : 126,
+    "downRatings" : 0,
+    "status" : "approved",
+    "upRatings" : 0,
+    "user" : {
+      "id" : "3i4b-bknh",
+      "description" : "I manage the San Francisco Enterprise Geographic Information Systems (SFGIS) Program within the Department of Technology for the City and County of San Francisco.",
+      "displayName" : "Jeff Johnson",
+      "numberOfFollowers" : 12,
+      "numberOfFriends" : 0,
+      "oid" : 400501,
+      "profileImageUrlLarge" : "/api/users/3i4b-bknh/profile_images/LARGE",
+      "profileImageUrlMedium" : "/api/users/3i4b-bknh/profile_images/THUMB",
+      "profileImageUrlSmall" : "/api/users/3i4b-bknh/profile_images/TINY",
+      "publicTables" : 0,
+      "publicViews" : 0,
+      "roleName" : "administrator",
+      "screenName" : "Jeff Johnson",
+      "title" : "Manager, SFGIS Program",
+      "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+    },
+    "view" : {
+      "id" : "g8m3-pdis",
+      "name" : "Registered Business Locations - San Francisco",
+      "averageRating" : 0,
+      "category" : "Economy and Community",
+      "createdAt" : 1389898067,
+      "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+      "displayType" : "table",
+      "downloadCount" : 5687,
+      "indexUpdatedAt" : 1443509339,
+      "newBackend" : false,
+      "numberOfComments" : 6,
+      "oid" : 9705391,
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1429715940,
+      "publicationGroup" : 1442833,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 181193654,
+      "rowsUpdatedAt" : 1443507674,
+      "rowsUpdatedBy" : "3i4b-bknh",
+      "state" : "normal",
+      "tableId" : 2008631,
+      "totalTimesRated" : 0,
+      "viewCount" : 21660,
+      "viewLastModified" : 1443506670,
+      "viewType" : "tabular",
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Street address"
+          },
+          "Publishing Details" : {
+            "Publishing frequency" : "Weekly"
+          },
+          "Department Metrics" : {
+            "Publishing Department" : "Treasurer-Tax Collector",
+            "Frequency" : "Weekly"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "ttxid"
+          } ]
+        },
+        "thumbnail" : {
+          "page" : {
+            "created" : true
+          }
+        },
+        "rdfSubject" : "0",
+        "filterCondition" : {
+          "value" : "AND",
+          "children" : [ {
+            "value" : "OR",
+            "type" : "operator",
+            "metadata" : {
+              "tableColumnId" : {
+                "1442833" : 17617464
+              },
+              "operator" : "CONTAINS"
+            }
+          } ],
+          "type" : "operator",
+          "metadata" : {
+            "unifiedVersion" : 2,
+            "advanced" : false
+          }
+        },
+        "rowIdentifier" : "181193654",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "zhvw-4ft9",
+        "displayName" : "TTX-DataSF",
+        "roleName" : "editor",
+        "screenName" : "TTX-DataSF",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "zhvw-4ft9",
+        "displayName" : "TTX-DataSF",
+        "roleName" : "editor",
+        "screenName" : "TTX-DataSF",
+        "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "business" ],
+      "flags" : [ "default" ]
+    }
+  } ],
+  "user" : {
+    "id" : "u6a8-gg56",
+    "displayName" : "jcookson",
+    "numberOfFollowers" : 0,
+    "numberOfFriends" : 0,
+    "oid" : 909768,
+    "publicTables" : 0,
+    "publicViews" : 0,
+    "screenName" : "jcookson"
+  },
+  "view" : {
+    "id" : "g8m3-pdis",
+    "name" : "Registered Business Locations - San Francisco",
+    "averageRating" : 0,
+    "category" : "Economy and Community",
+    "createdAt" : 1389898067,
+    "description" : "Registered business locations in San Francisco maintained by the Office of Treasurer-Tax Collector, including business locations that have been sold, closed, or moved out of San Francisco.Note: a new business tax system has been put in place as of July 1, 2014; the Class and PBC Codes have been retained from previous system, and new additions to the system will not have business codes until March 2015.  At that time,  all codes will be replaced with the proper NAICS code for each business location.",
+    "displayType" : "table",
+    "downloadCount" : 5687,
+    "indexUpdatedAt" : 1443509339,
+    "newBackend" : false,
+    "numberOfComments" : 6,
+    "oid" : 9705391,
+    "publicationAppendEnabled" : true,
+    "publicationDate" : 1429715940,
+    "publicationGroup" : 1442833,
+    "publicationStage" : "published",
+    "rowClass" : "",
+    "rowIdentifierColumnId" : 181193654,
+    "rowsUpdatedAt" : 1443507674,
+    "rowsUpdatedBy" : "3i4b-bknh",
+    "state" : "normal",
+    "tableId" : 2008631,
+    "totalTimesRated" : 0,
+    "viewCount" : 21660,
+    "viewLastModified" : 1443506670,
+    "viewType" : "tabular",
+    "grants" : [ {
+      "inherited" : false,
+      "type" : "viewer",
+      "flags" : [ "public" ]
+    } ],
+    "metadata" : {
+      "custom_fields" : {
+        "Detailed Descriptive" : {
+          "Geographic unit" : "Street address"
+        },
+        "Publishing Details" : {
+          "Publishing frequency" : "Weekly"
+        },
+        "Department Metrics" : {
+          "Publishing Department" : "Treasurer-Tax Collector",
+          "Frequency" : "Weekly"
+        }
+      },
+      "renderTypeConfig" : {
+        "visible" : {
+          "table" : true
+        }
+      },
+      "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+      "jsonQuery" : {
+        "order" : [ {
+          "ascending" : true,
+          "columnFieldName" : "ttxid"
+        } ]
+      },
+      "thumbnail" : {
+        "page" : {
+          "created" : true
+        }
+      },
+      "rdfSubject" : "0",
+      "filterCondition" : {
+        "value" : "AND",
+        "children" : [ {
+          "value" : "OR",
+          "type" : "operator",
+          "metadata" : {
+            "tableColumnId" : {
+              "1442833" : 17617464
+            },
+            "operator" : "CONTAINS"
+          }
+        } ],
+        "type" : "operator",
+        "metadata" : {
+          "unifiedVersion" : 2,
+          "advanced" : false
+        }
+      },
+      "rowIdentifier" : "181193654",
+      "rdfClass" : ""
+    },
+    "owner" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "rights" : [ "read" ],
+    "tableAuthor" : {
+      "id" : "zhvw-4ft9",
+      "displayName" : "TTX-DataSF",
+      "roleName" : "editor",
+      "screenName" : "TTX-DataSF",
+      "rights" : [ "create_datasets", "view_domain", "short_session", "view_goals", "view_dashboards" ]
+    },
+    "tags" : [ "business" ],
+    "flags" : [ "default" ]
+  }
+} ]
