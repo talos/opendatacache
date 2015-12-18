@@ -48,7 +48,7 @@ var portals2names = {
   "data.weatherfordtx.gov": "Weatherford, TX",
   "bronx.lehman.cuny.edu": "Lehman College",
   "data.sfgov.org": "San Francisco, CA",
-  "data.edmonton.ca": "Edmonton, CA",
+  "data.edmonton.ca": "Edmonton, AB",
   "data.consumerfinance.gov": "Consumer Financial Protection Bureau",
   "www.metrochicagodata.org": "Metro Chicago Data",
   "data.kingcounty.gov": "King County, WA",
