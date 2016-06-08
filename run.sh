@@ -3,6 +3,9 @@
 docker rm -f opendatacache || :
 
 #docker pull thegovlab/opendatacache:latest
+source .env || :
+#export APP_TOKEN=$APP_TOKEN
+echo $APP_TOKEN
 
 docker run -v $(pwd)/site:/opendatacache/site \
            -v $(pwd)/util:/opendatacache/util \
